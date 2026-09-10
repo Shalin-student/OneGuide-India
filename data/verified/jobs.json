@@ -1,0 +1,4802 @@
+[
+  {
+      "title":  "National Career Service Job Search",
+      "slug":  "national-career-service-job-search",
+      "description":  "Official Government of India employment service where jobseekers can search vacancies, register, and apply through participating employers.",
+      "organization":  "Ministry of Labour and Employment",
+      "department":  "Directorate General of Employment",
+      "jobType":  "Employment Service",
+      "location":  "All India",
+      "sourceName":  "National Career Service",
+      "sourceUrl":  "https://www.ncs.gov.in/",
+      "officialWebsite":  "https://www.ncs.gov.in/",
+      "lastVerified":  "2026-09-10",
+      "status":  "Active"
+  },
+  {
+      "title":  "Civil Services Examination",
+      "slug":  "upsc-civil-services-examination",
+      "description":  "UPSC examination for recruitment to administrative and allied central services.",
+      "organization":  "Union Public Service Commission",
+      "jobType":  "Central Government",
+      "location":  "All India",
+      "sourceName":  "UPSC Online",
+      "sourceUrl":  "https://upsconline.nic.in/",
+      "lastVerified":  "2026-09-10",
+      "status":  "Active"
+  },
+  {
+      "title":  "Engineering Services Examination",
+      "slug":  "upsc-engineering-services-examination",
+      "description":  "UPSC examination for recruitment to central engineering services.",
+      "organization":  "Union Public Service Commission",
+      "jobType":  "Technical",
+      "location":  "All India",
+      "sourceName":  "UPSC Online",
+      "sourceUrl":  "https://upsconline.nic.in/",
+      "lastVerified":  "2026-09-10",
+      "status":  "Active"
+  },
+  {
+      "title":  "Combined Defence Services Examination",
+      "slug":  "upsc-combined-defence-services-examination",
+      "description":  "UPSC officer-entry examination for Indian defence academies.",
+      "organization":  "Union Public Service Commission",
+      "jobType":  "Defence",
+      "location":  "All India",
+      "sourceName":  "UPSC Online",
+      "sourceUrl":  "https://upsconline.nic.in/",
+      "lastVerified":  "2026-09-10",
+      "status":  "Active"
+  },
+  {
+      "title":  "National Defence Academy Examination",
+      "slug":  "upsc-national-defence-academy-examination",
+      "description":  "UPSC defence entrance examination for eligible school-leaving candidates.",
+      "organization":  "Union Public Service Commission",
+      "jobType":  "Defence",
+      "location":  "All India",
+      "sourceName":  "UPSC Online",
+      "sourceUrl":  "https://upsconline.nic.in/",
+      "lastVerified":  "2026-09-10",
+      "status":  "Active"
+  },
+  {
+      "title":  "Combined Medical Services Examination",
+      "slug":  "upsc-combined-medical-services-examination",
+      "description":  "UPSC recruitment examination for medical officers in central organisations.",
+      "organization":  "Union Public Service Commission",
+      "jobType":  "Healthcare",
+      "location":  "All India",
+      "sourceName":  "UPSC Online",
+      "sourceUrl":  "https://upsconline.nic.in/",
+      "lastVerified":  "2026-09-10",
+      "status":  "Active"
+  },
+  {
+      "title":  "Combined Graduate Level Examination",
+      "slug":  "ssc-combined-graduate-level-examination",
+      "description":  "SSC examination for Group B and Group C posts in central departments.",
+      "organization":  "Staff Selection Commission",
+      "jobType":  "Central Government",
+      "location":  "All India",
+      "sourceName":  "Staff Selection Commission",
+      "sourceUrl":  "https://ssc.gov.in/",
+      "lastVerified":  "2026-09-10",
+      "status":  "Active"
+  },
+  {
+      "title":  "Combined Higher Secondary Level Examination",
+      "slug":  "ssc-combined-higher-secondary-level-examination",
+      "description":  "SSC examination for clerical and data-entry posts requiring higher-secondary education.",
+      "organization":  "Staff Selection Commission",
+      "jobType":  "Central Government",
+      "location":  "All India",
+      "sourceName":  "Staff Selection Commission",
+      "sourceUrl":  "https://ssc.gov.in/",
+      "lastVerified":  "2026-09-10",
+      "status":  "Active"
+  },
+  {
+      "title":  "Junior Engineer",
+      "slug":  "ssc-junior-engineer",
+      "description":  "SSC technical recruitment for civil, mechanical and electrical engineering posts.",
+      "organization":  "Staff Selection Commission",
+      "jobType":  "Technical",
+      "location":  "All India",
+      "sourceName":  "Staff Selection Commission",
+      "sourceUrl":  "https://ssc.gov.in/",
+      "lastVerified":  "2026-09-10",
+      "status":  "Active"
+  },
+  {
+      "title":  "Multi-Tasking Staff",
+      "slug":  "ssc-multi-tasking-staff",
+      "description":  "SSC recruitment examination for non-technical Group C posts.",
+      "organization":  "Staff Selection Commission",
+      "jobType":  "Central Government",
+      "location":  "All India",
+      "sourceName":  "Staff Selection Commission",
+      "sourceUrl":  "https://ssc.gov.in/",
+      "lastVerified":  "2026-09-10",
+      "status":  "Active"
+  },
+  {
+      "title":  "Constable (General Duty)",
+      "slug":  "ssc-constable-general-duty",
+      "description":  "SSC recruitment examination for constable posts in central armed police forces.",
+      "organization":  "Staff Selection Commission",
+      "jobType":  "Defence",
+      "location":  "All India",
+      "sourceName":  "Staff Selection Commission",
+      "sourceUrl":  "https://ssc.gov.in/",
+      "lastVerified":  "2026-09-10",
+      "status":  "Active"
+  },
+  {
+      "title":  "Sub-Inspector in Delhi Police and CAPFs",
+      "slug":  "ssc-sub-inspector-delhi-police-capfs",
+      "description":  "SSC recruitment examination for sub-inspector posts in Delhi Police and CAPFs.",
+      "organization":  "Staff Selection Commission",
+      "jobType":  "Defence",
+      "location":  "All India",
+      "sourceName":  "Staff Selection Commission",
+      "sourceUrl":  "https://ssc.gov.in/",
+      "lastVerified":  "2026-09-10",
+      "status":  "Active"
+  },
+  {
+      "title":  "Junior Hindi Translator",
+      "slug":  "ssc-junior-hindi-translator",
+      "description":  "SSC recruitment examination for translator posts in central offices.",
+      "organization":  "Staff Selection Commission",
+      "jobType":  "Central Government",
+      "location":  "All India",
+      "sourceName":  "Staff Selection Commission",
+      "sourceUrl":  "https://ssc.gov.in/",
+      "lastVerified":  "2026-09-10",
+      "status":  "Active"
+  },
+  {
+      "title":  "Stenographer Grade C and Grade D",
+      "slug":  "ssc-stenographer-grade-c-grade-d",
+      "description":  "SSC recruitment examination for stenographer posts in central ministries.",
+      "organization":  "Staff Selection Commission",
+      "jobType":  "Central Government",
+      "location":  "All India",
+      "sourceName":  "Staff Selection Commission",
+      "sourceUrl":  "https://ssc.gov.in/",
+      "lastVerified":  "2026-09-10",
+      "status":  "Active"
+  },
+  {
+      "title":  "Probationary Officer and Management Trainee",
+      "slug":  "ibps-probationary-officer-management-trainee",
+      "description":  "IBPS common recruitment process for officer roles in participating public sector banks.",
+      "organization":  "Institute of Banking Personnel Selection",
+      "jobType":  "Banking",
+      "location":  "All India",
+      "sourceName":  "IBPS",
+      "sourceUrl":  "https://www.ibps.in/",
+      "lastVerified":  "2026-09-10",
+      "status":  "Active"
+  },
+  {
+      "title":  "IBPS Clerk",
+      "slug":  "ibps-clerk",
+      "description":  "IBPS common recruitment process for clerical cadre roles in public sector banks.",
+      "organization":  "Institute of Banking Personnel Selection",
+      "jobType":  "Banking",
+      "location":  "All India",
+      "sourceName":  "IBPS",
+      "sourceUrl":  "https://www.ibps.in/",
+      "lastVerified":  "2026-09-10",
+      "status":  "Active"
+  },
+  {
+      "title":  "IBPS Specialist Officer",
+      "slug":  "ibps-specialist-officer",
+      "description":  "IBPS recruitment process for specialist officer roles in public sector banks.",
+      "organization":  "Institute of Banking Personnel Selection",
+      "jobType":  "Banking",
+      "location":  "All India",
+      "sourceName":  "IBPS",
+      "sourceUrl":  "https://www.ibps.in/",
+      "lastVerified":  "2026-09-10",
+      "status":  "Active"
+  },
+  {
+      "title":  "Regional Rural Bank Officer",
+      "slug":  "ibps-regional-rural-bank-officer",
+      "description":  "IBPS recruitment process for officer roles in participating Regional Rural Banks.",
+      "organization":  "Institute of Banking Personnel Selection",
+      "jobType":  "Banking",
+      "location":  "All India",
+      "sourceName":  "IBPS",
+      "sourceUrl":  "https://www.ibps.in/",
+      "lastVerified":  "2026-09-10",
+      "status":  "Active"
+  },
+  {
+      "title":  "Regional Rural Bank Office Assistant",
+      "slug":  "ibps-regional-rural-bank-office-assistant",
+      "description":  "IBPS recruitment process for office assistant roles in Regional Rural Banks.",
+      "organization":  "Institute of Banking Personnel Selection",
+      "jobType":  "Banking",
+      "location":  "All India",
+      "sourceName":  "IBPS",
+      "sourceUrl":  "https://www.ibps.in/",
+      "lastVerified":  "2026-09-10",
+      "status":  "Active"
+  },
+  {
+      "title":  "SBI Probationary Officer",
+      "slug":  "sbi-probationary-officer",
+      "description":  "State Bank of India recruitment process for probationary officers.",
+      "organization":  "State Bank of India",
+      "jobType":  "Banking",
+      "location":  "All India",
+      "sourceName":  "SBI Careers",
+      "sourceUrl":  "https://sbi.co.in/web/careers",
+      "lastVerified":  "2026-09-10",
+      "status":  "Active"
+  },
+  {
+      "title":  "SBI Junior Associate",
+      "slug":  "sbi-junior-associate",
+      "description":  "State Bank of India recruitment process for customer support and sales clerical roles.",
+      "organization":  "State Bank of India",
+      "jobType":  "Banking",
+      "location":  "All India",
+      "sourceName":  "SBI Careers",
+      "sourceUrl":  "https://sbi.co.in/web/careers",
+      "lastVerified":  "2026-09-10",
+      "status":  "Active"
+  },
+  {
+      "title":  "RBI Grade B Officer",
+      "slug":  "rbi-grade-b-officer",
+      "description":  "Reserve Bank of India recruitment process for Grade B officers.",
+      "organization":  "Reserve Bank of India",
+      "jobType":  "Banking",
+      "location":  "All India",
+      "sourceName":  "RBI Opportunities",
+      "sourceUrl":  "https://opportunities.rbi.org.in/",
+      "lastVerified":  "2026-09-10",
+      "status":  "Active"
+  },
+  {
+      "title":  "RBI Assistant",
+      "slug":  "rbi-assistant",
+      "description":  "Reserve Bank of India recruitment process for assistant posts.",
+      "organization":  "Reserve Bank of India",
+      "jobType":  "Banking",
+      "location":  "All India",
+      "sourceName":  "RBI Opportunities",
+      "sourceUrl":  "https://opportunities.rbi.org.in/",
+      "lastVerified":  "2026-09-10",
+      "status":  "Active"
+  },
+  {
+      "title":  "NABARD Development Assistant",
+      "slug":  "nabard-development-assistant",
+      "description":  "NABARD recruitment process for development assistant roles.",
+      "organization":  "National Bank for Agriculture and Rural Development",
+      "jobType":  "Banking",
+      "location":  "All India",
+      "sourceName":  "NABARD Careers",
+      "sourceUrl":  "https://www.nabard.org/careers-notices.aspx",
+      "lastVerified":  "2026-09-10",
+      "status":  "Active"
+  },
+  {
+      "title":  "NABARD Grade A Assistant Manager",
+      "slug":  "nabard-grade-a-assistant-manager",
+      "description":  "NABARD recruitment process for assistant manager roles.",
+      "organization":  "National Bank for Agriculture and Rural Development",
+      "jobType":  "Banking",
+      "location":  "All India",
+      "sourceName":  "NABARD Careers",
+      "sourceUrl":  "https://www.nabard.org/careers-notices.aspx",
+      "lastVerified":  "2026-09-10",
+      "status":  "Active"
+  },
+  {
+      "title":  "LIC Assistant Administrative Officer",
+      "slug":  "lic-assistant-administrative-officer",
+      "description":  "Life Insurance Corporation of India recruitment process for assistant administrative officers.",
+      "organization":  "Life Insurance Corporation of India",
+      "jobType":  "Insurance",
+      "location":  "All India",
+      "sourceName":  "LIC Careers",
+      "sourceUrl":  "https://licindia.in/careers",
+      "lastVerified":  "2026-09-10",
+      "status":  "Active"
+  },
+  {
+      "title":  "LIC Assistant",
+      "slug":  "lic-assistant",
+      "description":  "Life Insurance Corporation of India recruitment process for assistant roles.",
+      "organization":  "Life Insurance Corporation of India",
+      "jobType":  "Insurance",
+      "location":  "All India",
+      "sourceName":  "LIC Careers",
+      "sourceUrl":  "https://licindia.in/careers",
+      "lastVerified":  "2026-09-10",
+      "status":  "Active"
+  },
+  {
+      "title":  "SEBI Grade A Officer",
+      "slug":  "sebi-grade-a-officer",
+      "description":  "Securities and Exchange Board of India recruitment process for officer-grade roles.",
+      "organization":  "Securities and Exchange Board of India",
+      "jobType":  "Regulatory",
+      "location":  "All India",
+      "sourceName":  "SEBI Careers",
+      "sourceUrl":  "https://www.sebi.gov.in/careers.html",
+      "lastVerified":  "2026-09-10",
+      "status":  "Active"
+  },
+  {
+      "title":  "EPFO Social Security Assistant",
+      "slug":  "epfo-social-security-assistant",
+      "description":  "Employees Provident Fund Organisation recruitment process for social security assistants.",
+      "organization":  "Employees Provident Fund Organisation",
+      "jobType":  "Central Government",
+      "location":  "All India",
+      "sourceName":  "EPFO",
+      "sourceUrl":  "https://www.epfindia.gov.in/site_en/Recruitments.php",
+      "lastVerified":  "2026-09-10",
+      "status":  "Active"
+  },
+  {
+      "title":  "EPFO Enforcement Officer and Accounts Officer",
+      "slug":  "epfo-enforcement-officer-accounts-officer",
+      "description":  "Employees Provident Fund Organisation recruitment process for enforcement and accounts officers.",
+      "organization":  "Employees Provident Fund Organisation",
+      "jobType":  "Central Government",
+      "location":  "All India",
+      "sourceName":  "EPFO",
+      "sourceUrl":  "https://www.epfindia.gov.in/site_en/Recruitments.php",
+      "lastVerified":  "2026-09-10",
+      "status":  "Active"
+  },
+  {
+      "title":  "Indian Railways Assistant Loco Pilot",
+      "slug":  "indian-railways-assistant-loco-pilot",
+      "description":  "Railway recruitment route for assistant loco pilot posts through regional Railway Recruitment Boards.",
+      "organization":  "Railway Recruitment Boards",
+      "jobType":  "Railway",
+      "location":  "All India",
+      "sourceName":  "Railway Recruitment Boards",
+      "sourceUrl":  "https://www.rrbapply.gov.in/",
+      "lastVerified":  "2026-09-10",
+      "status":  "Active"
+  },
+  {
+      "title":  "Indian Railways Technician",
+      "slug":  "indian-railways-technician",
+      "description":  "Railway recruitment route for technician posts through regional Railway Recruitment Boards.",
+      "organization":  "Railway Recruitment Boards",
+      "jobType":  "Railway",
+      "location":  "All India",
+      "sourceName":  "Railway Recruitment Boards",
+      "sourceUrl":  "https://www.rrbapply.gov.in/",
+      "lastVerified":  "2026-09-10",
+      "status":  "Active"
+  },
+  {
+      "title":  "Indian Railways Junior Engineer",
+      "slug":  "indian-railways-junior-engineer",
+      "description":  "Railway recruitment route for junior engineer posts through regional Railway Recruitment Boards.",
+      "organization":  "Railway Recruitment Boards",
+      "jobType":  "Railway",
+      "location":  "All India",
+      "sourceName":  "Railway Recruitment Boards",
+      "sourceUrl":  "https://www.rrbapply.gov.in/",
+      "lastVerified":  "2026-09-10",
+      "status":  "Active"
+  },
+  {
+      "title":  "Indian Railways Group D",
+      "slug":  "indian-railways-group-d",
+      "description":  "Railway recruitment route for Level 1 posts through regional Railway Recruitment Boards.",
+      "organization":  "Railway Recruitment Boards",
+      "jobType":  "Railway",
+      "location":  "All India",
+      "sourceName":  "Railway Recruitment Boards",
+      "sourceUrl":  "https://www.rrbapply.gov.in/",
+      "lastVerified":  "2026-09-10",
+      "status":  "Active"
+  },
+  {
+      "title":  "India Post Gramin Dak Sevak",
+      "slug":  "india-post-gramin-dak-sevak",
+      "description":  "India Post recruitment route for gramin dak sevak posts in postal circles.",
+      "organization":  "India Post",
+      "jobType":  "Postal",
+      "location":  "All India",
+      "sourceName":  "India Post GDS Online Engagement",
+      "sourceUrl":  "https://indiapostgdsonline.gov.in/",
+      "lastVerified":  "2026-09-10",
+      "status":  "Active"
+  },
+  {
+      "title":  "India Post Postal Assistant and Sorting Assistant",
+      "slug":  "india-post-postal-assistant-sorting-assistant",
+      "description":  "Department of Posts recruitment route for postal assistant and sorting assistant roles.",
+      "organization":  "India Post",
+      "jobType":  "Postal",
+      "location":  "All India",
+      "sourceName":  "India Post",
+      "sourceUrl":  "https://www.indiapost.gov.in/",
+      "lastVerified":  "2026-09-10",
+      "status":  "Active"
+  },
+  {
+      "title":  "DRDO Scientist B",
+      "slug":  "drdo-scientist-b",
+      "description":  "DRDO technical recruitment route for scientist B positions.",
+      "organization":  "Defence Research and Development Organisation",
+      "jobType":  "Defence",
+      "location":  "All India",
+      "sourceName":  "DRDO Careers",
+      "sourceUrl":  "https://www.drdo.gov.in/careers",
+      "lastVerified":  "2026-09-10",
+      "status":  "Active"
+  },
+  {
+      "title":  "DRDO Technician",
+      "slug":  "drdo-technician",
+      "description":  "DRDO recruitment route for technician posts in its laboratories.",
+      "organization":  "Defence Research and Development Organisation",
+      "jobType":  "Defence",
+      "location":  "All India",
+      "sourceName":  "DRDO Careers",
+      "sourceUrl":  "https://www.drdo.gov.in/careers",
+      "lastVerified":  "2026-09-10",
+      "status":  "Active"
+  },
+  {
+      "title":  "ISRO Scientist and Engineer",
+      "slug":  "isro-scientist-engineer",
+      "description":  "ISRO recruitment route for scientist and engineer posts in its centres.",
+      "organization":  "Indian Space Research Organisation",
+      "jobType":  "Space and Science",
+      "location":  "All India",
+      "sourceName":  "ISRO Careers",
+      "sourceUrl":  "https://www.isro.gov.in/Careers.html",
+      "lastVerified":  "2026-09-10",
+      "status":  "Active"
+  },
+  {
+      "title":  "ISRO Technical Assistant",
+      "slug":  "isro-technical-assistant",
+      "description":  "ISRO recruitment route for technical assistant posts in its centres.",
+      "organization":  "Indian Space Research Organisation",
+      "jobType":  "Space and Science",
+      "location":  "All India",
+      "sourceName":  "ISRO Careers",
+      "sourceUrl":  "https://www.isro.gov.in/Careers.html",
+      "lastVerified":  "2026-09-10",
+      "status":  "Active"
+  },
+  {
+      "title":  "BARC Scientific Officer",
+      "slug":  "barc-scientific-officer",
+      "description":  "BARC recruitment route for scientific officer posts in the Department of Atomic Energy.",
+      "organization":  "Bhabha Atomic Research Centre",
+      "jobType":  "Science and Technology",
+      "location":  "All India",
+      "sourceName":  "BARC Careers",
+      "sourceUrl":  "https://recruit.barc.gov.in/",
+      "lastVerified":  "2026-09-10",
+      "status":  "Active"
+  },
+  {
+      "title":  "CSIR Scientist",
+      "slug":  "csir-scientist",
+      "description":  "CSIR recruitment route for scientific posts in its laboratories.",
+      "organization":  "Council of Scientific and Industrial Research",
+      "jobType":  "Science and Technology",
+      "location":  "All India",
+      "sourceName":  "CSIR",
+      "sourceUrl":  "https://www.csir.res.in/career-opportunities",
+      "lastVerified":  "2026-09-10",
+      "status":  "Active"
+  },
+  {
+      "title":  "ICMR Scientist",
+      "slug":  "icmr-scientist",
+      "description":  "ICMR recruitment route for scientific and technical health research roles.",
+      "organization":  "Indian Council of Medical Research",
+      "jobType":  "Health and Research",
+      "location":  "All India",
+      "sourceName":  "ICMR",
+      "sourceUrl":  "https://main.icmr.nic.in/careers",
+      "lastVerified":  "2026-09-10",
+      "status":  "Active"
+  },
+  {
+      "title":  "AIIMS Nursing Officer",
+      "slug":  "aiims-nursing-officer",
+      "description":  "AIIMS recruitment route for nursing officer posts in participating institutes.",
+      "organization":  "All India Institute of Medical Sciences",
+      "jobType":  "Healthcare",
+      "location":  "All India",
+      "sourceName":  "AIIMS Exams",
+      "sourceUrl":  "https://www.aiimsexams.ac.in/",
+      "lastVerified":  "2026-09-10",
+      "status":  "Active"
+  },
+  {
+      "title":  "ESIC Insurance Medical Officer",
+      "slug":  "esic-insurance-medical-officer",
+      "description":  "ESIC recruitment route for insurance medical officer posts.",
+      "organization":  "Employees State Insurance Corporation",
+      "jobType":  "Healthcare",
+      "location":  "All India",
+      "sourceName":  "ESIC",
+      "sourceUrl":  "https://www.esic.gov.in/recruitments",
+      "lastVerified":  "2026-09-10",
+      "status":  "Active"
+  },
+  {
+      "title":  "LIC Apprentice Development Officer",
+      "slug":  "lic-apprentice-development-officer",
+      "description":  "LIC recruitment process for apprentice development officer roles.",
+      "organization":  "Life Insurance Corporation of India",
+      "jobType":  "Insurance",
+      "location":  "All India",
+      "sourceName":  "LIC Careers",
+      "sourceUrl":  "https://licindia.in/careers",
+      "lastVerified":  "2026-09-10",
+      "status":  "Active"
+  },
+  {
+      "title":  "National Apprenticeship Promotion Scheme Opportunities",
+      "slug":  "national-apprenticeship-promotion-scheme-opportunities",
+      "description":  "Official apprenticeship opportunity search for candidates registered on Apprenticeship India.",
+      "organization":  "Ministry of Skill Development and Entrepreneurship",
+      "jobType":  "Apprenticeship",
+      "location":  "All India",
+      "sourceName":  "Apprenticeship India",
+      "sourceUrl":  "https://www.apprenticeshipindia.gov.in/",
+      "lastVerified":  "2026-09-10",
+      "status":  "Active"
+  },
+  {
+      "title":  "Indian Coast Guard Navik",
+      "slug":  "indian-coast-guard-navik",
+      "description":  "Indian Coast Guard recruitment route for Navik posts in the domestic and general duty branches.",
+      "organization":  "Indian Coast Guard",
+      "jobType":  "Defence",
+      "location":  "All India",
+      "sourceName":  "Indian Coast Guard",
+      "sourceUrl":  "https://joinindiancoastguard.cdac.in/",
+      "lastVerified":  "2026-09-10",
+      "status":  "Active"
+  },
+  {
+      "title":  "Indian Coast Guard Assistant Commandant",
+      "slug":  "indian-coast-guard-assistant-commandant",
+      "description":  "Indian Coast Guard officer recruitment route for assistant commandant posts.",
+      "organization":  "Indian Coast Guard",
+      "jobType":  "Defence",
+      "location":  "All India",
+      "sourceName":  "Indian Coast Guard",
+      "sourceUrl":  "https://joinindiancoastguard.cdac.in/",
+      "lastVerified":  "2026-09-10",
+      "status":  "Active"
+  },
+  {
+      "title":  "NHAI Deputy Manager (Technical)",
+      "slug":  "nhai-deputy-manager-technical",
+      "description":  "National Highways Authority of India recruitment route for technical deputy manager posts.",
+      "organization":  "National Highways Authority of India",
+      "jobType":  "Technical",
+      "location":  "All India",
+      "sourceName":  "NHAI",
+      "sourceUrl":  "https://nhai.gov.in/#/career",
+      "lastVerified":  "2026-09-10",
+      "status":  "Active"
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]

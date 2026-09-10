@@ -1,0 +1,8 @@
+
+# Build outputs
+client/dist
+server/dist
+.vite/
+.tmp/
+coverage/
+
