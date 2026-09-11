@@ -11,6 +11,9 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 // Middleware
+if (process.env.TRUST_PROXY === 'true') {
+  app.set('trust proxy', 1); // Trust the first proxy (e.g., Nginx, Heroku, AWS ELB) to resolve true client IPs for rate limiting
+}
 app.use(helmet());
 app.use(cors({
   origin: process.env.FRONTEND_URL,
@@ -40,6 +43,8 @@ import documentRoutes from './modules/documents/document.route';
 import governmentPortalRoutes from './modules/government-portals/governmentPortal.route';
 import aiRoutes from './ai/ai.route';
 import recommendationRoutes from './ai/recommendation.route';
+import discoveryRoutes from './modules/discovery/discovery.route';
+import savedResourceRoutes from './modules/saved-resources/savedResource.route';
 
 app.use('/api/v1/auth', authRoutes);
 app.use('/api/v1/categories', categoryRoutes);
@@ -54,6 +59,8 @@ app.use('/api/v1/documents', documentRoutes);
 app.use('/api/v1/government-portals', governmentPortalRoutes);
 app.use('/api/v1/ai', aiRoutes);
 app.use('/api/v1/recommendations', recommendationRoutes);
+app.use('/api/v1/discovery', discoveryRoutes);
+app.use('/api/v1/saved-resources', savedResourceRoutes);
 
 // Basic Route
 app.get('/api/v1/health', (req: Request, res: Response) => {

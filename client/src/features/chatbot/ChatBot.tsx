@@ -1,14 +1,19 @@
 import React, { useState, useRef, useEffect } from 'react';
 import axios from 'axios';
-import { X, Send, User, Bot, Loader2, RefreshCcw } from 'lucide-react';
+import { X, Send, User, Bot, Loader2, RefreshCcw, CheckCircle2, AlertCircle, Link2 } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
+import { useTranslation } from 'react-i18next';
 
 interface Message {
   role: 'user' | 'assistant';
   content: string;
   isError?: boolean;
+  sources?: { sourceName: string; sourceURL: string }[];
+  knowledgeStatus?: 'VERIFIED' | 'PARTIALLY_VERIFIED' | 'INSUFFICIENT_DATA';
+  intent?: string;
+  module?: string | null;
 }
 
 const SUGGESTED_QUESTIONS = [
@@ -19,6 +24,7 @@ const SUGGESTED_QUESTIONS = [
 ];
 
 export const ChatBot: React.FC = () => {
+  const { t, i18n } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
   const [messages, setMessages] = useState<Message[]>([
     {
@@ -148,8 +154,8 @@ export const ChatBot: React.FC = () => {
                   <Bot size={22} />
                 </div>
                 <div>
-                  <h3 className="font-bold text-lg leading-tight">OneGuide AI</h3>
-                  <p className="text-blue-100 text-xs font-medium">Government Guidance Assistant</p>
+                  <h3 className="font-bold text-lg leading-tight">{t('chatbot.title')}</h3>
+                  <p className="text-blue-100 text-xs font-medium">{t('chatbot.subtitle')}</p>
                 </div>
               </div>
               <button 
@@ -185,9 +191,59 @@ export const ChatBot: React.FC = () => {
                       }`}
                     >
                       {msg.role === 'assistant' && !msg.isError ? (
-                        <ReactMarkdown remarkPlugins={[remarkGfm]}>
-                          {msg.content}
-                        </ReactMarkdown>
+                        <>
+                          <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                            {msg.content}
+                          </ReactMarkdown>
+                          
+                          {/* Metadata & Sources Footer */}
+                          {(msg.knowledgeStatus || (msg.sources && msg.sources.length > 0)) && (
+                            <div className="mt-4 pt-3 border-t border-gray-100 space-y-3">
+                              {msg.knowledgeStatus && (
+                                <div className="flex items-center gap-1.5">
+                                  {msg.knowledgeStatus === 'VERIFIED' ? (
+                                    <CheckCircle2 size={14} className="text-green-600" />
+                                  ) : (
+                                    <AlertCircle size={14} className="text-orange-500" />
+                                  )}
+                                  <span className={`text-[11px] font-semibold uppercase tracking-wider ${
+                                    msg.knowledgeStatus === 'VERIFIED' ? 'text-green-700' : 'text-orange-700'
+                                  }`}>
+                                    {msg.knowledgeStatus.replace('_', ' ')}
+                                  </span>
+                                  {msg.intent && (
+                                    <span className="text-[10px] text-gray-400 font-medium ml-1 bg-gray-50 px-1.5 py-0.5 rounded">
+                                      {msg.intent}
+                                    </span>
+                                  )}
+                                </div>
+                              )}
+                              
+                              {msg.sources && msg.sources.length > 0 && (
+                                <div className="space-y-1.5">
+                                  <p className="text-xs font-semibold text-gray-500 uppercase tracking-wider flex items-center gap-1">
+                                    <Link2 size={12} /> {t('chatbot.officialSources')}
+                                  </p>
+                                  <ul className="space-y-1.5">
+                                    {msg.sources.map((src, i) => (
+                                      <li key={i} className="leading-tight">
+                                        <a 
+                                          href={src.sourceURL} 
+                                          target="_blank" 
+                                          rel="noopener noreferrer"
+                                          className="text-[12.5px] text-blue-600 hover:text-blue-700 font-medium flex items-start gap-1"
+                                        >
+                                          <span className="shrink-0 mt-0.5">•</span>
+                                          <span className="line-clamp-2 hover:underline">{src.sourceName}</span>
+                                        </a>
+                                      </li>
+                                    ))}
+                                  </ul>
+                                </div>
+                              )}
+                            </div>
+                          )}
+                        </>
                       ) : (
                         msg.content
                       )}
@@ -242,7 +298,7 @@ export const ChatBot: React.FC = () => {
                   value={input}
                   onChange={(e) => setInput(e.target.value)}
                   onKeyDown={handleKeyDown}
-                  placeholder="Ask a question... (Shift+Enter for new line)"
+                  placeholder={t('chatbot.inputPlaceholder')}
                   className="flex-1 bg-transparent border-none focus:ring-0 resize-none px-3 py-2 text-[15px] max-h-[120px] outline-none min-h-[44px]"
                   disabled={isLoading}
                   rows={1}
@@ -256,7 +312,7 @@ export const ChatBot: React.FC = () => {
                 </button>
               </form>
               <div className="text-center mt-2">
-                 <p className="text-[10px] text-gray-400">AI can make mistakes. Verify critical information on official portals.</p>
+                 <p className="text-[10px] text-gray-400">{t('chatbot.aiDisclaimer')}</p>
               </div>
             </div>
           </motion.div>

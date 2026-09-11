@@ -2,7 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { motion } from 'motion/react';
 import { Sparkles, ArrowRight, BookOpen } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import axios from 'axios';
+import { useTranslation } from 'react-i18next';
+import api from '../../lib/axios';
 import { useAuth } from '../../context/AuthContext';
 import { ServiceCard } from '../../components/ui/ServiceCard';
 import { SkeletonCard } from '../../components/ui/SkeletonCard';
@@ -11,66 +12,23 @@ export const RecommendedForYou = () => {
   const { user } = useAuth();
   const [recommendations, setRecommendations] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
+  const [mode, setMode] = useState<'ai_ranked' | 'deterministic'>('ai_ranked');
+  const { t } = useTranslation();
 
   useEffect(() => {
     const fetchRecommendations = async () => {
       setLoading(true);
       try {
-        let allServices = [];
-        try {
-          const res = await axios.get('http://localhost:5000/api/v1/services');
-          allServices = res.data?.data && res.data.data.length > 0 ? res.data.data : [];
-        } catch (err) {
-          allServices = [];
+        const res = await api.get('/recommendations');
+        if (res.data?.status === 'success' && res.data.data) {
+          setRecommendations(res.data.data);
+          setMode(res.data.mode || 'ai_ranked');
+        } else {
+          setRecommendations([]);
         }
-
-        const userState = (user as any)?.state || '';
-        const userEdu = (user as any)?.education || '';
-        const userInterests = (user as any)?.userInterests || [];
-
-        // Basic mock recommendation engine
-        let scoredServices = allServices.map((service: any) => {
-          let score = 0;
-          let reasons = [];
-
-          // Match by category/interest
-          const categoryName = service.categoryId?.name || service.category?.name || '';
-          if (userInterests.includes(categoryName)) {
-            score += 5;
-            reasons.push(`interested in ${categoryName}`);
-          }
-
-          // State matching
-          const isStateSpecific = service.stateOrCentral === 'State Government';
-          if (isStateSpecific && service.name.includes(userState)) {
-            score += 10;
-            reasons.push(`from ${userState}`);
-          } else if (service.stateOrCentral === 'Central Government') {
-            score += 2; // Central schemes are for everyone
-          }
-
-          // Education matching (rough keyword match)
-          if (userEdu && (service.name.includes('Scholarship') || service.description.includes('education'))) {
-            if (categoryName === 'Scholarships') {
-              score += 5;
-              reasons.push(`an ${userEdu} student`);
-            }
-          }
-
-          // Create a natural language reason
-          let matchReason = "Recommended based on your profile";
-          if (reasons.length > 0) {
-             matchReason = `Recommended because you are ${reasons.join(' and ')}.`;
-          }
-
-          return { ...service, score, matchReason };
-        });
-
-        // Sort by score and take top 3
-        scoredServices.sort((a: any, b: any) => b.score - a.score);
-        setRecommendations(scoredServices.slice(0, 3));
       } catch (error) {
         console.error("Failed to load recommendations", error);
+        setRecommendations([]);
       } finally {
         setLoading(false);
       }
@@ -91,8 +49,15 @@ export const RecommendedForYou = () => {
             <Sparkles size={24} />
           </div>
           <div>
-            <h2 className="text-3xl font-extrabold text-slate-900 tracking-tight">Recommended For You</h2>
-            <p className="text-slate-500 font-medium mt-1 text-sm">Personalized AI matches based on your profile and goals</p>
+            <h2 className="text-3xl font-extrabold text-slate-900 tracking-tight">{t('recommendations.title')}</h2>
+            <div className="flex items-center gap-2 mt-1">
+              <p className="text-slate-500 font-medium text-sm">{t('recommendations.subtitle')}</p>
+              {!loading && recommendations.length > 0 && (
+                <span className={`text-xs font-semibold px-2 py-0.5 rounded-full ${mode === 'ai_ranked' ? 'bg-indigo-50 text-indigo-700 border border-indigo-100' : 'bg-slate-100 text-slate-600 border border-slate-200'}`}>
+                  {mode === 'ai_ranked' ? t('recommendations.aiRanked') : t('recommendations.standardMatch')}
+                </span>
+              )}
+            </div>
           </div>
         </div>
 
@@ -124,7 +89,7 @@ export const RecommendedForYou = () => {
             <div className="inline-flex items-center justify-center w-20 h-20 rounded-full bg-slate-50 mb-6 border border-slate-100">
                <BookOpen className="text-slate-300" size={32} />
             </div>
-            <h3 className="text-xl font-bold text-slate-800 mb-2">More recommendations coming soon</h3>
+            <h3 className="text-xl font-bold text-slate-800 mb-2">{t('recommendations.comingSoon')}</h3>
             <p className="text-slate-500 max-w-md mx-auto mb-6">
               We are constantly analyzing opportunities. Keep your profile updated for the best matches.
             </p>

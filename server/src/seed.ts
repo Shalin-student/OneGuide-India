@@ -23,11 +23,20 @@ const seedData = async () => {
     console.log('Database is empty. Proceeding with seed...');
 
     // 1. Create Admin User
+    const adminEmail = process.env.ADMIN_EMAIL;
+    const adminPassword = process.env.ADMIN_PASSWORD;
+
+    if (!adminEmail || !adminPassword) {
+      console.error('ERROR: ADMIN_EMAIL and ADMIN_PASSWORD environment variables are strictly required for database initialization.');
+      console.error('Please configure them in your .env file or environment safely.');
+      process.exit(1);
+    }
+
     const salt = await bcrypt.genSalt(10);
-    const hashedPassword = await bcrypt.hash('Admin@123', salt);
+    const hashedPassword = await bcrypt.hash(adminPassword, salt);
     await User.create({
       name: 'Admin',
-      email: 'admin123@gmail.com',
+      email: adminEmail,
       password: hashedPassword,
       role: 'admin',
       preferredLanguage: 'en',

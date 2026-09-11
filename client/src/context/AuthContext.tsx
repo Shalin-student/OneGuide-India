@@ -1,5 +1,6 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
 import api from '../lib/axios';
+import i18n from '../i18n';
 
 interface User {
   _id: string;
@@ -28,7 +29,11 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
     try {
       const res = await api.get('/auth/me');
       if (res.data.status === 'success') {
-        setUser(res.data.data);
+        const userData = res.data.data;
+        setUser(userData);
+        if (userData.preferredLanguage) {
+          i18n.changeLanguage(userData.preferredLanguage);
+        }
       } else {
         setUser(null);
       }

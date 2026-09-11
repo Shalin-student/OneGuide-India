@@ -1,0 +1,1770 @@
+[
+    {
+        "id": "intern-niti-aayog",
+        "resourceType": "internship",
+        "name": "NITI Aayog Internship Scheme",
+        "slug": "niti-aayog-internship-scheme",
+        "module": "internships",
+        "description": "An internship program offering undergraduate, postgraduate, and research students the opportunity to closely work with the apex public policy think tank of the Government of India.",
+        "organization": "NITI Aayog",
+        "authority": "Ministry of Planning",
+        "location": "New Delhi (NITI Aayog Headquarters)",
+        "mode": "Offline / In-person",
+        "duration": "6 weeks to 6 months",
+        "stipend": "Unpaid (No stipend is provided)",
+        "educationLevel": "Undergraduate, Postgraduate, and Research Scholars",
+        "eligibility": [
+            "UG students who have completed/appeared for the 2nd semester term exams with at least 85% marks in 12th class",
+            "PG students who have completed/appeared for 1st semester exams with at least 70% marks in graduation",
+            "Research students pursuing Ph.D. with at least 70% marks in post-graduation"
+        ],
+        "qualification": [
+            "Any recognized discipline from recognized universities/institutions"
+        ],
+        "application": {
+            "procedure": [
+                "Visit the official NITI Aayog Internship portal",
+                "Fill out the online application form during the specified window",
+                "Specify your area of interest (e.g., Agriculture, Health, Economics, Education)",
+                "Submit the application online without needing physical copies",
+                "Selected candidates will be notified by the respective vertical heads"
+            ],
+            "url": "https://niti.gov.in/internship",
+            "applicationDates": "From the 1st to the 10th of every month",
+            "internshipDates": "Rolling (As per candidate and vertical head agreement)"
+        },
+        "officialSources": [
+            {
+                "sourceName": "NITI Aayog Official Website",
+                "url": "https://niti.gov.in/internship",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Public Policy",
+            "targetAudience": [
+                "College Students",
+                "Policy Enthusiasts",
+                "Researchers"
+            ],
+            "keywords": [
+                "NITI Aayog internship",
+                "Public policy internship",
+                "Government think tank"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against NITI Aayog internship guidelines."
+        }
+    },
+    {
+        "id": "intern-mea",
+        "resourceType": "internship",
+        "name": "Ministry of External Affairs (MEA) Internship Policy",
+        "slug": "mea-internship-policy",
+        "module": "internships",
+        "description": "The MEA Internship Policy aims to take foreign policy to the grassroots and provide students with a glimpse of how the Ministry formulates and implements policies.",
+        "organization": "Ministry of External Affairs (MEA)",
+        "authority": "Ministry of External Affairs",
+        "location": "New Delhi (MEA Headquarters)",
+        "mode": "Offline",
+        "duration": "1 month to 3 months",
+        "stipend": "₹10,000 per month + airfare support (subject to state quotas)",
+        "educationLevel": "Graduate / Final Year Undergraduate",
+        "eligibility": [
+            "Indian citizens only",
+            "Must have a minimum of graduation degree OR must be in the final year of an undergraduate program",
+            "Maximum age limit is 25 years as of the closing date of application",
+            "Balanced representation from all States and Union Territories is maintained"
+        ],
+        "qualification": [
+            "Graduation in any discipline"
+        ],
+        "application": {
+            "procedure": [
+                "Monitor the MEA internship portal for the annual/term call for applications",
+                "Register on the portal and fill out the detailed application form",
+                "Undergo the selection process which may include academic screening and interviews",
+                "Selected candidates are assigned to specific Divisions within the Ministry"
+            ],
+            "url": "https://internship.mea.gov.in",
+            "applicationDates": "Notified periodically (Usually distinct terms I and II)",
+            "internshipDates": "Term-based (e.g., April-September, October-March)"
+        },
+        "officialSources": [
+            {
+                "sourceName": "MEA Internship Portal",
+                "url": "https://internship.mea.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "International Relations",
+            "targetAudience": [
+                "Graduates",
+                "Final Year Students",
+                "IR Students"
+            ],
+            "keywords": [
+                "MEA internship",
+                "Foreign affairs",
+                "Diplomacy internship",
+                "Ministry of External Affairs"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against MEA internship policy framework."
+        }
+    },
+    {
+        "id": "intern-dpiit",
+        "resourceType": "internship",
+        "name": "DPIIT Internship Scheme",
+        "slug": "dpiit-internship-scheme",
+        "module": "internships",
+        "description": "Internship scheme by the Department for Promotion of Industry and Internal Trade offering exposure to industrial policy formulation, FDI policies, and IPR.",
+        "organization": "Department for Promotion of Industry and Internal Trade (DPIIT)",
+        "authority": "Ministry of Commerce and Industry",
+        "location": "New Delhi",
+        "mode": "Offline",
+        "duration": "1 month to 2 months (maximum 3 months in exceptional cases)",
+        "stipend": "₹10,000 per month",
+        "educationLevel": "Undergraduate, Postgraduate, and Research Scholars",
+        "eligibility": [
+            "Applicants pursuing Graduation/Post Graduation/Research from recognized Universities/Institutions within India or abroad",
+            "Candidates should have excellent academic records"
+        ],
+        "qualification": [
+            "Engineering, Management, Law, Economics, Finance, Computers, and Library Management"
+        ],
+        "application": {
+            "procedure": [
+                "Visit the DPIIT portal's Internship section",
+                "Fill out the online application specifying preferred months",
+                "Applications are accepted year-round",
+                "Divisions select interns based on their requirement"
+            ],
+            "url": "https://dpiit.gov.in/internship",
+            "applicationDates": "Rolling basis throughout the year",
+            "internshipDates": "Rolling basis"
+        },
+        "officialSources": [
+            {
+                "sourceName": "DPIIT Official Website",
+                "url": "https://dpiit.gov.in/internship",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Commerce & Industry",
+            "targetAudience": [
+                "Engineering Students",
+                "Law Students",
+                "Economics Students"
+            ],
+            "keywords": [
+                "DPIIT internship",
+                "Ministry of Commerce",
+                "Industry policy internship"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against DPIIT guidelines."
+        }
+    },
+    {
+        "id": "intern-pm-internship-scheme",
+        "resourceType": "internship",
+        "name": "Prime Minister's Internship Scheme",
+        "slug": "pm-internship-scheme-mca",
+        "module": "internships",
+        "description": "A flagship scheme launched to provide internships to 1 crore youth in the top 500 companies in India over 5 years, providing real-world business environment exposure.",
+        "organization": "Top 500 Companies in India (Administered by MCA)",
+        "authority": "Ministry of Corporate Affairs (MCA)",
+        "location": "Pan-India (Various corporate offices and manufacturing units)",
+        "mode": "Offline",
+        "duration": "12 months",
+        "stipend": "₹5,000 per month (₹4,500 by Govt via DBT, ₹500 by company via CSR) + ₹6,000 one-time grant",
+        "educationLevel": "High School, ITI, Diploma, Undergraduate",
+        "eligibility": [
+            "Indian youth aged between 21 and 24 years",
+            "Candidates who are not engaged in full-time employment or formal education (distance learning allowed)",
+            "Candidates whose family members are not government employees/income tax payers are preferred",
+            "Graduates from premier institutes like IITs, IIMs, National Law Universities, IISER, etc., are excluded"
+        ],
+        "qualification": [
+            "Class 10th pass, ITI, Polytechnic Diploma, BA, B.Sc, B.Com, BBA, BCA, B.Pharma"
+        ],
+        "application": {
+            "procedure": [
+                "Register on the dedicated PM Internship Scheme portal (pminternship.mca.gov.in)",
+                "Create a profile using Aadhaar authentication and enter educational details",
+                "The portal automatically generates a resume and suggests available internships based on profile/location",
+                "Candidates can apply for up to 5 internship opportunities",
+                "Companies select candidates from the shortlisted pool and issue offer letters online"
+            ],
+            "url": "https://pminternship.mca.gov.in",
+            "applicationDates": "Notified per phase (e.g., October registration window)",
+            "internshipDates": "Commences post-selection for a strict 12-month period"
+        },
+        "officialSources": [
+            {
+                "sourceName": "PM Internship Scheme Portal",
+                "url": "https://pminternship.mca.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Corporate / Skill Development",
+            "targetAudience": [
+                "Unemployed Youth",
+                "ITI Pass",
+                "Diploma Holders",
+                "Graduates"
+            ],
+            "keywords": [
+                "PM internship",
+                "MCA internship 5000",
+                "Top 500 companies internship",
+                "Skill India internship"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against Ministry of Corporate Affairs PM Internship Scheme guidelines released post-budget 2024."
+        }
+    },
+    {
+        "id": "intern-moefcc",
+        "resourceType": "internship",
+        "name": "MoEFCC Internship Scheme",
+        "slug": "moefcc-internship-scheme",
+        "module": "internships",
+        "description": "Internship at the Ministry of Environment, Forest and Climate Change to expose students to environmental policies, wildlife conservation, and climate action frameworks.",
+        "organization": "Ministry of Environment, Forest and Climate Change (MoEFCC)",
+        "authority": "Ministry of Environment, Forest and Climate Change",
+        "location": "New Delhi",
+        "mode": "Offline",
+        "duration": "1 month to 3 months",
+        "stipend": "₹10,000 per month",
+        "educationLevel": "Undergraduate, Postgraduate, and Research Scholars",
+        "eligibility": [
+            "Must be pursuing a Degree or Diploma course",
+            "Should have secured a minimum of 60% marks in the previous degree or certificate examination"
+        ],
+        "qualification": [
+            "Environmental Sciences, Botany, Zoology, Law, Economics, Engineering, Forestry, Data Science"
+        ],
+        "application": {
+            "procedure": [
+                "Download the application format from the MoEFCC website",
+                "Submit the application complete with NOC/Recommendation from the Head of Department/Institution",
+                "The Ministry selects candidates based on the requirement of different Divisions"
+            ],
+            "url": "https://moef.gov.in",
+            "applicationDates": "Notified bi-annually for Summer and Winter batches",
+            "internshipDates": "Summer (May-July) and Winter (December-February)"
+        },
+        "officialSources": [
+            {
+                "sourceName": "MoEFCC Official Website",
+                "url": "https://moef.gov.in",
+                "sourceType": "ministry_website"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Environment & Forestry",
+            "targetAudience": [
+                "Environmental Science Students",
+                "Forestry Students"
+            ],
+            "keywords": [
+                "MoEFCC internship",
+                "Environment ministry internship",
+                "Climate change internship"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against MoEFCC internship guidelines."
+        }
+    },
+    {
+        "id": "intern-nhrc",
+        "resourceType": "internship",
+        "name": "NHRC Summer/Winter Internship Programme",
+        "slug": "nhrc-summer-winter-internship",
+        "module": "internships",
+        "description": "A prestigious one-month internship by the National Human Rights Commission to sensitize university students to various human rights issues and the functioning of the Commission.",
+        "organization": "National Human Rights Commission (NHRC)",
+        "authority": "NHRC",
+        "location": "New Delhi",
+        "mode": "Offline",
+        "duration": "1 month (30 days)",
+        "stipend": "No basic stipend, but an Award/Honorarium is given for outstanding research/projects completed during the internship (often travel allowance is reimbursed for outstation students)",
+        "educationLevel": "Undergraduate (3rd year onwards), Postgraduate",
+        "eligibility": [
+            "Students in the 3rd year and onwards of any integrated 5-year Law Course",
+            "Students in the final year of a 3-year Law course",
+            "Students in the final year of a PG course in Political Science/Sociology/Social Work/Economics/Human Rights",
+            "Must have a minimum of 60% marks in Class 12"
+        ],
+        "qualification": [
+            "Law, Political Science, Social Work, Sociology, Human Rights"
+        ],
+        "application": {
+            "procedure": [
+                "Apply online on the NHRC website when the notification is published",
+                "Upload a Statement of Purpose (SoP) and recommendation letter from the University",
+                "Selection is based on academic merit and the quality of the SoP"
+            ],
+            "url": "https://nhrc.nic.in/training/internship",
+            "applicationDates": "Notified twice a year (Usually April for Summer, November for Winter)",
+            "internshipDates": "Summer (May/June) and Winter (December/January)"
+        },
+        "officialSources": [
+            {
+                "sourceName": "NHRC Training & Internship",
+                "url": "https://nhrc.nic.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Law & Human Rights",
+            "targetAudience": [
+                "Law Students",
+                "Social Work Students",
+                "PG Students"
+            ],
+            "keywords": [
+                "NHRC internship",
+                "Human rights internship",
+                "Law internship Delhi"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against NHRC internship notifications."
+        }
+    },
+    {
+        "id": "intern-rbi-summer",
+        "resourceType": "internship",
+        "name": "RBI Summer Placement",
+        "slug": "rbi-summer-placement-project",
+        "module": "internships",
+        "description": "The Reserve Bank of India offers Summer Placements to domestic and international students to provide exposure to central banking issues and project work.",
+        "organization": "Reserve Bank of India (RBI)",
+        "authority": "Reserve Bank of India",
+        "location": "Mumbai (Headquarters) and Regional Offices",
+        "mode": "Offline",
+        "duration": "Up to 3 months",
+        "stipend": "₹20,000 per month",
+        "educationLevel": "Postgraduate (Masters/MBA)",
+        "eligibility": [
+            "Students pursuing postgraduate courses/integrated five-year courses in Management/Statistics/Law/Commerce/Economics/Econometrics/Banking/Finance",
+            "Students must be in the penultimate year of their course",
+            "Foreign students pursuing equivalent studies can also apply"
+        ],
+        "qualification": [
+            "MBA, Masters in Economics, Statistics, Finance, Law"
+        ],
+        "application": {
+            "procedure": [
+                "Eligible students can apply online through the RBI careers portal",
+                "Institutes can also forward applications directly to the respective RBI office",
+                "Selection involves screening of applications and an interview"
+            ],
+            "url": "https://opportunities.rbi.org.in",
+            "applicationDates": "Typically between September 15 and October 30 every year",
+            "internshipDates": "Usually April to July (Summer)"
+        },
+        "officialSources": [
+            {
+                "sourceName": "RBI Opportunities Portal",
+                "url": "https://opportunities.rbi.org.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Banking & Finance",
+            "targetAudience": [
+                "MBA Students",
+                "Economics Students",
+                "Finance Students"
+            ],
+            "keywords": [
+                "RBI internship",
+                "RBI summer placement",
+                "Central bank internship"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against RBI Summer Placement guidelines."
+        }
+    },
+    {
+        "id": "intern-sebi-legal",
+        "resourceType": "internship",
+        "name": "SEBI Legal Internship Program",
+        "slug": "sebi-legal-internship",
+        "module": "internships",
+        "description": "Internship for law students to understand the regulatory framework governing the securities market in India under the Securities and Exchange Board of India.",
+        "organization": "Securities and Exchange Board of India (SEBI)",
+        "authority": "SEBI",
+        "location": "Mumbai (Head Office)",
+        "mode": "Offline",
+        "duration": "1 month to 3 months",
+        "stipend": "₹10,000 per month",
+        "educationLevel": "Undergraduate Law Students",
+        "eligibility": [
+            "Students studying in the 4th or 5th year of a 5-year integrated law degree course",
+            "Students in the 3rd year of a 3-year law degree course",
+            "Should have scored a minimum of 60% aggregate marks or equivalent CGPA in the previous semesters"
+        ],
+        "qualification": [
+            "LLB (3-year or 5-year integrated)"
+        ],
+        "application": {
+            "procedure": [
+                "Applications must be forwarded by the Head of the Department/Principal of the Law College/University",
+                "An application format is available on the SEBI website",
+                "The application should include a short write-up/essay on a specified securities law topic"
+            ],
+            "url": "https://www.sebi.gov.in",
+            "applicationDates": "Rolling basis / As per periodic departmental notifications",
+            "internshipDates": "Rolling basis"
+        },
+        "officialSources": [
+            {
+                "sourceName": "SEBI Official Website",
+                "url": "https://www.sebi.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Law & Regulatory",
+            "targetAudience": [
+                "Law Students",
+                "LLB Students"
+            ],
+            "keywords": [
+                "SEBI internship",
+                "Legal internship Mumbai",
+                "Securities law internship"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against SEBI Legal Internship Scheme."
+        }
+    },
+    {
+        "id": "intern-cci",
+        "resourceType": "internship",
+        "name": "Competition Commission of India (CCI) Internship",
+        "slug": "competition-commission-india-internship",
+        "module": "internships",
+        "description": "Internship to familiarize students with the Competition Act, 2002, and CCI's functions in protecting consumer interests and ensuring freedom of trade.",
+        "organization": "Competition Commission of India (CCI)",
+        "authority": "Competition Commission of India",
+        "location": "New Delhi",
+        "mode": "Offline",
+        "duration": "1 month (extendable)",
+        "stipend": "₹15,000 per month",
+        "educationLevel": "Undergraduate, Postgraduate, and Research Scholars",
+        "eligibility": [
+            "Economics / Finance / Management students (2nd year onwards of PG course)",
+            "Law students (2nd year onwards for 3-year course, 3rd year onwards for 5-year course)",
+            "Chartered Accountants / Company Secretaries / Cost Accountants students in final stages"
+        ],
+        "qualification": [
+            "Law, Economics, Finance, Management"
+        ],
+        "application": {
+            "procedure": [
+                "Apply online via the CCI internship portal",
+                "Submit a Statement of Purpose (SoP) and recommendation letter from the institution",
+                "Applications should be submitted by the 1st of the preceding month for the intended month of internship"
+            ],
+            "url": "https://www.cci.gov.in/internship",
+            "applicationDates": "Rolling (by the 1st of the preceding month)",
+            "internshipDates": "Commences on the 1st working day of the month"
+        },
+        "officialSources": [
+            {
+                "sourceName": "CCI Official Website",
+                "url": "https://www.cci.gov.in/internship",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Law & Economics",
+            "targetAudience": [
+                "Law Students",
+                "Economics Students",
+                "Finance Students"
+            ],
+            "keywords": [
+                "CCI internship",
+                "Competition law internship",
+                "Anti-trust internship"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against CCI internship guidelines."
+        }
+    },
+    {
+        "id": "intern-fssai",
+        "resourceType": "internship",
+        "name": "FSSAI Internship Scheme",
+        "slug": "fssai-internship-scheme",
+        "module": "internships",
+        "description": "Provides learning opportunities to students in various fields of food safety, food testing, standards formulation, and regulatory compliance.",
+        "organization": "Food Safety and Standards Authority of India (FSSAI)",
+        "authority": "Ministry of Health and Family Welfare",
+        "location": "New Delhi (HQ), Regional Offices, and National Food Laboratories (NFLs)",
+        "mode": "Offline",
+        "duration": "1 to 6 months",
+        "stipend": "₹10,000 per month (awarded to deserving interns based on final review)",
+        "educationLevel": "Postgraduate / B.Tech / B.E.",
+        "eligibility": [
+            "Pursuing a Post Graduate Degree or B.Tech/B.E in Food Technology, Chemistry, Biology, Microbiology, Dairy/Oil/Agricultural Sciences",
+            "Business Administration (HR, Marketing, IT) students for HQ roles",
+            "PG Diploma students in Food Safety"
+        ],
+        "qualification": [
+            "Food Tech, Biotech, Chemistry, MBA, IT"
+        ],
+        "application": {
+            "procedure": [
+                "Applications are invited quarterly through the FSSAI online portal",
+                "Register and fill out the details indicating choice of region/lab",
+                "Shortlisted candidates are notified on the website"
+            ],
+            "url": "https://fssai.gov.in/internship",
+            "applicationDates": "Notified quarterly on the FSSAI portal",
+            "internshipDates": "Quarterly batches (e.g., Jan-Mar, Apr-Jun)"
+        },
+        "officialSources": [
+            {
+                "sourceName": "FSSAI Internship Portal",
+                "url": "https://fssai.gov.in/internship",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Health & Regulatory",
+            "targetAudience": [
+                "Food Tech Students",
+                "Science Postgraduates"
+            ],
+            "keywords": [
+                "FSSAI internship",
+                "Food safety internship",
+                "NFL internship"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against FSSAI circulars."
+        }
+    },
+    {
+        "id": "intern-mwcd",
+        "resourceType": "internship",
+        "name": "Ministry of Women and Child Development Internship",
+        "slug": "ministry-women-child-development-internship",
+        "module": "internships",
+        "description": "An internship program to associate young students and scholars with the Ministry's policy formulation and implementation concerning women and child welfare.",
+        "organization": "Ministry of Women and Child Development (MWCD)",
+        "authority": "Ministry of Women and Child Development",
+        "location": "New Delhi",
+        "mode": "Offline",
+        "duration": "2 months",
+        "stipend": "₹20,000 per month (Recently revised in some schemes/batches, standard usually ₹10,000 to ₹20,000)",
+        "educationLevel": "Undergraduate, Postgraduate, and Research Scholars",
+        "eligibility": [
+            "Students enrolled in UG/PG or research programs in recognized institutions",
+            "Preference is often given to students in Sociology, Social Work, Gender Studies, Law, and Economics"
+        ],
+        "qualification": [
+            "Social Sciences, Law, Management"
+        ],
+        "application": {
+            "procedure": [
+                "Apply online via the dedicated MWCD internship portal when the notification is live",
+                "Upload a Statement of Purpose and university recommendation",
+                "Selected candidates undergo a two-month rigorous engagement with the Ministry's bureaus"
+            ],
+            "url": "https://wcd.nic.in",
+            "applicationDates": "Notified per batch (usually four batches a year)",
+            "internshipDates": "Fixed 2-month periods as per the Ministry schedule"
+        },
+        "officialSources": [
+            {
+                "sourceName": "MWCD Official Website",
+                "url": "https://wcd.nic.in",
+                "sourceType": "ministry_website"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Social Welfare",
+            "targetAudience": [
+                "Social Work Students",
+                "Law Students",
+                "Sociology Students"
+            ],
+            "keywords": [
+                "MWCD internship",
+                "Women and child internship",
+                "Social work internship Delhi"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against MWCD internship circulars."
+        }
+    },
+    {
+        "id": "intern-meity-dic",
+        "resourceType": "internship",
+        "name": "MeitY / Digital India Corporation Internship Scheme",
+        "slug": "meity-digital-india-internship",
+        "module": "internships",
+        "description": "Provides a platform for students to secure first-hand and practical work experience under the guidance of qualified mentors from the Ministry of Electronics and Information Technology.",
+        "organization": "Ministry of Electronics and Information Technology (MeitY)",
+        "authority": "MeitY",
+        "location": "New Delhi",
+        "mode": "Offline",
+        "duration": "2 months (extendable up to 3 months)",
+        "stipend": "₹10,000 per month",
+        "educationLevel": "Undergraduate and Postgraduate",
+        "eligibility": [
+            "Indian nationals pursuing B.E/B.Tech/M.E/M.Tech/MCA/M.Sc in Computer Science/IT/Electronics",
+            "Must have secured a minimum of 60% marks in the previous degree/semester"
+        ],
+        "qualification": [
+            "B.Tech, MCA, M.Tech, M.Sc (CS/IT)"
+        ],
+        "application": {
+            "procedure": [
+                "Register on the MeitY Digital India Internship portal",
+                "Fill out the application and select up to three areas of interest (e.g., Cyber Security, e-Governance, AI)",
+                "Submit the application with an NOC from the institution",
+                "Selection involves screening and possibly a virtual interview"
+            ],
+            "url": "https://meity.gov.in/internship-scheme",
+            "applicationDates": "Bi-annual (Summer and Winter notifications)",
+            "internshipDates": "Summer (May-July) and Winter (December-February)"
+        },
+        "officialSources": [
+            {
+                "sourceName": "MeitY Official Portal",
+                "url": "https://meity.gov.in",
+                "sourceType": "ministry_website"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Technology & IT",
+            "targetAudience": [
+                "Engineering Students",
+                "Computer Science Students",
+                "MCA Students"
+            ],
+            "keywords": [
+                "MeitY internship",
+                "Digital India internship",
+                "IT government internship"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against MeitY internship guidelines."
+        }
+    },
+    {
+        "id": "intern-mospi",
+        "resourceType": "internship",
+        "name": "MoSPI Internship Scheme",
+        "slug": "mospi-internship-scheme",
+        "module": "internships",
+        "description": "Internship at the Ministry of Statistics and Programme Implementation to familiarize students with Official Statistics and the National Statistical System.",
+        "organization": "Ministry of Statistics and Programme Implementation (MoSPI)",
+        "authority": "MoSPI",
+        "location": "New Delhi and various NSO Regional Offices",
+        "mode": "Offline",
+        "duration": "2 months",
+        "stipend": "₹10,000 total (paid as ₹5000 per month on successful completion) or equivalent fixed honorarium",
+        "educationLevel": "Postgraduate / Research",
+        "eligibility": [
+            "Students pursuing Post Graduate courses or Ph.D. in Statistics/Mathematical Statistics/Operational Research/Economics/Demography"
+        ],
+        "qualification": [
+            "M.Sc Statistics, M.A Economics, Demography"
+        ],
+        "application": {
+            "procedure": [
+                "Download the application form from the MoSPI website",
+                "Submit the physical or scanned application with the university recommendation letter to the Training Division of MoSPI",
+                "Selection based on academic merit and relevance of the study area"
+            ],
+            "url": "https://mospi.gov.in",
+            "applicationDates": "Typically notified in February/March",
+            "internshipDates": "Summer months (June - July)"
+        },
+        "officialSources": [
+            {
+                "sourceName": "MoSPI Official Website",
+                "url": "https://mospi.gov.in",
+                "sourceType": "ministry_website"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Statistics & Economics",
+            "targetAudience": [
+                "Statistics Students",
+                "Economics Students"
+            ],
+            "keywords": [
+                "MoSPI internship",
+                "Statistics internship",
+                "NSO internship",
+                "Official statistics"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against MoSPI Training Division guidelines."
+        }
+    },
+    {
+        "id": "intern-sfio",
+        "resourceType": "internship",
+        "name": "SFIO Internship Program",
+        "slug": "sfio-internship-program",
+        "module": "internships",
+        "description": "Internship with the Serious Fraud Investigation Office (SFIO) for students to gain practical knowledge of corporate law, financial forensics, and fraud investigation.",
+        "organization": "Serious Fraud Investigation Office (SFIO)",
+        "authority": "Ministry of Corporate Affairs",
+        "location": "New Delhi, Mumbai, Kolkata, Chennai, Hyderabad",
+        "mode": "Offline",
+        "duration": "1 to 2 months",
+        "stipend": "₹7,000 per month (for PG) / ₹10,000 (for Professional levels)",
+        "educationLevel": "Postgraduate / Professional (Law/CA/CS)",
+        "eligibility": [
+            "Students in the final year of LLB (3-year) or 4th/5th year of LLB (5-year)",
+            "Students pursuing MBA (Finance), CA, CS, CMA in the final stages",
+            "Students pursuing PG in Economics/Commerce/Forensic Auditing"
+        ],
+        "qualification": [
+            "Law, CA, CMA, CS, MBA Finance"
+        ],
+        "application": {
+            "procedure": [
+                "Download the application form from the SFIO website",
+                "Submit the application through email or post with the recommendation of the institute",
+                "Selection is done based on the requirement of SFIO offices"
+            ],
+            "url": "https://sfio.gov.in/internship",
+            "applicationDates": "Rolling basis / Specific notifications",
+            "internshipDates": "Rolling basis"
+        },
+        "officialSources": [
+            {
+                "sourceName": "SFIO Official Website",
+                "url": "https://sfio.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Law & Finance",
+            "targetAudience": [
+                "Law Students",
+                "CA Students",
+                "Finance Students"
+            ],
+            "keywords": [
+                "SFIO internship",
+                "Corporate fraud internship",
+                "Forensic audit internship"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against SFIO internship guidelines."
+        }
+    },
+    {
+        "id": "intern-dea-finance",
+        "resourceType": "internship",
+        "name": "Department of Economic Affairs (DEA) Internship Scheme",
+        "slug": "dea-internship-scheme-finance",
+        "module": "internships",
+        "description": "Familiarizes university students with the working of the Department of Economic Affairs and formulation of India's economic policies.",
+        "organization": "Department of Economic Affairs (DEA)",
+        "authority": "Ministry of Finance",
+        "location": "New Delhi (North Block)",
+        "mode": "Offline",
+        "duration": "2 months (extendable to 6 months)",
+        "stipend": "₹10,000 per month",
+        "educationLevel": "Postgraduate / Research",
+        "eligibility": [
+            "Students pursuing PG or Ph.D. in Economics, Finance, Management, or Law",
+            "Students must have a strong academic background"
+        ],
+        "qualification": [
+            "Economics, Finance, Law, Management"
+        ],
+        "application": {
+            "procedure": [
+                "Applications are accepted through the official MoF/DEA web portal",
+                "Candidates must upload their CV, SoP, and letter of recommendation",
+                "Shortlisted candidates may be interviewed"
+            ],
+            "url": "https://dea.gov.in",
+            "applicationDates": "Rolling basis / As notified",
+            "internshipDates": "Rolling basis"
+        },
+        "officialSources": [
+            {
+                "sourceName": "Ministry of Finance Official Website",
+                "url": "https://dea.gov.in",
+                "sourceType": "ministry_website"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Finance & Economics",
+            "targetAudience": [
+                "Economics Students",
+                "Finance Students",
+                "Ph.D Scholars"
+            ],
+            "keywords": [
+                "DEA internship",
+                "Ministry of Finance internship",
+                "Economic policy internship"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against DEA internship guidelines."
+        }
+    },
+    {
+        "id": "intern-mopsw",
+        "resourceType": "internship",
+        "name": "Ministry of Ports, Shipping and Waterways (MoPSW) Internship",
+        "slug": "mopsw-internship-scheme",
+        "module": "internships",
+        "description": "An opportunity for young students to get acquainted with the workings of India's maritime sector, ports, and inland waterways.",
+        "organization": "Ministry of Ports, Shipping and Waterways (MoPSW)",
+        "authority": "Ministry of Ports, Shipping and Waterways",
+        "location": "New Delhi",
+        "mode": "Offline",
+        "duration": "1 month to 3 months",
+        "stipend": "₹10,000 per month (UG) / ₹20,000 per month (PG)",
+        "educationLevel": "Undergraduate, Postgraduate",
+        "eligibility": [
+            "Undergraduate students (having completed at least 2 years of degree course)",
+            "Postgraduate and Law students",
+            "Candidates should have at least 60% aggregate marks"
+        ],
+        "qualification": [
+            "Engineering, Law, Management, Economics, Marine Sciences"
+        ],
+        "application": {
+            "procedure": [
+                "Apply online via the MoPSW internship portal",
+                "Select preference of Division (e.g., Sagarmala, Ports, Shipping)",
+                "Submit along with an NOC from the parent institution"
+            ],
+            "url": "https://shipmin.gov.in",
+            "applicationDates": "Notified periodically",
+            "internshipDates": "As per candidate and Ministry convenience"
+        },
+        "officialSources": [
+            {
+                "sourceName": "MoPSW Official Website",
+                "url": "https://shipmin.gov.in",
+                "sourceType": "ministry_website"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Infrastructure & Transport",
+            "targetAudience": [
+                "Engineering Students",
+                "Marine Students",
+                "Law Students"
+            ],
+            "keywords": [
+                "MoPSW internship",
+                "Shipping ministry internship",
+                "Maritime internship"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against MoPSW internship scheme."
+        }
+    },
+    {
+        "id": "intern-nirdpr",
+        "resourceType": "internship",
+        "name": "NIRDPR Internship Programme",
+        "slug": "nirdpr-internship-programme",
+        "module": "internships",
+        "description": "Internship at the National Institute of Rural Development and Panchayati Raj for students passionate about rural development, poverty alleviation, and decentralized governance.",
+        "organization": "National Institute of Rural Development and Panchayati Raj (NIRDPR)",
+        "authority": "Ministry of Rural Development",
+        "location": "Hyderabad (Headquarters) or Regional Centers",
+        "mode": "Offline / Field Work",
+        "duration": "1 to 3 months",
+        "stipend": "₹10,000 per month",
+        "educationLevel": "Postgraduate and Research Scholars",
+        "eligibility": [
+            "Pursuing PG or Ph.D. in Rural Development, Social Work, Economics, Sociology, Public Policy",
+            "Should have a strong academic record and interest in rural field work"
+        ],
+        "qualification": [
+            "Social Sciences, Rural Development, Public Administration"
+        ],
+        "application": {
+            "procedure": [
+                "Submit an application with a CV and a brief proposal of the intended study area",
+                "Applications must be forwarded by the Head of the Institution",
+                "Email or post the application to the Training/Internship cell of NIRDPR"
+            ],
+            "url": "http://nirdpr.org.in",
+            "applicationDates": "Rolling basis",
+            "internshipDates": "Rolling basis"
+        },
+        "officialSources": [
+            {
+                "sourceName": "NIRDPR Official Website",
+                "url": "http://nirdpr.org.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Rural Development",
+            "targetAudience": [
+                "Social Work Students",
+                "Rural Development Students",
+                "PG Students"
+            ],
+            "keywords": [
+                "NIRDPR internship",
+                "Rural development internship",
+                "Panchayati Raj internship"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against NIRDPR academic program guidelines."
+        }
+    },
+    {
+        "id": "intern-lok-sabha",
+        "resourceType": "internship",
+        "name": "Lok Sabha Secretariat Internship Programme",
+        "slug": "lok-sabha-internship-programme",
+        "module": "internships",
+        "description": "A prestigious internship program providing students an opportunity to study parliamentary democracy, legislative processes, and the functioning of the Indian Parliament.",
+        "organization": "Parliamentary Research and Training Institute for Democracies (PRIDE), Lok Sabha Secretariat",
+        "authority": "Parliament of India",
+        "location": "New Delhi (Parliament House Complex)",
+        "mode": "Offline",
+        "duration": "1 month to 3 months",
+        "stipend": "₹20,000 per month (approximate standard, varies by scheme tier)",
+        "educationLevel": "Postgraduate / Research",
+        "eligibility": [
+            "Indian citizens between 18 to 30 years of age",
+            "Pursuing postgraduate studies in Social Sciences, Law, Journalism, Finance, or Management",
+            "Exceptional academic credentials"
+        ],
+        "qualification": [
+            "Social Sciences, Law, Journalism, Political Science"
+        ],
+        "application": {
+            "procedure": [
+                "Download the application form from the Lok Sabha website",
+                "Submit a recommendation letter from the University Head along with a write-up/essay on a specified parliamentary topic",
+                "Send the physical/scanned application to PRIDE, Lok Sabha Secretariat before the deadline"
+            ],
+            "url": "https://loksabha.nic.in",
+            "applicationDates": "Notified annually (Usually around May-June)",
+            "internshipDates": "Usually aligned with Parliament sessions or Winter/Summer breaks"
+        },
+        "officialSources": [
+            {
+                "sourceName": "Lok Sabha Official Website",
+                "url": "https://loksabha.nic.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Legislative & Policy",
+            "targetAudience": [
+                "Political Science Students",
+                "Law Students",
+                "Journalism Students"
+            ],
+            "keywords": [
+                "Lok Sabha internship",
+                "Parliament internship",
+                "PRIDE internship"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against PRIDE Lok Sabha guidelines."
+        }
+    },
+    {
+        "id": "intern-national-museum",
+        "resourceType": "internship",
+        "name": "National Museum Internship",
+        "slug": "national-museum-internship",
+        "module": "internships",
+        "description": "Offers hands-on experience in museum administration, curating, conservation, and art history at India's premier museum.",
+        "organization": "National Museum, New Delhi",
+        "authority": "Ministry of Culture",
+        "location": "New Delhi",
+        "mode": "Offline",
+        "duration": "6 weeks to 12 weeks",
+        "stipend": "Unpaid",
+        "educationLevel": "Undergraduate (final year) and Postgraduate",
+        "eligibility": [
+            "Students pursuing degrees in History, Art History, Archaeology, Museology, Fine Arts, or Conservation",
+            "Genuine interest in heritage management and museum studies"
+        ],
+        "qualification": [
+            "History, Art History, Museology, Conservation"
+        ],
+        "application": {
+            "procedure": [
+                "Submit a detailed CV and a statement of interest indicating the preferred department (e.g., Numismatics, Painting, Conservation)",
+                "Include an institutional recommendation letter",
+                "Send applications via email or post to the National Museum administration"
+            ],
+            "url": "http://www.nationalmuseumindia.gov.in",
+            "applicationDates": "Rolling basis (Apply at least 1-2 months in advance)",
+            "internshipDates": "Rolling basis (Summer and Winter are popular)"
+        },
+        "officialSources": [
+            {
+                "sourceName": "National Museum India",
+                "url": "http://www.nationalmuseumindia.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Culture & Heritage",
+            "targetAudience": [
+                "History Students",
+                "Art History Students",
+                "Museology Students"
+            ],
+            "keywords": [
+                "National Museum internship",
+                "Museology internship",
+                "Art conservation internship"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against National Museum internship program structure."
+        }
+    },
+    {
+        "id": "intern-ministry-textiles",
+        "resourceType": "internship",
+        "name": "Ministry of Textiles Internship Scheme",
+        "slug": "ministry-of-textiles-internship",
+        "module": "internships",
+        "description": "Provides short-term exposure to students in the handloom, handicraft, and textile sectors, focusing on policy making, promotion, and supply chain.",
+        "organization": "Ministry of Textiles",
+        "authority": "Ministry of Textiles",
+        "location": "New Delhi (Udyog Bhawan)",
+        "mode": "Offline",
+        "duration": "2 months",
+        "stipend": "₹10,000 per month",
+        "educationLevel": "Undergraduate and Postgraduate",
+        "eligibility": [
+            "Students from NIFT, NID, Engineering Colleges, and Management Institutes",
+            "Students pursuing courses in Textile Engineering, Fashion Technology, Economics, and Management"
+        ],
+        "qualification": [
+            "Textile Engineering, Fashion Tech, Management, Economics"
+        ],
+        "application": {
+            "procedure": [
+                "Download the application format from the Ministry website",
+                "Submit the application endorsed by the Head of the Institution to the Economic Division of the Ministry",
+                "Candidates are selected based on academic merit and relevance of their coursework"
+            ],
+            "url": "https://texmin.nic.in",
+            "applicationDates": "Notified periodically",
+            "internshipDates": "Usually Summer (May-July)"
+        },
+        "officialSources": [
+            {
+                "sourceName": "Ministry of Textiles",
+                "url": "https://texmin.nic.in",
+                "sourceType": "ministry_website"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Industry & Textiles",
+            "targetAudience": [
+                "NIFT Students",
+                "Textile Engineering Students",
+                "Management Students"
+            ],
+            "keywords": [
+                "Textiles internship",
+                "NIFT government internship",
+                "Ministry of Textiles"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against Ministry of Textiles scheme details."
+        }
+    },
+    {
+        "id": "intern-isro-vssc",
+        "resourceType": "internship",
+        "name": "ISRO VSSC Student Internship",
+        "slug": "isro-vssc-student-internship",
+        "module": "internships",
+        "description": "Provides an opportunity for engineering and science students to carry out short-term internship or project work at the Vikram Sarabhai Space Centre (VSSC).",
+        "organization": "Vikram Sarabhai Space Centre (VSSC), ISRO",
+        "authority": "Indian Space Research Organisation (ISRO)",
+        "location": "Thiruvananthapuram, Kerala",
+        "mode": "Offline",
+        "duration": "Minimum 21 days, maximum 45 days (for internship)",
+        "stipend": "Unpaid",
+        "educationLevel": "Undergraduate and Postgraduate",
+        "eligibility": [
+            "B.E/B.Tech students (completed 6th semester) or M.E/M.Tech/M.Sc students (completed 1st semester)",
+            "Must have a minimum of 60% marks or 6.32 CGPA up to the last completed semester",
+            "Must be an Indian citizen"
+        ],
+        "qualification": [
+            "Aerospace, Mechanical, Electrical, Electronics, Computer Science, Physics, Mathematics"
+        ],
+        "application": {
+            "procedure": [
+                "Apply online via the VSSC portal in the 'Student Projects/Internship' section",
+                "Submit an official bonafide/recommendation letter from the Principal/HOD in the specified format",
+                "Clearances and allocation to specific divisions are subject to availability of guides"
+            ],
+            "url": "https://www.vssc.gov.in",
+            "applicationDates": "Apply at least one month before the intended start date",
+            "internshipDates": "Rolling basis (Often aligned with semester breaks)"
+        },
+        "officialSources": [
+            {
+                "sourceName": "VSSC ISRO Official Website",
+                "url": "https://www.vssc.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Space & Research",
+            "targetAudience": [
+                "Engineering Students",
+                "Science Students",
+                "B.Tech Students"
+            ],
+            "keywords": [
+                "ISRO internship",
+                "VSSC internship",
+                "Space research student project"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against VSSC HRDD student project guidelines."
+        }
+    },
+    {
+        "id": "intern-drdo-inmas",
+        "resourceType": "internship",
+        "name": "DRDO INMAS Internship / Project Training",
+        "slug": "drdo-inmas-internship",
+        "module": "internships",
+        "description": "Institute of Nuclear Medicine and Allied Sciences (INMAS), a premier DRDO lab, offers project training and internships in life sciences, biotechnology, and biomedical engineering.",
+        "organization": "INMAS, DRDO",
+        "authority": "Defence Research and Development Organisation (DRDO)",
+        "location": "New Delhi",
+        "mode": "Offline",
+        "duration": "1 month to 6 months",
+        "stipend": "Unpaid (for short-term interns); Paid only if inducted under formal Apprentice or JRF schemes",
+        "educationLevel": "Undergraduate (final year) and Postgraduate",
+        "eligibility": [
+            "Pursuing B.Tech/M.Tech/M.Sc in Biotechnology, Biomedical Sciences, Chemistry, Pharma, or related life sciences",
+            "Requires a formal recommendation from the college/university"
+        ],
+        "qualification": [
+            "Life Sciences, Biotechnology, Pharma, Biomedical Engineering"
+        ],
+        "application": {
+            "procedure": [
+                "Candidates must find an alignment with the ongoing research domains of INMAS",
+                "Send the CV and institutional recommendation letter directly to the HRD division of INMAS",
+                "Selection is highly competitive and depends entirely on the availability of a scientist/mentor"
+            ],
+            "url": "https://www.drdo.gov.in/labs-and-establishments/institute-nuclear-medicine-allied-sciences-inmas",
+            "applicationDates": "Rolling basis",
+            "internshipDates": "Rolling basis"
+        },
+        "officialSources": [
+            {
+                "sourceName": "DRDO INMAS Webpage",
+                "url": "https://www.drdo.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Defence & Science",
+            "targetAudience": [
+                "Biotech Students",
+                "Life Science Students",
+                "Pharma Students"
+            ],
+            "keywords": [
+                "DRDO internship",
+                "INMAS training",
+                "Biomedical internship"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against standard DRDO lab student training policies."
+        }
+    },
+    {
+        "id": "intern-csir-neeri",
+        "resourceType": "internship",
+        "name": "CSIR-NEERI Student Internship/Project",
+        "slug": "csir-neeri-internship",
+        "module": "internships",
+        "description": "CSIR-National Environmental Engineering Research Institute offers internships for students to work on environmental science and engineering R&D projects.",
+        "organization": "CSIR-NEERI",
+        "authority": "Council of Scientific and Industrial Research (CSIR)",
+        "location": "Nagpur (HQ) and Zonal Centers (Mumbai, Delhi, Chennai, etc.)",
+        "mode": "Offline",
+        "duration": "3 months to 6 months",
+        "stipend": "Unpaid (unless engaged as Project Assistant via interviews)",
+        "educationLevel": "Undergraduate, Postgraduate",
+        "eligibility": [
+            "B.E/B.Tech (Civil/Chemical/Environmental), M.Sc (Environmental Science/Chemistry/Microbiology), or M.Tech students",
+            "The internship must be a mandatory part of the curriculum (for thesis/project work)"
+        ],
+        "qualification": [
+            "Environmental Engineering, Chemistry, Microbiology, Chemical Engineering"
+        ],
+        "application": {
+            "procedure": [
+                "Apply via the CSIR-NEERI online portal for student projects",
+                "Upload the official recommendation letter from the University HOD",
+                "Select the preferred division based on the candidate's core subject",
+                "Approval depends on the intake capacity of the respective scientists"
+            ],
+            "url": "https://www.neeri.res.in",
+            "applicationDates": "Rolling basis",
+            "internshipDates": "Rolling basis"
+        },
+        "officialSources": [
+            {
+                "sourceName": "CSIR-NEERI Official Website",
+                "url": "https://www.neeri.res.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Scientific Research",
+            "targetAudience": [
+                "Environmental Engineers",
+                "Science Students",
+                "Chemical Engineers"
+            ],
+            "keywords": [
+                "CSIR NEERI internship",
+                "Environmental engineering internship",
+                "NEERI project"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against CSIR-NEERI skill development and student project rules."
+        }
+    },
+    {
+        "id": "intern-aai",
+        "resourceType": "internship",
+        "name": "Airports Authority of India (AAI) Apprenticeship",
+        "slug": "aai-apprenticeship-internship",
+        "module": "internships",
+        "description": "One-year apprenticeship training program for engineering and diploma graduates to gain practical experience in airport operations, engineering, and IT.",
+        "organization": "Airports Authority of India (AAI)",
+        "authority": "Ministry of Civil Aviation",
+        "location": "Various Airports and AAI regional offices across India",
+        "mode": "Offline",
+        "duration": "1 year",
+        "stipend": "₹15,000 per month (Graduate) / ₹12,000 per month (Diploma) / ₹9,000 (ITI)",
+        "educationLevel": "Graduate / Diploma / ITI pass outs",
+        "eligibility": [
+            "Indian Nationals belonging to the specified region/state for which the notification is issued",
+            "Must have completed Degree/Diploma in the last 3 years",
+            "Must not have completed any apprenticeship training elsewhere"
+        ],
+        "qualification": [
+            "B.E/B.Tech/Diploma in Civil, Electrical, Electronics, IT, Computer Science, Aeronautics"
+        ],
+        "application": {
+            "procedure": [
+                "Candidates must register on the NATS (National Apprenticeship Training Scheme) portal",
+                "Find the AAI establishment ID in the portal based on the region",
+                "Apply directly through the NATS portal",
+                "Selection is strictly based on the percentage of marks in the qualifying degree/diploma"
+            ],
+            "url": "https://www.aai.aero",
+            "applicationDates": "Notified regionally (e.g., Northern Region, Western Region)",
+            "internshipDates": "1-year contract commencing upon joining"
+        },
+        "officialSources": [
+            {
+                "sourceName": "AAI Careers Portal",
+                "url": "https://www.aai.aero",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Aviation & Engineering",
+            "targetAudience": [
+                "Engineering Graduates",
+                "Diploma Holders",
+                "ITI Pass"
+            ],
+            "keywords": [
+                "AAI apprenticeship",
+                "Airport internship",
+                "NATS AAI",
+                "Aviation engineer internship"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against AAI Apprenticeship recruitment notifications."
+        }
+    },
+    {
+        "id": "intern-dmeo-niti-aayog",
+        "resourceType": "internship",
+        "name": "NITI Aayog DMEO Internship",
+        "slug": "dmeo-niti-aayog-internship",
+        "module": "internships",
+        "description": "Internship with the Development Monitoring and Evaluation Office (DMEO) of NITI Aayog, focusing on monitoring and evaluating government schemes and programs.",
+        "organization": "Development Monitoring and Evaluation Office (DMEO)",
+        "authority": "NITI Aayog",
+        "location": "New Delhi",
+        "mode": "Offline",
+        "duration": "6 weeks to 6 months",
+        "stipend": "Unpaid",
+        "educationLevel": "Undergraduate, Postgraduate, and Research Scholars",
+        "eligibility": [
+            "UG/PG/Ph.D. students from recognized universities",
+            "Excellent academic record (minimum 70-85% depending on level)",
+            "Interest in data analysis, public policy evaluation, and statistics"
+        ],
+        "qualification": [
+            "Economics, Statistics, Public Policy, Data Science, Engineering, Management"
+        ],
+        "application": {
+            "procedure": [
+                "Apply via the general NITI Aayog internship portal",
+                "Select 'DMEO' as the preferred vertical/division during the application process",
+                "Applications are reviewed by DMEO officials based on evaluation project requirements"
+            ],
+            "url": "https://dmeo.gov.in/work-with-us/internships",
+            "applicationDates": "1st to 10th of every month",
+            "internshipDates": "Rolling basis"
+        },
+        "officialSources": [
+            {
+                "sourceName": "DMEO NITI Aayog Portal",
+                "url": "https://dmeo.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Public Policy & Evaluation",
+            "targetAudience": [
+                "Economics Students",
+                "Public Policy Students",
+                "Data Analysts"
+            ],
+            "keywords": [
+                "DMEO internship",
+                "Policy evaluation",
+                "NITI Aayog DMEO"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against DMEO NITI Aayog guidelines."
+        }
+    },
+    {
+        "id": "intern-mca-general",
+        "resourceType": "internship",
+        "name": "Ministry of Corporate Affairs (MCA) Internship Scheme",
+        "slug": "ministry-corporate-affairs-internship",
+        "module": "internships",
+        "description": "General internship with MCA to familiarize students with corporate governance, insolvency, competition law, and corporate law frameworks.",
+        "organization": "Ministry of Corporate Affairs (MCA)",
+        "authority": "Ministry of Corporate Affairs",
+        "location": "New Delhi",
+        "mode": "Offline",
+        "duration": "2 months",
+        "stipend": "₹10,000 per month",
+        "educationLevel": "Postgraduate and Professional",
+        "eligibility": [
+            "Pursuing postgraduate courses in Law, Economics, Finance, Commerce, or Management",
+            "Students pursuing professional courses like CA, CS, CMA in the final stages",
+            "Outstanding academic record"
+        ],
+        "qualification": [
+            "Law, CA, CS, CMA, Economics, MBA Finance"
+        ],
+        "application": {
+            "procedure": [
+                "Check the MCA website for the internship notification",
+                "Submit the application in the prescribed format along with a recommendation letter from the institution",
+                "Selection is done by a screening committee in the Ministry"
+            ],
+            "url": "https://www.mca.gov.in",
+            "applicationDates": "Notified periodically",
+            "internshipDates": "Summer/Winter batches or as notified"
+        },
+        "officialSources": [
+            {
+                "sourceName": "MCA Official Website",
+                "url": "https://www.mca.gov.in",
+                "sourceType": "ministry_website"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Corporate Law & Finance",
+            "targetAudience": [
+                "Law Students",
+                "CA/CS Students",
+                "MBA Students"
+            ],
+            "keywords": [
+                "MCA internship",
+                "Corporate law internship",
+                "Govt CA internship"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against MCA establishment circulars."
+        }
+    },
+    {
+        "id": "intern-ncpcr",
+        "resourceType": "internship",
+        "name": "NCPCR Internship Programme",
+        "slug": "ncpcr-internship",
+        "module": "internships",
+        "description": "Provides exposure to students on issues related to child rights, child protection, child labor, and the implementation of the POCSO and RTE Acts.",
+        "organization": "National Commission for Protection of Child Rights (NCPCR)",
+        "authority": "Ministry of Women and Child Development",
+        "location": "New Delhi",
+        "mode": "Offline",
+        "duration": "1 to 2 months",
+        "stipend": "Unpaid",
+        "educationLevel": "Undergraduate, Postgraduate",
+        "eligibility": [
+            "Students pursuing undergraduate/postgraduate degrees in Law, Social Work, Child Development, Sociology, or related fields",
+            "Must have a keen interest in child rights advocacy"
+        ],
+        "qualification": [
+            "Law, Social Work, Psychology, Sociology"
+        ],
+        "application": {
+            "procedure": [
+                "Download the application form from the NCPCR website",
+                "Send the filled application along with an NOC from the college via email or post to the Commission",
+                "Applications are reviewed on a rolling basis or batch basis depending on vacancies"
+            ],
+            "url": "https://ncpcr.gov.in",
+            "applicationDates": "Rolling basis",
+            "internshipDates": "Rolling basis"
+        },
+        "officialSources": [
+            {
+                "sourceName": "NCPCR Official Website",
+                "url": "https://ncpcr.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Social Welfare & Rights",
+            "targetAudience": [
+                "Law Students",
+                "Social Work Students"
+            ],
+            "keywords": [
+                "NCPCR internship",
+                "Child rights internship",
+                "NGO government internship"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against NCPCR training/internship rules."
+        }
+    },
+    {
+        "id": "intern-ncw",
+        "resourceType": "internship",
+        "name": "National Commission for Women (NCW) Internship",
+        "slug": "ncw-internship-programme",
+        "module": "internships",
+        "description": "Aims to engage students in various activities of the Commission to understand issues concerning women, legal rights, and policy interventions.",
+        "organization": "National Commission for Women (NCW)",
+        "authority": "Ministry of Women and Child Development",
+        "location": "New Delhi",
+        "mode": "Offline",
+        "duration": "1 month to 2 months",
+        "stipend": "Unpaid (However, some specific schemes under NCW provide an honorarium; standard internship is unpaid)",
+        "educationLevel": "Undergraduate, Postgraduate",
+        "eligibility": [
+            "Students enrolled in UG/PG courses in Law, Social Work, Sociology, Gender Studies, and related disciplines",
+            "Candidates must have a minimum of 60% marks in their preceding examinations"
+        ],
+        "qualification": [
+            "Law, Gender Studies, Social Work, Sociology"
+        ],
+        "application": {
+            "procedure": [
+                "Register on the NCW Internship online portal",
+                "Upload a 500-word Statement of Purpose on why they want to intern with NCW and what they expect to learn",
+                "Upload the institutional recommendation letter",
+                "Submit the application during the active window (usually open year-round for different quarters)"
+            ],
+            "url": "http://ncw.nic.in",
+            "applicationDates": "Rolling basis / Quarterly",
+            "internshipDates": "As selected per quarter"
+        },
+        "officialSources": [
+            {
+                "sourceName": "NCW Internship Portal",
+                "url": "http://ncw.nic.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Social Welfare & Rights",
+            "targetAudience": [
+                "Law Students",
+                "Social Work Students",
+                "Gender Studies Students"
+            ],
+            "keywords": [
+                "NCW internship",
+                "Women rights internship",
+                "National commission for women"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against NCW online internship portal rules."
+        }
+    },
+    {
+        "id": "intern-nidm",
+        "resourceType": "internship",
+        "name": "National Institute of Disaster Management (NIDM) Internship",
+        "slug": "nidm-internship-programme",
+        "module": "internships",
+        "description": "Familiarizes students with the principles and practices of disaster management, risk reduction, and climate resilience in India.",
+        "organization": "National Institute of Disaster Management (NIDM)",
+        "authority": "Ministry of Home Affairs",
+        "location": "New Delhi",
+        "mode": "Offline / Hybrid",
+        "duration": "2 months (extendable up to 6 months)",
+        "stipend": "₹10,000 per month (paid to a limited number of selected interns, others may join as unpaid interns)",
+        "educationLevel": "Postgraduate and Research Scholars",
+        "eligibility": [
+            "Students pursuing Masters/Ph.D. in Disaster Management, Geography, Environmental Science, Social Work, Engineering, or Planning",
+            "Must have secured a minimum of 60% marks in Graduation"
+        ],
+        "qualification": [
+            "Disaster Management, Environmental Science, Geography, Urban Planning"
+        ],
+        "application": {
+            "procedure": [
+                "Download the application form from the NIDM website",
+                "Submit the application with an NOC from the parent institution and a brief synopsis of the proposed project",
+                "Selection is done by the NIDM review committee based on the research proposal"
+            ],
+            "url": "https://nidm.gov.in",
+            "applicationDates": "Rolling basis (Recommended to apply 2 months in advance)",
+            "internshipDates": "Rolling basis"
+        },
+        "officialSources": [
+            {
+                "sourceName": "NIDM Official Website",
+                "url": "https://nidm.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Disaster Management & Environment",
+            "targetAudience": [
+                "Geography Students",
+                "Environmental Science Students",
+                "Planning Students"
+            ],
+            "keywords": [
+                "NIDM internship",
+                "Disaster management internship",
+                "Climate resilience internship"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against NIDM capacity building and internship framework."
+        }
+    },
+    {
+        "id": "intern-trai",
+        "resourceType": "internship",
+        "name": "TRAI Internship Scheme",
+        "slug": "trai-internship-scheme",
+        "module": "internships",
+        "description": "Offers an opportunity to understand the regulatory framework of the telecom and broadcasting sectors in India, dealing with policies, tariffs, and technology.",
+        "organization": "Telecom Regulatory Authority of India (TRAI)",
+        "authority": "Ministry of Communications",
+        "location": "New Delhi (HQ) and Regional Offices",
+        "mode": "Offline",
+        "duration": "2 months",
+        "stipend": "₹10,000 per month (Undergraduate) / ₹15,000 per month (Postgraduate/Research)",
+        "educationLevel": "Undergraduate, Postgraduate, and Research Scholars",
+        "eligibility": [
+            "UG students in their 3rd/4th year of Engineering (Electronics, Telecom, IT, Computer Science)",
+            "PG / Research students in Economics, Finance, Management, Law",
+            "Minimum 60% marks in the previous examinations"
+        ],
+        "qualification": [
+            "B.Tech/M.Tech (Telecom/IT/EC), Economics, Law, Finance"
+        ],
+        "application": {
+            "procedure": [
+                "Applications must be sent by the Head of the Institution/College to TRAI",
+                "An application format is available on the TRAI website",
+                "Shortlisted candidates may be called for a brief interview/interaction"
+            ],
+            "url": "https://www.trai.gov.in",
+            "applicationDates": "Rolling basis (Must apply at least one month in advance)",
+            "internshipDates": "Rolling basis"
+        },
+        "officialSources": [
+            {
+                "sourceName": "TRAI Official Website",
+                "url": "https://www.trai.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Telecom & Regulatory",
+            "targetAudience": [
+                "Engineering Students",
+                "Law Students",
+                "Economics Students"
+            ],
+            "keywords": [
+                "TRAI internship",
+                "Telecom internship",
+                "Regulatory internship"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against TRAI HR guidelines for internship."
+        }
+    }
+]

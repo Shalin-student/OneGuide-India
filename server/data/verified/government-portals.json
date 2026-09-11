@@ -1,0 +1,1439 @@
+[
+  {
+    "id": "portal-mygov",
+    "resourceType": "portal",
+    "name": "MyGov",
+    "slug": "mygov-citizen-engagement",
+    "module": "portals",
+    "description": "An innovative citizen engagement platform launched by the Government of India to promote active participation of Indian citizens in their country's governance and development.",
+    "authority": "Ministry of Electronics and Information Technology (MeitY)",
+    "state": "All India",
+    "portalType": "Citizen Engagement Platform",
+    "services": [
+      "Participate in policy discussions and polls",
+      "Submit ideas and feedback to government ministries",
+      "Participate in national contests, quizzes, and hackathons",
+      "Access verified government news and updates"
+    ],
+    "eligibility": [
+      "Open to all citizens of India and NRIs"
+    ],
+    "application": {
+      "mode": "online",
+      "url": "https://www.mygov.in"
+    },
+    "officialSources": [
+      {
+        "sourceName": "MyGov Official Portal",
+        "url": "https://www.mygov.in",
+        "sourceType": "official_portal"
+      }
+    ],
+    "searchMetadata": {
+      "category": "Governance",
+      "targetAudience": [
+        "Citizens",
+        "Youth",
+        "Policymakers"
+      ],
+      "keywords": [
+        "MyGov",
+        "Citizen Engagement",
+        "Government Polls",
+        "Policy Feedback",
+        "Govt Contests"
+      ]
+    },
+    "verification": {
+      "status": "verified",
+      "lastVerified": "2026-09-11",
+      "verifiedBy": "Web source verification",
+      "notes": "Verified against mygov.in official platform."
+    }
+  },
+  {
+    "id": "portal-digilocker",
+    "resourceType": "portal",
+    "name": "DigiLocker",
+    "slug": "digilocker-digital-wallet",
+    "module": "portals",
+    "description": "A flagship initiative under Digital India providing a secure cloud-based platform for storage, sharing, and verification of documents and certificates.",
+    "authority": "National e-Governance Division (NeGD), MeitY",
+    "state": "All India",
+    "portalType": "Digital Document Wallet",
+    "services": [
+      "Secure digital storage of personal documents",
+      "Direct issuance of authentic digital certificates (Aadhaar, Driving License, Marksheets) from issuing authorities",
+      "e-Sign facility to digitally sign self-uploaded documents",
+      "Document verification APIs for government and private institutions"
+    ],
+    "eligibility": [
+      "Any Indian citizen holding a valid Aadhaar card linked to a mobile number"
+    ],
+    "application": {
+      "mode": "online",
+      "url": "https://www.digilocker.gov.in"
+    },
+    "officialSources": [
+      {
+        "sourceName": "DigiLocker Portal",
+        "url": "https://www.digilocker.gov.in",
+        "sourceType": "official_portal"
+      }
+    ],
+    "searchMetadata": {
+      "category": "Digital Infrastructure",
+      "targetAudience": [
+        "Citizens",
+        "Students",
+        "Professionals"
+      ],
+      "keywords": [
+        "DigiLocker",
+        "Digital Wallet",
+        "e-Document Storage",
+        "Aadhaar Digital",
+        "Online Certificate Vault"
+      ]
+    },
+    "verification": {
+      "status": "verified",
+      "lastVerified": "2026-09-11",
+      "verifiedBy": "Web source verification",
+      "notes": "Verified against digilocker.gov.in platform details."
+    }
+  },
+  {
+    "id": "portal-umang",
+    "resourceType": "portal",
+    "name": "UMANG (Unified Mobile Application for New-age Governance)",
+    "slug": "umang-unified-governance-app",
+    "module": "portals",
+    "description": "A unified platform offering access to pan-India e-Government services from Central, State, and local bodies via a single mobile application and web portal.",
+    "authority": "National e-Governance Division (NeGD), MeitY",
+    "state": "All India",
+    "portalType": "Integrated e-Governance Platform",
+    "services": [
+      "Access to EPF passbook and claim tracking",
+      "Utility bill payments (Bharat BillPay)",
+      "Access to PAN, Aadhaar, and DigiLocker services",
+      "Information on hundreds of Central and State government schemes"
+    ],
+    "eligibility": [
+      "All Indian citizens with a mobile number"
+    ],
+    "application": {
+      "mode": "online",
+      "url": "https://web.umang.gov.in"
+    },
+    "officialSources": [
+      {
+        "sourceName": "UMANG Official Web Portal",
+        "url": "https://web.umang.gov.in",
+        "sourceType": "official_portal"
+      }
+    ],
+    "searchMetadata": {
+      "category": "e-Governance",
+      "targetAudience": [
+        "Citizens",
+        "Pensioners",
+        "Students"
+      ],
+      "keywords": [
+        "UMANG App",
+        "e-Governance",
+        "EPF check online",
+        "All govt services one app"
+      ]
+    },
+    "verification": {
+      "status": "verified",
+      "lastVerified": "2026-09-11",
+      "verifiedBy": "Web source verification",
+      "notes": "Verified against web.umang.gov.in platform features."
+    }
+  },
+  {
+    "id": "portal-nsp",
+    "resourceType": "portal",
+    "name": "National Scholarship Portal (NSP)",
+    "slug": "national-scholarship-portal",
+    "module": "portals",
+    "description": "A one-stop, digital platform for end-to-end processing of various scholarship schemes launched by the Central Government, State Governments, and UGC/AICTE.",
+    "authority": "Ministry of Electronics and Information Technology (MeitY)",
+    "state": "All India",
+    "portalType": "Education & Welfare Portal",
+    "services": [
+      "Student registration and application for multiple scholarship schemes",
+      "Online verification of applications by schools and institutes",
+      "Direct Benefit Transfer (DBT) of scholarship funds into students' bank accounts",
+      "Application status tracking"
+    ],
+    "eligibility": [
+      "Students from Class 1 to Ph.D. meeting respective scheme guidelines"
+    ],
+    "application": {
+      "mode": "online",
+      "url": "https://scholarships.gov.in"
+    },
+    "officialSources": [
+      {
+        "sourceName": "National Scholarship Portal",
+        "url": "https://scholarships.gov.in",
+        "sourceType": "official_portal"
+      }
+    ],
+    "searchMetadata": {
+      "category": "Education",
+      "targetAudience": [
+        "Students",
+        "Schools",
+        "Universities"
+      ],
+      "keywords": [
+        "NSP",
+        "National Scholarship Portal",
+        "Student DBT",
+        "Apply for scholarship"
+      ]
+    },
+    "verification": {
+      "status": "verified",
+      "lastVerified": "2026-09-11",
+      "verifiedBy": "Web source verification",
+      "notes": "Verified against scholarships.gov.in service catalog."
+    }
+  },
+  {
+    "id": "portal-parivahan",
+    "resourceType": "portal",
+    "name": "Parivahan Sewa",
+    "slug": "parivahan-sewa",
+    "module": "portals",
+    "description": "A comprehensive national portal computerizing vehicle registration (Vahan) and driving licenses (Sarathi) to improve efficiency and transparency in transport administration.",
+    "authority": "Ministry of Road Transport & Highways (MoRTH)",
+    "state": "All India",
+    "portalType": "Transport Services Portal",
+    "services": [
+      "Apply for Learner's and Permanent Driving Licenses",
+      "Vehicle registration details and transfer of ownership",
+      "Online payment of road tax and e-Challans",
+      "Fancy number booking and national permit application"
+    ],
+    "eligibility": [
+      "Vehicle owners and driving license applicants in India"
+    ],
+    "application": {
+      "mode": "online",
+      "url": "https://parivahan.gov.in"
+    },
+    "officialSources": [
+      {
+        "sourceName": "Parivahan Sewa Official Portal",
+        "url": "https://parivahan.gov.in",
+        "sourceType": "official_portal"
+      }
+    ],
+    "searchMetadata": {
+      "category": "Transport",
+      "targetAudience": [
+        "Vehicle Owners",
+        "Drivers",
+        "Transport Operators"
+      ],
+      "keywords": [
+        "Parivahan",
+        "Vahan",
+        "Sarathi",
+        "Driving License online",
+        "e-Challan payment"
+      ]
+    },
+    "verification": {
+      "status": "verified",
+      "lastVerified": "2026-09-11",
+      "verifiedBy": "Web source verification",
+      "notes": "Verified against MoRTH parivahan.gov.in services."
+    }
+  },
+  {
+    "id": "portal-passport-seva",
+    "resourceType": "portal",
+    "name": "Passport Seva",
+    "slug": "passport-seva",
+    "module": "portals",
+    "description": "The national portal for Indian passport application, renewal, and allied services aiming to deliver passport services to citizens in a timely, transparent, and accessible manner.",
+    "authority": "Ministry of External Affairs (MEA)",
+    "state": "All India",
+    "portalType": "Identity & Travel Portal",
+    "services": [
+      "Online application for fresh/re-issue of passports",
+      "Police Clearance Certificate (PCC) application",
+      "Appointment booking for Passport Seva Kendras (PSK)",
+      "Application tracking and fee payment"
+    ],
+    "eligibility": [
+      "Citizens of India"
+    ],
+    "application": {
+      "mode": "online",
+      "url": "https://passportindia.gov.in"
+    },
+    "officialSources": [
+      {
+        "sourceName": "Passport Seva Portal",
+        "url": "https://passportindia.gov.in",
+        "sourceType": "official_portal"
+      }
+    ],
+    "searchMetadata": {
+      "category": "Travel",
+      "targetAudience": [
+        "Citizens",
+        "NRIs"
+      ],
+      "keywords": [
+        "Passport Seva",
+        "Apply passport online",
+        "PCC online",
+        "Passport tracking"
+      ]
+    },
+    "verification": {
+      "status": "verified",
+      "lastVerified": "2026-09-11",
+      "verifiedBy": "Web source verification",
+      "notes": "Verified against passportindia.gov.in procedures."
+    }
+  },
+  {
+    "id": "portal-eshram",
+    "resourceType": "portal",
+    "name": "e-Shram Portal",
+    "slug": "eshram-portal",
+    "module": "portals",
+    "description": "A national database portal to register unorganized workers across the country, seeding their profiles with Aadhaar to facilitate the delivery of social security schemes.",
+    "authority": "Ministry of Labour & Employment",
+    "state": "All India",
+    "portalType": "Labour & Welfare Database",
+    "services": [
+      "Self-registration of unorganized workers",
+      "Issuance of Universal Account Number (UAN) e-Shram card",
+      "Integration with accidental insurance (PMSBY) and job portals",
+      "Profile updates and scheme matching"
+    ],
+    "eligibility": [
+      "Unorganized sector workers aged between 16 and 59 who are not EPFO/ESIC members and non-income tax payees"
+    ],
+    "application": {
+      "mode": "online",
+      "url": "https://eshram.gov.in"
+    },
+    "officialSources": [
+      {
+        "sourceName": "e-Shram Official Portal",
+        "url": "https://eshram.gov.in",
+        "sourceType": "official_portal"
+      }
+    ],
+    "searchMetadata": {
+      "category": "Social Welfare",
+      "targetAudience": [
+        "Unorganized Workers",
+        "Migrant Laborers",
+        "Gig Workers"
+      ],
+      "keywords": [
+        "e-Shram",
+        "UAN card",
+        "Labour registration",
+        "Worker database"
+      ]
+    },
+    "verification": {
+      "status": "verified",
+      "lastVerified": "2026-09-11",
+      "verifiedBy": "Web source verification",
+      "notes": "Verified against eshram.gov.in registration framework."
+    }
+  },
+  {
+    "id": "portal-udyam",
+    "resourceType": "portal",
+    "name": "Udyam Registration Portal",
+    "slug": "udyam-registration-portal",
+    "module": "portals",
+    "description": "The official Government of India portal for paperless, self-declaration based registration of Micro, Small, and Medium Enterprises (MSMEs).",
+    "authority": "Ministry of Micro, Small and Medium Enterprises (MSME)",
+    "state": "All India",
+    "portalType": "Business Registration Portal",
+    "services": [
+      "New enterprise registration",
+      "Udyog Aadhaar Memorandum (UAM) to Udyam migration",
+      "Instant generation of Udyam e-Certificate",
+      "Integration with Income Tax and GST APIs for turnover verification"
+    ],
+    "eligibility": [
+      "Any entity starting or operating an MSME in manufacturing or services sector"
+    ],
+    "application": {
+      "mode": "online",
+      "url": "https://udyamregistration.gov.in"
+    },
+    "officialSources": [
+      {
+        "sourceName": "Udyam Registration Portal",
+        "url": "https://udyamregistration.gov.in",
+        "sourceType": "official_portal"
+      }
+    ],
+    "searchMetadata": {
+      "category": "Business",
+      "targetAudience": [
+        "Entrepreneurs",
+        "MSMEs",
+        "Startups"
+      ],
+      "keywords": [
+        "Udyam",
+        "MSME Registration",
+        "Udyog Aadhaar",
+        "Small Business Registration"
+      ]
+    },
+    "verification": {
+      "status": "verified",
+      "lastVerified": "2026-09-11",
+      "verifiedBy": "Web source verification",
+      "notes": "Verified against udyamregistration.gov.in."
+    }
+  },
+  {
+    "id": "portal-incometax",
+    "resourceType": "portal",
+    "name": "Income Tax e-Filing Portal",
+    "slug": "income-tax-efiling",
+    "module": "portals",
+    "description": "The official e-filing portal of the Income Tax Department enabling taxpayers to file returns, respond to notices, and manage tax-related compliance digitally.",
+    "authority": "Income Tax Department, Ministry of Finance",
+    "state": "All India",
+    "portalType": "Taxation & Compliance",
+    "services": [
+      "Filing of Income Tax Returns (ITR)",
+      "Instant e-PAN generation via Aadhaar",
+      "Link Aadhaar with PAN",
+      "View Annual Information Statement (AIS) and Form 26AS",
+      "e-Verification of returns and response to notices"
+    ],
+    "eligibility": [
+      "All Indian taxpayers, individuals, HUFs, and corporate entities"
+    ],
+    "application": {
+      "mode": "online",
+      "url": "https://www.incometax.gov.in"
+    },
+    "officialSources": [
+      {
+        "sourceName": "Income Tax e-Filing Portal",
+        "url": "https://www.incometax.gov.in",
+        "sourceType": "official_portal"
+      }
+    ],
+    "searchMetadata": {
+      "category": "Taxation",
+      "targetAudience": [
+        "Taxpayers",
+        "Businesses",
+        "Chartered Accountants"
+      ],
+      "keywords": [
+        "e-Filing",
+        "ITR filing online",
+        "Link Aadhaar PAN",
+        "Income Tax portal",
+        "e-PAN"
+      ]
+    },
+    "verification": {
+      "status": "verified",
+      "lastVerified": "2026-09-11",
+      "verifiedBy": "Web source verification",
+      "notes": "Verified against incometax.gov.in portal functions."
+    }
+  },
+  {
+    "id": "portal-gst",
+    "resourceType": "portal",
+    "name": "GST Portal",
+    "slug": "gst-portal",
+    "module": "portals",
+    "description": "The common IT portal facilitating the registration, return filing, and tax payment processes for taxpayers under the Goods and Services Tax regime.",
+    "authority": "Goods and Services Tax Network (GSTN)",
+    "state": "All India",
+    "portalType": "Taxation & Compliance",
+    "services": [
+      "New GST Registration and amendment",
+      "Filing of GST Returns (GSTR-1, GSTR-3B, etc.)",
+      "Generation of electronic way bills (e-Way Bill linkage)",
+      "Tax payment challan generation",
+      "Refund application and tracking"
+    ],
+    "eligibility": [
+      "All businesses registered or required to register under GST laws"
+    ],
+    "application": {
+      "mode": "online",
+      "url": "https://www.gst.gov.in"
+    },
+    "officialSources": [
+      {
+        "sourceName": "GST Portal",
+        "url": "https://www.gst.gov.in",
+        "sourceType": "official_portal"
+      }
+    ],
+    "searchMetadata": {
+      "category": "Taxation",
+      "targetAudience": [
+        "Businesses",
+        "Tax Professionals",
+        "Traders"
+      ],
+      "keywords": [
+        "GST Portal",
+        "File GSTR",
+        "GST Registration",
+        "GSTN",
+        "GST Refund"
+      ]
+    },
+    "verification": {
+      "status": "verified",
+      "lastVerified": "2026-09-11",
+      "verifiedBy": "Web source verification",
+      "notes": "Verified against gst.gov.in functionalities."
+    }
+  },
+  {
+    "id": "portal-esanjeevani",
+    "resourceType": "portal",
+    "name": "eSanjeevani - National Telemedicine Service",
+    "slug": "esanjeevani-telemedicine",
+    "module": "portals",
+    "description": "The National Telemedicine Service of the Ministry of Health, offering tele-consultations between patients and doctors (OPD) directly from home.",
+    "authority": "Ministry of Health and Family Welfare",
+    "state": "All India",
+    "portalType": "Healthcare Telemedicine",
+    "services": [
+      "Free tele-consultations with registered doctors",
+      "E-prescription generation",
+      "Specialist OPD services",
+      "Patient health record management"
+    ],
+    "eligibility": [
+      "All Indian citizens seeking medical advice"
+    ],
+    "application": {
+      "mode": "online",
+      "url": "https://esanjeevani.mohfw.gov.in"
+    },
+    "officialSources": [
+      {
+        "sourceName": "eSanjeevani Portal",
+        "url": "https://esanjeevani.mohfw.gov.in",
+        "sourceType": "official_portal"
+      }
+    ],
+    "searchMetadata": {
+      "category": "Healthcare",
+      "targetAudience": [
+        "Patients",
+        "Senior Citizens",
+        "Rural Citizens"
+      ],
+      "keywords": [
+        "eSanjeevani",
+        "Telemedicine",
+        "Online Doctor India",
+        "Free health consultation",
+        "e-prescription"
+      ]
+    },
+    "verification": {
+      "status": "verified",
+      "lastVerified": "2026-09-11",
+      "verifiedBy": "Web source verification",
+      "notes": "Verified against esanjeevani.mohfw.gov.in."
+    }
+  },
+  {
+    "id": "portal-abha",
+    "resourceType": "portal",
+    "name": "ABHA Portal (Ayushman Bharat Digital Mission)",
+    "slug": "abha-portal-abdm",
+    "module": "portals",
+    "description": "The official portal to create and manage the Ayushman Bharat Health Account (ABHA) ID, facilitating seamless digital health record sharing.",
+    "authority": "National Health Authority (NHA)",
+    "state": "All India",
+    "portalType": "Digital Health Infrastructure",
+    "services": [
+      "Creation of 14-digit ABHA Number via Aadhaar/DL",
+      "Creation of ABHA Address (PHR Address)",
+      "Linking of health facility records to ABHA ID",
+      "Consent management for sharing health records"
+    ],
+    "eligibility": [
+      "All Indian citizens"
+    ],
+    "application": {
+      "mode": "online",
+      "url": "https://abha.abdm.gov.in"
+    },
+    "officialSources": [
+      {
+        "sourceName": "ABHA ABDM Portal",
+        "url": "https://abha.abdm.gov.in",
+        "sourceType": "official_portal"
+      }
+    ],
+    "searchMetadata": {
+      "category": "Healthcare",
+      "targetAudience": [
+        "Citizens",
+        "Patients",
+        "Healthcare Providers"
+      ],
+      "keywords": [
+        "ABHA",
+        "Health ID create",
+        "NDHM",
+        "Ayushman Bharat Digital Mission",
+        "ABHA login"
+      ]
+    },
+    "verification": {
+      "status": "verified",
+      "lastVerified": "2026-09-11",
+      "verifiedBy": "Web source verification",
+      "notes": "Verified against ABDM framework."
+    }
+  },
+  {
+    "id": "portal-nvsp",
+    "resourceType": "portal",
+    "name": "Voter Services Portal (ECI)",
+    "slug": "voter-services-portal-eci",
+    "module": "portals",
+    "description": "The official online portal by the Election Commission of India offering a single window for voter registration, updates, and electoral roll searches.",
+    "authority": "Election Commission of India (ECI)",
+    "state": "All India",
+    "portalType": "Electoral Services",
+    "services": [
+      "New Voter Registration (Form 6)",
+      "Correction of entries in the Electoral Roll (Form 8)",
+      "Deletion or objection in electoral roll (Form 7)",
+      "Download e-EPIC (digital voter ID)",
+      "Search name in the voter list"
+    ],
+    "eligibility": [
+      "Indian citizens aged 18 and above, or turning 18 on qualifying dates"
+    ],
+    "application": {
+      "mode": "online",
+      "url": "https://voters.eci.gov.in"
+    },
+    "officialSources": [
+      {
+        "sourceName": "Voters ECI Portal",
+        "url": "https://voters.eci.gov.in",
+        "sourceType": "official_portal"
+      }
+    ],
+    "searchMetadata": {
+      "category": "Identity & Elections",
+      "targetAudience": [
+        "Citizens",
+        "Voters",
+        "Youth"
+      ],
+      "keywords": [
+        "NVSP",
+        "Voter ID apply",
+        "e-EPIC download",
+        "Election Commission portal",
+        "Check voter list"
+      ]
+    },
+    "verification": {
+      "status": "verified",
+      "lastVerified": "2026-09-11",
+      "verifiedBy": "Web source verification",
+      "notes": "Verified against the revamped ECI voter portal."
+    }
+  },
+  {
+    "id": "portal-cybercrime",
+    "resourceType": "portal",
+    "name": "National Cyber Crime Reporting Portal",
+    "slug": "national-cyber-crime-reporting-portal",
+    "module": "portals",
+    "description": "An initiative of the Government of India to facilitate victims and complainants to report cybercrime complaints online, especially crimes against women and children.",
+    "authority": "Ministry of Home Affairs (MHA)",
+    "state": "All India",
+    "portalType": "Law Enforcement & Security",
+    "services": [
+      "Report Cyber Crime related to Women/Children (anonymously if desired)",
+      "Report Financial Cyber Fraud (Helpline 1930)",
+      "Report other cyber crimes (social media, hacking, ransomware)",
+      "Track complaint status"
+    ],
+    "eligibility": [
+      "Any citizen or entity who is a victim of cybercrime"
+    ],
+    "application": {
+      "mode": "online",
+      "url": "https://cybercrime.gov.in"
+    },
+    "officialSources": [
+      {
+        "sourceName": "National Cyber Crime Reporting Portal",
+        "url": "https://cybercrime.gov.in",
+        "sourceType": "official_portal"
+      }
+    ],
+    "searchMetadata": {
+      "category": "Security & Law Enforcement",
+      "targetAudience": [
+        "Victims of Cybercrime",
+        "Citizens"
+      ],
+      "keywords": [
+        "Cybercrime complaint",
+        "Report online fraud",
+        "Helpline 1930",
+        "Cyber police"
+      ]
+    },
+    "verification": {
+      "status": "verified",
+      "lastVerified": "2026-09-11",
+      "verifiedBy": "Web source verification",
+      "notes": "Verified against cybercrime.gov.in services."
+    }
+  },
+  {
+    "id": "portal-mgnrega",
+    "resourceType": "portal",
+    "name": "MGNREGA Portal",
+    "slug": "mgnrega-portal",
+    "module": "portals",
+    "description": "The comprehensive MIS portal for the Mahatma Gandhi National Rural Employment Guarantee Act, tracking job cards, rural public works, and wage payments.",
+    "authority": "Ministry of Rural Development (MoRD)",
+    "state": "All India",
+    "portalType": "Rural Development & Welfare",
+    "services": [
+      "Job Card verification and tracking",
+      "FMR (Financial Management Report) and Muster Roll tracking",
+      "Geo-MGNREGA asset mapping viewing",
+      "Grievance registration and tracking"
+    ],
+    "eligibility": [
+      "Adult members of rural households seeking unskilled manual work"
+    ],
+    "application": {
+      "mode": "online",
+      "url": "https://nrega.nic.in"
+    },
+    "officialSources": [
+      {
+        "sourceName": "MGNREGA Official Portal",
+        "url": "https://nrega.nic.in",
+        "sourceType": "official_portal"
+      }
+    ],
+    "searchMetadata": {
+      "category": "Rural Employment",
+      "targetAudience": [
+        "Rural Workers",
+        "Gram Panchayats",
+        "Researchers"
+      ],
+      "keywords": [
+        "NREGA",
+        "MGNREGA job card",
+        "Muster roll check",
+        "Rural employment portal"
+      ]
+    },
+    "verification": {
+      "status": "verified",
+      "lastVerified": "2026-09-11",
+      "verifiedBy": "Web source verification",
+      "notes": "Verified against nrega.nic.in functionality."
+    }
+  },
+  {
+    "id": "portal-epfo-member",
+    "resourceType": "portal",
+    "name": "EPFO Member e-Sewa",
+    "slug": "epfo-member-e-sewa",
+    "module": "portals",
+    "description": "A dedicated portal by the Employees' Provident Fund Organisation providing comprehensive digital services to EPF account holders.",
+    "authority": "Employees' Provident Fund Organisation (EPFO), Ministry of Labour and Employment",
+    "state": "All India",
+    "portalType": "Financial & Retirement Planning",
+    "services": [
+      "UAN Activation and KYC linkage",
+      "Download PF Passbook",
+      "Online PF advance and final withdrawal claims",
+      "Track claim status",
+      "Transfer PF accumulation from previous employer"
+    ],
+    "eligibility": [
+      "Employees of formal sector organizations registered under the EPF Act"
+    ],
+    "application": {
+      "mode": "online",
+      "url": "https://unifiedportal-mem.epfindia.gov.in"
+    },
+    "officialSources": [
+      {
+        "sourceName": "EPFO Unified Portal",
+        "url": "https://unifiedportal-mem.epfindia.gov.in",
+        "sourceType": "official_portal"
+      }
+    ],
+    "searchMetadata": {
+      "category": "Employment & Labour",
+      "targetAudience": [
+        "Salaried Employees",
+        "Pensioners"
+      ],
+      "keywords": [
+        "EPFO login",
+        "UAN login",
+        "PF withdrawal online",
+        "PF passbook check",
+        "Member eSewa"
+      ]
+    },
+    "verification": {
+      "status": "verified",
+      "lastVerified": "2026-09-11",
+      "verifiedBy": "Web source verification",
+      "notes": "Verified against EPFO Member portal."
+    }
+  },
+  {
+    "id": "portal-jansamarth",
+    "resourceType": "portal",
+    "name": "Jan Samarth Portal",
+    "slug": "jan-samarth-portal",
+    "module": "portals",
+    "description": "A one-stop digital portal linking multiple Credit-Linked Government Schemes, allowing citizens to check eligibility and apply for subsidized loans.",
+    "authority": "Department of Financial Services, Ministry of Finance",
+    "state": "All India",
+    "portalType": "Financial Inclusion & Credit",
+    "services": [
+      "Eligibility check across Education, Agriculture, Business, and Livelihood loans",
+      "Online loan application routing to multiple banks",
+      "Real-time approval tracking from banks",
+      "Integration with CBDT, UIDAI, and state portals for digital verification"
+    ],
+    "eligibility": [
+      "Citizens, students, farmers, and entrepreneurs seeking government-subsidized credit"
+    ],
+    "application": {
+      "mode": "online",
+      "url": "https://www.jansamarth.in"
+    },
+    "officialSources": [
+      {
+        "sourceName": "Jan Samarth Portal",
+        "url": "https://www.jansamarth.in",
+        "sourceType": "official_portal"
+      }
+    ],
+    "searchMetadata": {
+      "category": "Finance & Credit",
+      "targetAudience": [
+        "Entrepreneurs",
+        "Students",
+        "Farmers"
+      ],
+      "keywords": [
+        "Jan Samarth",
+        "Apply Govt Loan",
+        "Subsidy loan portal",
+        "Education loan apply",
+        "Business loan subsidy"
+      ]
+    },
+    "verification": {
+      "status": "verified",
+      "lastVerified": "2026-09-11",
+      "verifiedBy": "Web source verification",
+      "notes": "Verified against jansamarth.in platform."
+    }
+  },
+  {
+    "id": "portal-skill-india-digital",
+    "resourceType": "portal",
+    "name": "Skill India Digital (SID)",
+    "slug": "skill-india-digital",
+    "module": "portals",
+    "description": "The state-of-the-art digital platform for the skilling, education, employment, and entrepreneurship ecosystem in India.",
+    "authority": "Ministry of Skill Development and Entrepreneurship (MSDE) / NSDC",
+    "state": "All India",
+    "portalType": "Skill Development & Employment",
+    "services": [
+      "Discover and enroll in PMKVY and other skilling courses",
+      "Access digital skill credentials and certificates via DigiLocker",
+      "Find apprenticeship and job opportunities via AI-matching",
+      "Location-based mapping of nearby training centers"
+    ],
+    "eligibility": [
+      "Youth, job seekers, and unorganized workers seeking upskilling"
+    ],
+    "application": {
+      "mode": "online",
+      "url": "https://www.skillindiadigital.gov.in"
+    },
+    "officialSources": [
+      {
+        "sourceName": "Skill India Digital Hub",
+        "url": "https://www.skillindiadigital.gov.in",
+        "sourceType": "official_portal"
+      }
+    ],
+    "searchMetadata": {
+      "category": "Skill Development",
+      "targetAudience": [
+        "Youth",
+        "Job Seekers",
+        "Students"
+      ],
+      "keywords": [
+        "Skill India Digital",
+        "PMKVY portal",
+        "Free skill courses online",
+        "Apprenticeship search"
+      ]
+    },
+    "verification": {
+      "status": "verified",
+      "lastVerified": "2026-09-11",
+      "verifiedBy": "Web source verification",
+      "notes": "Verified against SID platform."
+    }
+  },
+  {
+    "id": "portal-ncs",
+    "resourceType": "portal",
+    "name": "National Career Service (NCS)",
+    "slug": "national-career-service-ncs",
+    "module": "portals",
+    "description": "A mission mode project providing a variety of employment-related services like job matching, career counseling, and vocational guidance.",
+    "authority": "Ministry of Labour & Employment",
+    "state": "All India",
+    "portalType": "Employment Exchange",
+    "services": [
+      "Job seeker registration and resume building",
+      "Job search and application across private and government sectors",
+      "Access to career counselors and local job fairs",
+      "Employer registration for candidate search"
+    ],
+    "eligibility": [
+      "All Indian job seekers and registered employers"
+    ],
+    "application": {
+      "mode": "online",
+      "url": "https://www.ncs.gov.in"
+    },
+    "officialSources": [
+      {
+        "sourceName": "NCS Official Portal",
+        "url": "https://www.ncs.gov.in",
+        "sourceType": "official_portal"
+      }
+    ],
+    "searchMetadata": {
+      "category": "Employment",
+      "targetAudience": [
+        "Job Seekers",
+        "Employers",
+        "Students"
+      ],
+      "keywords": [
+        "NCS portal",
+        "National Career Service",
+        "Govt job portal",
+        "Employment exchange online"
+      ]
+    },
+    "verification": {
+      "status": "verified",
+      "lastVerified": "2026-09-11",
+      "verifiedBy": "Web source verification",
+      "notes": "Verified against ncs.gov.in."
+    }
+  },
+  {
+    "id": "portal-cpgrams",
+    "resourceType": "portal",
+    "name": "CPGRAMS (Centralized Public Grievance Redress and Monitoring System)",
+    "slug": "cpgrams-public-grievance",
+    "module": "portals",
+    "description": "An online platform available to citizens 24x7 to lodge their grievances to public authorities on any subject related to service delivery.",
+    "authority": "Department of Administrative Reforms and Public Grievances (DARPG)",
+    "state": "All India",
+    "portalType": "Grievance Redressal",
+    "services": [
+      "Register grievances against Central/State government departments",
+      "Track the status of lodged grievances",
+      "Send reminders/clarifications to the nodal officer",
+      "Appeal against resolved grievances if unsatisfied"
+    ],
+    "eligibility": [
+      "Any citizen of India facing issues with government service delivery"
+    ],
+    "application": {
+      "mode": "online",
+      "url": "https://pgportal.gov.in"
+    },
+    "officialSources": [
+      {
+        "sourceName": "CPGRAMS Portal",
+        "url": "https://pgportal.gov.in",
+        "sourceType": "official_portal"
+      }
+    ],
+    "searchMetadata": {
+      "category": "Governance",
+      "targetAudience": [
+        "Citizens"
+      ],
+      "keywords": [
+        "CPGRAMS",
+        "PG Portal",
+        "Govt complaint online",
+        "Public grievance",
+        "DARPG"
+      ]
+    },
+    "verification": {
+      "status": "verified",
+      "lastVerified": "2026-09-11",
+      "verifiedBy": "Web source verification",
+      "notes": "Verified against pgportal.gov.in features."
+    }
+  },
+  {
+    "id": "portal-gem",
+    "resourceType": "portal",
+    "name": "Government e-Marketplace (GeM)",
+    "slug": "government-e-marketplace-gem",
+    "module": "portals",
+    "description": "The national public procurement portal offering an end-to-end online marketplace for Central and State Government Ministries, Departments, and PSUs to procure goods and services.",
+    "authority": "Ministry of Commerce and Industry",
+    "state": "All India",
+    "portalType": "B2G E-commerce & Procurement",
+    "services": [
+      "Seller registration to sell products/services directly to government buyers",
+      "Tender and bidding participation for government procurement",
+      "Direct purchase, L1 buying, and reverse auctions",
+      "Incident management and payment tracking"
+    ],
+    "eligibility": [
+      "Any verified business, MSME, startup, or artisan capable of supplying goods/services"
+    ],
+    "application": {
+      "mode": "online",
+      "url": "https://gem.gov.in"
+    },
+    "officialSources": [
+      {
+        "sourceName": "GeM Portal",
+        "url": "https://gem.gov.in",
+        "sourceType": "official_portal"
+      }
+    ],
+    "searchMetadata": {
+      "category": "Trade & Procurement",
+      "targetAudience": [
+        "Businesses",
+        "MSMEs",
+        "Startups",
+        "Government Buyers"
+      ],
+      "keywords": [
+        "GeM portal",
+        "Govt e-Marketplace",
+        "Govt tenders online",
+        "Sell to government"
+      ]
+    },
+    "verification": {
+      "status": "verified",
+      "lastVerified": "2026-09-11",
+      "verifiedBy": "Web source verification",
+      "notes": "Verified against gem.gov.in framework."
+    }
+  },
+  {
+    "id": "portal-ecourts",
+    "resourceType": "portal",
+    "name": "e-Courts Services Portal",
+    "slug": "e-courts-services-portal",
+    "module": "portals",
+    "description": "A pan-India portal providing judicial services to litigants, lawyers, and the judiciary, covering High Courts and District Courts across the country.",
+    "authority": "eCommittee, Supreme Court of India / Department of Justice",
+    "state": "All India",
+    "portalType": "Judicial & Legal Services",
+    "services": [
+      "Search Case Status by CNR number, party name, or advocate",
+      "Access to daily cause lists",
+      "Download Court Orders and Judgments",
+      "e-Filing of cases and e-Pay for court fees/fines"
+    ],
+    "eligibility": [
+      "Litigants, Advocates, and general public"
+    ],
+    "application": {
+      "mode": "online",
+      "url": "https://services.ecourts.gov.in"
+    },
+    "officialSources": [
+      {
+        "sourceName": "e-Courts Portal",
+        "url": "https://services.ecourts.gov.in",
+        "sourceType": "official_portal"
+      }
+    ],
+    "searchMetadata": {
+      "category": "Judiciary",
+      "targetAudience": [
+        "Advocates",
+        "Litigants",
+        "Citizens"
+      ],
+      "keywords": [
+        "e-Courts",
+        "Case status check",
+        "Court orders online",
+        "CNR number search"
+      ]
+    },
+    "verification": {
+      "status": "verified",
+      "lastVerified": "2026-09-11",
+      "verifiedBy": "Web source verification",
+      "notes": "Verified against ecourts.gov.in services."
+    }
+  },
+  {
+    "id": "portal-ors-ehospital",
+    "resourceType": "portal",
+    "name": "ORS (Online Registration System) - eHospital",
+    "slug": "ors-online-registration-system",
+    "module": "portals",
+    "description": "A framework to link various hospitals across the country to enable Aadhaar-based online appointment booking and health record access for patients.",
+    "authority": "National Informatics Centre (NIC) / Ministry of Health and Family Welfare",
+    "state": "All India",
+    "portalType": "Healthcare Services",
+    "services": [
+      "Book OPD appointments at AIIMS and other central/state government hospitals",
+      "View and download lab reports",
+      "Check blood availability in linked blood banks",
+      "Teleconsultation appointment booking"
+    ],
+    "eligibility": [
+      "Any patient requiring consultation at registered government hospitals"
+    ],
+    "application": {
+      "mode": "online",
+      "url": "https://ors.gov.in"
+    },
+    "officialSources": [
+      {
+        "sourceName": "ORS Portal",
+        "url": "https://ors.gov.in",
+        "sourceType": "official_portal"
+      }
+    ],
+    "searchMetadata": {
+      "category": "Healthcare",
+      "targetAudience": [
+        "Patients",
+        "Citizens"
+      ],
+      "keywords": [
+        "ORS portal",
+        "AIIMS appointment",
+        "Govt hospital OPD booking",
+        "eHospital"
+      ]
+    },
+    "verification": {
+      "status": "verified",
+      "lastVerified": "2026-09-11",
+      "verifiedBy": "Web source verification",
+      "notes": "Verified against ors.gov.in features."
+    }
+  },
+  {
+    "id": "portal-nsws",
+    "resourceType": "portal",
+    "name": "National Single Window System (NSWS)",
+    "slug": "national-single-window-system",
+    "module": "portals",
+    "description": "A digital platform for investors and businesses to identify and apply for various approvals, clearances, and registrations required to start a business in India.",
+    "authority": "Department for Promotion of Industry and Internal Trade (DPIIT)",
+    "state": "All India",
+    "portalType": "Business & Investment Portal",
+    "services": [
+      "Know Your Approvals (KYA) module for personalized clearance mapping",
+      "Common Registration Form and single repository for documents",
+      "Apply for central and state-level business licenses online",
+      "Track approval status across ministries"
+    ],
+    "eligibility": [
+      "Domestic and international investors, corporate entities, and entrepreneurs"
+    ],
+    "application": {
+      "mode": "online",
+      "url": "https://www.nsws.gov.in"
+    },
+    "officialSources": [
+      {
+        "sourceName": "NSWS Portal",
+        "url": "https://www.nsws.gov.in",
+        "sourceType": "official_portal"
+      }
+    ],
+    "searchMetadata": {
+      "category": "Business & Investment",
+      "targetAudience": [
+        "Investors",
+        "Entrepreneurs",
+        "Businesses"
+      ],
+      "keywords": [
+        "NSWS",
+        "Single Window Clearance",
+        "Start business India",
+        "DPIIT portal",
+        "Business approvals"
+      ]
+    },
+    "verification": {
+      "status": "verified",
+      "lastVerified": "2026-09-11",
+      "verifiedBy": "Web source verification",
+      "notes": "Verified against nsws.gov.in."
+    }
+  },
+  {
+    "id": "portal-pm-surya-ghar",
+    "resourceType": "portal",
+    "name": "PM-Surya Ghar National Portal",
+    "slug": "pm-surya-ghar-portal",
+    "module": "portals",
+    "description": "The dedicated portal for the PM Surya Ghar: Muft Bijli Yojana, allowing residential consumers to apply for rooftop solar installations and central subsidies.",
+    "authority": "Ministry of New and Renewable Energy (MNRE)",
+    "state": "All India",
+    "portalType": "Renewable Energy & Subsidy",
+    "services": [
+      "Online application for rooftop solar technical feasibility",
+      "Selection of registered solar vendors",
+      "Submission of commissioning reports",
+      "Direct Benefit Transfer (DBT) claim for solar subsidy"
+    ],
+    "eligibility": [
+      "Residential electricity consumers with suitable rooftop space"
+    ],
+    "application": {
+      "mode": "online",
+      "url": "https://pmsuryaghar.gov.in"
+    },
+    "officialSources": [
+      {
+        "sourceName": "PM Surya Ghar Portal",
+        "url": "https://pmsuryaghar.gov.in",
+        "sourceType": "official_portal"
+      }
+    ],
+    "searchMetadata": {
+      "category": "Energy",
+      "targetAudience": [
+        "Homeowners",
+        "Citizens"
+      ],
+      "keywords": [
+        "PM Surya Ghar portal",
+        "Apply rooftop solar",
+        "Solar subsidy apply online",
+        "National solar portal"
+      ]
+    },
+    "verification": {
+      "status": "verified",
+      "lastVerified": "2026-09-11",
+      "verifiedBy": "Web source verification",
+      "notes": "Verified against pmsuryaghar.gov.in."
+    }
+  },
+  {
+    "id": "portal-eraktkosh",
+    "resourceType": "portal",
+    "name": "e-RaktKosh",
+    "slug": "eraktkosh-blood-bank",
+    "module": "portals",
+    "description": "A centralized blood bank management information system facilitating citizens to check real-time blood availability across authorized blood banks in India.",
+    "authority": "Ministry of Health and Family Welfare / C-DAC",
+    "state": "All India",
+    "portalType": "Healthcare Information",
+    "services": [
+      "Real-time blood stock availability search by location and blood group",
+      "Find nearby blood banks and blood donation camps",
+      "Register as a voluntary blood donor",
+      "Access Thalassemia and Hemophilia care centers"
+    ],
+    "eligibility": [
+      "All citizens needing blood or willing to donate"
+    ],
+    "application": {
+      "mode": "online",
+      "url": "https://www.eraktkosh.in"
+    },
+    "officialSources": [
+      {
+        "sourceName": "e-RaktKosh Portal",
+        "url": "https://www.eraktkosh.in",
+        "sourceType": "official_portal"
+      }
+    ],
+    "searchMetadata": {
+      "category": "Healthcare",
+      "targetAudience": [
+        "Patients",
+        "Donors",
+        "Hospitals"
+      ],
+      "keywords": [
+        "e-RaktKosh",
+        "Check blood availability",
+        "Blood bank online",
+        "Donate blood"
+      ]
+    },
+    "verification": {
+      "status": "verified",
+      "lastVerified": "2026-09-11",
+      "verifiedBy": "Web source verification",
+      "notes": "Verified against eraktkosh.in."
+    }
+  },
+  {
+    "id": "portal-ngo-darpan",
+    "resourceType": "portal",
+    "name": "NGO-DARPAN",
+    "slug": "ngo-darpan-portal",
+    "module": "portals",
+    "description": "A platform that provides space for interface between Voluntary Organizations (VOs) / Non-Governmental Organizations (NGOs) and key Government Ministries/Departments.",
+    "authority": "NITI Aayog / National Informatics Centre (NIC)",
+    "state": "All India",
+    "portalType": "Registry & Compliance",
+    "services": [
+      "Registration of NGOs/VOs to obtain a Unique ID",
+      "Requirement for receiving government grants and FCRA registration",
+      "Directory of registered NGOs across India",
+      "Information on government grant schemes for NGOs"
+    ],
+    "eligibility": [
+      "Registered Societies, Trusts, and Section 8 Companies operating as NGOs/VOs"
+    ],
+    "application": {
+      "mode": "online",
+      "url": "https://ngodarpan.gov.in"
+    },
+    "officialSources": [
+      {
+        "sourceName": "NGO DARPAN Portal",
+        "url": "https://ngodarpan.gov.in",
+        "sourceType": "official_portal"
+      }
+    ],
+    "searchMetadata": {
+      "category": "NGO & Social Sector",
+      "targetAudience": [
+        "NGOs",
+        "Voluntary Organizations",
+        "Trusts"
+      ],
+      "keywords": [
+        "NGO Darpan",
+        "NGO Registration ID",
+        "NITI Aayog NGO",
+        "Govt grants for NGO"
+      ]
+    },
+    "verification": {
+      "status": "verified",
+      "lastVerified": "2026-09-11",
+      "verifiedBy": "Web source verification",
+      "notes": "Verified against ngodarpan.gov.in."
+    }
+  },
+  {
+    "id": "portal-jeevan-pramaan",
+    "resourceType": "portal",
+    "name": "Jeevan Pramaan",
+    "slug": "jeevan-pramaan-digital-life-certificate",
+    "module": "portals",
+    "description": "A biometric-enabled digital service for pensioners of Central Government, State Government, and other Government organizations to submit their life certificates digitally.",
+    "authority": "Ministry of Electronics and Information Technology (MeitY)",
+    "state": "All India",
+    "portalType": "Pensioner Services",
+    "services": [
+      "Generation of Digital Life Certificate (DLC) using Aadhaar biometrics/Face authentication",
+      "Direct digital submission to the Pension Disbursing Agency (Bank/Post Office)",
+      "Locate nearby Jeevan Pramaan centres (CSC)",
+      "Download PDF of generated life certificate"
+    ],
+    "eligibility": [
+      "Pensioners receiving pension from Central Govt, State Govt, EPFO, and other participating organizations"
+    ],
+    "application": {
+      "mode": "online",
+      "url": "https://jeevanpramaan.gov.in"
+    },
+    "officialSources": [
+      {
+        "sourceName": "Jeevan Pramaan Portal",
+        "url": "https://jeevanpramaan.gov.in",
+        "sourceType": "official_portal"
+      }
+    ],
+    "searchMetadata": {
+      "category": "Social Welfare & Pension",
+      "targetAudience": [
+        "Pensioners",
+        "Senior Citizens"
+      ],
+      "keywords": [
+        "Jeevan Pramaan",
+        "Digital Life Certificate",
+        "Pensioner DLC",
+        "Submit life certificate online"
+      ]
+    },
+    "verification": {
+      "status": "verified",
+      "lastVerified": "2026-09-11",
+      "verifiedBy": "Web source verification",
+      "notes": "Verified against jeevanpramaan.gov.in."
+    }
+  }
+]

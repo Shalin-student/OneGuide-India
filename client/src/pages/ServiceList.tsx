@@ -1,7 +1,8 @@
-import React, { useState, useEffect, useMemo } from 'react';
-import { useSearchParams } from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
+import { useSearchParams, useNavigate } from 'react-router-dom';
 import axios from 'axios';
-import { Search, SlidersHorizontal, ArrowUpDown, X, BookOpen, AlertCircle } from 'lucide-react';
+import { Search, SlidersHorizontal, ArrowUpDown, X, BookOpen, AlertCircle, ChevronLeft, ChevronRight } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 import { ServiceCard } from '../components/ui/ServiceCard';
 import { SkeletonCard } from '../components/ui/SkeletonCard';
 
@@ -9,56 +10,66 @@ const CATEGORIES = [
   "Government Schemes",
   "Jobs & Exams",
   "Scholarships",
+  "Internships",
   "Agriculture Services",
-  "Documents & Certificates"
+  "Documents & Certificates",
+  "Government Portals",
+  "Helplines"
 ];
 
-const DEPARTMENTS = [
-  "Ministry of Agriculture",
-  "Ministry of Education",
-  "Ministry of Finance",
-  "Ministry of Health",
-  "Ministry of Labor",
-  "General Department"
+const STATES = [
+  "All India",
+  "Andhra Pradesh", "Arunachal Pradesh", "Assam", "Bihar", "Chhattisgarh", "Goa", "Gujarat", "Haryana",
+  "Himachal Pradesh", "Jharkhand", "Karnataka", "Kerala", "Madhya Pradesh", "Maharashtra", "Manipur",
+  "Meghalaya", "Mizoram", "Nagaland", "Odisha", "Punjab", "Rajasthan", "Sikkim", "Tamil Nadu",
+  "Telangana", "Tripura", "Uttar Pradesh", "Uttarakhand", "West Bengal"
 ];
 
 const ServiceList = () => {
   const [searchParams, setSearchParams] = useSearchParams();
+  const navigate = useNavigate();
+  const { t } = useTranslation();
+  
   const [services, setServices] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [pagination, setPagination] = useState({ page: 1, limit: 20, total: 0, totalPages: 1 });
   
-  // Filter States
-  const urlCategory = searchParams.get('category') || '';
-  const urlSearch = searchParams.get('search') || '';
-  
-  const [searchQuery, setSearchQuery] = useState(urlSearch);
-  const [selectedCategory, setSelectedCategory] = useState(
-    CATEGORIES.find(c => c.toLowerCase() === urlCategory.toLowerCase()) || ''
-  );
-  const [selectedStateCentral, setSelectedStateCentral] = useState('');
-  const [selectedDepartment, setSelectedDepartment] = useState('');
-  const [sortBy, setSortBy] = useState('relevance');
+  // URL State
+  const category = searchParams.get('category') || '';
+  const search = searchParams.get('search') || '';
+  const stateParam = searchParams.get('state') || '';
+  const sort = searchParams.get('sort') || (search ? 'relevance' : 'recent');
+  const page = parseInt(searchParams.get('page') || '1', 10);
 
+  // Local Form State
+  const [searchInput, setSearchInput] = useState(search);
   const [isMobileFiltersOpen, setIsMobileFiltersOpen] = useState(false);
+
+  // Sync search input with URL when URL changes externally
+  useEffect(() => {
+    setSearchInput(search);
+  }, [search]);
 
   useEffect(() => {
     const fetchServices = async () => {
       setLoading(true);
       setError(null);
       try {
-        let url = 'http://localhost:5000/api/v1/services';
         const params = new URLSearchParams();
-        if (urlCategory) params.append('category', urlCategory);
-        if (urlSearch) params.append('search', urlSearch);
+        if (category) params.append('category', category);
+        if (search) params.append('search', search);
+        if (stateParam && stateParam !== 'All India') params.append('state', stateParam);
+        if (sort) params.append('sort', sort);
+        params.append('page', page.toString());
+        params.append('limit', '20');
         
-        if (params.toString()) {
-            url += `?${params.toString()}`;
-        }
+        const url = `http://localhost:5000/api/v1/discovery?${params.toString()}`;
         
         const response = await axios.get(url);
-        if (response.data && response.data.data && response.data.data.length > 0) {
+        if (response.data && response.data.data) {
           setServices(response.data.data);
+          setPagination(response.data.pagination || { page: 1, limit: 20, total: response.data.data.length, totalPages: 1 });
         } else {
           setServices([]);
         }
@@ -72,60 +83,34 @@ const ServiceList = () => {
     };
 
     fetchServices();
-  }, [urlCategory, urlSearch]); // Keep discovery results in sync with the backend query in the URL
+    // Scroll to top on page change
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }, [category, search, stateParam, sort, page]);
 
-  // Client-side filtering logic for immediate feedback
-  const filteredServices = useMemo(() => {
-    let result = services;
-
-    // Search
-    if (searchQuery) {
-      const q = searchQuery.toLowerCase();
-      result = result.filter(s => 
-        s.name?.toLowerCase().includes(q) || 
-        s.description?.toLowerCase().includes(q)
-      );
+  const updateParams = (updates: Record<string, string | null>) => {
+    const newParams = new URLSearchParams(searchParams.toString());
+    Object.entries(updates).forEach(([key, value]) => {
+      if (value === null || value === '') {
+        newParams.delete(key);
+      } else {
+        newParams.set(key, value);
+      }
+    });
+    // Reset to page 1 on any filter change, except if we are explicitly updating page
+    if (!updates.page) {
+      newParams.set('page', '1');
     }
-
-    // Category
-    if (selectedCategory) {
-      result = result.filter(s => s.categoryId?.name === selectedCategory);
-    }
-
-    // State/Central
-    if (selectedStateCentral) {
-      result = result.filter(s => s.stateOrCentral === selectedStateCentral);
-    }
-
-    // Department
-    if (selectedDepartment) {
-      result = result.filter(s => s.governmentDepartment === selectedDepartment);
-    }
-
-    // Sorting
-    if (sortBy === 'a-z') {
-      result.sort((a, b) => a.name.localeCompare(b.name));
-    } else if (sortBy === 'z-a') {
-      result.sort((a, b) => b.name.localeCompare(a.name));
-    }
-
-    return result;
-  }, [services, searchQuery, selectedCategory, selectedStateCentral, selectedDepartment, sortBy]);
-
-  const handleSearchSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    const newParams = new URLSearchParams();
-    if (searchQuery) newParams.set('search', searchQuery);
-    if (selectedCategory) newParams.set('category', selectedCategory);
     setSearchParams(newParams);
   };
 
+  const handleSearchSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    updateParams({ search: searchInput });
+  };
+
   const clearFilters = () => {
-    setSelectedCategory('');
-    setSelectedStateCentral('');
-    setSelectedDepartment('');
-    setSearchQuery('');
     setSearchParams({});
+    setSearchInput('');
   };
 
   return (
@@ -134,20 +119,10 @@ const ServiceList = () => {
       <div className="bg-primary-900 pt-10 pb-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto mt-6">
           <h1 className="text-3xl md:text-4xl font-extrabold text-white tracking-tight mb-4">
-            {selectedCategory === "Government Schemes" ? "Government Schemes" :
-             selectedCategory === "Jobs & Exams" ? "Government Jobs & Exams" :
-             selectedCategory === "Scholarships" ? "Scholarships & Education" :
-             selectedCategory === "Documents & Certificates" ? "Documents & Certificates" :
-             selectedCategory === "Agriculture Services" ? "Agriculture Services" :
-             "Service Discovery Portal"}
+            {category || "Unified Service Discovery"}
           </h1>
           <p className="text-primary-100 max-w-2xl text-lg">
-            {selectedCategory === "Government Schemes" ? "Find government schemes and welfare opportunities available through OneGuide India." :
-             selectedCategory === "Jobs & Exams" ? "Find government job openings and exam opportunities available through OneGuide India." :
-             selectedCategory === "Scholarships" ? "Find scholarships and educational opportunities available through OneGuide India." :
-             selectedCategory === "Documents & Certificates" ? "Find document services and certificate applications available through OneGuide India." :
-             selectedCategory === "Agriculture Services" ? "Find agriculture support and services available through OneGuide India." :
-             "Find and apply for government schemes, jobs, scholarships, and essential certificates all in one place."}
+            Search, filter, and discover verified government resources, schemes, jobs, and services.
           </p>
         </div>
       </div>
@@ -157,7 +132,7 @@ const ServiceList = () => {
           
           {/* Mobile Filter Toggle */}
           <div className="lg:hidden flex items-center justify-between bg-white p-4 rounded-xl shadow-sm border border-slate-200">
-            <span className="font-semibold text-slate-700">Filter Results</span>
+            <span className="font-semibold text-slate-700">{t('discovery.filters')}</span>
             <button 
               onClick={() => setIsMobileFiltersOpen(!isMobileFiltersOpen)}
               className="bg-slate-100 p-2 rounded-lg text-slate-600 hover:bg-primary-50 hover:text-primary-600"
@@ -172,25 +147,25 @@ const ServiceList = () => {
               <div className="flex items-center justify-between mb-6">
                 <h2 className="text-lg font-bold text-slate-800 flex items-center gap-2">
                   <SlidersHorizontal size={18} className="text-primary-600" />
-                  Filters
+                  {t('discovery.filters')}
                 </h2>
                 <button onClick={clearFilters} className="text-sm text-slate-500 hover:text-primary-600 font-medium">
-                  Clear All
+                  {t('discovery.clearFilters')}
                 </button>
               </div>
 
               {/* Category Filter */}
               <div className="mb-6">
-                <h3 className="text-sm font-bold text-slate-900 mb-3 uppercase tracking-wider">Category</h3>
-                <div className="space-y-2.5">
+                <h3 className="text-sm font-bold text-slate-900 mb-3 uppercase tracking-wider">Resource Module</h3>
+                <div className="space-y-2.5 max-h-[300px] overflow-y-auto pr-2 custom-scrollbar">
                   {CATEGORIES.map(cat => (
                     <label key={cat} className="flex items-center cursor-pointer group">
                       <input 
                         type="radio" 
                         name="category" 
                         value={cat}
-                        checked={selectedCategory === cat}
-                        onChange={(e) => setSelectedCategory(e.target.value)}
+                        checked={category === cat}
+                        onChange={(e) => updateParams({ category: e.target.value })}
                         className="w-4 h-4 text-primary-600 border-slate-300 focus:ring-primary-500 cursor-pointer"
                       />
                       <span className="ml-3 text-sm text-slate-600 group-hover:text-slate-900 transition-colors">
@@ -198,46 +173,28 @@ const ServiceList = () => {
                       </span>
                     </label>
                   ))}
+                  <button 
+                    onClick={() => updateParams({ category: null })}
+                    className={`mt-2 text-sm ${!category ? 'font-bold text-primary-600' : 'text-slate-500 hover:text-slate-800'}`}
+                  >
+                    View All Modules
+                  </button>
                 </div>
               </div>
 
               <hr className="border-slate-100 my-6" />
 
-              {/* State vs Central */}
-              <div className="mb-6">
-                <h3 className="text-sm font-bold text-slate-900 mb-3 uppercase tracking-wider">Jurisdiction</h3>
-                <div className="space-y-2.5">
-                  {['Central Government', 'State Government'].map(type => (
-                    <label key={type} className="flex items-center cursor-pointer group">
-                      <input 
-                        type="radio" 
-                        name="jurisdiction" 
-                        value={type}
-                        checked={selectedStateCentral === type}
-                        onChange={(e) => setSelectedStateCentral(e.target.value)}
-                        className="w-4 h-4 text-primary-600 border-slate-300 focus:ring-primary-500 cursor-pointer"
-                      />
-                      <span className="ml-3 text-sm text-slate-600 group-hover:text-slate-900 transition-colors">
-                        {type}
-                      </span>
-                    </label>
-                  ))}
-                </div>
-              </div>
-
-              <hr className="border-slate-100 my-6" />
-
-              {/* Department Filter */}
+              {/* State Filter */}
               <div>
-                <h3 className="text-sm font-bold text-slate-900 mb-3 uppercase tracking-wider">Department</h3>
+                <h3 className="text-sm font-bold text-slate-900 mb-3 uppercase tracking-wider">State / Jurisdiction</h3>
                 <select 
-                  value={selectedDepartment}
-                  onChange={(e) => setSelectedDepartment(e.target.value)}
+                  value={stateParam}
+                  onChange={(e) => updateParams({ state: e.target.value })}
                   className="w-full bg-slate-50 border border-slate-200 text-slate-700 rounded-xl px-4 py-2.5 outline-none focus:ring-2 focus:ring-primary-500/20 focus:border-primary-500 text-sm"
                 >
-                  <option value="">All Departments</option>
-                  {DEPARTMENTS.map(dep => (
-                    <option key={dep} value={dep}>{dep}</option>
+                  <option value="">Any Location</option>
+                  {STATES.map(s => (
+                    <option key={s} value={s}>{s}</option>
                   ))}
                 </select>
               </div>
@@ -250,26 +207,32 @@ const ServiceList = () => {
             
             {/* Search and Sort Top Bar */}
             <div className="bg-white rounded-2xl shadow-sm border border-slate-200/60 p-4 mb-6 flex flex-col md:flex-row gap-4 justify-between items-center">
-              <form onSubmit={handleSearchSubmit} className="relative w-full md:max-w-md">
-                <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-slate-400" size={18} />
-                <input 
-                  type="text" 
-                  value={searchQuery}
-                  onChange={(e) => setSearchQuery(e.target.value)}
-                  placeholder="Search by keyword, name, or ID..." 
-                  className="w-full bg-slate-50 border border-slate-200 text-slate-900 rounded-xl pl-11 pr-4 py-2.5 outline-none focus:ring-2 focus:ring-primary-500/20 focus:border-primary-500 text-sm transition-all"
-                />
+              <form onSubmit={handleSearchSubmit} className="relative w-full md:max-w-md flex gap-2">
+                <div className="relative flex-grow">
+                  <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-slate-400" size={18} />
+                  <input 
+                    type="text" 
+                    value={searchInput}
+                    onChange={(e) => setSearchInput(e.target.value)}
+                    placeholder={t('common.searchPlaceholder')} 
+                    className="w-full bg-slate-50 border border-slate-200 text-slate-900 rounded-xl pl-11 pr-4 py-2.5 outline-none focus:ring-2 focus:ring-primary-500/20 focus:border-primary-500 text-sm transition-all"
+                  />
+                </div>
+                <button type="submit" className="bg-primary-600 text-white px-4 py-2 rounded-xl text-sm font-bold hover:bg-primary-700">
+                  Search
+                </button>
               </form>
 
               <div className="flex items-center gap-3 w-full md:w-auto">
                 <span className="text-sm text-slate-500 font-medium whitespace-nowrap hidden sm:block">Sort by:</span>
                 <div className="relative w-full md:w-auto">
                   <select 
-                    value={sortBy}
-                    onChange={(e) => setSortBy(e.target.value)}
+                    value={sort}
+                    onChange={(e) => updateParams({ sort: e.target.value })}
                     className="w-full appearance-none bg-slate-50 border border-slate-200 text-slate-700 rounded-xl pl-4 pr-10 py-2.5 outline-none focus:ring-2 focus:ring-primary-500/20 focus:border-primary-500 text-sm cursor-pointer"
                   >
                     <option value="relevance">Relevance</option>
+                    <option value="recent">Recently Verified</option>
                     <option value="a-z">Alphabetical (A-Z)</option>
                     <option value="z-a">Alphabetical (Z-A)</option>
                   </select>
@@ -282,11 +245,13 @@ const ServiceList = () => {
             <div className="flex justify-between items-end mb-6 px-1">
               <div>
                 <h2 className="text-xl font-bold text-slate-800">
-                  {selectedCategory ? `Search within ${selectedCategory}` : 'All Services'}
+                  {category ? `Results in ${category}` : 'All Resources'}
                 </h2>
-                <p className="text-sm text-slate-500 mt-1">
-                  Showing <span className="font-bold text-slate-700">{filteredServices.length}</span> results
-                </p>
+                {!loading && (
+                  <p className="text-sm text-slate-500 mt-1">
+                    Showing {Math.min((page - 1) * pagination.limit + 1, pagination.total)} - {Math.min(page * pagination.limit, pagination.total)} of <span className="font-bold text-slate-700">{pagination.total}</span> verified results
+                  </p>
+                )}
               </div>
             </div>
 
@@ -301,26 +266,82 @@ const ServiceList = () => {
                 <h3 className="text-lg font-bold mb-2">Failed to load services</h3>
                 <p>{error}</p>
               </div>
-            ) : filteredServices.length > 0 ? (
-              <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 gap-6">
-                {filteredServices.map((service) => (
-                  <ServiceCard key={service._id} service={service} />
-                ))}
-              </div>
+            ) : services.length > 0 ? (
+              <>
+                <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 gap-6 mb-10">
+                  {services.map((service, idx) => (
+                    <ServiceCard key={service.id || service._id || idx} service={service} />
+                  ))}
+                </div>
+
+                {/* Pagination */}
+                {pagination.totalPages > 1 && (
+                  <div className="flex justify-center items-center gap-2 mt-8">
+                    <button 
+                      onClick={() => updateParams({ page: String(page - 1) })}
+                      disabled={page === 1}
+                      className="p-2 rounded-lg border border-slate-200 bg-white text-slate-600 disabled:opacity-50 disabled:cursor-not-allowed hover:bg-slate-50"
+                      aria-label="Previous page"
+                    >
+                      <ChevronLeft size={20} />
+                    </button>
+                    
+                    <div className="hidden sm:flex gap-1">
+                      {Array.from({ length: Math.min(5, pagination.totalPages) }, (_, i) => {
+                        // Logic to show pages around current page
+                        let pageNum = page - 2 + i;
+                        if (page <= 3) pageNum = i + 1;
+                        if (page >= pagination.totalPages - 2) pageNum = pagination.totalPages - 4 + i;
+                        pageNum = Math.max(1, Math.min(pageNum, pagination.totalPages));
+                        
+                        // Avoid duplicates
+                        if (i > 0 && pageNum <= (page <= 3 ? i : (page >= pagination.totalPages - 2 ? pagination.totalPages - 5 + i : page - 3 + i))) return null;
+
+                        return (
+                          <button
+                            key={pageNum}
+                            onClick={() => updateParams({ page: String(pageNum) })}
+                            className={`w-10 h-10 rounded-lg text-sm font-bold transition-colors ${
+                              page === pageNum 
+                                ? 'bg-primary-600 text-white shadow-sm' 
+                                : 'bg-white border border-slate-200 text-slate-700 hover:bg-slate-50'
+                            }`}
+                          >
+                            {pageNum}
+                          </button>
+                        );
+                      })}
+                    </div>
+                    
+                    <span className="sm:hidden text-sm font-bold text-slate-700">
+                      Page {page} of {pagination.totalPages}
+                    </span>
+
+                    <button 
+                      onClick={() => updateParams({ page: String(page + 1) })}
+                      disabled={page >= pagination.totalPages}
+                      className="p-2 rounded-lg border border-slate-200 bg-white text-slate-600 disabled:opacity-50 disabled:cursor-not-allowed hover:bg-slate-50"
+                      aria-label="Next page"
+                    >
+                      <ChevronRight size={20} />
+                    </button>
+                  </div>
+                )}
+              </>
             ) : (
               <div className="bg-white border border-slate-200 rounded-2xl p-12 text-center shadow-sm">
                 <div className="inline-flex items-center justify-center w-20 h-20 rounded-full bg-slate-50 mb-6 border border-slate-100">
                    <BookOpen className="text-slate-300" size={32} />
                 </div>
-                <h3 className="text-xl font-bold text-slate-800 mb-2">No matching services found</h3>
+                <h3 className="text-xl font-bold text-slate-800 mb-2">{t('discovery.noResults')}</h3>
                 <p className="text-slate-500 max-w-md mx-auto mb-6">
-                  We couldn't find any services matching your current filters. Try adjusting your search or clearing the filters.
+                  We couldn't find any resources matching your current filters. Try adjusting your search or clearing the filters.
                 </p>
                 <button 
                   onClick={clearFilters}
                   className="bg-primary-600 text-white px-6 py-2.5 rounded-xl font-semibold shadow-md hover:bg-primary-700 transition-all"
                 >
-                  Clear All Filters
+                  {t('discovery.clearFilters')}
                 </button>
               </div>
             )}

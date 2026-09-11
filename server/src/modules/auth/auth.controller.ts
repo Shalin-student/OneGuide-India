@@ -37,10 +37,7 @@ export const registerUser = async (req: Request, res: Response): Promise<void> =
       return;
     }
 
-    let role: 'user' | 'admin' = 'user';
-    if (email === 'admin123@gmail.com' && name === 'Admin' && password === 'Admin@123') {
-      role = 'admin';
-    }
+    const role: 'user' | 'admin' = 'user';
 
     const salt = await bcrypt.genSalt(10);
     const hashedPassword = await bcrypt.hash(password, salt);
@@ -84,6 +81,11 @@ export const registerUser = async (req: Request, res: Response): Promise<void> =
 export const loginUser = async (req: Request, res: Response): Promise<void> => {
   try {
     const { email, password } = req.body;
+
+    if (!email || !password) {
+      res.status(400).json({ status: 'error', message: 'Email and password are required' });
+      return;
+    }
 
     const user = await User.findOne({ email });
 

@@ -1,0 +1,1953 @@
+[
+    {
+        "id": "scholarship-pre-matric-minorities",
+        "resourceType": "scholarship",
+        "name": "Pre-Matric Scholarship Scheme for Minorities",
+        "slug": "pre-matric-scholarship-minorities",
+        "module": "scholarships",
+        "description": "A scholarship scheme to encourage parents from minority communities to send their school-going children to school, lighten their financial burden, and sustain their efforts to support their children's education.",
+        "authority": "Ministry of Minority Affairs",
+        "state": "All India",
+        "educationLevel": "Classes 1 to 10 (Subject to current policy revisions limiting to Class 9-10)",
+        "eligibility": [
+            "Must belong to a notified minority community (Muslim, Christian, Sikh, Buddhist, Jain, Parsi)",
+            "Must be studying in India in a government or recognized private school",
+            "Must have secured not less than 50% marks in the previous final examination"
+        ],
+        "incomeCriteria": "Annual family income from all sources must not exceed ₹1,00,000.",
+        "categoryCriteria": "Minority Communities",
+        "benefits": [
+            "Admission and tuition fee coverage",
+            "Maintenance allowance per month (varying for Day Scholar and Hosteller)"
+        ],
+        "documents": [
+            "Aadhaar Card",
+            "Income Certificate issued by competent authority",
+            "Self-certified community certificate",
+            "Previous year's mark sheet",
+            "Bank Account details linked with Aadhaar",
+            "Fee receipt of current course year"
+        ],
+        "application": {
+            "mode": "online",
+            "url": "https://scholarships.gov.in",
+            "procedure": [
+                "Register on the National Scholarship Portal (NSP)",
+                "Fill out the application form under 'Pre-Matric Scholarship Schemes for Minorities'",
+                "Upload necessary documents (if scholarship amount is > ₹50,000, otherwise keep in school)",
+                "Submit for Institute level and State level verification"
+            ]
+        },
+        "officialSources": [
+            {
+                "sourceName": "National Scholarship Portal",
+                "url": "https://scholarships.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Minority Welfare",
+            "targetAudience": [
+                "School Students",
+                "Minority Students",
+                "Parents"
+            ],
+            "keywords": [
+                "MoMA",
+                "Pre-matric minority",
+                "NSP minority scholarship"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against NSP guidelines for Ministry of Minority Affairs."
+        }
+    },
+    {
+        "id": "scholarship-post-matric-minorities",
+        "resourceType": "scholarship",
+        "name": "Post-Matric Scholarship Scheme for Minorities",
+        "slug": "post-matric-scholarship-minorities",
+        "module": "scholarships",
+        "description": "Scholarship awarded to students of minority communities to pursue higher education from Class 11 up to Ph.D. level in government/recognized private institutions.",
+        "authority": "Ministry of Minority Affairs",
+        "state": "All India",
+        "educationLevel": "Class 11, 12, UG, PG, M.Phil, Ph.D.",
+        "eligibility": [
+            "Must belong to a notified minority community (Muslim, Christian, Sikh, Buddhist, Jain, Parsi)",
+            "Must have secured not less than 50% marks or equivalent grade in the previous final examination"
+        ],
+        "incomeCriteria": "Annual family income from all sources must not exceed ₹2,00,000.",
+        "categoryCriteria": "Minority Communities",
+        "benefits": [
+            "Admission and tuition fee coverage (subject to actuals or maximum ceiling)",
+            "Maintenance allowance per month (varying for Day Scholar and Hosteller)"
+        ],
+        "documents": [
+            "Aadhaar Card",
+            "Income Certificate",
+            "Community/Religion declaration",
+            "Previous year's mark sheet",
+            "Bank Account details linked with Aadhaar",
+            "Fee receipt of current course year"
+        ],
+        "application": {
+            "mode": "online",
+            "url": "https://scholarships.gov.in",
+            "procedure": [
+                "Register on the National Scholarship Portal (NSP)",
+                "Complete the application under 'Post-Matric Scholarship Schemes for Minorities'",
+                "Upload required documents",
+                "Submit the application for institutional verification"
+            ]
+        },
+        "officialSources": [
+            {
+                "sourceName": "National Scholarship Portal",
+                "url": "https://scholarships.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Minority Welfare",
+            "targetAudience": [
+                "College Students",
+                "High School Students",
+                "Minority Students"
+            ],
+            "keywords": [
+                "MoMA",
+                "Post-matric minority",
+                "NSP minority"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against NSP guidelines."
+        }
+    },
+    {
+        "id": "scholarship-mcm-minorities",
+        "resourceType": "scholarship",
+        "name": "Merit-Cum-Means Scholarship for Professional and Technical Courses CS (Minorities)",
+        "slug": "merit-cum-means-scholarship-minorities",
+        "module": "scholarships",
+        "description": "A scholarship to provide financial assistance to poor and meritorious students belonging to minority communities to enable them to pursue professional and technical courses.",
+        "authority": "Ministry of Minority Affairs",
+        "state": "All India",
+        "educationLevel": "Undergraduate and Postgraduate Professional/Technical Courses",
+        "eligibility": [
+            "Must belong to a notified minority community",
+            "Must have secured not less than 50% marks in the previous final examination",
+            "Must be pursuing a technical or professional course at UG/PG level from a recognized institution"
+        ],
+        "incomeCriteria": "Annual family income from all sources must not exceed ₹2,50,000.",
+        "categoryCriteria": "Minority Communities",
+        "benefits": [
+            "Full course fee reimbursement for listed premium institutions",
+            "Course fee up to ₹20,000 per annum for other institutions",
+            "Maintenance allowance of ₹1,000 per month (hosteller) or ₹500 per month (day scholar)"
+        ],
+        "documents": [
+            "Aadhaar Card",
+            "Income Certificate",
+            "Self-certified community certificate",
+            "Previous year's mark sheet",
+            "Bank Account details linked with Aadhaar",
+            "Fee receipt of current course"
+        ],
+        "application": {
+            "mode": "online",
+            "url": "https://scholarships.gov.in",
+            "procedure": [
+                "Register on the National Scholarship Portal (NSP)",
+                "Select the Merit-cum-Means scheme",
+                "Upload required documents (Income, Community, Marksheets)",
+                "Submit for verification"
+            ]
+        },
+        "officialSources": [
+            {
+                "sourceName": "National Scholarship Portal",
+                "url": "https://scholarships.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Minority Welfare",
+            "targetAudience": [
+                "Engineering Students",
+                "Medical Students",
+                "Professional Degree Students"
+            ],
+            "keywords": [
+                "MCM",
+                "Merit cum means",
+                "Minority technical scholarship"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against NSP guidelines."
+        }
+    },
+    {
+        "id": "scholarship-pre-matric-sc",
+        "resourceType": "scholarship",
+        "name": "Pre-Matric Scholarship Scheme for SC Students",
+        "slug": "pre-matric-scholarship-sc",
+        "module": "scholarships",
+        "description": "A centrally sponsored scheme to support parents of SC children for education of their wards studying in classes IX and X.",
+        "authority": "Ministry of Social Justice & Empowerment",
+        "state": "All India (Implemented via States)",
+        "educationLevel": "Classes 9 and 10",
+        "eligibility": [
+            "Student must belong to Scheduled Caste (SC)",
+            "Must be studying in class 9 or 10 in a government school or recognized private school"
+        ],
+        "incomeCriteria": "Annual family income must not exceed ₹2,50,000.",
+        "categoryCriteria": "Scheduled Caste (SC)",
+        "benefits": [
+            "Academic allowance for 10 months",
+            "Adhoc grant per annum",
+            "Additional allowances for students with disabilities"
+        ],
+        "documents": [
+            "Aadhaar Card",
+            "Caste Certificate",
+            "Income Certificate",
+            "Bank Account details (Aadhaar Seeded)",
+            "Previous class mark sheet"
+        ],
+        "application": {
+            "mode": "online",
+            "url": "https://scholarships.gov.in",
+            "procedure": [
+                "Apply via the National Scholarship Portal (NSP) or respective State Scholarship Portals (e.g., UP Scholarship, MahaDBT) depending on the state's integration",
+                "Upload caste and income certificates",
+                "Submit for school and district welfare officer verification"
+            ]
+        },
+        "officialSources": [
+            {
+                "sourceName": "Ministry of Social Justice & Empowerment",
+                "url": "https://socialjustice.gov.in",
+                "sourceType": "ministry_website"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Social Justice",
+            "targetAudience": [
+                "SC Students",
+                "School Students",
+                "Classes 9-10"
+            ],
+            "keywords": [
+                "SC scholarship",
+                "Pre-matric SC",
+                "Dalit scholarship"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against MSJE guidelines."
+        }
+    },
+    {
+        "id": "scholarship-post-matric-sc",
+        "resourceType": "scholarship",
+        "name": "Post-Matric Scholarship Scheme for SC Students",
+        "slug": "post-matric-scholarship-sc",
+        "module": "scholarships",
+        "description": "Centrally sponsored scheme providing financial assistance to Scheduled Caste students at post-matriculation or post-secondary stage to enable them to complete their education.",
+        "authority": "Ministry of Social Justice & Empowerment",
+        "state": "All India",
+        "educationLevel": "Class 11, 12, UG, PG, Technical, Vocational courses",
+        "eligibility": [
+            "Must belong to Scheduled Caste (SC)",
+            "Must be studying a recognized post-matriculation course in India",
+            "Must not be holding another government scholarship"
+        ],
+        "incomeCriteria": "Annual family income from all sources must not exceed ₹2,50,000.",
+        "categoryCriteria": "Scheduled Caste (SC)",
+        "benefits": [
+            "Maintenance allowance per month (varies by course group)",
+            "Reimbursement of compulsory non-refundable fees",
+            "Study tour charges, thesis typing/printing charges",
+            "Book allowance for students pursuing correspondence courses"
+        ],
+        "documents": [
+            "Aadhaar Card",
+            "Caste Certificate",
+            "Income Certificate",
+            "Fee receipt",
+            "Previous mark sheets",
+            "Aadhaar-seeded bank passbook"
+        ],
+        "application": {
+            "mode": "online",
+            "url": "https://scholarships.gov.in",
+            "procedure": [
+                "Apply via National Scholarship Portal (NSP) or State Portal depending on the state of domicile",
+                "Submit the application with valid caste and income certificates",
+                "Institute and State Nodal Officer verify the application before DBT transfer"
+            ]
+        },
+        "officialSources": [
+            {
+                "sourceName": "Ministry of Social Justice & Empowerment",
+                "url": "https://socialjustice.gov.in",
+                "sourceType": "ministry_website"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Social Justice",
+            "targetAudience": [
+                "SC Students",
+                "College Students",
+                "University Students"
+            ],
+            "keywords": [
+                "Post matric SC",
+                "PMS SC",
+                "SC scholarship"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against PMS-SC guidelines."
+        }
+    },
+    {
+        "id": "scholarship-pre-matric-st",
+        "resourceType": "scholarship",
+        "name": "Pre-Matric Scholarship for ST Students",
+        "slug": "pre-matric-scholarship-st",
+        "module": "scholarships",
+        "description": "Financial assistance to ST students studying in classes IX and X to reduce dropout rates and support secondary education.",
+        "authority": "Ministry of Tribal Affairs",
+        "state": "All India (Implemented via States)",
+        "educationLevel": "Classes 9 and 10",
+        "eligibility": [
+            "Must belong to Scheduled Tribe (ST)",
+            "Must be studying in Class 9 or 10 on a full-time basis"
+        ],
+        "incomeCriteria": "Annual family income must not exceed ₹2,00,000 (often aligned with state rules, standard limit ₹2 Lakh/₹2.5 Lakh).",
+        "categoryCriteria": "Scheduled Tribe (ST)",
+        "benefits": [
+            "Monthly maintenance allowance",
+            "Annual ad-hoc grant"
+        ],
+        "documents": [
+            "Aadhaar Card",
+            "ST Caste Certificate",
+            "Income Certificate",
+            "Previous mark sheet",
+            "Bank Account linked to Aadhaar"
+        ],
+        "application": {
+            "mode": "online",
+            "url": "https://scholarships.gov.in",
+            "procedure": [
+                "Application is usually submitted through the National Scholarship Portal or respective State Government Portals",
+                "Verification is done at the school level and district level"
+            ]
+        },
+        "officialSources": [
+            {
+                "sourceName": "Ministry of Tribal Affairs",
+                "url": "https://tribal.nic.in",
+                "sourceType": "ministry_website"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Tribal Affairs",
+            "targetAudience": [
+                "ST Students",
+                "School Students"
+            ],
+            "keywords": [
+                "ST scholarship",
+                "Tribal scholarship",
+                "Pre-matric ST"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against MoTA guidelines."
+        }
+    },
+    {
+        "id": "scholarship-post-matric-st",
+        "resourceType": "scholarship",
+        "name": "Post-Matric Scholarship Scheme for ST Students",
+        "slug": "post-matric-scholarship-st",
+        "module": "scholarships",
+        "description": "Financial assistance to Scheduled Tribe students for pursuing post-matriculation or post-secondary courses.",
+        "authority": "Ministry of Tribal Affairs",
+        "state": "All India",
+        "educationLevel": "Class 11, 12, UG, PG, Technical/Vocational",
+        "eligibility": [
+            "Must belong to Scheduled Tribe (ST)",
+            "Must be pursuing recognized post-matriculation courses"
+        ],
+        "incomeCriteria": "Annual family income must not exceed ₹2,50,000.",
+        "categoryCriteria": "Scheduled Tribe (ST)",
+        "benefits": [
+            "Maintenance allowance",
+            "Reimbursement of compulsory non-refundable fees",
+            "Book allowance",
+            "Additional allowances for ST students with disabilities"
+        ],
+        "documents": [
+            "Aadhaar Card",
+            "ST Certificate",
+            "Income Certificate",
+            "Fee Receipt",
+            "Previous Exam Marksheets",
+            "Bank passbook"
+        ],
+        "application": {
+            "mode": "online",
+            "url": "https://scholarships.gov.in",
+            "procedure": [
+                "Register and apply via the National Scholarship Portal (NSP) or State specific portals",
+                "Upload mandatory certificates",
+                "Institute verification followed by State approval for DBT"
+            ]
+        },
+        "officialSources": [
+            {
+                "sourceName": "National Scholarship Portal",
+                "url": "https://scholarships.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Tribal Affairs",
+            "targetAudience": [
+                "ST Students",
+                "College Students",
+                "University Students"
+            ],
+            "keywords": [
+                "Post matric ST",
+                "PMS ST",
+                "Tribal college scholarship"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against MoTA post-matric guidelines."
+        }
+    },
+    {
+        "id": "scholarship-nmms",
+        "resourceType": "scholarship",
+        "name": "National Means Cum Merit Scholarship (NMMS)",
+        "slug": "national-means-cum-merit-scholarship-nmms",
+        "module": "scholarships",
+        "description": "A centrally sponsored scheme to award scholarships to meritorious students of economically weaker sections to arrest their drop out at class VIII and encourage them to continue study at secondary stage.",
+        "authority": "Department of School Education & Literacy, Ministry of Education",
+        "state": "All India",
+        "educationLevel": "Classes 9 to 12",
+        "eligibility": [
+            "Must have passed Class 8 with minimum 55% marks (50% for SC/ST)",
+            "Must have cleared the State Level Selection Test for NMMS",
+            "Must be studying as regular students in Government, Government-aided, and local body schools"
+        ],
+        "incomeCriteria": "Annual family income must not exceed ₹3,50,000.",
+        "categoryCriteria": "Economically Weaker Sections",
+        "benefits": [
+            "Scholarship of ₹12,000 per annum (₹1,000 per month) for classes IX to XII"
+        ],
+        "documents": [
+            "Aadhaar Card",
+            "Income Certificate",
+            "NMMS Selection Test Qualifying Certificate",
+            "Caste Certificate (if applicable for relaxation)",
+            "Previous Class Marksheet",
+            "Bank Account details"
+        ],
+        "application": {
+            "mode": "online",
+            "url": "https://scholarships.gov.in",
+            "procedure": [
+                "Clear the State Level NMMS examination conducted by SCERT/State Education Boards",
+                "Qualified students register on the National Scholarship Portal (NSP)",
+                "Apply under the 'Department of School Education & Literacy' scheme",
+                "School verifies the application and forwards to District Nodal Officer"
+            ]
+        },
+        "officialSources": [
+            {
+                "sourceName": "National Scholarship Portal",
+                "url": "https://scholarships.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "School Education",
+            "targetAudience": [
+                "School Students",
+                "Class 9 Students"
+            ],
+            "keywords": [
+                "NMMS",
+                "Means cum merit",
+                "12000 school scholarship",
+                "Class 9 scholarship"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against DoSEL NMMS guidelines."
+        }
+    },
+    {
+        "id": "scholarship-csss-dohe",
+        "resourceType": "scholarship",
+        "name": "Central Sector Scheme of Scholarships for College and University Students",
+        "slug": "central-sector-scheme-scholarships",
+        "module": "scholarships",
+        "description": "Financial assistance provided to meritorious students from low-income families to meet day-to-day expenses while pursuing higher studies.",
+        "authority": "Department of Higher Education (DoHE), Ministry of Education",
+        "state": "All India",
+        "educationLevel": "Undergraduate (UG) and Postgraduate (PG) levels",
+        "eligibility": [
+            "Must be above 80th percentile of successful candidates in the relevant stream in Class 12 of respective State Examination Boards",
+            "Must be pursuing regular UG/PG courses in colleges/institutions recognized by AICTE/UGC/MCI/DCI, etc.",
+            "Not availing any other scholarship"
+        ],
+        "incomeCriteria": "Annual family income must not exceed ₹4,50,000.",
+        "categoryCriteria": "General, SC, ST, OBC (Based on State Board Quotas)",
+        "benefits": [
+            "₹12,000 per annum at Graduation level for first three years",
+            "₹20,000 per annum at Post-Graduation level (and 4th/5th year of professional courses)"
+        ],
+        "documents": [
+            "Aadhaar Card",
+            "Class 12th Board Marksheet",
+            "Income Certificate",
+            "Bank Account details",
+            "Admission proof"
+        ],
+        "application": {
+            "mode": "online",
+            "url": "https://scholarships.gov.in",
+            "procedure": [
+                "Register on the National Scholarship Portal (NSP)",
+                "Select the 'Central Sector Scheme of Scholarships for College and University Students'",
+                "Fill the application and authenticate Aadhaar",
+                "Submit for verification by the Institution and the State Board"
+            ]
+        },
+        "officialSources": [
+            {
+                "sourceName": "National Scholarship Portal",
+                "url": "https://scholarships.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Higher Education",
+            "targetAudience": [
+                "College Students",
+                "Top 20 Percentile Students",
+                "Meritorious Students"
+            ],
+            "keywords": [
+                "CSSS",
+                "Central Sector Scholarship",
+                "DoHE scholarship",
+                "80 percentile scholarship"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against DoHE guidelines."
+        }
+    },
+    {
+        "id": "scholarship-pragati-aicte",
+        "resourceType": "scholarship",
+        "name": "AICTE Pragati Scholarship Scheme for Girl Students (Technical Degree/Diploma)",
+        "slug": "aicte-pragati-scholarship-girls",
+        "module": "scholarships",
+        "description": "A scheme by AICTE aimed at providing assistance for the advancement of girls pursuing technical education. It empowers young women to further their education and prepare for a successful future.",
+        "authority": "All India Council for Technical Education (AICTE)",
+        "state": "All India",
+        "educationLevel": "Undergraduate Degree / Diploma in Engineering/Technology",
+        "eligibility": [
+            "Girl students admitted to First year of AICTE approved Degree/Diploma course OR Second year (Lateral Entry)",
+            "Maximum two girl children per family are eligible"
+        ],
+        "incomeCriteria": "Family income from all sources must not exceed ₹8,00,000 per annum.",
+        "categoryCriteria": "Girl Students",
+        "benefits": [
+            "₹50,000 per annum for every year of study (maximum 4 years for Degree and 3 years for Diploma) as a lump sum amount towards college fee, computer purchase, stationeries, books, etc."
+        ],
+        "documents": [
+            "Aadhaar Card",
+            "Income Certificate",
+            "Admission Letter to AICTE approved institution",
+            "Tuition fee receipt",
+            "Bank Account passbook",
+            "Declaration by parents"
+        ],
+        "application": {
+            "mode": "online",
+            "url": "https://scholarships.gov.in",
+            "procedure": [
+                "Apply via the National Scholarship Portal (NSP)",
+                "Select the AICTE Pragati Scholarship for Degree or Diploma depending on the course",
+                "Upload required documents and submit for Institutional and AICTE nodal officer verification"
+            ]
+        },
+        "officialSources": [
+            {
+                "sourceName": "AICTE Official Portal",
+                "url": "https://www.aicte-india.org/schemes/students-development-schemes",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Technical Education",
+            "targetAudience": [
+                "Girl Students",
+                "Engineering Students",
+                "Diploma Students"
+            ],
+            "keywords": [
+                "Pragati Scholarship",
+                "AICTE girls",
+                "Engineering scholarship for girls",
+                "50000 scholarship"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against AICTE Pragati guidelines."
+        }
+    },
+    {
+        "id": "scholarship-saksham-aicte",
+        "resourceType": "scholarship",
+        "name": "AICTE Saksham Scholarship Scheme for Specially Abled Students",
+        "slug": "aicte-saksham-scholarship-pwd",
+        "module": "scholarships",
+        "description": "A scholarship scheme by AICTE to provide financial support to specially-abled students pursuing technical education.",
+        "authority": "All India Council for Technical Education (AICTE)",
+        "state": "All India",
+        "educationLevel": "Undergraduate Degree / Diploma in Technical Courses",
+        "eligibility": [
+            "Specially-abled students having disability of not less than 40%",
+            "Admitted to First year of AICTE approved Degree/Diploma course OR Second year (Lateral Entry)"
+        ],
+        "incomeCriteria": "Family income from all sources must not exceed ₹8,00,000 per annum.",
+        "categoryCriteria": "Persons with Disabilities (PwD)",
+        "benefits": [
+            "₹50,000 per annum for every year of study as a lump sum amount for expenses related to college fee, books, software, special equipment, etc."
+        ],
+        "documents": [
+            "Aadhaar Card",
+            "Disability Certificate (minimum 40%) issued by competent medical authority",
+            "Income Certificate",
+            "Admission Letter and Fee Receipt",
+            "Bank Account details"
+        ],
+        "application": {
+            "mode": "online",
+            "url": "https://scholarships.gov.in",
+            "procedure": [
+                "Register on the National Scholarship Portal (NSP)",
+                "Select AICTE Saksham Scholarship Scheme",
+                "Upload the Disability Certificate along with other academic and income documents",
+                "Submit for verification"
+            ]
+        },
+        "officialSources": [
+            {
+                "sourceName": "AICTE Official Portal",
+                "url": "https://www.aicte-india.org/schemes/students-development-schemes",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Technical Education",
+            "targetAudience": [
+                "PwD Students",
+                "Specially Abled Students",
+                "Engineering Students"
+            ],
+            "keywords": [
+                "Saksham Scholarship",
+                "AICTE PwD",
+                "Disability scholarship technical"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against AICTE Saksham guidelines."
+        }
+    },
+    {
+        "id": "scholarship-swanath-aicte",
+        "resourceType": "scholarship",
+        "name": "AICTE Swanath Scholarship Scheme",
+        "slug": "aicte-swanath-scholarship",
+        "module": "scholarships",
+        "description": "Scholarship to provide financial support to orphans, wards of parents who died due to COVID-19, and wards of Armed Forces and Central Paramilitary Forces martyred in action.",
+        "authority": "All India Council for Technical Education (AICTE)",
+        "state": "All India",
+        "educationLevel": "Undergraduate Degree / Diploma in Technical Courses",
+        "eligibility": [
+            "Must be an Orphan OR",
+            "Must be a ward whose either or both parents died due to Covid-19 OR",
+            "Must be a ward of Armed Forces and Central Paramilitary Forces martyred in action",
+            "Admitted to AICTE approved institutions and courses"
+        ],
+        "incomeCriteria": "Family income from all sources must not exceed ₹8,00,000 per annum.",
+        "categoryCriteria": "Orphans / COVID affected / Martyred Wards",
+        "benefits": [
+            "₹50,000 per annum for every year of study as a lump sum amount towards college fee, books, and living expenses"
+        ],
+        "documents": [
+            "Aadhaar Card",
+            "Death Certificate of Parents (for COVID victims/Orphans) or Martyr Certificate from Armed Forces",
+            "Income Certificate",
+            "Admission Letter and Fee receipt",
+            "Bank Account details"
+        ],
+        "application": {
+            "mode": "online",
+            "url": "https://scholarships.gov.in",
+            "procedure": [
+                "Apply via the National Scholarship Portal (NSP)",
+                "Select the AICTE Swanath Scholarship Scheme",
+                "Upload specific proof certificates (Death certificates/Martyr documents)",
+                "Submit for Institutional and AICTE verification"
+            ]
+        },
+        "officialSources": [
+            {
+                "sourceName": "AICTE Official Portal",
+                "url": "https://www.aicte-india.org/schemes/students-development-schemes",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Technical Education",
+            "targetAudience": [
+                "Orphan Students",
+                "COVID affected Students",
+                "Wards of Martyrs",
+                "Engineering Students"
+            ],
+            "keywords": [
+                "Swanath Scholarship",
+                "AICTE orphan",
+                "Martyr ward scholarship",
+                "COVID orphan scholarship"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against AICTE Swanath guidelines."
+        }
+    },
+    {
+        "id": "scholarship-pg-indira-gandhi-ugc",
+        "resourceType": "scholarship",
+        "name": "PG Indira Gandhi Scholarship for Single Girl Child",
+        "slug": "pg-indira-gandhi-scholarship-single-girl-child",
+        "module": "scholarships",
+        "description": "A UGC scholarship to support postgraduate education of single girl children and compensate for direct costs of girl education at all levels.",
+        "authority": "University Grants Commission (UGC)",
+        "state": "All India",
+        "educationLevel": "Postgraduate (PG) First Year",
+        "eligibility": [
+            "Must be admitted to regular, full-time 1st-year Master's Degree course in any designated university/college",
+            "Girl student must be the only child of her parents (no brother or sister)",
+            "Age Limit: Maximum 30 years at the time of admission to PG course"
+        ],
+        "incomeCriteria": "No specific income limit is applied.",
+        "categoryCriteria": "Single Girl Child",
+        "benefits": [
+            "₹36,200 per annum for a period of two years (the duration of the PG course)"
+        ],
+        "documents": [
+            "Aadhaar Card",
+            "Affidavit on ₹50 Stamp paper declaring single girl child status",
+            "Admission proof (PG 1st year)",
+            "Bank Account details"
+        ],
+        "application": {
+            "mode": "online",
+            "url": "https://scholarships.gov.in",
+            "procedure": [
+                "Apply online on the National Scholarship Portal (NSP) during the application window",
+                "Upload the original sworn affidavit confirming single child status",
+                "Submit for verification by the University/College Nodal Officer"
+            ]
+        },
+        "officialSources": [
+            {
+                "sourceName": "UGC Scholarship Portal / NSP",
+                "url": "https://www.ugc.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Higher Education",
+            "targetAudience": [
+                "Single Girl Child",
+                "Postgraduate Students",
+                "Women"
+            ],
+            "keywords": [
+                "UGC Single Girl Child",
+                "Indira Gandhi Scholarship",
+                "PG girl scholarship"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against UGC PG Single Girl Child scheme guidelines."
+        }
+    },
+    {
+        "id": "scholarship-pg-rank-holders-ugc",
+        "resourceType": "scholarship",
+        "name": "PG Scholarship for University Rank Holders",
+        "slug": "pg-scholarship-university-rank-holders",
+        "module": "scholarships",
+        "description": "Scholarship designed to attract talent for pursuing post-graduate studies by offering financial assistance to 1st and 2nd rank holders at the undergraduate level.",
+        "authority": "University Grants Commission (UGC)",
+        "state": "All India",
+        "educationLevel": "Postgraduate (PG) First Year",
+        "eligibility": [
+            "Must be the 1st or 2nd Rank holder at the UG level in designated university/institution",
+            "Must have obtained a minimum of 60% marks at the undergraduate level",
+            "Must be admitted to a regular, full-time Master's degree course",
+            "Maximum age limit is 30 years at the time of admission to the PG course"
+        ],
+        "incomeCriteria": "No specific income limit.",
+        "categoryCriteria": "University Toppers (1st and 2nd Rank)",
+        "benefits": [
+            "₹3,100 per month for a period of two years (10 months per year)"
+        ],
+        "documents": [
+            "Aadhaar Card",
+            "Rank Certificate issued by the University stating 1st or 2nd rank and total number of students",
+            "UG Marksheet showing minimum 60% marks",
+            "Admission proof for PG",
+            "Bank Account details"
+        ],
+        "application": {
+            "mode": "online",
+            "url": "https://scholarships.gov.in",
+            "procedure": [
+                "Register on the National Scholarship Portal (NSP)",
+                "Select the UGC PG Rank Holders scheme",
+                "Upload the official Rank Certificate from the University",
+                "Submit for institutional verification"
+            ]
+        },
+        "officialSources": [
+            {
+                "sourceName": "UGC Scholarship Portal / NSP",
+                "url": "https://scholarships.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Higher Education",
+            "targetAudience": [
+                "Postgraduate Students",
+                "University Toppers",
+                "Meritorious Students"
+            ],
+            "keywords": [
+                "UGC rank holder",
+                "PG rank holder scholarship",
+                "University topper scholarship"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against UGC PG Rank Holder guidelines."
+        }
+    },
+    {
+        "id": "scholarship-ishan-uday-ner",
+        "resourceType": "scholarship",
+        "name": "Ishan Uday Special Scholarship Scheme for NER",
+        "slug": "ishan-uday-special-scholarship-ner",
+        "module": "scholarships",
+        "description": "A special scholarship scheme by UGC to promote higher education, increase Gross Enrolment Ratio (GER), and encourage professional education among students of the North Eastern Region (NER).",
+        "authority": "University Grants Commission (UGC)",
+        "state": "North Eastern States (Arunachal Pradesh, Assam, Manipur, Meghalaya, Mizoram, Nagaland, Sikkim, Tripura)",
+        "educationLevel": "Undergraduate (UG) First Year",
+        "eligibility": [
+            "Students must be domiciles of the North Eastern Region (NER)",
+            "Must have passed Class 12 or equivalent from a school situated in NER",
+            "Must have secured admission in the first year of any general degree, technical, or professional course in a recognized institution"
+        ],
+        "incomeCriteria": "Annual family income from all sources must not exceed ₹4,50,000.",
+        "categoryCriteria": "Domicile of North Eastern Region",
+        "benefits": [
+            "₹5,400 per month for General Degree courses",
+            "₹7,800 per month for Technical/Medical/Professional/Paramedical courses",
+            "Paid for the entire duration of the course"
+        ],
+        "documents": [
+            "Aadhaar Card",
+            "Domicile Certificate of a North Eastern State",
+            "Income Certificate",
+            "Class 12th Marksheet",
+            "Admission proof and fee receipt"
+        ],
+        "application": {
+            "mode": "online",
+            "url": "https://scholarships.gov.in",
+            "procedure": [
+                "Apply via the National Scholarship Portal (NSP)",
+                "Select the 'Ishan Uday' scheme under UGC",
+                "Upload Domicile and Income certificates",
+                "Submit for verification by the admitted University/College"
+            ]
+        },
+        "officialSources": [
+            {
+                "sourceName": "UGC Scholarship Portal / NSP",
+                "url": "https://scholarships.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Higher Education",
+            "targetAudience": [
+                "Students of North East",
+                "Undergraduate Students"
+            ],
+            "keywords": [
+                "Ishan Uday",
+                "NER scholarship",
+                "North east scholarship",
+                "UGC Ishan Uday"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against UGC Ishan Uday guidelines."
+        }
+    },
+    {
+        "id": "scholarship-pmss-capf",
+        "resourceType": "scholarship",
+        "name": "Prime Minister's Scholarship Scheme For CAPFs And AR",
+        "slug": "pm-scholarship-scheme-capf-ar",
+        "module": "scholarships",
+        "description": "Scholarship to encourage higher technical and professional education for the dependent wards and widows of Central Armed Police Forces & Assam Rifles personnel.",
+        "authority": "Welfare and Rehabilitation Board (WARB), Ministry of Home Affairs",
+        "state": "All India",
+        "educationLevel": "Undergraduate / Postgraduate Professional/Technical Degree",
+        "eligibility": [
+            "Wards/Widows of deceased CAPF & AR personnel who died in harness/election duty",
+            "Wards of personnel disabled due to causes attributable to Government service",
+            "Wards of Ex-CAPF & AR personnel in receipt of Gallantry Awards",
+            "Must have secured a minimum of 60% marks in Minimum Entry Qualification (Class 12/Diploma/Graduation)",
+            "Pursuing first professional degree course recognized by statutory bodies"
+        ],
+        "incomeCriteria": "No specific income limit; preference is based on the category of the ward (e.g., Category A for wards of martyrs has highest priority).",
+        "categoryCriteria": "Wards/Widows of CAPF and Assam Rifles personnel",
+        "benefits": [
+            "₹3,000 per month for Girls (Paid annually as ₹36,000)",
+            "₹2,500 per month for Boys (Paid annually as ₹30,000)",
+            "Covers the standard duration of the professional degree (up to 5 years)"
+        ],
+        "documents": [
+            "Aadhaar Card",
+            "Service Certificate / Discharge Certificate / PPO of the serving/retired/deceased personnel",
+            "Death/Disability/Gallantry Award Certificate (if applicable)",
+            "Class 12 / MEQ Marksheet",
+            "Bank Account details"
+        ],
+        "application": {
+            "mode": "online",
+            "url": "https://scholarships.gov.in",
+            "procedure": [
+                "Register and apply via the National Scholarship Portal (NSP)",
+                "Select WARB Ministry of Home Affairs PMSS Scheme",
+                "Upload the required dependent/service certificates",
+                "Application is verified by the Institute and then by WARB"
+            ]
+        },
+        "officialSources": [
+            {
+                "sourceName": "National Scholarship Portal - WARB",
+                "url": "https://scholarships.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Defence & Paramilitary",
+            "targetAudience": [
+                "Wards of CAPF",
+                "Wards of Assam Rifles",
+                "Engineering/Medical Students"
+            ],
+            "keywords": [
+                "PMSS CAPF",
+                "Prime Minister Scholarship",
+                "WARB Scholarship",
+                "BSF CRPF scholarship"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against WARB PMSS guidelines."
+        }
+    },
+    {
+        "id": "scholarship-pmss-rpf",
+        "resourceType": "scholarship",
+        "name": "Prime Minister's Scholarship Scheme For RPF/RPSF",
+        "slug": "pm-scholarship-scheme-rpf-rpsf",
+        "module": "scholarships",
+        "description": "Scholarship scheme to promote higher technical and professional education for the dependent wards of ex/serving RPF/RPSF personnel and widows of RPF/RPSF personnel.",
+        "authority": "Ministry of Railways (Railway Board)",
+        "state": "All India",
+        "educationLevel": "Undergraduate / Postgraduate Professional/Technical Degree",
+        "eligibility": [
+            "Wards/widows of ex-RPF/RPSF personnel",
+            "Wards of serving RPF/RPSF personnel",
+            "Must have secured at least 60% marks in the Minimum Entry Qualification (Class 12 / Diploma / Graduation)",
+            "Must be admitted to recognized professional / technical degree courses"
+        ],
+        "incomeCriteria": "Priority is given to wards of deceased, disabled, or ex-personnel, followed by serving personnel based on rank.",
+        "categoryCriteria": "Wards/Widows of RPF/RPSF personnel",
+        "benefits": [
+            "₹3,000 per month for Female Students (Paid annually as ₹36,000)",
+            "₹2,500 per month for Male Students (Paid annually as ₹30,000)"
+        ],
+        "documents": [
+            "Aadhaar Card",
+            "Service Certificate / PPO of RPF/RPSF personnel",
+            "Class 12 / Diploma mark sheet",
+            "Bank Account details",
+            "Admission proof"
+        ],
+        "application": {
+            "mode": "online",
+            "url": "https://scholarships.gov.in",
+            "procedure": [
+                "Apply online through the National Scholarship Portal (NSP)",
+                "Upload required service documents of parents",
+                "Complete institutional verification"
+            ]
+        },
+        "officialSources": [
+            {
+                "sourceName": "National Scholarship Portal - Ministry of Railways",
+                "url": "https://scholarships.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Railways & Defence",
+            "targetAudience": [
+                "Wards of RPF",
+                "Wards of RPSF",
+                "Railway Police Wards"
+            ],
+            "keywords": [
+                "PMSS RPF",
+                "Prime Minister Scholarship Railways",
+                "RPF ward scholarship"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against RPF PMSS guidelines."
+        }
+    },
+    {
+        "id": "scholarship-top-class-sc",
+        "resourceType": "scholarship",
+        "name": "Top Class Education Scheme for SC Students",
+        "slug": "top-class-education-sc-students",
+        "module": "scholarships",
+        "description": "Scheme to promote qualitative education amongst SC students by providing full financial support for pursuing studies beyond 12th class in notified institutions of excellence (like IITs, IIMs, NITs, AIIMS, etc.).",
+        "authority": "Ministry of Social Justice and Empowerment",
+        "state": "All India",
+        "educationLevel": "Undergraduate and Postgraduate courses in Top Institutions",
+        "eligibility": [
+            "Must belong to Scheduled Caste (SC)",
+            "Must have secured admission in a notified 'Top Class' institution (e.g., IIT, NIT, IIM, NLU)",
+            "Selection is based on the merit ranking in the entrance exam of the respective institution"
+        ],
+        "incomeCriteria": "Total family income from all sources must not exceed ₹8,00,000 per annum.",
+        "categoryCriteria": "Scheduled Caste (SC)",
+        "benefits": [
+            "Full tuition fee and non-refundable charges reimbursement (up to ₹2 Lakh for private sector institutes, full for govt)",
+            "Living expenses of ₹3,000 per month",
+            "Books and stationery allowance of ₹5,000 per annum",
+            "Computer/Laptop grant of ₹45,000 (one-time)"
+        ],
+        "documents": [
+            "Aadhaar Card",
+            "SC Caste Certificate",
+            "Income Certificate",
+            "Admission Letter/Rank Card from the Top Class Institution",
+            "Bank Account details"
+        ],
+        "application": {
+            "mode": "online",
+            "url": "https://scholarships.gov.in",
+            "procedure": [
+                "Admitted students apply through the National Scholarship Portal (NSP)",
+                "The Top Class Institution verifies the application and forwards it to the Ministry for approval and direct fund transfer"
+            ]
+        },
+        "officialSources": [
+            {
+                "sourceName": "Ministry of Social Justice & Empowerment",
+                "url": "https://socialjustice.gov.in",
+                "sourceType": "ministry_website"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Social Justice",
+            "targetAudience": [
+                "SC Students",
+                "IIT Students",
+                "NIT Students",
+                "IIM Students"
+            ],
+            "keywords": [
+                "Top Class SC",
+                "IIT SC scholarship",
+                "IIM SC scholarship",
+                "MSJE Top Class"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against MSJE Top Class scheme guidelines."
+        }
+    },
+    {
+        "id": "scholarship-nfst",
+        "resourceType": "scholarship",
+        "name": "National Fellowship and Scholarship for Higher Education of ST Students",
+        "slug": "national-fellowship-scholarship-higher-education-st",
+        "module": "scholarships",
+        "description": "An umbrella scheme providing financial assistance to ST students for pursuing higher education in Top Class Institutes and for pursuing M.Phil/Ph.D. programs.",
+        "authority": "Ministry of Tribal Affairs",
+        "state": "All India",
+        "educationLevel": "UG/PG (Top Class) and Ph.D. (Fellowship)",
+        "eligibility": [
+            "Must belong to Scheduled Tribe (ST)",
+            "For Scholarship: Secured admission in a notified Top Class Institution",
+            "For Fellowship: Registered for regular and full-time M.Phil/Ph.D. courses in UGC recognized Universities/Institutes"
+        ],
+        "incomeCriteria": "For Scholarship (Top Class): Family income must not exceed ₹6,00,000. For Fellowship: No income limit.",
+        "categoryCriteria": "Scheduled Tribe (ST)",
+        "benefits": [
+            "Scholarship: Full tuition fee, living expenses @ ₹2,220/month, Books/Stationery @ ₹3,000/annum, Computer @ ₹45,000",
+            "Fellowship: ₹31,000/month (JRF) or ₹35,000/month (SRF) plus HRA and Contingency grant"
+        ],
+        "documents": [
+            "Aadhaar Card",
+            "ST Certificate",
+            "Income Certificate (for Scholarship component)",
+            "Admission/Registration proof for Top Class or Ph.D."
+        ],
+        "application": {
+            "mode": "online",
+            "url": "https://tribal.nic.in/Scholarships.aspx",
+            "procedure": [
+                "Fellowship applications are submitted via the National Tribal Fellowship portal",
+                "Top Class Scholarship applications are submitted via the National Scholarship Portal (NSP)",
+                "Verification is done by the respective University/Institute"
+            ]
+        },
+        "officialSources": [
+            {
+                "sourceName": "Ministry of Tribal Affairs",
+                "url": "https://tribal.nic.in/Scholarships.aspx",
+                "sourceType": "ministry_website"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Tribal Affairs",
+            "targetAudience": [
+                "ST Students",
+                "Ph.D Scholars",
+                "Top Class Institute Students"
+            ],
+            "keywords": [
+                "NFST",
+                "ST Fellowship",
+                "Tribal Ph.D scholarship",
+                "Top Class ST"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against MoTA NFST guidelines."
+        }
+    },
+    {
+        "id": "scholarship-pre-matric-obc",
+        "resourceType": "scholarship",
+        "name": "Pre-Matric Scholarship for OBC Students",
+        "slug": "pre-matric-scholarship-obc",
+        "module": "scholarships",
+        "description": "Centrally sponsored scheme (now largely subsumed under PM YASASVI) to provide financial assistance to OBC students studying at pre-matriculation or secondary stage.",
+        "authority": "Ministry of Social Justice and Empowerment / State Govts",
+        "state": "All India (Implemented via States)",
+        "educationLevel": "Classes 9 and 10",
+        "eligibility": [
+            "Student must belong to the Other Backward Classes (OBC)",
+            "Must be studying in Class 9 or 10 in a recognized school"
+        ],
+        "incomeCriteria": "Annual family income must not exceed ₹2,50,000.",
+        "categoryCriteria": "Other Backward Classes (OBC)",
+        "benefits": [
+            "Academic allowance of ₹4,000 per annum"
+        ],
+        "documents": [
+            "Aadhaar Card",
+            "OBC Caste Certificate",
+            "Income Certificate",
+            "Bank passbook",
+            "Previous mark sheet"
+        ],
+        "application": {
+            "mode": "online",
+            "url": "https://scholarships.gov.in",
+            "procedure": [
+                "Apply via the State Scholarship Portal or NSP (as mandated by the respective state)",
+                "Submit required caste and income proof for institutional verification"
+            ]
+        },
+        "officialSources": [
+            {
+                "sourceName": "Ministry of Social Justice & Empowerment",
+                "url": "https://socialjustice.gov.in",
+                "sourceType": "ministry_website"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Social Justice",
+            "targetAudience": [
+                "OBC Students",
+                "School Students"
+            ],
+            "keywords": [
+                "Pre-matric OBC",
+                "OBC school scholarship"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against subsumed PM YASASVI / Pre-Matric OBC rules."
+        }
+    },
+    {
+        "id": "scholarship-post-matric-obc",
+        "resourceType": "scholarship",
+        "name": "Post-Matric Scholarship for OBC Students",
+        "slug": "post-matric-scholarship-obc",
+        "module": "scholarships",
+        "description": "Scheme to provide financial assistance to OBC students studying at post-matriculation or post-secondary stage to enable them to complete their education.",
+        "authority": "Ministry of Social Justice & Empowerment",
+        "state": "All India",
+        "educationLevel": "Class 11, 12, UG, PG, Technical/Vocational",
+        "eligibility": [
+            "Must belong to Other Backward Classes (OBC)",
+            "Must be pursuing recognized post-matriculation courses"
+        ],
+        "incomeCriteria": "Annual family income from all sources must not exceed ₹2,50,000.",
+        "categoryCriteria": "Other Backward Classes (OBC)",
+        "benefits": [
+            "Maintenance allowance per month",
+            "Reimbursement of compulsory non-refundable fees",
+            "Study tour charges and thesis typing/printing charges"
+        ],
+        "documents": [
+            "Aadhaar Card",
+            "OBC Certificate",
+            "Income Certificate",
+            "Fee Receipt",
+            "Previous Exam Marksheets"
+        ],
+        "application": {
+            "mode": "online",
+            "url": "https://scholarships.gov.in",
+            "procedure": [
+                "Apply via the National Scholarship Portal (NSP) or State specific portals (e.g., SSP Karnataka, MahaDBT)",
+                "Upload mandatory certificates",
+                "Institute verification followed by State approval for DBT"
+            ]
+        },
+        "officialSources": [
+            {
+                "sourceName": "Ministry of Social Justice & Empowerment",
+                "url": "https://socialjustice.gov.in",
+                "sourceType": "ministry_website"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Social Justice",
+            "targetAudience": [
+                "OBC Students",
+                "College Students",
+                "University Students"
+            ],
+            "keywords": [
+                "Post matric OBC",
+                "PMS OBC",
+                "OBC college scholarship"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against PMS-OBC guidelines."
+        }
+    },
+    {
+        "id": "scholarship-begum-hazrat-mahal",
+        "resourceType": "scholarship",
+        "name": "Begum Hazrat Mahal National Scholarship",
+        "slug": "begum-hazrat-mahal-national-scholarship",
+        "module": "scholarships",
+        "description": "Scholarship for meritorious girl students belonging to minority communities to assist them with school education.",
+        "authority": "Maulana Azad Education Foundation, Ministry of Minority Affairs",
+        "state": "All India",
+        "educationLevel": "Classes 9 to 12",
+        "eligibility": [
+            "Girl students belonging to minority communities (Muslim, Christian, Sikh, Buddhist, Jain, Parsi)",
+            "Must be studying in Classes 9 to 12",
+            "Must have secured at least 50% marks or equivalent grade in the previous class"
+        ],
+        "incomeCriteria": "Annual family income from all sources must not exceed ₹2,00,000.",
+        "categoryCriteria": "Minority Girl Students",
+        "benefits": [
+            "₹5,000 each for Class 9 and 10",
+            "₹6,000 each for Class 11 and 12",
+            "Assistance covers admission/tuition fees and maintenance expenses"
+        ],
+        "documents": [
+            "Aadhaar Card",
+            "Income Certificate",
+            "Community Declaration / Certificate",
+            "Previous Marksheet",
+            "Bank Account details",
+            "School Verification Form"
+        ],
+        "application": {
+            "mode": "online",
+            "url": "https://scholarships.gov.in",
+            "procedure": [
+                "Apply online via the National Scholarship Portal (NSP)",
+                "Select the Begum Hazrat Mahal scheme under Ministry of Minority Affairs",
+                "Upload the required documents and submit for school verification"
+            ]
+        },
+        "officialSources": [
+            {
+                "sourceName": "National Scholarship Portal",
+                "url": "https://scholarships.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Minority Welfare",
+            "targetAudience": [
+                "Minority Girl Students",
+                "School Girls"
+            ],
+            "keywords": [
+                "Begum Hazrat Mahal",
+                "MAEF scholarship",
+                "Minority girl scholarship"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against MAEF guidelines."
+        }
+    },
+    {
+        "id": "scholarship-inspire-she",
+        "resourceType": "scholarship",
+        "name": "INSPIRE Scholarship for Higher Education (SHE)",
+        "slug": "inspire-scholarship-higher-education-she",
+        "module": "scholarships",
+        "description": "Innovation in Science Pursuit for Inspired Research (INSPIRE) Scholarship aims to attract talented youth into the study of basic sciences at the undergraduate and postgraduate levels.",
+        "authority": "Department of Science and Technology (DST)",
+        "state": "All India",
+        "educationLevel": "Undergraduate and Postgraduate (B.Sc, B.S., Int. M.Sc/M.S. in Basic & Natural Sciences)",
+        "eligibility": [
+            "Must be among the top 1% of successful students in Class 12th Board Examinations",
+            "Must be enrolled in courses in Basic and Natural Sciences at B.Sc, B.S., or Int. M.Sc/M.S. level",
+            "Students securing ranks in JEE (Main)/JEE (Advanced)/NEET and opting to study Basic Sciences are also eligible"
+        ],
+        "incomeCriteria": "No income limit.",
+        "categoryCriteria": "Top 1% Merit in Basic Sciences",
+        "benefits": [
+            "Total value of ₹80,000 per annum",
+            "Includes a cash scholarship of ₹60,000 per annum and a summer time attachment/mentorship grant of ₹20,000 per annum"
+        ],
+        "documents": [
+            "Class 12th Board Marksheet",
+            "Eligibility Note / Advisory Note provided by the State/Central Board",
+            "Endorsement Certificate signed by College Principal/Director",
+            "Aadhaar Card",
+            "Bank Account details"
+        ],
+        "application": {
+            "mode": "online",
+            "url": "https://online-inspire.gov.in",
+            "procedure": [
+                "Register on the INSPIRE web portal",
+                "Fill the online application for SHE and upload the Board Eligibility Note and College Endorsement Certificate",
+                "Submit the application during the active call for applications (usually Nov-Dec)"
+            ]
+        },
+        "officialSources": [
+            {
+                "sourceName": "INSPIRE Online Portal",
+                "url": "https://online-inspire.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Scientific Research",
+            "targetAudience": [
+                "Science Students",
+                "B.Sc Students",
+                "Int. M.Sc Students",
+                "Top 1% Students"
+            ],
+            "keywords": [
+                "INSPIRE SHE",
+                "DST INSPIRE",
+                "Science scholarship 80000",
+                "Basic sciences"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against DST INSPIRE SHE guidelines."
+        }
+    },
+    {
+        "id": "scholarship-pm-yasasvi-pre-matric",
+        "resourceType": "scholarship",
+        "name": "PM YASASVI Pre-Matric Scholarship Scheme",
+        "slug": "pm-yasasvi-pre-matric-scholarship",
+        "module": "scholarships",
+        "description": "PM Young Achievers Scholarship Award Scheme for Vibrant India for OBCs, EBCs and DNT Students studying in classes 9 and 10.",
+        "authority": "Ministry of Social Justice & Empowerment",
+        "state": "All India",
+        "educationLevel": "Classes 9 and 10",
+        "eligibility": [
+            "Must belong to OBC, Economically Backward Class (EBC), or De-Notified, Nomadic, and Semi-Nomadic Tribes (DNT)",
+            "Must be studying in Class 9 or 10 in identified top schools/government schools"
+        ],
+        "incomeCriteria": "Annual family income must not exceed ₹2,50,000.",
+        "categoryCriteria": "OBC / EBC / DNT",
+        "benefits": [
+            "Scholarship amount of ₹4,000 per annum to support education expenses"
+        ],
+        "documents": [
+            "Aadhaar Card",
+            "Category/Caste Certificate",
+            "Income Certificate",
+            "Previous class mark sheet",
+            "Bank Account details"
+        ],
+        "application": {
+            "mode": "online",
+            "url": "https://scholarships.gov.in",
+            "procedure": [
+                "Apply via the National Scholarship Portal (NSP)",
+                "Select the PM YASASVI Pre-Matric scheme",
+                "Upload required income and category certificates",
+                "School/Institute verification"
+            ]
+        },
+        "officialSources": [
+            {
+                "sourceName": "Ministry of Social Justice & Empowerment",
+                "url": "https://socialjustice.gov.in",
+                "sourceType": "ministry_website"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Social Justice",
+            "targetAudience": [
+                "OBC Students",
+                "EBC Students",
+                "DNT Students",
+                "School Students"
+            ],
+            "keywords": [
+                "PM YASASVI",
+                "Pre-matric YASASVI",
+                "EBC scholarship"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against PM YASASVI scheme structure."
+        }
+    },
+    {
+        "id": "scholarship-pm-yasasvi-post-matric",
+        "resourceType": "scholarship",
+        "name": "PM YASASVI Post-Matric Scholarship Scheme",
+        "slug": "pm-yasasvi-post-matric-scholarship",
+        "module": "scholarships",
+        "description": "Post-Matric Scholarship for OBC, EBC, and DNT students to enable them to pursue higher education from class 11 onwards.",
+        "authority": "Ministry of Social Justice & Empowerment",
+        "state": "All India",
+        "educationLevel": "Class 11, 12, UG, PG",
+        "eligibility": [
+            "Must belong to OBC, EBC, or DNT categories",
+            "Must be studying at a recognized post-matriculation institution"
+        ],
+        "incomeCriteria": "Annual family income must not exceed ₹2,50,000.",
+        "categoryCriteria": "OBC / EBC / DNT",
+        "benefits": [
+            "Maintenance allowance per month (based on course group)",
+            "Reimbursement of tuition fees (subject to state limits)",
+            "Study tour charges and thesis printing charges"
+        ],
+        "documents": [
+            "Aadhaar Card",
+            "Category Certificate",
+            "Income Certificate",
+            "Fee Receipt",
+            "Previous mark sheets"
+        ],
+        "application": {
+            "mode": "online",
+            "url": "https://scholarships.gov.in",
+            "procedure": [
+                "Apply via NSP or respective State Scholarship Portal",
+                "Fill out application details and upload mandatory documents",
+                "Submit for verification at the institutional and state levels"
+            ]
+        },
+        "officialSources": [
+            {
+                "sourceName": "Ministry of Social Justice & Empowerment",
+                "url": "https://socialjustice.gov.in",
+                "sourceType": "ministry_website"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Social Justice",
+            "targetAudience": [
+                "OBC Students",
+                "EBC Students",
+                "College Students"
+            ],
+            "keywords": [
+                "PM YASASVI Post matric",
+                "OBC higher education",
+                "EBC college scholarship"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against PM YASASVI guidelines."
+        }
+    },
+    {
+        "id": "scholarship-beedi-workers-post-matric",
+        "resourceType": "scholarship",
+        "name": "Financial Assistance for Education of the Wards of Beedi/Cine/IOMC/LSDM Workers (Post-Matric)",
+        "slug": "financial-assistance-wards-beedi-cine-workers-post-matric",
+        "module": "scholarships",
+        "description": "Scholarship to the wards of Beedi, Cine, Iron Ore, Manganese Ore & Chrome Ore Mines (IOMC), and Limestone & Dolomite Mines (LSDM) workers to pursue higher education.",
+        "authority": "Ministry of Labour & Employment",
+        "state": "All India",
+        "educationLevel": "Class 11 to PG, Medical, Engineering, Professional Degrees",
+        "eligibility": [
+            "Either of the parents must be a Beedi, Cine, or Mine worker with at least six months of service",
+            "Must have passed the previous academic year",
+            "Must be pursuing regular courses of general or technical education"
+        ],
+        "incomeCriteria": "Monthly income of the worker's family must not exceed ₹10,000 (or ₹1,00,000 for Cine workers).",
+        "categoryCriteria": "Wards of specified unorganized workers",
+        "benefits": [
+            "Scholarship amount ranges from ₹3,000 to ₹25,000 per annum depending on the course of study (e.g., Professional courses get highest amount)"
+        ],
+        "documents": [
+            "Aadhaar Card",
+            "Identity Card of the worker (issued by Labour Welfare Organization)",
+            "Income Certificate / Affidavit",
+            "Previous Exam Marksheet",
+            "Bank Account details"
+        ],
+        "application": {
+            "mode": "online",
+            "url": "https://scholarships.gov.in",
+            "procedure": [
+                "Register on the National Scholarship Portal (NSP)",
+                "Apply under the Ministry of Labour & Employment scheme",
+                "Upload the Worker ID card and other academic documents",
+                "Submit for Institutional and Labour Welfare Organization verification"
+            ]
+        },
+        "officialSources": [
+            {
+                "sourceName": "National Scholarship Portal",
+                "url": "https://scholarships.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Labour Welfare",
+            "targetAudience": [
+                "Wards of Beedi Workers",
+                "Wards of Mine Workers",
+                "Wards of Cine Workers"
+            ],
+            "keywords": [
+                "Beedi worker scholarship",
+                "Cine worker scholarship",
+                "Mine worker ward scholarship"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against MoLE welfare schemes."
+        }
+    },
+    {
+        "id": "scholarship-dr-ambedkar-post-matric-ebc",
+        "resourceType": "scholarship",
+        "name": "Dr. Ambedkar Post-Matric Scholarship for EBC Students",
+        "slug": "dr-ambedkar-post-matric-scholarship-ebc",
+        "module": "scholarships",
+        "description": "A centrally sponsored scheme to provide financial assistance to Economically Backward Class (EBC) students for post-matriculation higher education.",
+        "authority": "Ministry of Social Justice & Empowerment",
+        "state": "All India",
+        "educationLevel": "Class 11, 12, UG, PG, Technical",
+        "eligibility": [
+            "Must belong to General Category (Other than SC/ST/OBC) falling under Economically Backward Class",
+            "Must be pursuing post-matriculation courses in recognized institutions"
+        ],
+        "incomeCriteria": "Annual family income must not exceed ₹2,50,000 (Subject to state adaptations).",
+        "categoryCriteria": "Economically Backward Class (EBC)",
+        "benefits": [
+            "Maintenance allowance per month",
+            "Reimbursement of compulsory non-refundable fees",
+            "Reader charges for blind students"
+        ],
+        "documents": [
+            "Aadhaar Card",
+            "Valid Income Certificate",
+            "Previous Marksheets",
+            "Fee Receipt",
+            "Bank Account details"
+        ],
+        "application": {
+            "mode": "online",
+            "url": "https://scholarships.gov.in",
+            "procedure": [
+                "Apply via the NSP or the respective State Scholarship Portal",
+                "Upload the EBC / Income certificate",
+                "Submit for verification at the institutional and state nodal officer levels"
+            ]
+        },
+        "officialSources": [
+            {
+                "sourceName": "Ministry of Social Justice & Empowerment",
+                "url": "https://socialjustice.gov.in",
+                "sourceType": "ministry_website"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Social Justice",
+            "targetAudience": [
+                "EBC Students",
+                "General Category Poor Students"
+            ],
+            "keywords": [
+                "Dr Ambedkar EBC",
+                "EBC post matric",
+                "General category poor scholarship"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against MSJE EBC guidelines."
+        }
+    },
+    {
+        "id": "scholarship-nfsc",
+        "resourceType": "scholarship",
+        "name": "National Fellowship for Scheduled Caste Students (NFSC)",
+        "slug": "national-fellowship-scheduled-caste-nfsc",
+        "module": "scholarships",
+        "description": "Fellowship scheme to provide financial assistance to SC students for pursuing higher education leading to M.Phil/Ph.D. Degrees in Sciences, Humanities, and Social Sciences.",
+        "authority": "Ministry of Social Justice and Empowerment / UGC",
+        "state": "All India",
+        "educationLevel": "M.Phil / Ph.D. Level",
+        "eligibility": [
+            "Must belong to Scheduled Caste (SC)",
+            "Must have qualified the National Eligibility Test (NET-JRF/CSIR-NET) or have been selected through UGC-specified mechanisms",
+            "Must be registered for regular and full-time M.Phil/Ph.D. course in a recognized University/Institution"
+        ],
+        "incomeCriteria": "No income limit.",
+        "categoryCriteria": "Scheduled Caste (SC)",
+        "benefits": [
+            "Junior Research Fellowship (JRF): ₹31,000 per month (for 2 years)",
+            "Senior Research Fellowship (SRF): ₹35,000 per month (for remaining 3 years)",
+            "Contingency grant and Escorts/Reader assistance for Divyang scholars",
+            "House Rent Allowance (HRA) as per rules"
+        ],
+        "documents": [
+            "Aadhaar Card",
+            "SC Caste Certificate",
+            "NET Qualification Certificate / Award Letter",
+            "Admission / Joining Report for Ph.D./M.Phil"
+        ],
+        "application": {
+            "mode": "online",
+            "url": "https://ugc.ac.in",
+            "procedure": [
+                "Selection is primarily based on the merit list of UGC-NET and CSIR-NET",
+                "Selected candidates download the award letter from the UGC/NTA portal",
+                "Candidate submits the joining report through their respective university to UGC to start the fellowship disbursement via DBT"
+            ]
+        },
+        "officialSources": [
+            {
+                "sourceName": "UGC Fellowship Portal",
+                "url": "https://www.ugc.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Higher Education & Research",
+            "targetAudience": [
+                "Ph.D Scholars",
+                "SC Students",
+                "Researchers"
+            ],
+            "keywords": [
+                "NFSC",
+                "SC Fellowship",
+                "UGC NFSC",
+                "JRF SC"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against MSJE NFSC guidelines."
+        }
+    },
+    {
+        "id": "scholarship-nfobc",
+        "resourceType": "scholarship",
+        "name": "National Fellowship for OBC Students (NFOBC)",
+        "slug": "national-fellowship-obc-nfobc",
+        "module": "scholarships",
+        "description": "Fellowship scheme providing financial assistance to OBC students to pursue advanced studies and research leading to M.Phil/Ph.D. Degrees.",
+        "authority": "Ministry of Social Justice and Empowerment",
+        "state": "All India",
+        "educationLevel": "M.Phil / Ph.D. Level",
+        "eligibility": [
+            "Must belong to Other Backward Classes (OBC)",
+            "Must have qualified UGC-NET or CSIR-NET",
+            "Must be registered for regular, full-time M.Phil or Ph.D. program in recognized universities"
+        ],
+        "incomeCriteria": "The scheme targets the unreserved among OBCs (i.e., non-creamy layer), thus implying the prevailing NCL income limit (₹8,00,000).",
+        "categoryCriteria": "Other Backward Classes (OBC - Non-Creamy Layer)",
+        "benefits": [
+            "Junior Research Fellowship (JRF): ₹31,000 per month (for initial 2 years)",
+            "Senior Research Fellowship (SRF): ₹35,000 per month (for remaining tenure)",
+            "Contingency grant and HRA"
+        ],
+        "documents": [
+            "Aadhaar Card",
+            "OBC-NCL Certificate",
+            "UGC-NET / CSIR-NET Award Letter",
+            "Ph.D./M.Phil Admission/Joining Report"
+        ],
+        "application": {
+            "mode": "online",
+            "url": "https://ugc.ac.in",
+            "procedure": [
+                "Selection based on the UGC-NET / CSIR-NET OBC merit list",
+                "Download the NFOBC award letter from UGC portal",
+                "Submit the joining report through the university on the UGC Scholarship portal to initiate DBT"
+            ]
+        },
+        "officialSources": [
+            {
+                "sourceName": "UGC Fellowship Portal",
+                "url": "https://www.ugc.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Higher Education & Research",
+            "targetAudience": [
+                "Ph.D Scholars",
+                "OBC Students",
+                "Researchers"
+            ],
+            "keywords": [
+                "NFOBC",
+                "OBC Fellowship",
+                "JRF OBC",
+                "Ph.D funding OBC"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against MSJE NFOBC guidelines."
+        }
+    },
+    {
+        "id": "scholarship-mysy-gujarat",
+        "resourceType": "scholarship",
+        "name": "Mukhyamantri Yuva Swavalamban Yojana (MYSY)",
+        "slug": "mukhyamantri-yuva-swavalamban-yojana-mysy",
+        "module": "scholarships",
+        "description": "A flagship state scholarship scheme by the Government of Gujarat providing financial assistance to meritorious and needy students pursuing higher education.",
+        "authority": "Education Department, Government of Gujarat",
+        "state": "Gujarat",
+        "educationLevel": "Diploma, Undergraduate (Medical, Engineering, Arts, Commerce, Science)",
+        "eligibility": [
+            "Must be a domicile of Gujarat",
+            "For Diploma: Passed Class 10 with minimum 80 PR (Percentile Rank)",
+            "For UG (Engg/Pharmacy/Science/Arts/Commerce): Passed Class 12 (Science/General) with minimum 80 PR",
+            "For Medical/Dental: Passed Class 12 with 80 PR and admitted to MBBS/BDS/Ayurveda/Homeopathy courses",
+            "Must have taken admission in recognized colleges/universities in Gujarat"
+        ],
+        "incomeCriteria": "Annual family income from all sources must not exceed ₹6,00,000.",
+        "categoryCriteria": "All Categories (General/SC/ST/OBC)",
+        "benefits": [
+            "Tuition Fee Assistance: 50% of the tuition fee or maximum up to ₹2 Lakh for Medical, ₹50,000 for Engineering/Pharmacy, ₹10,000 for B.A/B.Com/B.Sc, and ₹25,000 for Diploma",
+            "Hostel assistance of ₹12,000 per year (for students living outside taluka limit)",
+            "Book/Equipment assistance up to ₹10,000 (one-time)"
+        ],
+        "documents": [
+            "Aadhaar Card",
+            "Income Certificate issued by Mamlatdar/TDO",
+            "Class 10th / 12th Board Marksheet",
+            "Admission Letter and Tuition Fee Receipt",
+            "Hostel admission proof (if claiming hostel assistance)",
+            "Bank Account details (Aadhaar seeded)"
+        ],
+        "application": {
+            "mode": "online",
+            "url": "https://mysy.guj.nic.in",
+            "procedure": [
+                "Visit the official MYSY portal (https://mysy.guj.nic.in)",
+                "Register as a fresh applicant using Board details and PR score",
+                "Fill the online application, upload documents, and submit",
+                "Visit the designated Help Centre (HC) with original documents for physical document verification",
+                "Upon successful verification at the HC, the application is forwarded for DBT sanction"
+            ]
+        },
+        "officialSources": [
+            {
+                "sourceName": "MYSY Official Portal - Gujarat",
+                "url": "https://mysy.guj.nic.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "State Scholarship",
+            "targetAudience": [
+                "Gujarat Students",
+                "Medical Students",
+                "Engineering Students",
+                "Diploma Students"
+            ],
+            "keywords": [
+                "MYSY",
+                "Mukhyamantri Yuva Swavalamban",
+                "Gujarat scholarship",
+                "80 PR scholarship"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against MYSY Gujarat official portal guidelines."
+        }
+    }
+]

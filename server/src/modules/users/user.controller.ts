@@ -2,7 +2,8 @@ import { Response } from 'express';
 import mongoose from 'mongoose';
 import { AuthRequest } from '../../middleware/auth.middleware';
 import { User } from '../users/user.model';
-import { getDiscoveryRecordById } from '../services/service.controller';
+import { resourceRetrievalService } from '../../services/resourceRetrieval.service';
+import { mapToLegacyContract } from '../services/service.controller';
 
 // @desc    Get user profile with populated saved services
 // @route   GET /api/v1/users/profile
@@ -16,7 +17,10 @@ export const getUserProfile = async (req: AuthRequest, res: Response) => {
     }
 
     const savedServices = await Promise.all(
-      (user.savedServices || []).map((id) => getDiscoveryRecordById(String(id))),
+      (user.savedServices || []).map(async (id) => {
+        const doc = await resourceRetrievalService.getResourceById(String(id));
+        return doc ? mapToLegacyContract(doc) : null;
+      }),
     );
 
     res.status(200).json({
@@ -42,7 +46,7 @@ export const saveService = async (req: AuthRequest, res: Response) => {
     }
 
     // Validate that the ID belongs to an existing MongoDB-backed discovery record.
-    const service = await getDiscoveryRecordById(serviceId);
+    const service = await resourceRetrievalService.getResourceById(serviceId);
     if (!service) {
       return res.status(404).json({ status: 'error', message: 'Service not found' });
     }
@@ -52,7 +56,7 @@ export const saveService = async (req: AuthRequest, res: Response) => {
     }
 
     user.savedServices = user.savedServices || [];
-    user.savedServices.push(new mongoose.Types.ObjectId(service._id));
+    user.savedServices.push(new mongoose.Types.ObjectId(service.id));
     await user.save();
 
     res.status(200).json({ status: 'success', message: 'Service saved successfully' });

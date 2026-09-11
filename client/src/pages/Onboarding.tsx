@@ -4,6 +4,7 @@ import api from '../lib/axios';
 import { motion, AnimatePresence } from 'motion/react';
 import { ArrowRight, ArrowLeft, CheckCircle2, Loader2, Target, MapPin, Landmark, HeartHandshake, GraduationCap as GradIcon, Briefcase, Award, BookOpen, Sprout, FileText, Phone } from 'lucide-react';
 import { INDIA_STATES, INDIA_STATES_AND_DISTRICTS } from '../data/indiaData';
+import { useTranslation } from 'react-i18next';
 
 const INTEREST_OPTIONS = [
   { id: 'Government Schemes & Yojanas', label: 'Government Schemes', icon: <Landmark size={24} /> },
@@ -23,6 +24,7 @@ const LANGUAGE_OPTIONS = [
 
 const Onboarding = () => {
   const navigate = useNavigate();
+  const { t } = useTranslation();
   const [step, setStep] = useState(1);
   const [loading, setLoading] = useState(false);
   
@@ -88,9 +90,9 @@ const Onboarding = () => {
       
       <div className="relative z-10 max-w-3xl w-full mx-auto">
         <div className="text-center mb-10 text-white">
-          <h1 className="text-3xl sm:text-4xl font-extrabold tracking-tight mb-3">Let’s personalize OneGuide for you</h1>
+          <h1 className="text-3xl sm:text-4xl font-extrabold tracking-tight mb-3">{t('profile.onboardingTitle')}</h1>
           <p className="text-slate-300 text-lg max-w-xl mx-auto">
-            Tell us a little about yourself so we can find government opportunities and services that are relevant to your needs.
+            {t('profile.onboardingSubtitle')}
           </p>
         </div>
 

@@ -11,6 +11,7 @@ import Admin from './pages/Admin';
 import Terms from './pages/Terms';
 import Privacy from './pages/Privacy';
 import Onboarding from './pages/Onboarding';
+import SavedResources from './pages/SavedResources';
 import { ProtectedRoute } from './components/layout/ProtectedRoute';
 import { OnboardingRoute } from './components/layout/OnboardingRoute';
 
@@ -44,6 +45,7 @@ function App() {
           <Route path="service/:slug" element={<ServiceDetail />} />
           
           <Route element={<ProtectedRoute />}>
+            <Route path="saved" element={<SavedResources />} />
             <Route path="profile" element={<Profile />} />
             <Route path="admin" element={<Admin />} />
           </Route>

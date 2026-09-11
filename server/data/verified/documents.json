@@ -1,0 +1,1860 @@
+[
+    {
+        "id": "doc-aadhaar-card",
+        "resourceType": "document",
+        "name": "Aadhaar Card",
+        "slug": "aadhaar-card-uidai",
+        "module": "documents",
+        "description": "A 12-digit unique identity number issued by UIDAI to all residents of India based on their biometric and demographic data.",
+        "authority": "Unique Identification Authority of India (UIDAI), Ministry of Electronics and Information Technology",
+        "state": "All India",
+        "eligibility": [
+            "Any resident of India (who has resided in India for 182 days or more in the 12 months immediately preceding the date of application)",
+            "Non-Resident Indians (NRIs) holding a valid Indian Passport",
+            "No age limit (Baal Aadhaar issued for children below 5 years)"
+        ],
+        "documents": [
+            "Proof of Identity (POI) - e.g., Voter ID, Passport, PAN Card",
+            "Proof of Address (POA) - e.g., Bank Passbook, Utility Bill, Ration Card",
+            "Proof of Date of Birth (DOB) - e.g., Birth Certificate, SSLC Book"
+        ],
+        "application": {
+            "mode": "offline",
+            "url": "https://uidai.gov.in",
+            "procedure": [
+                "Locate an authorized Aadhaar Enrolment Centre online via uidai.gov.in or mAadhaar app",
+                "Book an appointment (optional but recommended)",
+                "Visit the centre with original supporting documents",
+                "Fill out the enrolment form and submit demographics",
+                "Provide biometric data (Iris scan, Fingerprints, and Photograph)",
+                "Collect the acknowledgment slip containing the Enrolment ID (EID) to track status"
+            ]
+        },
+        "fees": "Free for new enrolment. ₹50 for demographic/biometric update.",
+        "processingTime": "Up to 30 days (usually generated within 7-15 days).",
+        "documentType": "Identity Document",
+        "officialSources": [
+            {
+                "sourceName": "UIDAI Official Portal",
+                "url": "https://uidai.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Identity",
+            "targetAudience": [
+                "All Citizens",
+                "Residents",
+                "NRIs"
+            ],
+            "keywords": [
+                "Aadhaar",
+                "UIDAI",
+                "Unique ID",
+                "Identity Card",
+                "Baal Aadhaar"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against UIDAI enrolment guidelines."
+        }
+    },
+    {
+        "id": "doc-pan-card",
+        "resourceType": "document",
+        "name": "Permanent Account Number (PAN) Card",
+        "slug": "permanent-account-number-pan-card",
+        "module": "documents",
+        "description": "A 10-character alphanumeric identifier issued by the Income Tax Department to track financial transactions and tax filings.",
+        "authority": "Income Tax Department (Issued via NSDL/Protean and UTIITSL)",
+        "state": "All India",
+        "eligibility": [
+            "Any Indian citizen, NRI, or foreign national engaging in financial transactions in India",
+            "Companies, firms, HUFs, and trusts",
+            "Minors can also hold a PAN card (applied through a guardian)"
+        ],
+        "documents": [
+            "Proof of Identity (Aadhaar, Voter ID, Passport)",
+            "Proof of Address (Aadhaar, Utility bill, Passport)",
+            "Proof of Date of Birth (Birth Certificate, Aadhaar, SSLC mark sheet)"
+        ],
+        "application": {
+            "mode": "online",
+            "url": "https://www.incometax.gov.in",
+            "procedure": [
+                "Visit the NSDL (Protean) or UTIITSL PAN application portal",
+                "Select Form 49A (for Indian citizens/entities) or Form 49AA (for foreign entities)",
+                "Fill out the application with personal details and Aadhaar number",
+                "Complete e-KYC using Aadhaar OTP (for paperless mode) or upload scanned documents",
+                "Pay the application fee online",
+                "Digital e-PAN is sent via email, and the physical card is dispatched via post"
+            ]
+        },
+        "fees": "₹107 (approx.) for physical PAN card dispatch within India; ₹72 for e-PAN only.",
+        "processingTime": "e-PAN within 10 minutes to 48 hours; Physical card in 15-20 days.",
+        "documentType": "Tax & Financial Identity",
+        "officialSources": [
+            {
+                "sourceName": "Income Tax Department",
+                "url": "https://www.incometax.gov.in",
+                "sourceType": "official_portal"
+            },
+            {
+                "sourceName": "Protean (NSDL) PAN Portal",
+                "url": "https://www.onlineservices.nsdl.com/paam/endUserRegisterContact.html",
+                "sourceType": "authorized_agency"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Taxation",
+            "targetAudience": [
+                "Taxpayers",
+                "Professionals",
+                "Businesses",
+                "Citizens"
+            ],
+            "keywords": [
+                "PAN card",
+                "Income Tax ID",
+                "Form 49A",
+                "e-PAN",
+                "Tax card"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified from Income Tax Department rules."
+        }
+    },
+    {
+        "id": "doc-voter-id",
+        "resourceType": "document",
+        "name": "Voter ID Card (EPIC)",
+        "slug": "voter-id-card-epic",
+        "module": "documents",
+        "description": "Electors Photo Identity Card (EPIC) issued by the Election Commission of India to eligible voters to exercise their democratic franchise.",
+        "authority": "Election Commission of India (ECI)",
+        "state": "All India",
+        "eligibility": [
+            "Must be an Indian citizen",
+            "Must be 18 years of age or older on the qualifying date (1st Jan, 1st April, 1st July, or 1st Oct)",
+            "Must be an ordinary resident of the polling area"
+        ],
+        "documents": [
+            "Recent passport size photograph",
+            "Proof of Age (Birth certificate, 10th mark sheet, PAN, Aadhaar)",
+            "Proof of Residence (Aadhaar, utility bill, rent agreement)"
+        ],
+        "application": {
+            "mode": "online",
+            "url": "https://voters.eci.gov.in",
+            "procedure": [
+                "Visit the ECI Voters' Services Portal (voters.eci.gov.in) or use the Voter Helpline App",
+                "Register/Login and select 'Fill Form 6' (for new electoral roll registration)",
+                "Fill out personal, family, and address details",
+                "Upload photograph, age proof, and address proof",
+                "Submit the form and note the reference number",
+                "After verification by the Block Level Officer (BLO), EPIC is generated and delivered via post"
+            ]
+        },
+        "fees": "Free of cost.",
+        "processingTime": "1 to 2 months (depending on electoral roll revision cycles).",
+        "documentType": "Citizenship & Voting Document",
+        "officialSources": [
+            {
+                "sourceName": "Election Commission of India - Voter Portal",
+                "url": "https://voters.eci.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Identity",
+            "targetAudience": [
+                "Adult Citizens",
+                "First-time Voters"
+            ],
+            "keywords": [
+                "Voter ID",
+                "EPIC",
+                "Election Card",
+                "Form 6",
+                "Matdata Pehchan Patra"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against ECI Form 6 guidelines."
+        }
+    },
+    {
+        "id": "doc-passport",
+        "resourceType": "document",
+        "name": "Indian Passport",
+        "slug": "indian-passport",
+        "module": "documents",
+        "description": "An official travel document issued by the Ministry of External Affairs certifying the identity and nationality of its holder for international travel.",
+        "authority": "Ministry of External Affairs (MEA)",
+        "state": "All India",
+        "eligibility": [
+            "Must be a citizen of India by birth, descent, registration, or naturalization"
+        ],
+        "documents": [
+            "Proof of Present Address (Aadhaar, Utility bill, Bank passbook)",
+            "Proof of Date of Birth (Birth certificate, 10th mark sheet, PAN)",
+            "Non-ECR Proof (10th/12th mark sheet, Degree certificate, if applicable)"
+        ],
+        "application": {
+            "mode": "hybrid",
+            "url": "https://passportindia.gov.in",
+            "procedure": [
+                "Register on the Passport Seva portal (passportindia.gov.in)",
+                "Log in and select 'Apply for Fresh Passport/Re-issue of Passport'",
+                "Fill out the online application form and submit",
+                "Pay the exact fee online and book an appointment at the nearest Passport Seva Kendra (PSK) or POPSK",
+                "Visit the PSK on the appointment date with original documents for verification, biometric capture, and photograph",
+                "Undergo police verification (pre or post issuance depending on applicant profile); passport is dispatched via Speed Post"
+            ]
+        },
+        "fees": "₹1,500 for a standard 36-page passport (Normal). Additional fees apply for Tatkaal or 60-page booklets.",
+        "processingTime": "Normal: 15-30 days (post-police verification). Tatkaal: 1-3 days.",
+        "documentType": "Travel & Identity Document",
+        "officialSources": [
+            {
+                "sourceName": "Passport Seva Portal",
+                "url": "https://passportindia.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Travel",
+            "targetAudience": [
+                "Citizens",
+                "Travelers",
+                "NRIs"
+            ],
+            "keywords": [
+                "Passport",
+                "Passport Seva",
+                "International Travel",
+                "Tatkaal Passport"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against MEA Passport Seva guidelines."
+        }
+    },
+    {
+        "id": "doc-driving-license",
+        "resourceType": "document",
+        "name": "Driving License (DL)",
+        "slug": "driving-license",
+        "module": "documents",
+        "description": "An official document authorizing the holder to operate various types of motor vehicles on highways and public roads in India.",
+        "authority": "State Regional Transport Offices (RTO) / Ministry of Road Transport and Highways (MoRTH)",
+        "state": "All India (State-wise administration)",
+        "eligibility": [
+            "Must hold a valid Learner's License for the relevant vehicle class",
+            "Must apply for a permanent DL after 30 days and within 6 months of the Learner's License issue date",
+            "Minimum 18 years for LMV (Cars/Bikes with gear), 16 years for MCWOG (Bikes without gear, up to 50cc), 20 years for Transport Vehicles"
+        ],
+        "documents": [
+            "Valid Learner's License",
+            "Address Proof (Aadhaar, Passport, Voter ID)",
+            "Age Proof (Birth Certificate, PAN, 10th marksheet)",
+            "Passport size photographs"
+        ],
+        "application": {
+            "mode": "hybrid",
+            "url": "https://parivahan.gov.in",
+            "procedure": [
+                "Visit the Sarathi Parivahan portal (parivahan.gov.in) and select your state",
+                "Click on 'Apply for Driving License'",
+                "Enter your Learner's License number and date of birth",
+                "Fill out the application, upload documents (if not fetched via Aadhaar), and pay the test and smart card fees",
+                "Book a driving test slot at your local RTO",
+                "Visit the RTO with your vehicle, pass the practical driving test, and the smart DL will be dispatched via post"
+            ]
+        },
+        "fees": "Varies by state (Typically ₹200 for DL grant + ₹200 for smart card + ₹300 for driving test).",
+        "processingTime": "7-15 days after passing the driving test.",
+        "documentType": "Transport Document",
+        "officialSources": [
+            {
+                "sourceName": "Parivahan Sewa (MoRTH)",
+                "url": "https://parivahan.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Transport",
+            "targetAudience": [
+                "Citizens",
+                "Vehicle Owners",
+                "Drivers"
+            ],
+            "keywords": [
+                "Driving License",
+                "DL",
+                "RTO License",
+                "Parivahan DL",
+                "Sarathi"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against MoRTH Sarathi portal."
+        }
+    },
+    {
+        "id": "doc-learners-license",
+        "resourceType": "document",
+        "name": "Learner's License (LL)",
+        "slug": "learners-license",
+        "module": "documents",
+        "description": "A provisional license allowing an individual to practice driving on public roads under the supervision of a permanent driving license holder.",
+        "authority": "State RTOs / Ministry of Road Transport and Highways (MoRTH)",
+        "state": "All India",
+        "eligibility": [
+            "16 years for motorcycles without gear (max 50cc, with parental consent)",
+            "18 years for Light Motor Vehicles (Cars and motorcycles with gear)",
+            "20 years for Commercial/Transport Vehicles",
+            "Must pass a computer-based traffic signs and rules test"
+        ],
+        "documents": [
+            "Age Proof",
+            "Address Proof",
+            "Medical Certificate Form 1A (if applying for transport vehicle or if age > 40)",
+            "Aadhaar Card (for contact-less e-KYC route)"
+        ],
+        "application": {
+            "mode": "online",
+            "url": "https://parivahan.gov.in",
+            "procedure": [
+                "Go to the Sarathi Parivahan portal and select 'Apply for Learner License'",
+                "Choose Aadhaar authentication (allows taking the test from home in most states) or non-Aadhaar (requires RTO visit)",
+                "Fill out the application, select vehicle classes, and upload documents/medical certificate",
+                "Pay the application and test fees",
+                "Watch the mandatory road safety tutorial video",
+                "Take the online LL computer test; upon passing, the LL can be downloaded immediately"
+            ]
+        },
+        "fees": "Varies by state (Typically ₹150 for LL grant + ₹50 for test).",
+        "processingTime": "Instant generation upon passing the online test (for Aadhaar-based).",
+        "documentType": "Transport Document",
+        "officialSources": [
+            {
+                "sourceName": "Parivahan Sewa (MoRTH)",
+                "url": "https://parivahan.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Transport",
+            "targetAudience": [
+                "Citizens",
+                "New Drivers",
+                "Youth"
+            ],
+            "keywords": [
+                "Learners License",
+                "LL test",
+                "Learning license",
+                "Sarathi LL"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against MoRTH online LL guidelines."
+        }
+    },
+    {
+        "id": "doc-udid-card",
+        "resourceType": "document",
+        "name": "Unique Disability ID (UDID) Card",
+        "slug": "unique-disability-id-udid",
+        "module": "documents",
+        "description": "A single document of identification and verification of disabled persons (Divyangjan) for availing various government benefits globally.",
+        "authority": "Department of Empowerment of Persons with Disabilities (DEPwD), Ministry of Social Justice & Empowerment",
+        "state": "All India",
+        "eligibility": [
+            "Any Indian citizen having a benchmark disability as recognized under the RPwD Act 2016"
+        ],
+        "documents": [
+            "Recent color photograph",
+            "Signature or thumb impression",
+            "Address Proof (Aadhaar, Voter ID)",
+            "Identity Proof (Aadhaar, PAN)",
+            "Disability Certificate issued by a competent medical authority (if already available)"
+        ],
+        "application": {
+            "mode": "online",
+            "url": "https://www.swavlambancard.gov.in",
+            "procedure": [
+                "Visit the Swavlamban Card portal (swavlambancard.gov.in)",
+                "Click on 'Apply for Disability Certificate & UDID Card'",
+                "Fill in personal, disability, employment, and identity details",
+                "Upload scanned photograph, signature, and identity/address proofs",
+                "Submit to generate an enrolment number",
+                "Visit the designated district medical board for clinical assessment (if applying for a fresh certificate)",
+                "Post-approval, the e-UDID card can be downloaded, and the physical smart card is mailed"
+            ]
+        },
+        "fees": "Free of cost.",
+        "processingTime": "30 to 45 days after medical board assessment.",
+        "documentType": "Identity & Welfare Document",
+        "officialSources": [
+            {
+                "sourceName": "UDID Portal - Swavlamban",
+                "url": "https://www.swavlambancard.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Social Welfare",
+            "targetAudience": [
+                "Persons with Disabilities",
+                "Divyangjan"
+            ],
+            "keywords": [
+                "UDID",
+                "Disability certificate",
+                "Swavlamban card",
+                "Handicap certificate",
+                "Divyang ID"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against DEPwD UDID guidelines."
+        }
+    },
+    {
+        "id": "doc-udyam-registration",
+        "resourceType": "document",
+        "name": "Udyam Registration Certificate",
+        "slug": "udyam-registration-certificate-msme",
+        "module": "documents",
+        "description": "An electronic certificate issued to Micro, Small, and Medium Enterprises (MSMEs) in India to avail MSME-related schemes, subsidies, and priority sector lending.",
+        "authority": "Ministry of Micro, Small and Medium Enterprises (MSME)",
+        "state": "All India",
+        "eligibility": [
+            "Any person intending to establish a micro, small, or medium enterprise",
+            "Micro: Investment < ₹1 Cr, Turnover < ₹5 Cr",
+            "Small: Investment < ₹10 Cr, Turnover < ₹50 Cr",
+            "Medium: Investment < ₹50 Cr, Turnover < ₹250 Cr"
+        ],
+        "documents": [
+            "Aadhaar Number of the proprietor/managing partner/director",
+            "PAN Card of the business entity",
+            "Bank Account details (IFSC and Account Number)"
+        ],
+        "application": {
+            "mode": "online",
+            "url": "https://udyamregistration.gov.in",
+            "procedure": [
+                "Visit the official Udyam Registration portal (udyamregistration.gov.in)",
+                "Select 'For New Entrepreneurs who are not registered yet as MSME'",
+                "Validate Aadhaar using OTP",
+                "Validate PAN details (automatically fetches ITR and GST data if available)",
+                "Fill out enterprise details, bank information, NIC codes for manufacturing/services, and employment figures",
+                "Submit via final OTP and download the e-certificate immediately"
+            ]
+        },
+        "fees": "Free of cost. (No government fee is charged).",
+        "processingTime": "Instant generation upon final OTP submission.",
+        "documentType": "Business Registration Document",
+        "officialSources": [
+            {
+                "sourceName": "Udyam Registration Portal",
+                "url": "https://udyamregistration.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Business & Trade",
+            "targetAudience": [
+                "Entrepreneurs",
+                "Small Business Owners",
+                "MSMEs",
+                "Startups"
+            ],
+            "keywords": [
+                "Udyam Registration",
+                "MSME certificate",
+                "SSI registration",
+                "Udyog Aadhaar"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against MSME Udyam registration guidelines."
+        }
+    },
+    {
+        "id": "doc-abha-id",
+        "resourceType": "document",
+        "name": "Ayushman Bharat Health Account (ABHA) ID",
+        "slug": "ayushman-bharat-health-account-abha-id",
+        "module": "documents",
+        "description": "A 14-digit unique health identifier that enables Indian citizens to securely access, manage, and share their digital health records with participating healthcare providers.",
+        "authority": "National Health Authority (NHA)",
+        "state": "All India",
+        "eligibility": [
+            "Any citizen of India"
+        ],
+        "documents": [
+            "Aadhaar Card (linked to mobile number for OTP) OR",
+            "Driving License / Mobile Number"
+        ],
+        "application": {
+            "mode": "online",
+            "url": "https://abha.abdm.gov.in",
+            "procedure": [
+                "Visit the ABHA portal (abha.abdm.gov.in) or use the ABHA mobile app",
+                "Click on 'Create ABHA Number'",
+                "Choose to create via Aadhaar (recommended for instant e-KYC) or Driving License",
+                "Enter the ID number, solve the captcha, and submit the OTP",
+                "Fill in basic profile details and create a custom ABHA address (similar to a UPI ID, e.g., name@abdm)",
+                "Download the digital ABHA card instantly"
+            ]
+        },
+        "fees": "Free of cost.",
+        "processingTime": "Instant generation.",
+        "documentType": "Health Identity Document",
+        "officialSources": [
+            {
+                "sourceName": "ABHA Portal - Ayushman Bharat Digital Mission",
+                "url": "https://abha.abdm.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Healthcare",
+            "targetAudience": [
+                "All Citizens",
+                "Patients"
+            ],
+            "keywords": [
+                "ABHA ID",
+                "Health ID card",
+                "Ayushman health account",
+                "Digital health records"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against ABDM guidelines."
+        }
+    },
+    {
+        "id": "doc-income-certificate",
+        "resourceType": "document",
+        "name": "Income Certificate",
+        "slug": "income-certificate",
+        "module": "documents",
+        "description": "An official state government document certifying the annual income of an individual or their family, essential for claiming scholarships, fee concessions, and welfare schemes.",
+        "authority": "State Revenue Department (Tehsildar / SDM / Revenue Circle Officer)",
+        "state": "State Specific (All States)",
+        "eligibility": [
+            "Any resident citizen of the respective state requiring proof of income"
+        ],
+        "documents": [
+            "Aadhaar Card",
+            "Address Proof (Ration Card, Voter ID, Electricity Bill)",
+            "Income Proof (Salary slip, IT Return, Form 16, or Affidavit)",
+            "Passport size photograph"
+        ],
+        "application": {
+            "mode": "hybrid",
+            "url": "https://india.gov.in",
+            "procedure": [
+                "Visit the respective State's e-District / e-Seva portal (e.g., edistrict.up.gov.in, sevasindhu.karnataka.gov.in)",
+                "Register as a citizen or visit the nearest Common Service Centre (CSC) / Tehsildar office",
+                "Fill out the income certificate application form",
+                "Upload the required identity, address, and income proof documents (or an affidavit)",
+                "Pay the nominal processing fee",
+                "The application is verified by the local Patwari / Village Accountant, and the digital certificate is issued"
+            ]
+        },
+        "fees": "State-specific (Usually ranges from ₹15 to ₹50 as portal/CSC charges).",
+        "processingTime": "7 to 15 days.",
+        "documentType": "Revenue & Welfare Document",
+        "officialSources": [
+            {
+                "sourceName": "National Portal of India - State e-District Links",
+                "url": "https://india.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Revenue Certificates",
+            "targetAudience": [
+                "Students",
+                "Welfare Applicants",
+                "Citizens"
+            ],
+            "keywords": [
+                "Income certificate",
+                "Aay praman patra",
+                "Tehsildar income proof",
+                "Family income certificate"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against generalized state revenue rules."
+        }
+    },
+    {
+        "id": "doc-caste-certificate-sc-st",
+        "resourceType": "document",
+        "name": "Caste Certificate (SC/ST)",
+        "slug": "caste-certificate-sc-st",
+        "module": "documents",
+        "description": "A legal document serving as proof that a person belongs to a particular Scheduled Caste (SC) or Scheduled Tribe (ST), required for reservations in education and jobs.",
+        "authority": "State Revenue Department (Tehsildar / SDM / District Magistrate)",
+        "state": "State Specific (All States)",
+        "eligibility": [
+            "Must be an Indian citizen",
+            "Must belong to a caste/tribe explicitly listed in the Presidential Order for that specific state"
+        ],
+        "documents": [
+            "Identity Proof (Aadhaar, Voter ID)",
+            "Address Proof",
+            "Extract of birth register / school leaving certificate",
+            "Caste proof of father/blood relative (Old caste certificate or revenue record)",
+            "Affidavit (if required by state)"
+        ],
+        "application": {
+            "mode": "hybrid",
+            "url": "https://india.gov.in",
+            "procedure": [
+                "Apply via the respective State's e-District portal or at the local Tehsil/CSC",
+                "Fill the application detailing paternal ancestry and caste details",
+                "Upload the old caste certificate of a blood relative and identity proofs",
+                "Field verification is conducted by the revenue inspector/Patwari",
+                "Once approved, the digital caste certificate is generated"
+            ]
+        },
+        "fees": "State-specific (Usually ranges from ₹15 to ₹50 for CSC/portal fees).",
+        "processingTime": "15 to 30 days.",
+        "documentType": "Social Identity Document",
+        "officialSources": [
+            {
+                "sourceName": "National Portal of India",
+                "url": "https://india.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Revenue Certificates",
+            "targetAudience": [
+                "SC Citizens",
+                "ST Citizens",
+                "Students",
+                "Job Seekers"
+            ],
+            "keywords": [
+                "Caste certificate",
+                "Jati praman patra",
+                "SC ST certificate",
+                "Reservation certificate"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against state e-district service catalogs."
+        }
+    },
+    {
+        "id": "doc-obc-ncl-certificate",
+        "resourceType": "document",
+        "name": "OBC - Non-Creamy Layer (NCL) Certificate",
+        "slug": "obc-non-creamy-layer-certificate",
+        "module": "documents",
+        "description": "A certificate issued to individuals belonging to Other Backward Classes who do not fall into the 'creamy layer' based on parental income/status, qualifying them for 27% reservation in central government jobs and education.",
+        "authority": "State Revenue Department (Issued in Central Government Format by SDM/Tehsildar)",
+        "state": "State Specific (All States)",
+        "eligibility": [
+            "Must belong to a caste listed in the Central List of OBCs for the respective state",
+            "Parental gross annual income must not exceed ₹8,00,000 for three consecutive years (excluding salary and agricultural income, subject to rule variations)",
+            "Parents must not hold Group A / Class I constitutional posts"
+        ],
+        "documents": [
+            "Identity and Address Proof",
+            "Caste proof of the applicant/father",
+            "Income proof of parents (ITR, Form 16, Salary Slip) for the last 3 years",
+            "Affidavit declaring non-creamy layer status"
+        ],
+        "application": {
+            "mode": "hybrid",
+            "url": "https://ncbc.nic.in",
+            "procedure": [
+                "Obtain the Central Format for OBC-NCL certificate",
+                "Apply through the State's e-District portal or local SDM/Tehsildar office",
+                "Submit caste proofs and comprehensive income/wealth proofs of parents",
+                "After stringent revenue verification regarding income limits, the NCL certificate is issued (usually valid for 1 financial year for central exams)"
+            ]
+        },
+        "fees": "State-specific portal/CSC fees (nominal).",
+        "processingTime": "15 to 30 days.",
+        "documentType": "Social Identity & Reservation Document",
+        "officialSources": [
+            {
+                "sourceName": "National Commission for Backward Classes (Central List)",
+                "url": "https://ncbc.nic.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Revenue Certificates",
+            "targetAudience": [
+                "OBC Candidates",
+                "Job Seekers",
+                "Students"
+            ],
+            "keywords": [
+                "OBC NCL",
+                "Non Creamy Layer",
+                "Central OBC certificate",
+                "OBC reservation"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against DoPT NCL guidelines."
+        }
+    },
+    {
+        "id": "doc-ews-certificate",
+        "resourceType": "document",
+        "name": "Economically Weaker Section (EWS) Certificate",
+        "slug": "ews-certificate",
+        "module": "documents",
+        "description": "An income and asset certificate issued to citizens belonging to the General category (not covered under SC/ST/OBC) to avail 10% reservation in government jobs and educational institutions.",
+        "authority": "State Revenue Department (District Magistrate / SDM / Tehsildar)",
+        "state": "State Specific (All States)",
+        "eligibility": [
+            "Must NOT belong to SC, ST, or OBC categories",
+            "Gross annual family income must be below ₹8,00,000",
+            "Family must NOT own: 5 acres of agricultural land and above; Residential flat of 1000 sq ft and above; Residential plot of 100 sq yards and above in notified municipalities; or 200 sq yards and above elsewhere"
+        ],
+        "documents": [
+            "Aadhaar Card",
+            "Income proof (ITR, Salary Slips, Affidavit)",
+            "Property/Land documents (to prove asset limits are not breached)",
+            "Passport size photograph"
+        ],
+        "application": {
+            "mode": "hybrid",
+            "url": "https://india.gov.in",
+            "procedure": [
+                "Download the Annexure-I format for EWS Certificate (or apply via state e-District portal)",
+                "Submit the application with comprehensive family income and asset declarations",
+                "The Patwari/Revenue Inspector conducts a physical verification of land and property holdings",
+                "The Tehsildar/SDM issues the certificate (valid for one financial year)"
+            ]
+        },
+        "fees": "State-specific portal/CSC fees (nominal).",
+        "processingTime": "15 to 30 days.",
+        "documentType": "Reservation & Income Document",
+        "officialSources": [
+            {
+                "sourceName": "DoPT - EWS Reservation Guidelines",
+                "url": "https://dopt.gov.in",
+                "sourceType": "ministry_website"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Revenue Certificates",
+            "targetAudience": [
+                "General Category Candidates",
+                "Students",
+                "Job Seekers"
+            ],
+            "keywords": [
+                "EWS certificate",
+                "10 percent reservation",
+                "Economically Weaker Section",
+                "EWS format"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against DoPT EWS guidelines."
+        }
+    },
+    {
+        "id": "doc-domicile-certificate",
+        "resourceType": "document",
+        "name": "Domicile / Residence Certificate",
+        "slug": "domicile-residence-certificate",
+        "module": "documents",
+        "description": "An official document proving that a person is a permanent resident of a particular state/union territory, required for state-quota educational admissions and state government jobs.",
+        "authority": "State Revenue Department (Tehsildar / SDM / District Collector)",
+        "state": "State Specific (All States)",
+        "eligibility": [
+            "Must have resided in the state for a continuously prescribed number of years (varies by state, e.g., 7, 10, or 15 years)",
+            "Or must hold property in the state",
+            "Or must have been born in the state"
+        ],
+        "documents": [
+            "Aadhaar Card / Voter ID",
+            "Birth Certificate or School Leaving Certificate",
+            "Proof of continuous residence (Ration card, Electricity bills for the mandated period, Property tax receipts)",
+            "Affidavit of residence"
+        ],
+        "application": {
+            "mode": "hybrid",
+            "url": "https://india.gov.in",
+            "procedure": [
+                "Apply online on the State's e-District portal or at a CSC/Tehsil office",
+                "Upload identity proofs and long-term residence proofs spanning the required number of years",
+                "Police or Revenue Department verification may be conducted",
+                "The digital domicile certificate is issued post verification"
+            ]
+        },
+        "fees": "State-specific (Usually ₹15 to ₹50 portal charges).",
+        "processingTime": "10 to 20 days.",
+        "documentType": "Residence Proof Document",
+        "officialSources": [
+            {
+                "sourceName": "National Portal of India",
+                "url": "https://india.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Revenue Certificates",
+            "targetAudience": [
+                "Students",
+                "Job Seekers",
+                "Residents"
+            ],
+            "keywords": [
+                "Domicile certificate",
+                "Residence certificate",
+                "Mul niwasi praman patra",
+                "State quota document"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against state e-district service requirements."
+        }
+    },
+    {
+        "id": "doc-birth-certificate",
+        "resourceType": "document",
+        "name": "Birth Certificate",
+        "slug": "birth-certificate",
+        "module": "documents",
+        "description": "A vital record issued by local government authorities documenting the birth of a child, establishing age, identity, and citizenship rights (as per the RBD Act, 1969).",
+        "authority": "Registrar of Births and Deaths (Municipal Corporation / Gram Panchayat)",
+        "state": "All India (Local Body administration)",
+        "eligibility": [
+            "Any child born in India",
+            "Must be registered within 21 days of occurrence to be free of cost and straightforward"
+        ],
+        "documents": [
+            "Hospital discharge summary / birth proof from the medical institution",
+            "Parents' Aadhaar cards or valid IDs",
+            "Marriage certificate of parents (optional but helpful)",
+            "Affidavit/SDM order (if registration is delayed beyond 1 year)"
+        ],
+        "application": {
+            "mode": "hybrid",
+            "url": "https://crsorgi.gov.in",
+            "procedure": [
+                "For institutional births, the hospital reports the event to the local Registrar online",
+                "Parents can visit crsorgi.gov.in or the local municipal portal (e.g., e-Nagarpalika, NDMC) to download the certificate once generated",
+                "For non-institutional births or delayed registration, parents must apply manually at the local municipal office or Panchayat with an affidavit/SDM order"
+            ]
+        },
+        "fees": "Free if registered within 21 days. Nominal late fees apply for delays.",
+        "processingTime": "7 to 15 days for standard registration.",
+        "documentType": "Vital Registration Document",
+        "officialSources": [
+            {
+                "sourceName": "Civil Registration System (CRS) - ORGI",
+                "url": "https://crsorgi.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Civil Registration",
+            "targetAudience": [
+                "Parents",
+                "Citizens"
+            ],
+            "keywords": [
+                "Birth certificate",
+                "Janam praman patra",
+                "CRS birth registration",
+                "Municipal birth record"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against Registration of Births and Deaths Act, 1969 guidelines."
+        }
+    },
+    {
+        "id": "doc-death-certificate",
+        "resourceType": "document",
+        "name": "Death Certificate",
+        "slug": "death-certificate",
+        "module": "documents",
+        "description": "An official document issued by the government declaring the cause of death, location, and time, essential for property inheritance, insurance claims, and legal closures.",
+        "authority": "Registrar of Births and Deaths (Municipal Corporation / Gram Panchayat)",
+        "state": "All India (Local Body administration)",
+        "eligibility": [
+            "Next of kin or relatives of the deceased",
+            "Event must be registered within 21 days for standard processing"
+        ],
+        "documents": [
+            "Medical Certificate of Cause of Death (from the hospital/doctor)",
+            "Aadhaar card of the deceased (if available)",
+            "Aadhaar/ID of the applicant (informant)",
+            "Cremation/Burial ground receipt",
+            "Affidavit/SDM order (for delayed registration beyond 1 year)"
+        ],
+        "application": {
+            "mode": "hybrid",
+            "url": "https://crsorgi.gov.in",
+            "procedure": [
+                "If death occurs in a hospital, the institution reports it directly to the Registrar",
+                "For home deaths, the family must report to the local municipal/panchayat office with the cremation slip",
+                "Once registered, the death certificate can be downloaded from the CRS portal or local municipal web portal"
+            ]
+        },
+        "fees": "Free if registered within 21 days. Late fees apply thereafter.",
+        "processingTime": "7 to 15 days.",
+        "documentType": "Vital Registration Document",
+        "officialSources": [
+            {
+                "sourceName": "Civil Registration System (CRS) - ORGI",
+                "url": "https://crsorgi.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Civil Registration",
+            "targetAudience": [
+                "Next of Kin",
+                "Family Members"
+            ],
+            "keywords": [
+                "Death certificate",
+                "Mrityu praman patra",
+                "CRS death registration",
+                "Insurance claim document"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against Registration of Births and Deaths Act, 1969."
+        }
+    },
+    {
+        "id": "doc-marriage-certificate",
+        "resourceType": "document",
+        "name": "Marriage Registration Certificate",
+        "slug": "marriage-certificate",
+        "module": "documents",
+        "description": "A legal certification of marriage between two individuals, required for passport applications, changing maiden names, joint bank accounts, and visa processing.",
+        "authority": "Registrar of Marriages (State Revenue / Municipal Department)",
+        "state": "State Specific (All States)",
+        "eligibility": [
+            "Groom must be at least 21 years old and Bride must be at least 18 years old",
+            "Marriage can be registered under the Hindu Marriage Act (HMA) or Special Marriage Act (SMA) depending on religion/preference"
+        ],
+        "documents": [
+            "Aadhaar Cards / Age proof of both parties",
+            "Wedding Invitation Card",
+            "Marriage Photographs (showing rituals/garland exchange)",
+            "Address proof of both parties",
+            "Affidavit of marriage",
+            "ID proof of 2 or 3 witnesses (varies by Act)"
+        ],
+        "application": {
+            "mode": "hybrid",
+            "url": "https://india.gov.in",
+            "procedure": [
+                "Apply online via the State's marriage registration portal (e.g., e-District, IGRS)",
+                "Upload the required documents and photos",
+                "Book an appointment with the Sub-Divisional Magistrate (SDM) or Marriage Registrar",
+                "Both parties along with the witnesses must appear physically before the Registrar",
+                "Sign the registry, after which the digital/physical certificate is issued"
+            ]
+        },
+        "fees": "State-specific (Typically ₹100 under HMA, ₹150 under SMA, plus processing fees).",
+        "processingTime": "Same day of appointment to 15 days.",
+        "documentType": "Civil Registration Document",
+        "officialSources": [
+            {
+                "sourceName": "National Portal of India",
+                "url": "https://india.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Civil Registration",
+            "targetAudience": [
+                "Married Couples"
+            ],
+            "keywords": [
+                "Marriage certificate",
+                "Vivah praman patra",
+                "Marriage registrar",
+                "Hindu Marriage Act"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against standard state marriage registration rules."
+        }
+    },
+    {
+        "id": "doc-legal-heir-certificate",
+        "resourceType": "document",
+        "name": "Legal Heir / Surviving Member Certificate",
+        "slug": "legal-heir-certificate",
+        "module": "documents",
+        "description": "A certificate establishing the relationship of the heirs to a deceased person, used for transferring utility connections, claiming provident fund, and insurance benefits.",
+        "authority": "State Revenue Department (Tehsildar / SDM) or Civil Court",
+        "state": "State Specific (All States)",
+        "eligibility": [
+            "Immediate family members (Spouse, Children, Parents) of the deceased person"
+        ],
+        "documents": [
+            "Original Death Certificate of the deceased",
+            "Identity and Address proof of all surviving members",
+            "Affidavit declaring all legal heirs",
+            "Ration Card or Family Tree document"
+        ],
+        "application": {
+            "mode": "hybrid",
+            "url": "https://india.gov.in",
+            "procedure": [
+                "Apply via the State's e-District portal or at the local Tehsildar's office",
+                "Submit the application with death certificate and IDs of all heirs",
+                "The Revenue Inspector and Village Administrative Officer conduct a local inquiry to confirm the surviving members",
+                "Upon satisfactory report, the Tehsildar issues the Legal Heir Certificate"
+            ]
+        },
+        "fees": "State-specific (Usually nominal portal fees).",
+        "processingTime": "15 to 30 days.",
+        "documentType": "Revenue & Legal Document",
+        "officialSources": [
+            {
+                "sourceName": "National Portal of India",
+                "url": "https://india.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Revenue Certificates",
+            "targetAudience": [
+                "Next of Kin",
+                "Family Members"
+            ],
+            "keywords": [
+                "Legal heir certificate",
+                "Surviving member certificate",
+                "Waris praman patra",
+                "Inheritance document"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against state revenue department manuals."
+        }
+    },
+    {
+        "id": "doc-encumbrance-certificate",
+        "resourceType": "document",
+        "name": "Encumbrance Certificate (EC)",
+        "slug": "encumbrance-certificate",
+        "module": "documents",
+        "description": "A crucial document issued by the registration authority confirming that a property is free from monetary and legal liabilities (like mortgages or uncleared loans).",
+        "authority": "Inspector General of Registration and Stamps (IGRS) of the State",
+        "state": "State Specific (All States)",
+        "eligibility": [
+            "Property owners, prospective buyers, or banks assessing loan eligibility"
+        ],
+        "documents": [
+            "Property Details (Survey Number, Khata Number, Document Number)",
+            "Address Proof of Applicant",
+            "Copy of previous Sale Deed / Title Deed"
+        ],
+        "application": {
+            "mode": "hybrid",
+            "url": "https://india.gov.in",
+            "procedure": [
+                "Visit the State's IGRS portal (e.g., Kaveri Online for Karnataka, IGRS AP/UP)",
+                "Select the option to 'Search/Apply for Encumbrance Certificate'",
+                "Enter property details, SRO (Sub-Registrar Office) name, and the required search period (e.g., 15 or 30 years)",
+                "Pay the search fee online",
+                "The digitally signed EC (Form 15 if encumbrances exist, Form 16 if nil) can be downloaded, or physical copies can be collected from the SRO"
+            ]
+        },
+        "fees": "State-specific (Varies based on the number of years searched).",
+        "processingTime": "Instant (if digitized online) to 7 days (manual search).",
+        "documentType": "Property & Registration Document",
+        "officialSources": [
+            {
+                "sourceName": "National Portal of India",
+                "url": "https://india.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Property & Land",
+            "targetAudience": [
+                "Property Owners",
+                "Home Buyers",
+                "Bank Loan Applicants"
+            ],
+            "keywords": [
+                "Encumbrance certificate",
+                "EC online",
+                "Property EC",
+                "IGRS property search",
+                "Non encumbrance"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against state IGRS guidelines."
+        }
+    },
+    {
+        "id": "doc-pcc-passport",
+        "resourceType": "document",
+        "name": "Police Clearance Certificate (PCC) - Passport",
+        "slug": "police-clearance-certificate-pcc-passport",
+        "module": "documents",
+        "description": "A certificate issued by the Passport Office or Police authorities verifying that the applicant has no criminal record, mandatory for employment, long-term visas, or emigration abroad.",
+        "authority": "Ministry of External Affairs (Passport Seva) / Local State Police",
+        "state": "All India",
+        "eligibility": [
+            "Indian citizens holding a valid passport seeking employment, residential status, or long-term visa abroad",
+            "Tourists travelling on short-term visas do not usually require a PCC"
+        ],
+        "documents": [
+            "Valid Indian Passport",
+            "Present Address Proof",
+            "Employment Contract / Visa Letter from the foreign embassy or employer"
+        ],
+        "application": {
+            "mode": "hybrid",
+            "url": "https://passportindia.gov.in",
+            "procedure": [
+                "Log in to the Passport Seva portal and click on 'Apply for Police Clearance Certificate'",
+                "Fill the online form specifying the country for which PCC is required and the purpose",
+                "Pay the fee and book an appointment at the PSK/POPSK",
+                "Visit the PSK with the original passport and visa/offer letter",
+                "Post-PSK visit, a police verification is initiated; upon clear report, the PCC is printed and dispatched/handed over"
+            ]
+        },
+        "fees": "₹500.",
+        "processingTime": "7 to 21 days (depending on the speed of local police verification).",
+        "documentType": "Travel & Background Check Document",
+        "officialSources": [
+            {
+                "sourceName": "Passport Seva Portal",
+                "url": "https://passportindia.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Travel & Immigration",
+            "targetAudience": [
+                "Immigrants",
+                "Job Seekers Abroad",
+                "NRIs"
+            ],
+            "keywords": [
+                "PCC",
+                "Police clearance certificate",
+                "Passport PCC",
+                "Visa background check"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against MEA Passport Seva guidelines."
+        }
+    },
+    {
+        "id": "doc-international-driving-permit",
+        "resourceType": "document",
+        "name": "International Driving Permit (IDP)",
+        "slug": "international-driving-permit-idp",
+        "module": "documents",
+        "description": "A translation of your Indian driving license allowing you to drive motor vehicles in foreign countries that are signatories to the 1949 Geneva Convention.",
+        "authority": "State RTOs / Ministry of Road Transport and Highways (MoRTH)",
+        "state": "All India",
+        "eligibility": [
+            "Must hold a valid Indian Driving License",
+            "Must hold a valid Indian Passport and Visa for the destination country",
+            "The IDP is valid for 1 year or until the driving license expires, whichever is earlier"
+        ],
+        "documents": [
+            "Valid Driving License",
+            "Valid Passport and Visa",
+            "Air ticket / Boarding Pass (sometimes required)",
+            "Form 4A application and Medical Certificate Form 1A",
+            "Passport size photographs"
+        ],
+        "application": {
+            "mode": "hybrid",
+            "url": "https://parivahan.gov.in",
+            "procedure": [
+                "Go to the Sarathi Parivahan portal and select 'Apply for International Driving Permit (IDP)'",
+                "Enter DL Number and Date of Birth",
+                "Upload required passport, visa, and medical documents",
+                "Pay the IDP fee online",
+                "Visit the respective RTO for document verification",
+                "The IDP is usually issued on the same day over the counter after verification"
+            ]
+        },
+        "fees": "₹1,000.",
+        "processingTime": "1 to 3 days (often same-day issue at RTO).",
+        "documentType": "Transport & Travel Document",
+        "officialSources": [
+            {
+                "sourceName": "Parivahan Sewa (MoRTH)",
+                "url": "https://parivahan.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Transport",
+            "targetAudience": [
+                "International Travelers",
+                "NRIs"
+            ],
+            "keywords": [
+                "IDP",
+                "International driving permit",
+                "Foreign driving license",
+                "Drive abroad"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against MoRTH Parivahan guidelines."
+        }
+    },
+    {
+        "id": "doc-ration-card",
+        "resourceType": "document",
+        "name": "Ration Card (NFSA)",
+        "slug": "ration-card-nfsa",
+        "module": "documents",
+        "description": "An official document issued by state governments to eligible households to purchase subsidized food grains under the National Food Security Act (NFSA).",
+        "authority": "Department of Food, Civil Supplies and Consumer Affairs (State Governments)",
+        "state": "State Specific (All States)",
+        "eligibility": [
+            "Antyodaya Anna Yojana (AAY): Poorest of the poor families",
+            "Priority Household (PHH): Families meeting state-specific vulnerability and income criteria",
+            "Applicant must be an Indian citizen and not possess a ration card in another state"
+        ],
+        "documents": [
+            "Aadhaar Cards of all family members",
+            "Income Certificate",
+            "Address Proof (Electricity Bill, Water Bill)",
+            "Passport size photograph of the Head of the Family (usually the eldest female)"
+        ],
+        "application": {
+            "mode": "hybrid",
+            "url": "https://nfsa.gov.in",
+            "procedure": [
+                "Apply via the State Food and Civil Supplies portal or the National Food Security portal via 'Common Registration Facility'",
+                "Fill the application detailing family composition and upload Aadhaar/Income proofs",
+                "Submit the form online or at a local CSC / Tehsil office",
+                "Field verification is conducted by the Food Inspector to check economic status",
+                "Upon approval, the physical/smart Ration Card is issued"
+            ]
+        },
+        "fees": "State-specific (Usually ranges from ₹5 to ₹45).",
+        "processingTime": "15 to 45 days.",
+        "documentType": "Identity & Welfare Document",
+        "officialSources": [
+            {
+                "sourceName": "National Food Security Portal",
+                "url": "https://nfsa.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Food Security & Welfare",
+            "targetAudience": [
+                "Low Income Families",
+                "BPL Households",
+                "Citizens"
+            ],
+            "keywords": [
+                "Ration Card",
+                "NFSA card",
+                "AAY card",
+                "PHH card",
+                "BPL card"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against NFSA common registration facility guidelines."
+        }
+    },
+    {
+        "id": "doc-fssai-basic-registration",
+        "resourceType": "document",
+        "name": "FSSAI Basic Registration Certificate",
+        "slug": "fssai-basic-registration",
+        "module": "documents",
+        "description": "A mandatory food safety registration for petty food business operators (FBOs) manufacturing or selling food products, ensuring compliance with hygiene standards.",
+        "authority": "Food Safety and Standards Authority of India (FSSAI)",
+        "state": "All India",
+        "eligibility": [
+            "Petty Food Business Operators with an annual turnover not exceeding ₹12 Lakhs",
+            "Includes hawkers, street vendors, small retailers, and home-based food makers",
+            "(Larger businesses require a State or Central License instead of Basic Registration)"
+        ],
+        "documents": [
+            "Photo Identity Proof (Aadhaar, PAN, Voter ID)",
+            "Passport size photograph of the applicant",
+            "Proof of Address of the business premises",
+            "Declaration form"
+        ],
+        "application": {
+            "mode": "online",
+            "url": "https://foscos.fssai.gov.in",
+            "procedure": [
+                "Visit the FoSCoS (Food Safety Compliance System) portal",
+                "Select 'Apply for License/Registration' and specify the state and turnover (< ₹12 Lakhs)",
+                "Fill out Form A (for Basic Registration)",
+                "Upload the required documents and photo",
+                "Pay the registration fee online",
+                "The registration certificate with a 14-digit FSSAI number is generated and can be downloaded"
+            ]
+        },
+        "fees": "₹100 per year (can be applied for up to 5 years at a time).",
+        "processingTime": "7 to 30 days (often generated faster if no inspection is flagged).",
+        "documentType": "Business & Regulatory Document",
+        "officialSources": [
+            {
+                "sourceName": "FoSCoS FSSAI Portal",
+                "url": "https://foscos.fssai.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Business & Trade",
+            "targetAudience": [
+                "Food Vendors",
+                "Restaurants",
+                "Home Bakers",
+                "Small Businesses"
+            ],
+            "keywords": [
+                "FSSAI registration",
+                "Food license",
+                "FoSCoS",
+                "Food vendor certificate"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against FSSAI FoSCoS guidelines."
+        }
+    },
+    {
+        "id": "doc-iec-code",
+        "resourceType": "document",
+        "name": "Import Export Code (IEC)",
+        "slug": "import-export-code-iec",
+        "module": "documents",
+        "description": "A key business identification number mandatory for exports or imports from/to India, issued by the Directorate General of Foreign Trade.",
+        "authority": "Directorate General of Foreign Trade (DGFT), Ministry of Commerce and Industry",
+        "state": "All India",
+        "eligibility": [
+            "Any individual, proprietorship, partnership, LLP, or company intending to import or export goods/services in India"
+        ],
+        "documents": [
+            "PAN Card of the individual/business entity",
+            "Applicant's Aadhaar Card",
+            "Cancelled Cheque bearing the entity's pre-printed name or Bank Certificate",
+            "Address Proof of the business"
+        ],
+        "application": {
+            "mode": "online",
+            "url": "https://www.dgft.gov.in",
+            "procedure": [
+                "Visit the official DGFT portal",
+                "Register and create a profile",
+                "Click on 'Apply for IEC'",
+                "Fill out the entity details, directors/partners info, and bank details",
+                "Upload the cancelled cheque and sign the application digitally using Aadhaar e-Sign or DSC",
+                "Pay the application fee",
+                "The IEC certificate (e-IEC) is auto-generated and dispatched via email"
+            ]
+        },
+        "fees": "₹500.",
+        "processingTime": "Instant to 1 working day (auto-generated in most cases).",
+        "documentType": "Business & Trade Document",
+        "officialSources": [
+            {
+                "sourceName": "DGFT Official Portal",
+                "url": "https://www.dgft.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Trade & Export",
+            "targetAudience": [
+                "Exporters",
+                "Importers",
+                "Businesses"
+            ],
+            "keywords": [
+                "IEC Code",
+                "Import Export License",
+                "DGFT IEC",
+                "Export certificate"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against DGFT online IEC issuance process."
+        }
+    },
+    {
+        "id": "doc-gst-registration",
+        "resourceType": "document",
+        "name": "GST Registration Certificate",
+        "slug": "gst-registration-certificate",
+        "module": "documents",
+        "description": "A certificate issued to businesses registering under the Goods and Services Tax framework, bearing a 15-digit Goods and Services Tax Identification Number (GSTIN).",
+        "authority": "Central Board of Indirect Taxes and Customs (CBIC) / State Commercial Tax Departments",
+        "state": "All India",
+        "eligibility": [
+            "Businesses involved in the supply of goods with a turnover exceeding ₹40 Lakhs (₹20 Lakhs in Special Category States)",
+            "Businesses involved in the supply of services with a turnover exceeding ₹20 Lakhs (₹10 Lakhs in Special Category States)",
+            "Entities involved in inter-state supply, e-commerce operators, or paying tax under the reverse charge mechanism (mandatory regardless of turnover)"
+        ],
+        "documents": [
+            "PAN Card of the Business / Applicant",
+            "Aadhaar Card of Promoters/Directors",
+            "Proof of Business Registration (Incorporation Certificate, Partnership Deed)",
+            "Address Proof of the Principal Place of Business (Rent agreement, Electricity bill)",
+            "Bank Account details (Cancelled cheque/statement)"
+        ],
+        "application": {
+            "mode": "online",
+            "url": "https://www.gst.gov.in",
+            "procedure": [
+                "Visit the GST Portal and select 'New Registration'",
+                "Fill Part A to generate a Temporary Reference Number (TRN) using PAN, Mobile, and Email",
+                "Log in with TRN and fill Part B detailing business, promoters, authorized signatories, and places of business",
+                "Upload required documents and authenticate using Aadhaar e-Sign or DSC",
+                "Submit the application (Form GST REG-01)",
+                "Post tax officer verification, the Registration Certificate (Form GST REG-06) is issued"
+            ]
+        },
+        "fees": "Free of cost (No government fee for registration).",
+        "processingTime": "3 to 7 working days (subject to Aadhaar authentication and officer queries).",
+        "documentType": "Tax & Business Document",
+        "officialSources": [
+            {
+                "sourceName": "GST Official Portal",
+                "url": "https://www.gst.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Taxation",
+            "targetAudience": [
+                "Businesses",
+                "Traders",
+                "Service Providers",
+                "E-commerce"
+            ],
+            "keywords": [
+                "GST Registration",
+                "GSTIN",
+                "GST Certificate",
+                "Tax registration",
+                "CBIC"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against GST portal registration rules."
+        }
+    },
+    {
+        "id": "doc-vehicle-rc",
+        "resourceType": "document",
+        "name": "Vehicle Registration Certificate (RC)",
+        "slug": "vehicle-registration-certificate-rc",
+        "module": "documents",
+        "description": "An official document proving that your motor vehicle is registered with the Indian Government, validating the legal ownership of the vehicle.",
+        "authority": "State RTOs / Ministry of Road Transport and Highways (MoRTH)",
+        "state": "All India (State-wise administration)",
+        "eligibility": [
+            "Any person or entity purchasing a motor vehicle in India"
+        ],
+        "documents": [
+            "Application Form 20",
+            "Sales Certificate (Form 21) issued by the dealer",
+            "Road Worthiness Certificate (Form 22) from the manufacturer",
+            "Valid Vehicle Insurance",
+            "Address Proof and Identity Proof of the owner",
+            "Customs Clearance Certificate (for imported vehicles)"
+        ],
+        "application": {
+            "mode": "hybrid",
+            "url": "https://parivahan.gov.in",
+            "procedure": [
+                "Usually, the automobile dealer applies on behalf of the buyer through the Vahan portal at the time of purchase",
+                "The dealer uploads the forms, pays the road tax and registration fees online",
+                "The vehicle is inspected by the RTO (or dealer via automated systems)",
+                "The RTO assigns a registration number and dispatches the Smart Card RC via post to the owner's address"
+            ]
+        },
+        "fees": "Varies by state (Includes Registration Fee ₹600 for cars/₹300 for bikes, plus Smart Card fee ₹200, plus State Road Tax based on vehicle cost).",
+        "processingTime": "7 to 30 days.",
+        "documentType": "Transport & Asset Document",
+        "officialSources": [
+            {
+                "sourceName": "Parivahan Sewa - Vahan (MoRTH)",
+                "url": "https://parivahan.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Transport",
+            "targetAudience": [
+                "Vehicle Owners",
+                "Citizens"
+            ],
+            "keywords": [
+                "Vehicle RC",
+                "Registration Certificate",
+                "Vahan RC",
+                "Car registration",
+                "Bike RC book"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against MoRTH Vahan guidelines."
+        }
+    },
+    {
+        "id": "doc-apaar-id",
+        "resourceType": "document",
+        "name": "APAAR ID (Automated Permanent Academic Account Registry)",
+        "slug": "apaar-id-card",
+        "module": "documents",
+        "description": "A 'One Nation, One Student ID' providing a lifelong 12-digit unique identifier to students in India to digitally store and track academic credits, degrees, and extracurricular achievements.",
+        "authority": "Ministry of Education / Academic Bank of Credits (ABC)",
+        "state": "All India",
+        "eligibility": [
+            "All students enrolled in schools, colleges, and higher educational institutions in India"
+        ],
+        "documents": [
+            "Aadhaar Card (linked to a mobile number for OTP)",
+            "DigiLocker Account"
+        ],
+        "application": {
+            "mode": "online",
+            "url": "https://apaar.education.gov.in",
+            "procedure": [
+                "Schools/Colleges usually initiate the process by obtaining consent from parents/students",
+                "Students can also self-register via the APAAR portal (apaar.education.gov.in) or the Academic Bank of Credits (ABC) portal",
+                "Login using DigiLocker credentials",
+                "Provide Aadhaar consent for e-KYC",
+                "The system generates the 12-digit APAAR ID instantly, which can be downloaded as a digital card"
+            ]
+        },
+        "fees": "Free of cost.",
+        "processingTime": "Instant generation.",
+        "documentType": "Education Identity Document",
+        "officialSources": [
+            {
+                "sourceName": "APAAR Portal - Ministry of Education",
+                "url": "https://apaar.education.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Education",
+            "targetAudience": [
+                "Students",
+                "Parents",
+                "Schools",
+                "Universities"
+            ],
+            "keywords": [
+                "APAAR ID",
+                "One Nation One Student ID",
+                "ABC ID",
+                "Student ID",
+                "Academic Bank of Credits"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against Ministry of Education APAAR launch guidelines."
+        }
+    },
+    {
+        "id": "doc-shop-establishment",
+        "resourceType": "document",
+        "name": "Shop and Establishment Certificate (Gumasta License)",
+        "slug": "shop-and-establishment-certificate",
+        "module": "documents",
+        "description": "A state-level registration mandatory for commercial establishments, shops, and businesses operating within municipal limits, regulating working hours, wages, and employee rights.",
+        "authority": "State Labour Department",
+        "state": "State Specific (All States)",
+        "eligibility": [
+            "Any shop, commercial establishment, hotel, restaurant, or place of public amusement/entertainment",
+            "Required even for sole proprietors operating from a commercial space"
+        ],
+        "documents": [
+            "Identity Proof of Employer (Aadhaar, PAN)",
+            "Address Proof of the Establishment (Rent Agreement, Property Tax Receipt, Electricity Bill)",
+            "Photograph of the establishment with the signboard",
+            "Details of employees"
+        ],
+        "application": {
+            "mode": "online",
+            "url": "https://india.gov.in",
+            "procedure": [
+                "Visit the respective State's Labour Department portal (e.g., lms.mahaonline.gov.in for Maharashtra, labour.delhi.gov.in)",
+                "Create an employer login profile",
+                "Fill in Form A (or equivalent state form) specifying business activity, employee count, and working hours",
+                "Upload documents and pay the prescribed fee",
+                "The Labour Inspector verifies the application, and the digital certificate is issued (often generated instantly for small shops in reformed states)"
+            ]
+        },
+        "fees": "State-specific (Varies based on the number of employees, e.g., Free for 0-9 employees in Maharashtra, fees apply for more).",
+        "processingTime": "Instant to 15 days.",
+        "documentType": "Business & Labour Regulatory Document",
+        "officialSources": [
+            {
+                "sourceName": "National Portal of India",
+                "url": "https://india.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Business & Trade",
+            "targetAudience": [
+                "Business Owners",
+                "Shopkeepers",
+                "Employers"
+            ],
+            "keywords": [
+                "Shop and Establishment",
+                "Gumasta license",
+                "Labour registration",
+                "Shop act license"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against state labour department regulations."
+        }
+    },
+    {
+        "id": "doc-trade-license",
+        "resourceType": "document",
+        "name": "Trade License",
+        "slug": "trade-license",
+        "module": "documents",
+        "description": "A certificate/license issued by the local municipality permitting a business to carry on a particular trade or business in a specific location, ensuring compliance with local zoning and safety rules.",
+        "authority": "Local Municipal Corporation / Urban Local Body (ULB)",
+        "state": "State Specific (All States)",
+        "eligibility": [
+            "Any individual or entity wishing to start a commercial business within a municipal limit",
+            "The business must not be offensive, dangerous, or a nuisance to the public"
+        ],
+        "documents": [
+            "ID Proof of the Applicant (Aadhaar, PAN)",
+            "Property Tax Receipt / Lease Agreement of the business premises",
+            "NOC from the immediate neighbor / landlord",
+            "Layout plan of the premises",
+            "Fire NOC (if applicable for hazardous trades)"
+        ],
+        "application": {
+            "mode": "hybrid",
+            "url": "https://india.gov.in",
+            "procedure": [
+                "Visit the online portal of the respective Municipal Corporation (e.g., mcdonline.nic.in, bbmp.gov.in)",
+                "Select the 'Trade License' application section",
+                "Fill in the nature of the trade, premises details, and upload documents",
+                "The Health Inspector or Ward Officer assesses the application and computes the fee",
+                "Pay the trade license fee online to generate the certificate"
+            ]
+        },
+        "fees": "Municipality-specific (Varies based on trade type, area, and turnover).",
+        "processingTime": "15 to 30 days.",
+        "documentType": "Business Regulatory Document",
+        "officialSources": [
+            {
+                "sourceName": "National Portal of India - Municipal Services",
+                "url": "https://india.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Business & Trade",
+            "targetAudience": [
+                "Business Owners",
+                "Merchants",
+                "Traders"
+            ],
+            "keywords": [
+                "Trade License",
+                "Municipal license",
+                "Nagar nigam license",
+                "Business permit"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against municipal corporation business regulations."
+        }
+    },
+    {
+        "id": "doc-arms-license",
+        "resourceType": "document",
+        "name": "Central Arms License",
+        "slug": "central-arms-license",
+        "module": "documents",
+        "description": "A legal permit issued by the government under the Arms Act, 1959, authorizing an individual to own, possess, or carry a firearm for self-defense, crop protection, or sports.",
+        "authority": "Ministry of Home Affairs (NDAL-ALIS) / State Licensing Authorities (DM / Commissioner of Police)",
+        "state": "All India",
+        "eligibility": [
+            "Must be an Indian citizen of sound mind",
+            "Minimum 21 years of age",
+            "Must have a genuine reason (e.g., threat to life, sports shooting, crop protection)",
+            "Must not have a criminal record or be prohibited under the Arms Act"
+        ],
+        "documents": [
+            "Identity Proof (Aadhaar, Voter ID, Passport)",
+            "Address Proof",
+            "Medical Fitness Certificate (Mental & Physical)",
+            "Proof of Age",
+            "Safe storage declaration",
+            "Supporting documents for the threat/need (e.g., FIRs, sports certificates)"
+        ],
+        "application": {
+            "mode": "hybrid",
+            "url": "https://ndal-alis.gov.in",
+            "procedure": [
+                "Submit the application online via the National Database of Arms Licenses (NDAL-ALIS) portal",
+                "Upload required documents and pay the application fee",
+                "The application is forwarded to the local police station for intense background and antecedent verification",
+                "An interview is conducted by the Licensing Authority (DM / DCP)",
+                "If approved, the applicant is granted the license and can purchase the firearm, which is then registered on the license booklet"
+            ]
+        },
+        "fees": "Varies by weapon type (e.g., ₹1000 application fee + additional grant fees as per Arms Rules 2016).",
+        "processingTime": "60 to 90 days (often longer depending on police verification speed).",
+        "documentType": "Regulatory & Security Document",
+        "officialSources": [
+            {
+                "sourceName": "NDAL-ALIS Portal - Ministry of Home Affairs",
+                "url": "https://ndal-alis.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Law Enforcement & Security",
+            "targetAudience": [
+                "Citizens",
+                "Sports Shooters",
+                "Security Personnel"
+            ],
+            "keywords": [
+                "Arms License",
+                "Gun License",
+                "NDAL",
+                "ALIS",
+                "Firearm permit"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against Arms Rules 2016 and NDAL-ALIS guidelines."
+        }
+    }
+]

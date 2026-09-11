@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { Globe, Search, Menu, X, BookOpen, Briefcase, GraduationCap, Sprout, FileText } from 'lucide-react';
+import { Globe, Search, Menu, X, BookOpen, Briefcase, GraduationCap, Sprout, FileText, Bookmark } from 'lucide-react';
 import WebsiteLogo from '../../assets/website-logo.png';
 import AshokaChakra from '../../assets/ashoka-chakra-png-46987.png';
 import { useAuth } from '../../context/AuthContext';
+import api from '../../lib/axios';
 
 export const Header = () => {
   const { user, logout } = useAuth();
@@ -14,8 +15,15 @@ export const Header = () => {
   const [scrolled, setScrolled] = useState(false);
   const [isLangOpen, setIsLangOpen] = useState(false);
 
-  const changeLanguage = (lng: string) => {
+  const changeLanguage = async (lng: string) => {
     i18n.changeLanguage(lng);
+    if (user) {
+      try {
+        await api.patch('/users/profile', { preferredLanguage: lng });
+      } catch (error) {
+        console.error('Failed to save language preference', error);
+      }
+    }
   };
 
   useEffect(() => {
@@ -76,6 +84,9 @@ export const Header = () => {
             <div className="hidden lg:flex items-center gap-3">
               {user ? (
                 <>
+                  <Link to="/saved" className="text-slate-500 hover:text-[#f05c19] px-3 py-2 transition-colors flex items-center gap-1.5 font-medium" aria-label="Saved Resources">
+                    <Bookmark size={20} />
+                  </Link>
                   <Link to="/profile" className="flex items-center gap-2 text-slate-700 hover:text-slate-900 px-3 py-2 rounded-lg hover:bg-slate-50 transition-colors font-medium">
                     <div className="w-8 h-8 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center font-bold">
                       {user.name.charAt(0).toUpperCase()}
@@ -83,13 +94,13 @@ export const Header = () => {
                     <span className="hidden xl:block">{user.name}</span>
                   </Link>
                   <button onClick={logout} className="text-slate-500 hover:text-rose-600 px-3 py-2 font-medium transition-colors">
-                    Logout
+                    {t('navigation.logout')}
                   </button>
                 </>
               ) : (
                 <>
-                  <Link to="/login" className="text-slate-600 hover:text-slate-900 px-4 py-2.5 font-semibold transition-all">Login</Link>
-                  <Link to="/register" className="bg-primary-600 text-white px-6 py-2.5 rounded-full font-semibold shadow-md hover:bg-primary-700 transition-all">Sign Up</Link>
+                  <Link to="/login" className="text-slate-600 hover:text-slate-900 px-4 py-2.5 font-semibold transition-all">{t('navigation.login')}</Link>
+                  <Link to="/register" className="bg-primary-600 text-white px-6 py-2.5 rounded-full font-semibold shadow-md hover:bg-primary-700 transition-all">{t('navigation.signUp')}</Link>
                 </>
               )}
             </div>
@@ -105,7 +116,7 @@ export const Header = () => {
           <div className="pl-5 pr-3">
             <Search className="w-5 h-5 text-slate-400 group-hover:text-blue-500 group-focus-within:text-green-500 transition-all duration-300 ease-in-out" />
           </div>
-          <input type="text" readOnly placeholder="Search for schemes, jobs, services ..." className="flex-1 bg-transparent border-none outline-none text-slate-700 text-[15px] font-medium placeholder:text-slate-400 cursor-pointer h-full rounded-r-full" />
+          <input type="text" readOnly placeholder={t('common.searchPlaceholder')} className="flex-1 bg-transparent border-none outline-none text-slate-700 text-[15px] font-medium placeholder:text-slate-400 cursor-pointer h-full rounded-r-full" />
         </div>
       </div>
     </header>

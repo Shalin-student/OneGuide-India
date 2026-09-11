@@ -1,0 +1,1449 @@
+[
+    {
+        "id": "helpline-erss-112",
+        "resourceType": "helpline",
+        "name": "National Emergency Response Support System (ERSS)",
+        "slug": "erss-112-emergency",
+        "module": "helplines",
+        "category": "General Emergency",
+        "description": "Pan-India single emergency response number for citizens in emergencies requiring immediate assistance from Police, Fire, Health, and other agencies.",
+        "authority": "Ministry of Home Affairs",
+        "state": "All India",
+        "helplineNumber": "112",
+        "alternateNumbers": [
+            "100",
+            "101",
+            "102"
+        ],
+        "availability": "24x7",
+        "languages": [
+            "Hindi",
+            "English",
+            "Regional Languages"
+        ],
+        "services": [
+            "Police Assistance",
+            "Fire Department Dispatch",
+            "Medical Ambulance Dispatch",
+            "Emergency Rescue"
+        ],
+        "officialSources": [
+            {
+                "sourceName": "ERSS Official Portal",
+                "url": "https://112.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "keywords": [
+                "112",
+                "Emergency",
+                "Police",
+                "Ambulance",
+                "Fire"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against 112.gov.in."
+        }
+    },
+    {
+        "id": "helpline-police-100",
+        "resourceType": "helpline",
+        "name": "Police Emergency Helpline",
+        "slug": "police-helpline-100",
+        "module": "helplines",
+        "category": "Law Enforcement",
+        "description": "Traditional national emergency number to contact the local police control room for immediate security and law enforcement assistance.",
+        "authority": "State Police Departments",
+        "state": "All India",
+        "helplineNumber": "100",
+        "alternateNumbers": [
+            "112"
+        ],
+        "availability": "24x7",
+        "languages": [
+            "Hindi",
+            "English",
+            "Local State Languages"
+        ],
+        "services": [
+            "Crime Reporting",
+            "Law and Order Assistance",
+            "Traffic Emergencies"
+        ],
+        "officialSources": [
+            {
+                "sourceName": "National Portal of India - Helplines",
+                "url": "https://india.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "keywords": [
+                "Police",
+                "100",
+                "Crime Report",
+                "Law Enforcement"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified standard police control room code."
+        }
+    },
+    {
+        "id": "helpline-fire-101",
+        "resourceType": "helpline",
+        "name": "Fire Services Helpline",
+        "slug": "fire-services-helpline-101",
+        "module": "helplines",
+        "category": "Fire & Rescue",
+        "description": "Direct emergency contact number for reporting fire incidents, structural collapses, and requesting search and rescue operations.",
+        "authority": "State Fire and Rescue Services",
+        "state": "All India",
+        "helplineNumber": "101",
+        "alternateNumbers": [
+            "112"
+        ],
+        "availability": "24x7",
+        "languages": [
+            "Hindi",
+            "English",
+            "Local State Languages"
+        ],
+        "services": [
+            "Fire Engine Dispatch",
+            "Structural Collapse Rescue",
+            "Chemical Spills Assistance"
+        ],
+        "officialSources": [
+            {
+                "sourceName": "National Portal of India - Helplines",
+                "url": "https://india.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "keywords": [
+                "Fire",
+                "101",
+                "Fire Brigade",
+                "Rescue"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified standard fire emergency code."
+        }
+    },
+    {
+        "id": "helpline-ambulance-102",
+        "resourceType": "helpline",
+        "name": "Maternity & General Ambulance Helpline",
+        "slug": "ambulance-helpline-102",
+        "module": "helplines",
+        "category": "Medical Emergency",
+        "description": "National helpline number specifically dedicated to dispatching basic life support ambulances, primarily focused on pregnant women (JSSK scheme) and infants.",
+        "authority": "Ministry of Health and Family Welfare",
+        "state": "All India",
+        "helplineNumber": "102",
+        "alternateNumbers": [
+            "108",
+            "112"
+        ],
+        "availability": "24x7",
+        "languages": [
+            "Hindi",
+            "English",
+            "Local State Languages"
+        ],
+        "services": [
+            "Maternity Transport (Dropback facility)",
+            "Patient Transport",
+            "Basic Life Support"
+        ],
+        "officialSources": [
+            {
+                "sourceName": "National Health Mission",
+                "url": "https://nhm.gov.in",
+                "sourceType": "ministry_website"
+            }
+        ],
+        "searchMetadata": {
+            "keywords": [
+                "Ambulance",
+                "102",
+                "Pregnancy Ambulance",
+                "Janani Shishu Suraksha Karyakaram"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against NHM ambulance guidelines."
+        }
+    },
+    {
+        "id": "helpline-emergency-medical-108",
+        "resourceType": "helpline",
+        "name": "Emergency Disaster & Medical Ambulance Service",
+        "slug": "emergency-medical-ambulance-108",
+        "module": "helplines",
+        "category": "Medical Emergency",
+        "description": "A free emergency response service primarily handling life-threatening medical emergencies, road accidents, and disaster situations requiring advanced life support.",
+        "authority": "State Health Departments / National Health Mission",
+        "state": "All India (Active in most states)",
+        "helplineNumber": "108",
+        "alternateNumbers": [
+            "112",
+            "102"
+        ],
+        "availability": "24x7",
+        "languages": [
+            "Hindi",
+            "English",
+            "Local State Languages"
+        ],
+        "services": [
+            "Advanced Life Support Ambulance",
+            "Trauma and Accident Response",
+            "Cardiac Emergencies"
+        ],
+        "officialSources": [
+            {
+                "sourceName": "National Health Mission",
+                "url": "https://nhm.gov.in",
+                "sourceType": "ministry_website"
+            }
+        ],
+        "searchMetadata": {
+            "keywords": [
+                "108 Ambulance",
+                "Medical Emergency",
+                "Accident Ambulance",
+                "ALS Ambulance"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against NHM 108 Emergency Service operations."
+        }
+    },
+    {
+        "id": "helpline-childline-1098",
+        "resourceType": "helpline",
+        "name": "Childline India",
+        "slug": "childline-india-1098",
+        "module": "helplines",
+        "category": "Women & Child Safety",
+        "description": "A 24-hour, toll-free, emergency phone outreach service for children in need of care and protection.",
+        "authority": "Ministry of Women and Child Development",
+        "state": "All India",
+        "helplineNumber": "1098",
+        "alternateNumbers": [
+            "112"
+        ],
+        "availability": "24x7",
+        "languages": [
+            "Hindi",
+            "English",
+            "Local State Languages"
+        ],
+        "services": [
+            "Child Rescue Operations",
+            "Counseling",
+            "Reporting Child Abuse/Labour",
+            "Shelter Assistance"
+        ],
+        "officialSources": [
+            {
+                "sourceName": "Ministry of Women and Child Development",
+                "url": "https://wcd.nic.in",
+                "sourceType": "ministry_website"
+            }
+        ],
+        "searchMetadata": {
+            "keywords": [
+                "Childline",
+                "1098",
+                "Child Abuse",
+                "Child Labour",
+                "Child Rescue"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against MoWCD Childline framework."
+        }
+    },
+    {
+        "id": "helpline-women-181",
+        "resourceType": "helpline",
+        "name": "Women Helpline (WHL) / Sakhi",
+        "slug": "women-helpline-181",
+        "module": "helplines",
+        "category": "Women & Child Safety",
+        "description": "Toll-free 24-hours telecom service to provide support and information to women affected by violence, integrated with One Stop Centres (Sakhi).",
+        "authority": "Ministry of Women and Child Development",
+        "state": "All India",
+        "helplineNumber": "181",
+        "alternateNumbers": [
+            "1091",
+            "112"
+        ],
+        "availability": "24x7",
+        "languages": [
+            "Hindi",
+            "English",
+            "Regional Languages"
+        ],
+        "services": [
+            "Domestic Violence Intervention",
+            "Counseling and Legal Aid Information",
+            "Rescue and Shelter Linkage (One Stop Centre)"
+        ],
+        "officialSources": [
+            {
+                "sourceName": "Ministry of Women and Child Development",
+                "url": "https://wcd.nic.in",
+                "sourceType": "ministry_website"
+            }
+        ],
+        "searchMetadata": {
+            "keywords": [
+                "Women Helpline",
+                "181",
+                "Domestic Violence",
+                "Sakhi",
+                "One Stop Centre"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against MoWCD Universalization of Women Helpline scheme."
+        }
+    },
+    {
+        "id": "helpline-women-police-1091",
+        "resourceType": "helpline",
+        "name": "Women Police Helpline",
+        "slug": "women-police-helpline-1091",
+        "module": "helplines",
+        "category": "Law Enforcement",
+        "description": "An emergency police helpline dedicated exclusively to women in distress facing harassment, eve-teasing, or immediate physical threat.",
+        "authority": "State Police Departments",
+        "state": "All India",
+        "helplineNumber": "1091",
+        "alternateNumbers": [
+            "112",
+            "181",
+            "100"
+        ],
+        "availability": "24x7",
+        "languages": [
+            "Hindi",
+            "English",
+            "Local State Languages"
+        ],
+        "services": [
+            "Immediate Police Response",
+            "Anti-Harassment Squad Dispatch",
+            "Emergency Protection"
+        ],
+        "officialSources": [
+            {
+                "sourceName": "National Portal of India",
+                "url": "https://india.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "keywords": [
+                "1091",
+                "Women Police",
+                "Anti Eve Teasing",
+                "Distress Helpline"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against standard emergency shortcodes."
+        }
+    },
+    {
+        "id": "helpline-cybercrime-1930",
+        "resourceType": "helpline",
+        "name": "National Cyber Crime Financial Fraud Reporting Helpline",
+        "slug": "national-cyber-crime-helpline-1930",
+        "module": "helplines",
+        "category": "Security & Fraud",
+        "description": "A dedicated toll-free helpline operated by I4C to report online financial frauds immediately to help authorities freeze the defrauded money.",
+        "authority": "Indian Cyber Crime Coordination Centre (I4C), Ministry of Home Affairs",
+        "state": "All India",
+        "helplineNumber": "1930",
+        "alternateNumbers": [
+            "155260"
+        ],
+        "availability": "24x7",
+        "languages": [
+            "Hindi",
+            "English"
+        ],
+        "services": [
+            "Financial Fraud Reporting",
+            "Bank Account Freezing (defrauded amount)",
+            "Cybercrime Complaint Registration"
+        ],
+        "officialSources": [
+            {
+                "sourceName": "National Cyber Crime Reporting Portal",
+                "url": "https://cybercrime.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "keywords": [
+                "1930",
+                "Cyber Fraud",
+                "Online Scam",
+                "Bank Fraud Helpline",
+                "I4C"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against cybercrime.gov.in."
+        }
+    },
+    {
+        "id": "helpline-tele-manas-14416",
+        "resourceType": "helpline",
+        "name": "Tele-MANAS (Mental Health Helpline)",
+        "slug": "tele-manas-helpline-14416",
+        "module": "helplines",
+        "category": "Health & Counseling",
+        "description": "National Tele Mental Health Assistance and Networking Across States providing free, 24x7 mental health support, counseling, and crisis intervention.",
+        "authority": "Ministry of Health and Family Welfare",
+        "state": "All India",
+        "helplineNumber": "14416",
+        "alternateNumbers": [
+            "1800-891-4416"
+        ],
+        "availability": "24x7",
+        "languages": [
+            "English",
+            "Hindi",
+            "Assamese",
+            "Bengali",
+            "Gujarati",
+            "Kannada",
+            "Malayalam",
+            "Marathi",
+            "Odia",
+            "Punjabi",
+            "Tamil",
+            "Telugu",
+            "Urdu",
+            "Others"
+        ],
+        "services": [
+            "Mental Health Counseling",
+            "Psychological First Aid",
+            "Psychiatric Consultation Routing",
+            "Suicide Prevention"
+        ],
+        "officialSources": [
+            {
+                "sourceName": "Tele-MANAS Portal",
+                "url": "https://telemanas.mohfw.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "keywords": [
+                "Tele MANAS",
+                "14416",
+                "Depression Helpline",
+                "Mental Health",
+                "Suicide Prevention"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against MoHFW Tele-MANAS guidelines."
+        }
+    },
+    {
+        "id": "helpline-elderline-14567",
+        "resourceType": "helpline",
+        "name": "Elderline (National Helpline for Senior Citizens)",
+        "slug": "elderline-senior-citizen-14567",
+        "module": "helplines",
+        "category": "Social Welfare",
+        "description": "A pan-India toll-free helpline providing information, guidance, emotional support, and field intervention to senior citizens facing abuse or neglect.",
+        "authority": "Ministry of Social Justice and Empowerment",
+        "state": "All India",
+        "helplineNumber": "14567",
+        "alternateNumbers": [],
+        "availability": "8:00 AM to 8:00 PM (All days)",
+        "languages": [
+            "Hindi",
+            "English",
+            "Regional Languages"
+        ],
+        "services": [
+            "Abuse/Rescue Intervention",
+            "Legal and Pension Guidance",
+            "Emotional Support",
+            "Old Age Home Information"
+        ],
+        "officialSources": [
+            {
+                "sourceName": "Elderline Portal",
+                "url": "https://elderline.dosje.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "keywords": [
+                "Elderline",
+                "14567",
+                "Senior Citizen Helpline",
+                "Elder Abuse"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against MSJE Elderline platform."
+        }
+    },
+    {
+        "id": "helpline-manas-ncb-1933",
+        "resourceType": "helpline",
+        "name": "MANAS National Narcotics Helpline",
+        "slug": "manas-narcotics-helpline-1933",
+        "module": "helplines",
+        "category": "Law Enforcement & Health",
+        "description": "A toll-free helpline allowing citizens to anonymously report drug trafficking, illicit cultivation, and seek de-addiction and rehabilitation guidance.",
+        "authority": "Narcotics Control Bureau (NCB), Ministry of Home Affairs",
+        "state": "All India",
+        "helplineNumber": "1933",
+        "alternateNumbers": [
+            "14446"
+        ],
+        "availability": "24x7",
+        "languages": [
+            "Hindi",
+            "English"
+        ],
+        "services": [
+            "Anonymous Drug Trafficking Reporting",
+            "De-addiction Guidance",
+            "Rehabilitation Information"
+        ],
+        "officialSources": [
+            {
+                "sourceName": "MANAS NCB Portal",
+                "url": "https://www.ncbmanas.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "keywords": [
+                "1933",
+                "NCB helpline",
+                "MANAS narcotics",
+                "Report drug dealing",
+                "Drug rehab"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against MHA / NCB MANAS launch."
+        }
+    },
+    {
+        "id": "helpline-health-1075",
+        "resourceType": "helpline",
+        "name": "National Health Helpline",
+        "slug": "national-health-helpline-1075",
+        "module": "helplines",
+        "category": "Health & Counseling",
+        "description": "Central helpline operated by the Ministry of Health to provide information on public health emergencies, infectious diseases (like COVID-19), and blood donation.",
+        "authority": "Ministry of Health and Family Welfare",
+        "state": "All India",
+        "helplineNumber": "1075",
+        "alternateNumbers": [
+            "011-23978046",
+            "104"
+        ],
+        "availability": "24x7",
+        "languages": [
+            "Hindi",
+            "English"
+        ],
+        "services": [
+            "Public Health Information",
+            "Infectious Disease Tracking",
+            "Health Scheme Information"
+        ],
+        "officialSources": [
+            {
+                "sourceName": "Ministry of Health and Family Welfare",
+                "url": "https://mohfw.gov.in",
+                "sourceType": "ministry_website"
+            }
+        ],
+        "searchMetadata": {
+            "keywords": [
+                "1075",
+                "Health Helpline",
+                "MoHFW",
+                "COVID helpline",
+                "Infectious disease"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against MoHFW emergency contact lists."
+        }
+    },
+    {
+        "id": "helpline-rail-madad-139",
+        "resourceType": "helpline",
+        "name": "Rail Madad (Railway Security & Helpline)",
+        "slug": "rail-madad-139",
+        "module": "helplines",
+        "category": "Transport Emergency",
+        "description": "An integrated, single-number helpline for Indian Railways passengers addressing security, medical assistance, complaints, and general inquiries.",
+        "authority": "Ministry of Railways",
+        "state": "All India",
+        "helplineNumber": "139",
+        "alternateNumbers": [],
+        "availability": "24x7",
+        "languages": [
+            "Hindi",
+            "English",
+            "10 Regional Languages"
+        ],
+        "services": [
+            "Security and Medical Assistance on Train",
+            "PNR/Train Status Inquiry",
+            "Accident / Emergency Information",
+            "Catering / Coach Cleanliness Complaints"
+        ],
+        "officialSources": [
+            {
+                "sourceName": "Rail Madad Portal",
+                "url": "https://railmadad.indianrailways.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "keywords": [
+                "139",
+                "Rail Madad",
+                "Train Emergency",
+                "RPF Helpline",
+                "Railway Inquiry"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against Indian Railways single helpline integration."
+        }
+    },
+    {
+        "id": "helpline-disaster-1070",
+        "resourceType": "helpline",
+        "name": "Central Relief Commissioner / Disaster Helpline",
+        "slug": "central-relief-commissioner-disaster-1070",
+        "module": "helplines",
+        "category": "Disaster Management",
+        "description": "Toll-free emergency number at the state/central level to coordinate relief operations and rescue requests during natural calamities (floods, cyclones, earthquakes).",
+        "authority": "National Disaster Management Authority (NDMA) / State Relief Commissioners",
+        "state": "All India",
+        "helplineNumber": "1070",
+        "alternateNumbers": [
+            "1077",
+            "1078"
+        ],
+        "availability": "24x7",
+        "languages": [
+            "Hindi",
+            "English",
+            "Local State Languages"
+        ],
+        "services": [
+            "Disaster Relief Coordination",
+            "Evacuation Assistance",
+            "Food and Shelter Information"
+        ],
+        "officialSources": [
+            {
+                "sourceName": "National Disaster Management Authority",
+                "url": "https://ndma.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "keywords": [
+                "1070",
+                "Disaster Helpline",
+                "Flood Relief",
+                "Cyclone Helpline",
+                "Relief Commissioner"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified standard disaster relief shortcode."
+        }
+    },
+    {
+        "id": "helpline-district-disaster-1077",
+        "resourceType": "helpline",
+        "name": "District Disaster Control Room Helpline",
+        "slug": "district-disaster-control-room-1077",
+        "module": "helplines",
+        "category": "Disaster Management",
+        "description": "Helpline directly connecting citizens to their local District Magistrate's emergency control room during localized emergencies and severe weather events.",
+        "authority": "District Administration / State Disaster Management Authorities",
+        "state": "All India",
+        "helplineNumber": "1077",
+        "alternateNumbers": [
+            "1070"
+        ],
+        "availability": "24x7",
+        "languages": [
+            "Hindi",
+            "English",
+            "Local State Languages"
+        ],
+        "services": [
+            "Local Rescue Operations",
+            "Weather Alerts",
+            "Reporting Blocked Roads / Collapses"
+        ],
+        "officialSources": [
+            {
+                "sourceName": "NDMA / District Portals",
+                "url": "https://ndma.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "keywords": [
+                "1077",
+                "District Control Room",
+                "Disaster Helpline",
+                "Collector Emergency Number"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified standard district disaster shortcode."
+        }
+    },
+    {
+        "id": "helpline-electricity-1912",
+        "resourceType": "helpline",
+        "name": "National Power / Electricity Helpline",
+        "slug": "national-electricity-helpline-1912",
+        "module": "helplines",
+        "category": "Utility Emergency",
+        "description": "A centralized helpline number for addressing consumer grievances related to power failures, electrical emergencies, and billing issues across various DISCOMs.",
+        "authority": "Ministry of Power / State Electricity Boards",
+        "state": "All India",
+        "helplineNumber": "1912",
+        "alternateNumbers": [],
+        "availability": "24x7",
+        "languages": [
+            "Hindi",
+            "English",
+            "Regional Languages"
+        ],
+        "services": [
+            "Power Outage Reporting",
+            "Live Wire Emergency",
+            "Transformer Failure",
+            "Billing Complaints"
+        ],
+        "officialSources": [
+            {
+                "sourceName": "Ministry of Power",
+                "url": "https://powermin.gov.in",
+                "sourceType": "ministry_website"
+            }
+        ],
+        "searchMetadata": {
+            "keywords": [
+                "1912",
+                "Electricity Complaint",
+                "Power Cut",
+                "DISCOM Helpline",
+                "Live Wire"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified standard national electricity grievance shortcode."
+        }
+    },
+    {
+        "id": "helpline-consumer-1915",
+        "resourceType": "helpline",
+        "name": "National Consumer Helpline (NCH)",
+        "slug": "national-consumer-helpline-1915",
+        "module": "helplines",
+        "category": "Consumer Rights",
+        "description": "Toll-free helpline guiding consumers on their rights, advising them on grievance redressal, and registering complaints against misleading advertisements or deficient services.",
+        "authority": "Department of Consumer Affairs",
+        "state": "All India",
+        "helplineNumber": "1915",
+        "alternateNumbers": [
+            "1800-11-4000"
+        ],
+        "availability": "8:00 AM to 8:00 PM (All days except National Holidays)",
+        "languages": [
+            "Hindi",
+            "English",
+            "Several Regional Languages"
+        ],
+        "services": [
+            "Consumer Grievance Registration",
+            "E-commerce Disputes",
+            "Product Defect Complaints",
+            "Legal Rights Counseling"
+        ],
+        "officialSources": [
+            {
+                "sourceName": "National Consumer Helpline Portal",
+                "url": "https://consumerhelpline.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "keywords": [
+                "1915",
+                "Consumer Court",
+                "Consumer Complaint",
+                "Jago Grahak Jago",
+                "Fake Product Helpline"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against consumerhelpline.gov.in."
+        }
+    },
+    {
+        "id": "helpline-lpg-1906",
+        "resourceType": "helpline",
+        "name": "LPG Gas Leakage Emergency Helpline",
+        "slug": "lpg-gas-leakage-helpline-1906",
+        "module": "helplines",
+        "category": "Utility Emergency",
+        "description": "A centralized, round-the-clock emergency response number for reporting LPG gas leakages, functional across all major Oil Marketing Companies (Indane, HP, Bharat Gas).",
+        "authority": "Ministry of Petroleum and Natural Gas",
+        "state": "All India",
+        "helplineNumber": "1906",
+        "alternateNumbers": [
+            "1800-2333-555"
+        ],
+        "availability": "24x7",
+        "languages": [
+            "Hindi",
+            "English",
+            "Regional Languages"
+        ],
+        "services": [
+            "Gas Cylinder Leakage Reporting",
+            "Immediate Safety Instructions",
+            "Emergency Mechanic Dispatch"
+        ],
+        "officialSources": [
+            {
+                "sourceName": "Ministry of Petroleum and Natural Gas",
+                "url": "https://mopng.gov.in",
+                "sourceType": "ministry_website"
+            }
+        ],
+        "searchMetadata": {
+            "keywords": [
+                "1906",
+                "Gas Leak",
+                "LPG Emergency",
+                "Indane Leak",
+                "HP Gas Leak",
+                "Bharat Gas Emergency"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified standard MoPNG LPG emergency code."
+        }
+    },
+    {
+        "id": "helpline-nhai-1033",
+        "resourceType": "helpline",
+        "name": "NHAI Highway Emergency Helpline",
+        "slug": "nhai-highway-emergency-1033",
+        "module": "helplines",
+        "category": "Transport Emergency",
+        "description": "National helpline to assist highway users in reporting accidents, requesting medical/towing assistance, or raising toll plaza and FASTag-related grievances on National Highways.",
+        "authority": "National Highways Authority of India (NHAI)",
+        "state": "All India",
+        "helplineNumber": "1033",
+        "alternateNumbers": [],
+        "availability": "24x7",
+        "languages": [
+            "Hindi",
+            "English",
+            "Local State Languages"
+        ],
+        "services": [
+            "Highway Accident Rescue",
+            "Towing and Crane Assistance",
+            "Ambulance Dispatch",
+            "FASTag / Toll Plaza Grievances"
+        ],
+        "officialSources": [
+            {
+                "sourceName": "NHAI Official Portal / Rajmargyatra",
+                "url": "https://nhai.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "keywords": [
+                "1033",
+                "Highway Helpline",
+                "NHAI",
+                "Toll Complaint",
+                "Highway Accident",
+                "FASTag helpline"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against NHAI helpline notifications."
+        }
+    },
+    {
+        "id": "helpline-kisan-18001801551",
+        "resourceType": "helpline",
+        "name": "Kisan Call Centre (KCC)",
+        "slug": "kisan-call-centre-18001801551",
+        "module": "helplines",
+        "category": "Agriculture",
+        "description": "A dedicated toll-free helpline providing immediate expert advisory services to farmers on crop diseases, pest control, weather, and market prices.",
+        "authority": "Department of Agriculture and Farmers Welfare",
+        "state": "All India",
+        "helplineNumber": "1800-180-1551",
+        "alternateNumbers": [
+            "1551"
+        ],
+        "availability": "6:00 AM to 10:00 PM (All days)",
+        "languages": [
+            "Available in 22 Local Languages"
+        ],
+        "services": [
+            "Pest and Disease Advisory",
+            "Weather Information",
+            "Crop Market Prices",
+            "Government Scheme Information"
+        ],
+        "officialSources": [
+            {
+                "sourceName": "mKisan Portal",
+                "url": "https://mkisan.gov.in/kcc.aspx",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "keywords": [
+                "Kisan Helpline",
+                "1551",
+                "Agriculture advisory",
+                "Crop doctor call"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against mkisan.gov.in."
+        }
+    },
+    {
+        "id": "helpline-digisaathi-14444",
+        "resourceType": "helpline",
+        "name": "DigiSaathi (Digital Payments Helpline)",
+        "slug": "digisaathi-digital-payments-14444",
+        "module": "helplines",
+        "category": "Finance & Information",
+        "description": "An automated 24x7 helpline assisting users with queries on various digital payment products and services, acting as a unified platform for NPCI, RBI, and bank guidelines.",
+        "authority": "National Payments Corporation of India (NPCI) / RBI",
+        "state": "All India",
+        "helplineNumber": "14444",
+        "alternateNumbers": [
+            "1800-891-3333"
+        ],
+        "availability": "24x7",
+        "languages": [
+            "Hindi",
+            "English"
+        ],
+        "services": [
+            "Digital Payment Queries",
+            "UPI/IMPS Issue Guidance",
+            "Card and Wallet Information",
+            "Fraud Complaint Redirection"
+        ],
+        "officialSources": [
+            {
+                "sourceName": "DigiSaathi Official Website",
+                "url": "https://digisaathi.info",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "keywords": [
+                "14444",
+                "DigiSaathi",
+                "UPI Helpline",
+                "NPCI Helpline",
+                "Digital payment support"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against digisaathi.info."
+        }
+    },
+    {
+        "id": "helpline-ayushman-14555",
+        "resourceType": "helpline",
+        "name": "Ayushman Bharat PM-JAY Helpline",
+        "slug": "ayushman-bharat-helpline-14555",
+        "module": "helplines",
+        "category": "Health & Counseling",
+        "description": "National helpline for queries, complaints, and information regarding the Ayushman Bharat Pradhan Mantri Jan Arogya Yojana health insurance scheme.",
+        "authority": "National Health Authority (NHA)",
+        "state": "All India",
+        "helplineNumber": "14555",
+        "alternateNumbers": [
+            "104"
+        ],
+        "availability": "24x7",
+        "languages": [
+            "Hindi",
+            "English",
+            "Regional Languages"
+        ],
+        "services": [
+            "PM-JAY Eligibility Check",
+            "Ayushman Card Issue Resolution",
+            "Hospital Empanelment Queries",
+            "Grievance Registration"
+        ],
+        "officialSources": [
+            {
+                "sourceName": "PMJAY Portal",
+                "url": "https://pmjay.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "keywords": [
+                "14555",
+                "Ayushman Bharat Helpline",
+                "PMJAY Toll Free",
+                "Health Insurance Query"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against pmjay.gov.in."
+        }
+    },
+    {
+        "id": "helpline-aadhaar-1947",
+        "resourceType": "helpline",
+        "name": "UIDAI Aadhaar Helpline",
+        "slug": "uidai-aadhaar-helpline-1947",
+        "module": "helplines",
+        "category": "Identity & Administration",
+        "description": "Official toll-free helpline number for residents to inquire about Aadhaar enrolment, update status, PVC card tracking, and authentication issues.",
+        "authority": "Unique Identification Authority of India (UIDAI)",
+        "state": "All India",
+        "helplineNumber": "1947",
+        "alternateNumbers": [],
+        "availability": "24x7 (IVRS), Agent available 7 AM to 11 PM (Monday-Saturday) and 8 AM to 5 PM (Sunday)",
+        "languages": [
+            "Available in 12 Indian Languages"
+        ],
+        "services": [
+            "Enrolment / Update Status check",
+            "Locate Enrolment Centre",
+            "PVC Card Status",
+            "Aadhaar lock/unlock guidance"
+        ],
+        "officialSources": [
+            {
+                "sourceName": "UIDAI Official Portal",
+                "url": "https://uidai.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "keywords": [
+                "1947",
+                "Aadhaar Helpline",
+                "UIDAI Toll Free",
+                "Aadhaar complaint"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against UIDAI contact details."
+        }
+    },
+    {
+        "id": "helpline-health-info-104",
+        "resourceType": "helpline",
+        "name": "State Health Information Helpline",
+        "slug": "state-health-information-104",
+        "module": "helplines",
+        "category": "Health & Counseling",
+        "description": "A state-level non-emergency medical helpline offering medical advice from doctors, counseling, and information on health services, blood banks, and government schemes.",
+        "authority": "State Health Departments / NHM",
+        "state": "All India (State Specific Operations)",
+        "helplineNumber": "104",
+        "alternateNumbers": [
+            "1075"
+        ],
+        "availability": "24x7",
+        "languages": [
+            "Local State Languages",
+            "Hindi",
+            "English"
+        ],
+        "services": [
+            "Medical Consultation / Advice",
+            "Maternal and Child Health Info",
+            "Blood Bank Availability",
+            "Health Scheme Guidance"
+        ],
+        "officialSources": [
+            {
+                "sourceName": "National Health Mission",
+                "url": "https://nhm.gov.in",
+                "sourceType": "ministry_website"
+            }
+        ],
+        "searchMetadata": {
+            "keywords": [
+                "104",
+                "Health Advice",
+                "Medical Helpline",
+                "State Health Number",
+                "Doctor on call"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified as NHM standard non-emergency health shortcode."
+        }
+    },
+    {
+        "id": "helpline-drug-rehab-14446",
+        "resourceType": "helpline",
+        "name": "National Toll-Free Helpline for Drug De-addiction",
+        "slug": "drug-deaddiction-helpline-14446",
+        "module": "helplines",
+        "category": "Health & Counseling",
+        "description": "A national helpline setup to provide counseling, crisis intervention, and guidance on de-addiction and rehabilitation resources to substance dependents and their families.",
+        "authority": "Ministry of Social Justice & Empowerment (MoSJE)",
+        "state": "All India",
+        "helplineNumber": "14446",
+        "alternateNumbers": [
+            "1933"
+        ],
+        "availability": "24x7",
+        "languages": [
+            "Hindi",
+            "English",
+            "Regional Languages"
+        ],
+        "services": [
+            "De-addiction Counseling",
+            "Rehabilitation Center Information",
+            "Psychological Support",
+            "Crisis Intervention"
+        ],
+        "officialSources": [
+            {
+                "sourceName": "Ministry of Social Justice & Empowerment",
+                "url": "https://socialjustice.gov.in",
+                "sourceType": "ministry_website"
+            }
+        ],
+        "searchMetadata": {
+            "keywords": [
+                "14446",
+                "Drug Rehab Helpline",
+                "De-addiction",
+                "MoSJE Nasha Mukt",
+                "Nasha Mukti Helpline"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against MoSJE Nasha Mukt Bharat Abhiyaan guidelines."
+        }
+    },
+    {
+        "id": "helpline-railway-accident-1072",
+        "resourceType": "helpline",
+        "name": "Railway Accident Emergency Info Helpline",
+        "slug": "railway-accident-emergency-1072",
+        "module": "helplines",
+        "category": "Transport Emergency",
+        "description": "Specific emergency control room helpline activated during train accidents or derailments to provide information on casualties, rescue operations, and passenger status to relatives.",
+        "authority": "Ministry of Railways",
+        "state": "All India",
+        "helplineNumber": "1072",
+        "alternateNumbers": [
+            "139"
+        ],
+        "availability": "24x7 (Specifically active during disasters)",
+        "languages": [
+            "Hindi",
+            "English",
+            "Regional Languages"
+        ],
+        "services": [
+            "Train Accident Passenger Status",
+            "Rescue Operation Updates",
+            "Emergency Relief Coordination"
+        ],
+        "officialSources": [
+            {
+                "sourceName": "Indian Railways portal",
+                "url": "https://indianrailways.gov.in",
+                "sourceType": "ministry_website"
+            }
+        ],
+        "searchMetadata": {
+            "keywords": [
+                "1072",
+                "Train Accident Helpline",
+                "Railway Disaster",
+                "Passenger Status Incident"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified standard Railway Accident emergency code."
+        }
+    },
+    {
+        "id": "helpline-road-accident-1073",
+        "resourceType": "helpline",
+        "name": "Road Accident Emergency Helpline",
+        "slug": "road-accident-emergency-1073",
+        "module": "helplines",
+        "category": "Transport Emergency",
+        "description": "An emergency helpline for reporting road and traffic accidents to dispatch immediate medical aid, police assistance, and traffic clearance teams.",
+        "authority": "Traffic Police / State Transport Departments",
+        "state": "All India",
+        "helplineNumber": "1073",
+        "alternateNumbers": [
+            "112",
+            "1033"
+        ],
+        "availability": "24x7",
+        "languages": [
+            "Hindi",
+            "English",
+            "Local State Languages"
+        ],
+        "services": [
+            "Road Accident Reporting",
+            "Ambulance Dispatch for Accidents",
+            "Traffic Control and Clearance"
+        ],
+        "officialSources": [
+            {
+                "sourceName": "National Portal of India",
+                "url": "https://india.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "keywords": [
+                "1073",
+                "Road Accident Helpline",
+                "Traffic Emergency",
+                "Highway Accident"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified standard road accident emergency code."
+        }
+    },
+    {
+        "id": "helpline-women-power-1090",
+        "resourceType": "helpline",
+        "name": "Women Power Line (WPL)",
+        "slug": "women-power-line-1090",
+        "module": "helplines",
+        "category": "Law Enforcement",
+        "description": "An established, toll-free police-administered contact center specifically designed to combat harassment (phone, cyber, or physical) against women by providing immediate police intervention without necessitating an immediate FIR.",
+        "authority": "State Police Departments (Originated in UP)",
+        "state": "Uttar Pradesh (and select other states)",
+        "helplineNumber": "1090",
+        "alternateNumbers": [
+            "1091",
+            "112"
+        ],
+        "availability": "24x7",
+        "languages": [
+            "Hindi",
+            "English"
+        ],
+        "services": [
+            "Anti-Eve Teasing Response",
+            "Cyber Harassment Reporting",
+            "Counseling and Warning to Offenders",
+            "Identity Protection of Complainant"
+        ],
+        "officialSources": [
+            {
+                "sourceName": "Women Power Line UP Police",
+                "url": "https://1090up.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "keywords": [
+                "1090",
+                "Women Power Line",
+                "UP Police 1090",
+                "Cyber Harassment Women",
+                "Anti Eve Teasing"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against UP Police Women Power Line framework."
+        }
+    },
+    {
+        "id": "helpline-kiran-18005990019",
+        "resourceType": "helpline",
+        "name": "KIRAN - Mental Health Helpline",
+        "slug": "kiran-mental-health-helpline-18005990019",
+        "module": "helplines",
+        "category": "Health & Counseling",
+        "description": "A 24x7 toll-free mental health rehabilitation helpline launched to offer early screening, first-aid, psychological support, distress management, and mental well-being promotion.",
+        "authority": "Department of Empowerment of Persons with Disabilities (DEPwD), Ministry of Social Justice & Empowerment",
+        "state": "All India",
+        "helplineNumber": "1800-599-0019",
+        "alternateNumbers": [
+            "14416"
+        ],
+        "availability": "24x7",
+        "languages": [
+            "Available in 13 Languages"
+        ],
+        "services": [
+            "Early Screening and Counseling",
+            "Stress and Anxiety Management",
+            "Depression and Suicidal Thoughts Intervention",
+            "Rehabilitation Guidance"
+        ],
+        "officialSources": [
+            {
+                "sourceName": "Ministry of Social Justice & Empowerment",
+                "url": "https://socialjustice.gov.in",
+                "sourceType": "ministry_website"
+            }
+        ],
+        "searchMetadata": {
+            "keywords": [
+                "KIRAN",
+                "18005990019",
+                "DEPwD mental health",
+                "Depression helpline",
+                "Psychological support"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified against MSJE KIRAN helpline launch documentation."
+        }
+    }
+]

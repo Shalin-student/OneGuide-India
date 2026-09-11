@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { MapPin, Building2, ChevronRight, FileText } from 'lucide-react';
 import { motion } from 'motion/react';
+import { useTranslation } from 'react-i18next';
 
 interface ServiceCardProps {
   service: {
@@ -12,10 +13,14 @@ interface ServiceCardProps {
     governmentDepartment?: string;
     stateOrCentral?: string;
     slug: string;
+    resourceType?: string; // from canonical resource
   };
 }
 
+import { SaveButton } from './SaveButton';
+
 export const ServiceCard = ({ service }: ServiceCardProps) => {
+  const { t } = useTranslation();
   return (
     <motion.div 
       initial={{ opacity: 0, y: 10 }}
@@ -27,9 +32,17 @@ export const ServiceCard = ({ service }: ServiceCardProps) => {
         <h3 className="text-[1.15rem] font-bold text-slate-800 leading-snug group-hover:text-primary-700 transition-colors">
           {service.name}
         </h3>
-        <span className="bg-primary-50 text-primary-700 border border-primary-200/50 text-[10px] uppercase tracking-wider px-2.5 py-1 rounded-full font-bold whitespace-nowrap shrink-0">
-          {service.categoryId?.name || 'Service'}
-        </span>
+        <div className="flex flex-col items-end gap-2 shrink-0">
+          <span className="bg-primary-50 text-primary-700 border border-primary-200/50 text-[10px] uppercase tracking-wider px-2.5 py-1 rounded-full font-bold whitespace-nowrap">
+            {service.categoryId?.name || 'Service'}
+          </span>
+          {service.resourceType && (
+            <SaveButton 
+              resourceId={service._id} 
+              resourceType={service.resourceType} 
+            />
+          )}
+        </div>
       </div>
       
       <p className="text-slate-600 text-sm leading-relaxed mb-6 line-clamp-3 flex-grow">
@@ -52,7 +65,7 @@ export const ServiceCard = ({ service }: ServiceCardProps) => {
         className="mt-6 flex items-center justify-center gap-2 w-full text-center bg-slate-50 hover:bg-primary-600 text-slate-700 hover:text-white border border-slate-200 hover:border-primary-600 py-2.5 rounded-xl text-sm font-semibold transition-all duration-300"
       >
         <FileText size={16} />
-        View Details
+        {t('common.viewDetails')}
         <ChevronRight size={16} className="opacity-70 group-hover:translate-x-1 transition-transform" />
       </Link>
     </motion.div>

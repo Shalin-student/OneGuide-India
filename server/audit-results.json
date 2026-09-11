@@ -1,0 +1,534 @@
+{
+  "counts": {
+    "schemes": 42,
+    "jobs": 40,
+    "scholarships": 30,
+    "internships": 30,
+    "documents": 74,
+    "governmentportals": 28,
+    "helplines": 33,
+    "services": 2,
+    "categories": 5,
+    "users": 12
+  },
+  "extraRecords": {
+    "schemes": [
+      {
+        "_id": "6a91528a2532992bb5b602d8",
+        "slug": "ayushman-bharat-pmjay",
+        "name": "Ayushman Bharat Pradhan Mantri Jan Arogya Yojana (AB-PMJAY)",
+        "sourceName": "Ministry of Health and Family Welfare",
+        "createdAt": "2026-08-28T09:19:06.664Z",
+        "updatedAt": "2026-08-28T09:19:06.664Z"
+      },
+      {
+        "_id": "6a91528a2532992bb5b602d9",
+        "slug": "pradhan-mantri-awas-yojana-gramin",
+        "name": "Pradhan Mantri Awas Yojana - Gramin (PMAY-G)",
+        "sourceName": "Ministry of Rural Development",
+        "createdAt": "2026-08-28T09:19:06.758Z",
+        "updatedAt": "2026-08-28T09:19:06.758Z"
+      },
+      {
+        "_id": "6a91528a2532992bb5b602da",
+        "slug": "mahatma-gandhi-nrega",
+        "name": "Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA)",
+        "sourceName": "Ministry of Rural Development",
+        "createdAt": "2026-08-28T09:19:06.856Z",
+        "updatedAt": "2026-08-28T09:19:06.856Z"
+      },
+      {
+        "_id": "6a91528b2532992bb5b602e0",
+        "slug": "jal-jeevan-mission",
+        "name": "Jal Jeevan Mission (JJM)",
+        "sourceName": "Ministry of Jal Shakti",
+        "createdAt": "2026-08-28T09:19:07.413Z",
+        "updatedAt": "2026-08-28T09:19:07.413Z"
+      },
+      {
+        "_id": "6a91528b2532992bb5b602e1",
+        "slug": "beti-bachao-beti-padhao",
+        "name": "Beti Bachao Beti Padhao (BBBP)",
+        "sourceName": "Ministry of Women and Child Development",
+        "createdAt": "2026-08-28T09:19:07.503Z",
+        "updatedAt": "2026-08-28T09:19:07.503Z"
+      },
+      {
+        "_id": "6a91528b2532992bb5b602e3",
+        "slug": "national-social-assistance-programme",
+        "name": "National Social Assistance Programme (NSAP)",
+        "sourceName": "Ministry of Rural Development",
+        "createdAt": "2026-08-28T09:19:07.699Z",
+        "updatedAt": "2026-08-28T09:19:07.699Z"
+      },
+      {
+        "_id": "6a91528b2532992bb5b602e4",
+        "slug": "pradhan-mantri-shram-yogi-maan-dhan",
+        "name": "Pradhan Mantri Shram Yogi Maan-dhan (PM-SYM)",
+        "sourceName": "Ministry of Labour and Employment",
+        "createdAt": "2026-08-28T09:19:07.792Z",
+        "updatedAt": "2026-08-28T09:19:07.792Z"
+      },
+      {
+        "_id": "6a91528b2532992bb5b602e5",
+        "slug": "swachh-bharat-mission-grameen",
+        "name": "Swachh Bharat Mission (Grameen)",
+        "sourceName": "Ministry of Jal Shakti",
+        "createdAt": "2026-08-28T09:19:07.907Z",
+        "updatedAt": "2026-08-28T09:19:07.907Z"
+      },
+      {
+        "_id": "6a91528c2532992bb5b602e6",
+        "slug": "deen-dayal-upadhyaya-grameen-kaushalya-yojana",
+        "name": "Deen Dayal Upadhyaya Grameen Kaushalya Yojana (DDU-GKY)",
+        "sourceName": "Ministry of Rural Development",
+        "createdAt": "2026-08-28T09:19:08.010Z",
+        "updatedAt": "2026-08-28T09:19:08.010Z"
+      },
+      {
+        "_id": "6a91528c2532992bb5b602e8",
+        "slug": "poshan-abhiyaan",
+        "name": "Poshan Abhiyaan",
+        "sourceName": "Ministry of Women and Child Development",
+        "createdAt": "2026-08-28T09:19:08.196Z",
+        "updatedAt": "2026-08-28T09:19:08.196Z"
+      },
+      {
+        "_id": "6a91528c2532992bb5b602ea",
+        "slug": "startup-india-seed-fund-scheme",
+        "name": "Startup India Seed Fund Scheme (SISFS)",
+        "sourceName": "Ministry of Commerce and Industry",
+        "createdAt": "2026-08-28T09:19:08.404Z",
+        "updatedAt": "2026-08-28T09:19:08.404Z"
+      }
+    ],
+    "documents": [
+      {
+        "_id": "6a9e64e869e909ca18b449ca",
+        "slug": "domicile-certificate",
+        "name": "Domicile Certificate",
+        "sourceName": "National e-Governance Services",
+        "createdAt": "2026-09-07T07:16:56.290Z",
+        "updatedAt": "2026-09-07T07:45:10.397Z"
+      },
+      {
+        "_id": "6a9e6b892153d7505fd45d0d",
+        "slug": "voter-id-card",
+        "name": "Voter ID Card",
+        "sourceName": "Ministry of Public Grievances",
+        "createdAt": "2026-09-07T07:45:11.565Z",
+        "updatedAt": "2026-09-07T07:45:11.565Z"
+      },
+      {
+        "_id": "6a9e6b8a2153d7505fd45d0f",
+        "slug": "ration-card",
+        "name": "Ration Card",
+        "sourceName": "Ministry of Public Grievances",
+        "createdAt": "2026-09-07T07:45:12.614Z",
+        "updatedAt": "2026-09-07T07:45:12.614Z"
+      },
+      {
+        "_id": "6a9e6b8a2153d7505fd45d10",
+        "slug": "senior-citizen-card",
+        "name": "Senior Citizen Card",
+        "sourceName": "Ministry of Public Grievances",
+        "createdAt": "2026-09-07T07:45:13.027Z",
+        "updatedAt": "2026-09-07T07:45:13.027Z"
+      },
+      {
+        "_id": "6a9e6b8b2153d7505fd45d13",
+        "slug": "sc-st-caste-certificate",
+        "name": "SC/ST Caste Certificate",
+        "sourceName": "Ministry of Public Grievances",
+        "createdAt": "2026-09-07T07:45:13.406Z",
+        "updatedAt": "2026-09-07T07:45:13.406Z"
+      },
+      {
+        "_id": "6a9e6b8c2153d7505fd45d16",
+        "slug": "shramik-card-e-shram",
+        "name": "Shramik Card (e-Shram)",
+        "sourceName": "Ministry of Public Grievances",
+        "createdAt": "2026-09-07T07:45:14.675Z",
+        "updatedAt": "2026-09-07T07:45:14.675Z"
+      },
+      {
+        "_id": "6a9e6b8c2153d7505fd45d17",
+        "slug": "labour-card",
+        "name": "Labour Card",
+        "sourceName": "Ministry of Public Grievances",
+        "createdAt": "2026-09-07T07:45:15.041Z",
+        "updatedAt": "2026-09-07T07:45:15.041Z"
+      },
+      {
+        "_id": "6a9e6b8d2153d7505fd45d18",
+        "slug": "bpl-certificate",
+        "name": "BPL Certificate",
+        "sourceName": "Ministry of Public Grievances",
+        "createdAt": "2026-09-07T07:45:15.543Z",
+        "updatedAt": "2026-09-07T07:45:15.543Z"
+      },
+      {
+        "_id": "6a9e6b8d2153d7505fd45d19",
+        "slug": "disability-certificate-udid",
+        "name": "Disability Certificate (UDID)",
+        "sourceName": "Ministry of Public Grievances",
+        "createdAt": "2026-09-07T07:45:15.661Z",
+        "updatedAt": "2026-09-07T07:45:15.661Z"
+      },
+      {
+        "_id": "6a9e6b8d2153d7505fd45d1a",
+        "slug": "character-certificate",
+        "name": "Character Certificate",
+        "sourceName": "Ministry of Public Grievances",
+        "createdAt": "2026-09-07T07:45:15.764Z",
+        "updatedAt": "2026-09-07T07:45:15.764Z"
+      },
+      {
+        "_id": "6a9e6b8d2153d7505fd45d1b",
+        "slug": "police-clearance-certificate-pcc",
+        "name": "Police Clearance Certificate (PCC)",
+        "sourceName": "Ministry of Public Grievances",
+        "createdAt": "2026-09-07T07:45:15.843Z",
+        "updatedAt": "2026-09-07T07:45:15.843Z"
+      },
+      {
+        "_id": "6a9e6b8e2153d7505fd45d1d",
+        "slug": "property-registration-certificate",
+        "name": "Property Registration Certificate",
+        "sourceName": "Ministry of Public Grievances",
+        "createdAt": "2026-09-07T07:45:16.144Z",
+        "updatedAt": "2026-09-07T07:45:16.144Z"
+      },
+      {
+        "_id": "6a9e6b8e2153d7505fd45d1e",
+        "slug": "land-ownership-certificate-patta",
+        "name": "Land Ownership Certificate (Patta)",
+        "sourceName": "Ministry of Public Grievances",
+        "createdAt": "2026-09-07T07:45:16.279Z",
+        "updatedAt": "2026-09-07T07:45:16.279Z"
+      },
+      {
+        "_id": "6a9e6b8e2153d7505fd45d20",
+        "slug": "title-deed",
+        "name": "Title Deed",
+        "sourceName": "Ministry of Public Grievances",
+        "createdAt": "2026-09-07T07:45:16.539Z",
+        "updatedAt": "2026-09-07T07:45:16.539Z"
+      },
+      {
+        "_id": "6a9e6b8e2153d7505fd45d21",
+        "slug": "fire-noc",
+        "name": "Fire NOC",
+        "sourceName": "Ministry of Public Grievances",
+        "createdAt": "2026-09-07T07:45:16.675Z",
+        "updatedAt": "2026-09-07T07:45:16.675Z"
+      },
+      {
+        "_id": "6a9e6b8f2153d7505fd45d22",
+        "slug": "pollution-control-board-noc",
+        "name": "Pollution Control Board NOC",
+        "sourceName": "Ministry of Public Grievances",
+        "createdAt": "2026-09-07T07:45:17.158Z",
+        "updatedAt": "2026-09-07T07:45:17.158Z"
+      },
+      {
+        "_id": "6a9e6b8f2153d7505fd45d23",
+        "slug": "shop-and-establishment-license",
+        "name": "Shop and Establishment License",
+        "sourceName": "Ministry of Public Grievances",
+        "createdAt": "2026-09-07T07:45:17.308Z",
+        "updatedAt": "2026-09-07T07:45:17.308Z"
+      },
+      {
+        "_id": "6a9e6b8f2153d7505fd45d24",
+        "slug": "fssai-food-license",
+        "name": "FSSAI Food License",
+        "sourceName": "Ministry of Public Grievances",
+        "createdAt": "2026-09-07T07:45:17.445Z",
+        "updatedAt": "2026-09-07T07:45:17.445Z"
+      },
+      {
+        "_id": "6a9e6b902153d7505fd45d26",
+        "slug": "msme-udyam-registration",
+        "name": "MSME Udyam Registration",
+        "sourceName": "Ministry of Public Grievances",
+        "createdAt": "2026-09-07T07:45:17.794Z",
+        "updatedAt": "2026-09-07T07:45:17.794Z"
+      },
+      {
+        "_id": "6a9e6b912153d7505fd45d28",
+        "slug": "tax-residency-certificate",
+        "name": "Tax Residency Certificate",
+        "sourceName": "Ministry of Public Grievances",
+        "createdAt": "2026-09-07T07:45:19.256Z",
+        "updatedAt": "2026-09-07T07:45:19.256Z"
+      },
+      {
+        "_id": "6a9e6b912153d7505fd45d29",
+        "slug": "digital-signature-certificate-dsc",
+        "name": "Digital Signature Certificate (DSC)",
+        "sourceName": "Ministry of Public Grievances",
+        "createdAt": "2026-09-07T07:45:19.440Z",
+        "updatedAt": "2026-09-07T07:45:19.440Z"
+      },
+      {
+        "_id": "6a9e6b912153d7505fd45d2a",
+        "slug": "arms-license",
+        "name": "Arms License",
+        "sourceName": "Ministry of Public Grievances",
+        "createdAt": "2026-09-07T07:45:19.543Z",
+        "updatedAt": "2026-09-07T07:45:19.543Z"
+      },
+      {
+        "_id": "6a9e6b912153d7505fd45d2b",
+        "slug": "learner-s-license",
+        "name": "Learner's License",
+        "sourceName": "Ministry of Public Grievances",
+        "createdAt": "2026-09-07T07:45:19.695Z",
+        "updatedAt": "2026-09-07T07:45:19.695Z"
+      },
+      {
+        "_id": "6a9e6b912153d7505fd45d2c",
+        "slug": "international-driving-permit",
+        "name": "International Driving Permit",
+        "sourceName": "Ministry of Public Grievances",
+        "createdAt": "2026-09-07T07:45:19.994Z",
+        "updatedAt": "2026-09-07T07:45:19.994Z"
+      },
+      {
+        "_id": "6a9e6b912153d7505fd45d2d",
+        "slug": "vehicle-rc-registration-certificate",
+        "name": "Vehicle RC (Registration Certificate)",
+        "sourceName": "Ministry of Public Grievances",
+        "createdAt": "2026-09-07T07:45:20.105Z",
+        "updatedAt": "2026-09-07T07:45:20.105Z"
+      },
+      {
+        "_id": "6a9e6b922153d7505fd45d2e",
+        "slug": "vehicle-fitness-certificate",
+        "name": "Vehicle Fitness Certificate",
+        "sourceName": "Ministry of Public Grievances",
+        "createdAt": "2026-09-07T07:45:20.210Z",
+        "updatedAt": "2026-09-07T07:45:20.210Z"
+      },
+      {
+        "_id": "6a9e6b922153d7505fd45d2f",
+        "slug": "puc-pollution-under-control-certificate",
+        "name": "PUC (Pollution Under Control) Certificate",
+        "sourceName": "Ministry of Public Grievances",
+        "createdAt": "2026-09-07T07:45:20.328Z",
+        "updatedAt": "2026-09-07T07:45:20.328Z"
+      },
+      {
+        "_id": "6a9e6b922153d7505fd45d30",
+        "slug": "transport-permit",
+        "name": "Transport Permit",
+        "sourceName": "Ministry of Public Grievances",
+        "createdAt": "2026-09-07T07:45:20.445Z",
+        "updatedAt": "2026-09-07T07:45:20.445Z"
+      },
+      {
+        "_id": "6a9e6b922153d7505fd45d31",
+        "slug": "e-way-bill",
+        "name": "E-Way Bill",
+        "sourceName": "Ministry of Public Grievances",
+        "createdAt": "2026-09-07T07:45:20.612Z",
+        "updatedAt": "2026-09-07T07:45:20.612Z"
+      },
+      {
+        "_id": "6a9e6b922153d7505fd45d32",
+        "slug": "nrega-job-card",
+        "name": "NREGA Job Card",
+        "sourceName": "Ministry of Public Grievances",
+        "createdAt": "2026-09-07T07:45:20.731Z",
+        "updatedAt": "2026-09-07T07:45:20.731Z"
+      },
+      {
+        "_id": "6a9e6b922153d7505fd45d33",
+        "slug": "kisan-credit-card-kcc",
+        "name": "Kisan Credit Card (KCC)",
+        "sourceName": "Ministry of Public Grievances",
+        "createdAt": "2026-09-07T07:45:20.841Z",
+        "updatedAt": "2026-09-07T07:45:20.841Z"
+      },
+      {
+        "_id": "6a9e6b922153d7505fd45d34",
+        "slug": "soil-health-card",
+        "name": "Soil Health Card",
+        "sourceName": "Ministry of Public Grievances",
+        "createdAt": "2026-09-07T07:45:20.980Z",
+        "updatedAt": "2026-09-07T07:45:20.980Z"
+      },
+      {
+        "_id": "6a9e6b922153d7505fd45d35",
+        "slug": "ayushman-bharat-card-pmjay",
+        "name": "Ayushman Bharat Card (PMJAY)",
+        "sourceName": "Ministry of Public Grievances",
+        "createdAt": "2026-09-07T07:45:21.107Z",
+        "updatedAt": "2026-09-07T07:45:21.107Z"
+      },
+      {
+        "_id": "6a9e6b932153d7505fd45d36",
+        "slug": "health-id-abha-card",
+        "name": "Health ID (ABHA Card)",
+        "sourceName": "Ministry of Public Grievances",
+        "createdAt": "2026-09-07T07:45:21.225Z",
+        "updatedAt": "2026-09-07T07:45:21.225Z"
+      },
+      {
+        "_id": "6a9e6b932153d7505fd45d37",
+        "slug": "ehs-card-state-health-scheme",
+        "name": "EHS Card (State Health Scheme)",
+        "sourceName": "Ministry of Public Grievances",
+        "createdAt": "2026-09-07T07:45:21.343Z",
+        "updatedAt": "2026-09-07T07:45:21.343Z"
+      },
+      {
+        "_id": "6a9e6b932153d7505fd45d38",
+        "slug": "pensioner-id-card",
+        "name": "Pensioner ID Card",
+        "sourceName": "Ministry of Public Grievances",
+        "createdAt": "2026-09-07T07:45:21.477Z",
+        "updatedAt": "2026-09-07T07:45:21.477Z"
+      },
+      {
+        "_id": "6a9e6b932153d7505fd45d39",
+        "slug": "widow-pension-certificate",
+        "name": "Widow Pension Certificate",
+        "sourceName": "Ministry of Public Grievances",
+        "createdAt": "2026-09-07T07:45:21.613Z",
+        "updatedAt": "2026-09-07T07:45:21.613Z"
+      },
+      {
+        "_id": "6a9e6b932153d7505fd45d3a",
+        "slug": "freedom-fighter-id-card",
+        "name": "Freedom Fighter ID Card",
+        "sourceName": "Ministry of Public Grievances",
+        "createdAt": "2026-09-07T07:45:21.707Z",
+        "updatedAt": "2026-09-07T07:45:21.707Z"
+      },
+      {
+        "_id": "6a9e6b932153d7505fd45d3b",
+        "slug": "transgender-identity-card",
+        "name": "Transgender Identity Card",
+        "sourceName": "Ministry of Public Grievances",
+        "createdAt": "2026-09-07T07:45:21.809Z",
+        "updatedAt": "2026-09-07T07:45:21.809Z"
+      },
+      {
+        "_id": "6a9e6b932153d7505fd45d3c",
+        "slug": "minority-status-certificate",
+        "name": "Minority Status Certificate",
+        "sourceName": "Ministry of Public Grievances",
+        "createdAt": "2026-09-07T07:45:21.928Z",
+        "updatedAt": "2026-09-07T07:45:21.928Z"
+      },
+      {
+        "_id": "6a9e6b932153d7505fd45d3d",
+        "slug": "bonafide-certificate",
+        "name": "Bonafide Certificate",
+        "sourceName": "Ministry of Public Grievances",
+        "createdAt": "2026-09-07T07:45:22.031Z",
+        "updatedAt": "2026-09-07T07:45:22.031Z"
+      },
+      {
+        "_id": "6a9e6b942153d7505fd45d3e",
+        "slug": "migration-certificate",
+        "name": "Migration Certificate",
+        "sourceName": "Ministry of Public Grievances",
+        "createdAt": "2026-09-07T07:45:22.157Z",
+        "updatedAt": "2026-09-07T07:45:22.157Z"
+      }
+    ],
+    "helplines": [
+      {
+        "_id": "6a8ffacdf9a25e0a57b7515a",
+        "name": "Kisan Call Centre",
+        "createdAt": "2026-08-27T08:52:29.609Z",
+        "updatedAt": "2026-08-27T08:52:29.609Z"
+      },
+      {
+        "_id": "6a8ffacdf9a25e0a57b75159",
+        "name": "Women Helpline",
+        "createdAt": "2026-08-27T08:52:29.609Z",
+        "updatedAt": "2026-08-27T08:52:29.609Z"
+      },
+      {
+        "_id": "6a8ffacdf9a25e0a57b75158",
+        "name": "National Emergency Number",
+        "createdAt": "2026-08-27T08:52:29.609Z",
+        "updatedAt": "2026-08-27T08:52:29.609Z"
+      }
+    ]
+  },
+  "sourceVsAtlas": [
+    {
+      "category": "schemes",
+      "jsonCount": 30,
+      "atlasCount": 42,
+      "sourceRecordsPresent": 31,
+      "extraExistingRecords": 11
+    },
+    {
+      "category": "jobs",
+      "jsonCount": 40,
+      "atlasCount": 40,
+      "sourceRecordsPresent": 40,
+      "extraExistingRecords": 0
+    },
+    {
+      "category": "scholarships",
+      "jsonCount": 30,
+      "atlasCount": 30,
+      "sourceRecordsPresent": 30,
+      "extraExistingRecords": 0
+    },
+    {
+      "category": "internships",
+      "jsonCount": 30,
+      "atlasCount": 30,
+      "sourceRecordsPresent": 30,
+      "extraExistingRecords": 0
+    },
+    {
+      "category": "documents",
+      "jsonCount": 30,
+      "atlasCount": 74,
+      "sourceRecordsPresent": 32,
+      "extraExistingRecords": 42
+    },
+    {
+      "category": "governmentportals",
+      "jsonCount": 28,
+      "atlasCount": 28,
+      "sourceRecordsPresent": 28,
+      "extraExistingRecords": 0
+    },
+    {
+      "category": "helplines",
+      "jsonCount": 30,
+      "atlasCount": 33,
+      "sourceRecordsPresent": 30,
+      "extraExistingRecords": 3
+    }
+  ],
+  "agriculture": {
+    "exists": true,
+    "jsonCount": 30,
+    "foundIn": null
+  },
+  "seeds": {
+    "services": [
+      {
+        "_id": "6a8ffacdf9a25e0a57b7514f",
+        "name": "Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)"
+      },
+      {
+        "_id": "6a8ffacdf9a25e0a57b75153",
+        "name": "National Scholarship Portal (NSP)"
+      }
+    ],
+    "categories": [],
+    "other": []
+  }
+}

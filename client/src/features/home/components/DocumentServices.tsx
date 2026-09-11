@@ -28,7 +28,7 @@ const documents = [
   { name: 'Residence / Domicile', icon: Home, path: '/services?search=domicile' },
   { name: 'Birth Certificate', icon: Baby, path: '/services?search=birth' },
   { name: 'Marriage Certificate', icon: Building2, path: '/services?search=marriage' },
-  { name: 'Other Documents', icon: FileText, path: '/services?category=documents-certificates' },
+  { name: 'Other Documents', icon: FileText, path: `/services?category=${encodeURIComponent('Documents & Certificates')}` },
 ];
 
 // Reusing Users from lucide, importing above
@@ -67,7 +67,7 @@ export const DocumentServices = () => {
             transition={{ delay: 0.2 }}
           >
             <Link
-              to="/services?category=documents-certificates"
+              to={`/services?category=${encodeURIComponent('Documents & Certificates')}`}
               className="inline-flex items-center justify-center bg-white hover:bg-slate-50 text-slate-700 border border-slate-200 px-6 py-3 rounded-full font-semibold transition-all shadow-sm group whitespace-nowrap"
             >
               View All Documents <ArrowRight size={16} className="ml-2 group-hover:translate-x-1 transition-transform" />

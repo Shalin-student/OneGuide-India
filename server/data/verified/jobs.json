@@ -1,0 +1,2614 @@
+[
+  {
+    "id": "job-upsc-cse",
+    "resourceType": "job-exam",
+    "name": "UPSC Civil Services Examination (CSE)",
+    "slug": "upsc-civil-services-examination",
+    "module": "jobs-exams",
+    "description": "A nationwide competitive examination conducted by the Union Public Service Commission for recruitment to various Civil Services of the Government of India, including the IAS, IFS, and IPS.",
+    "authority": "Union Public Service Commission (UPSC)",
+    "state": "All India",
+    "eligibility": [
+      "Must be a citizen of India for IAS, IPS, and IFS",
+      "Educational Qualification: Must hold a bachelor's degree from a recognized university",
+      "Age Limit: 21 to 32 years as on 1st August of the examination year",
+      "Age Relaxation: Up to 5 years for SC/ST, 3 years for OBC, and up to 10 years for PwBD candidates",
+      "Number of Attempts: General: 6, OBC: 9, SC/ST: Unlimited up to age limit"
+    ],
+    "benefits": [
+      "Prestigious Group A and Group B central government services",
+      "Starting basic pay of ₹56,100 (Level 10) for Group A officers, plus DA, HRA, and TA",
+      "Excellent career progression, job security, and social prestige"
+    ],
+    "documents": [
+      "Graduation Degree/Marksheet",
+      "Aadhaar Card or Valid Photo ID",
+      "Caste/Category Certificate (if applicable)",
+      "Scanned Photograph and Signature"
+    ],
+    "application": {
+      "mode": "online",
+      "url": "https://upsconline.nic.in",
+      "procedure": [
+        "Register on the UPSC One Time Registration (OTR) platform (https://upsconline.nic.in)",
+        "Fill Part-I of the application with basic details and educational qualifications",
+        "Pay the application fee of ₹100 (Female/SC/ST/PwBD candidates are exempted)",
+        "Complete Part-II by selecting the exam center and uploading photo/signature",
+        "Download and print the submitted application form"
+      ]
+    },
+    "officialSources": [
+      {
+        "sourceName": "UPSC Official Website",
+        "url": "https://upsc.gov.in",
+        "sourceType": "official_portal"
+      }
+    ],
+    "searchMetadata": {
+      "category": "Civil Services",
+      "targetAudience": [
+        "Graduates",
+        "Civil Service Aspirants"
+      ],
+      "keywords": [
+        "UPSC CSE",
+        "IAS Exam",
+        "IPS",
+        "IFS",
+        "Civil Services"
+      ]
+    },
+    "verification": {
+      "status": "verified",
+      "lastVerified": "2026-09-11",
+      "verifiedBy": "Web source verification",
+      "notes": "Verified from upsc.gov.in annual exam notification rules."
+    }
+  },
+  {
+    "id": "job-ssc-cgl",
+    "resourceType": "job-exam",
+    "name": "SSC Combined Graduate Level (CGL) Examination",
+    "slug": "ssc-combined-graduate-level-cgl",
+    "module": "jobs-exams",
+    "description": "An annual examination conducted by the Staff Selection Commission to recruit staff to various Group B and Group C posts in ministries, departments, and organizations of the Government of India.",
+    "authority": "Staff Selection Commission (SSC)",
+    "state": "All India",
+    "eligibility": [
+      "Must be a citizen of India",
+      "Educational Qualification: Bachelor's degree from a recognized university",
+      "Specific posts (like JSO, AAO) require specific subject qualifications at the degree level",
+      "Age Limit: Generally 18 to 27 years or 18 to 32 years, depending on the specific post",
+      "Age Relaxation: 5 years for SC/ST, 3 years for OBC, 10 years for PwD"
+    ],
+    "benefits": [
+      "Recruitment to Group B (Gazetted/Non-Gazetted) and Group C posts",
+      "Pay scales range from Pay Level 4 (₹25,500 - ₹81,100) to Pay Level 8 (₹47,600 - ₹1,51,100)",
+      "Central Government allowances including DA, HRA, and medical facilities"
+    ],
+    "documents": [
+      "Graduation Degree and Marksheets",
+      "Valid Photo Identity Card (Aadhaar/Voter ID/PAN)",
+      "Category/Caste Certificate (if applicable)",
+      "Scanned Photograph (as per specified dimensions without spectacles/cap) and Signature"
+    ],
+    "application": {
+      "mode": "online",
+      "url": "https://ssc.gov.in",
+      "procedure": [
+        "Complete One-Time Registration (OTR) on the SSC portal (https://ssc.gov.in)",
+        "Log in and apply for the CGL Examination under the 'Latest Notifications' tab",
+        "Fill in post preferences and examination center choices",
+        "Upload required scanned images",
+        "Pay the application fee of ₹100 (Exempted for Women/SC/ST/PwD/Ex-Servicemen)"
+      ]
+    },
+    "officialSources": [
+      {
+        "sourceName": "Staff Selection Commission Official Portal",
+        "url": "https://ssc.gov.in",
+        "sourceType": "official_portal"
+      }
+    ],
+    "searchMetadata": {
+      "category": "Central Government",
+      "targetAudience": [
+        "Graduates",
+        "Government Job Aspirants"
+      ],
+      "keywords": [
+        "SSC CGL",
+        "Income Tax Inspector",
+        "CBI Sub Inspector",
+        "Central Govt Job"
+      ]
+    },
+    "verification": {
+      "status": "verified",
+      "lastVerified": "2026-09-11",
+      "verifiedBy": "Web source verification",
+      "notes": "Verified from the new SSC portal (ssc.gov.in)."
+    }
+  },
+  {
+    "id": "job-ssc-chsl",
+    "resourceType": "job-exam",
+    "name": "SSC Combined Higher Secondary Level (CHSL) Examination",
+    "slug": "ssc-combined-higher-secondary-level-chsl",
+    "module": "jobs-exams",
+    "description": "A national-level exam conducted by SSC for recruitment to posts like Lower Divisional Clerk (LDC), Junior Secretariat Assistant (JSA), and Data Entry Operator (DEO).",
+    "authority": "Staff Selection Commission (SSC)",
+    "state": "All India",
+    "eligibility": [
+      "Must be a citizen of India",
+      "Educational Qualification: Must have passed 12th Standard or equivalent from a recognized board",
+      "For DEO in CAG: 12th standard pass in Science stream with Mathematics",
+      "Age Limit: 18 to 27 years",
+      "Age Relaxation: SC/ST (5 years), OBC (3 years), PwD (10 years)"
+    ],
+    "benefits": [
+      "Central Government Group C posts",
+      "Pay Level 2 for LDC/JSA (₹19,900 - ₹63,200)",
+      "Pay Level 4/5 for DEO (₹25,500 - ₹81,100 / ₹29,200 - ₹92,300)"
+    ],
+    "documents": [
+      "10th and 12th Marksheets and Certificates",
+      "Aadhaar Card or other Photo ID",
+      "Caste/PwD Certificate (if claiming age relaxation/reservation)"
+    ],
+    "application": {
+      "mode": "online",
+      "url": "https://ssc.gov.in",
+      "procedure": [
+        "Register or log in via OTR on the official SSC website (ssc.gov.in)",
+        "Select the CHSL Examination and fill out the online application",
+        "Choose examination centers and typing test medium (English/Hindi)",
+        "Upload recent photograph and signature",
+        "Pay the ₹100 fee (Women, SC, ST, PwD, and ESM are exempted)"
+      ]
+    },
+    "officialSources": [
+      {
+        "sourceName": "Staff Selection Commission Official Portal",
+        "url": "https://ssc.gov.in",
+        "sourceType": "official_portal"
+      }
+    ],
+    "searchMetadata": {
+      "category": "Central Government",
+      "targetAudience": [
+        "12th Pass",
+        "Undergraduates"
+      ],
+      "keywords": [
+        "SSC CHSL",
+        "LDC",
+        "DEO",
+        "Clerk job",
+        "12th pass govt job"
+      ]
+    },
+    "verification": {
+      "status": "verified",
+      "lastVerified": "2026-09-11",
+      "verifiedBy": "Web source verification",
+      "notes": "Verified from ssc.gov.in."
+    }
+  },
+  {
+    "id": "job-ibps-po",
+    "resourceType": "job-exam",
+    "name": "IBPS Probationary Officer (PO) / Management Trainee",
+    "slug": "ibps-probationary-officer-po",
+    "module": "jobs-exams",
+    "description": "A common written examination (CRP PO/MT) conducted by the Institute of Banking Personnel Selection for the recruitment of Probationary Officers in participating public sector banks.",
+    "authority": "Institute of Banking Personnel Selection (IBPS)",
+    "state": "All India",
+    "eligibility": [
+      "Must be a citizen of India",
+      "Educational Qualification: A Degree (Graduation) in any discipline from a recognized university",
+      "Age Limit: 20 to 30 years as of the cut-off date specified in the notification",
+      "Age Relaxation: SC/ST (5 years), OBC Non-Creamy Layer (3 years), PwBD (10 years)"
+    ],
+    "benefits": [
+      "Officer Scale I post in major Public Sector Banks (e.g., PNB, Bank of Baroda, Union Bank)",
+      "Basic pay generally starts around ₹36,000 (pre-revision) plus DA, HRA, City Compensatory Allowance, and Leased Accommodation",
+      "Comprehensive medical benefits and pension benefits"
+    ],
+    "documents": [
+      "Graduation Marksheets and Degree Certificate",
+      "Aadhaar Card / PAN Card / Passport",
+      "Scanned Photograph, Signature, Left Thumb Impression, and Hand-written Declaration"
+    ],
+    "application": {
+      "mode": "online",
+      "url": "https://www.ibps.in",
+      "procedure": [
+        "Visit the official IBPS website (https://www.ibps.in)",
+        "Click on 'CRP PO/MT' and register as a new user to generate Registration No. and Password",
+        "Fill out basic details, qualifications, and bank preferences",
+        "Upload photo, signature, left thumb impression, and hand-written declaration",
+        "Pay application fee (approx. ₹850 for General/OBC/EWS, ₹175 for SC/ST/PwBD) via online payment gateway"
+      ]
+    },
+    "officialSources": [
+      {
+        "sourceName": "IBPS Official Website",
+        "url": "https://www.ibps.in",
+        "sourceType": "official_portal"
+      }
+    ],
+    "searchMetadata": {
+      "category": "Banking",
+      "targetAudience": [
+        "Graduates",
+        "Bank Job Aspirants"
+      ],
+      "keywords": [
+        "IBPS PO",
+        "Bank PO",
+        "Probationary Officer",
+        "Public Sector Bank"
+      ]
+    },
+    "verification": {
+      "status": "verified",
+      "lastVerified": "2026-09-11",
+      "verifiedBy": "Web source verification",
+      "notes": "Verified from ibps.in PO notification rules."
+    }
+  },
+  {
+    "id": "job-ibps-clerk",
+    "resourceType": "job-exam",
+    "name": "IBPS Clerk Examination",
+    "slug": "ibps-clerk-examination",
+    "module": "jobs-exams",
+    "description": "Common Recruitment Process for Clerical cadre (CRP Clerks) in participating public sector banks across various states in India.",
+    "authority": "Institute of Banking Personnel Selection (IBPS)",
+    "state": "All India (State-wise vacancies)",
+    "eligibility": [
+      "Must be a citizen of India",
+      "Educational Qualification: Degree (Graduation) in any discipline from a recognized University",
+      "Proficiency in the Official Language of the State/UT for which vacancies a candidate wishes to apply is preferable/mandatory",
+      "Age Limit: 20 to 28 years",
+      "Age Relaxation: SC/ST (5 years), OBC (3 years), PwBD (10 years)"
+    ],
+    "benefits": [
+      "Clerical cadre job in Public Sector Banks",
+      "State-level posting",
+      "Basic pay starting around ₹19,900 with DA, HRA, and other bank-specific allowances"
+    ],
+    "documents": [
+      "Degree Certificate and Marksheets",
+      "State Domicile / Language proficiency proof (10th/12th marksheet showing local language)",
+      "Scanned Photograph, Signature, Left Thumb Impression, and Hand-written Declaration"
+    ],
+    "application": {
+      "mode": "online",
+      "url": "https://www.ibps.in",
+      "procedure": [
+        "Visit ibps.in and click on 'CRP Clerks'",
+        "Register to receive provisional Registration Number and Password",
+        "Select the State/UT you are applying for (vacancies are state-specific)",
+        "Upload required scans (Photo, Signature, LTI, Declaration)",
+        "Submit the form and pay the application fee online"
+      ]
+    },
+    "officialSources": [
+      {
+        "sourceName": "IBPS Official Website",
+        "url": "https://www.ibps.in",
+        "sourceType": "official_portal"
+      }
+    ],
+    "searchMetadata": {
+      "category": "Banking",
+      "targetAudience": [
+        "Graduates",
+        "Bank Job Aspirants"
+      ],
+      "keywords": [
+        "IBPS Clerk",
+        "Bank Clerk",
+        "Clerical Cadre",
+        "Bank job"
+      ]
+    },
+    "verification": {
+      "status": "verified",
+      "lastVerified": "2026-09-11",
+      "verifiedBy": "Web source verification",
+      "notes": "Verified from ibps.in Clerk notification rules."
+    }
+  },
+  {
+    "id": "job-sbi-po",
+    "resourceType": "job-exam",
+    "name": "SBI Probationary Officer (PO)",
+    "slug": "sbi-probationary-officer",
+    "module": "jobs-exams",
+    "description": "State Bank of India recruits Probationary Officers to manage banking operations, customer service, and administrative tasks in its branches.",
+    "authority": "State Bank of India (SBI)",
+    "state": "All India",
+    "eligibility": [
+      "Graduation in any discipline from a recognized University or equivalent qualification",
+      "Final year/semester students can also apply provisionally",
+      "Age Limit: 21 to 30 years as on the cut-off date",
+      "Age Relaxation: SC/ST (5 years), OBC (3 years), PwBD (up to 15 years)",
+      "Maximum chances: General (4), General-PwBD/OBC (7), SC/ST (No restriction)"
+    ],
+    "benefits": [
+      "Starting basic pay is ₹41,960 (with 4 advance increments) in the scale of ₹36,000 - ₹63,840",
+      "Allowances include DA, HRA/Lease rental, CCA, Medical, and other allowances",
+      "Fast-track career progression up to Top Management Grade"
+    ],
+    "documents": [
+      "Graduation Marksheets/Certificate",
+      "Aadhaar Card or valid ID",
+      "Category Certificate (if applicable)",
+      "Scanned Photograph and Signature"
+    ],
+    "application": {
+      "mode": "online",
+      "url": "https://sbi.co.in/web/careers",
+      "procedure": [
+        "Go to the SBI Careers portal (https://sbi.co.in/web/careers or bank.sbi/careers)",
+        "Under the 'Latest Announcements', find the SBI PO recruitment link",
+        "Register as a new user, fill in personal, academic, and contact details",
+        "Upload scanned photograph and signature",
+        "Pay the non-refundable application fee (₹750 for General/EWS/OBC; NIL for SC/ST/PwBD)"
+      ]
+    },
+    "officialSources": [
+      {
+        "sourceName": "SBI Official Careers Portal",
+        "url": "https://sbi.co.in/web/careers",
+        "sourceType": "official_portal"
+      }
+    ],
+    "searchMetadata": {
+      "category": "Banking",
+      "targetAudience": [
+        "Graduates",
+        "Bank Job Aspirants"
+      ],
+      "keywords": [
+        "SBI PO",
+        "State Bank of India",
+        "Probationary Officer",
+        "Bank Officer"
+      ]
+    },
+    "verification": {
+      "status": "verified",
+      "lastVerified": "2026-09-11",
+      "verifiedBy": "Web source verification",
+      "notes": "Verified from sbi.co.in/careers."
+    }
+  },
+  {
+    "id": "job-sbi-clerk",
+    "resourceType": "job-exam",
+    "name": "SBI Junior Associates (Customer Support & Sales)",
+    "slug": "sbi-clerk-junior-associates",
+    "module": "jobs-exams",
+    "description": "Recruitment of Junior Associates (Clerks) for customer support and sales operations in State Bank of India branches across the country.",
+    "authority": "State Bank of India (SBI)",
+    "state": "All India (State-wise application)",
+    "eligibility": [
+      "Graduation in any discipline from a recognized University",
+      "Proficiency in reading, writing, speaking, and understanding the specified opted local language of the State/UT",
+      "Age Limit: 20 to 28 years",
+      "Age Relaxation: SC/ST (5 years), OBC (3 years), PwBD (10-15 years)"
+    ],
+    "benefits": [
+      "Clerical post with a starting basic pay of ₹19,900 (plus 2 advance increments for graduates)",
+      "Provident Fund, Pension under NPS, Medical Leave, and LFC",
+      "Opportunity for internal promotion to Officer cadre"
+    ],
+    "documents": [
+      "Graduation Marksheets",
+      "10th/12th Marksheet as proof of local language",
+      "Valid ID Proof",
+      "Scanned Photograph, Signature, Left Thumb Impression, and Hand-written Declaration"
+    ],
+    "application": {
+      "mode": "online",
+      "url": "https://sbi.co.in/web/careers",
+      "procedure": [
+        "Visit the SBI Careers page (sbi.co.in/web/careers)",
+        "Click on 'Recruitment of Junior Associates'",
+        "Complete online registration and fill out the detailed application form",
+        "Choose the state you wish to apply for (can apply for only one state)",
+        "Upload required scanned documents and pay the application fee"
+      ]
+    },
+    "officialSources": [
+      {
+        "sourceName": "SBI Official Careers Portal",
+        "url": "https://sbi.co.in/web/careers",
+        "sourceType": "official_portal"
+      }
+    ],
+    "searchMetadata": {
+      "category": "Banking",
+      "targetAudience": [
+        "Graduates",
+        "Bank Job Aspirants"
+      ],
+      "keywords": [
+        "SBI Clerk",
+        "Junior Associate",
+        "SBI Customer Support",
+        "Bank Clerk"
+      ]
+    },
+    "verification": {
+      "status": "verified",
+      "lastVerified": "2026-09-11",
+      "verifiedBy": "Web source verification",
+      "notes": "Verified from sbi.co.in/careers."
+    }
+  },
+  {
+    "id": "job-rrb-ntpc",
+    "resourceType": "job-exam",
+    "name": "RRB Non-Technical Popular Categories (NTPC)",
+    "slug": "rrb-ntpc-railways",
+    "module": "jobs-exams",
+    "description": "Railway Recruitment Board exam for various non-technical posts like Commercial Apprentice, Goods Guard, Traffic Assistant, Ticket Clerk, and Typist.",
+    "authority": "Railway Recruitment Boards (RRB), Ministry of Railways",
+    "state": "All India (Zone-wise)",
+    "eligibility": [
+      "For Undergraduate Posts (Level 2 & 3): 12th (+2 Stage) or equivalent with minimum 50% marks. Age Limit: 18 to 33 years.",
+      "For Graduate Posts (Level 4, 5 & 6): University Degree or equivalent. Age Limit: 18 to 36 years.",
+      "Typing proficiency required for certain posts like Junior Clerk cum Typist",
+      "Age Relaxation applies as per Government rules (OBC: 3 years, SC/ST: 5 years)"
+    ],
+    "benefits": [
+      "Central Government jobs in Indian Railways",
+      "Pay matrix ranges from Level 2 (Initial Pay ₹19,900) to Level 6 (Initial Pay ₹35,400)",
+      "Allowances include DA, Travel Passes, HRA, and Railway medical facilities"
+    ],
+    "documents": [
+      "10th, 12th, and/or Graduation Certificates",
+      "Aadhaar Card",
+      "Category Certificate (if applicable)",
+      "Income certificate for fee concession (if applicable)"
+    ],
+    "application": {
+      "mode": "online",
+      "url": "https://indianrailways.gov.in/railwayboard/view_section.jsp?lang=0&id=0,7,1281",
+      "procedure": [
+        "Identify the RRB zone you wish to apply for and visit its specific official website (e.g., rrbahmedabad.gov.in, rrbmumbai.gov.in)",
+        "Read the Centralized Employment Notice (CEN) carefully",
+        "Register by providing basic details and authenticating via OTP",
+        "Fill the application, select post preferences, and upload photo/signature",
+        "Pay the application fee (₹500 for General; ₹250 for SC/ST/Female, partially refunded after CBT-1)"
+      ]
+    },
+    "officialSources": [
+      {
+        "sourceName": "Ministry of Railways - RRB Portal",
+        "url": "https://indianrailways.gov.in",
+        "sourceType": "official_portal"
+      }
+    ],
+    "searchMetadata": {
+      "category": "Railways",
+      "targetAudience": [
+        "12th Pass",
+        "Graduates"
+      ],
+      "keywords": [
+        "RRB NTPC",
+        "Railway Jobs",
+        "Goods Guard",
+        "Station Master",
+        "Ticket Collector"
+      ]
+    },
+    "verification": {
+      "status": "verified",
+      "lastVerified": "2026-09-11",
+      "verifiedBy": "Web source verification",
+      "notes": "Verified from RRB central employment notifications."
+    }
+  },
+  {
+    "id": "job-rrb-alp",
+    "resourceType": "job-exam",
+    "name": "RRB Assistant Loco Pilot (ALP)",
+    "slug": "rrb-assistant-loco-pilot",
+    "module": "jobs-exams",
+    "description": "Recruitment for the post of Assistant Loco Pilot (ALP) across various zones of Indian Railways.",
+    "authority": "Railway Recruitment Boards (RRB)",
+    "state": "All India (Zone-wise)",
+    "eligibility": [
+      "Matriculation (10th) / SSLC plus ITI from recognized institutions of NCVT/SCVT in specified trades OR",
+      "Matriculation / SSLC plus Course Completed Act Apprenticeship OR",
+      "3 years Diploma in Mechanical/Electrical/Electronics/Automobile Engineering OR Degree in these engineering disciplines",
+      "Age Limit: 18 to 30 years (with standard relaxations)",
+      "Must pass strict Railway Medical Standards (especially A1 vision standards)"
+    ],
+    "benefits": [
+      "Pay Level 2 in the 7th CPC (Initial Basic Pay ₹19,900)",
+      "High earning potential due to Running Allowance based on kilometers travelled",
+      "Job security and Railway travel privileges"
+    ],
+    "documents": [
+      "10th Marksheet and ITI/Diploma/Degree Certificates",
+      "Aadhaar Card",
+      "Medical Fitness Certificate (vision standards)",
+      "Caste Certificate (if applicable)"
+    ],
+    "application": {
+      "mode": "online",
+      "url": "https://indianrailways.gov.in",
+      "procedure": [
+        "Visit the respective regional RRB website based on the zone you wish to apply for",
+        "Create an account on the unified RRB application portal",
+        "Fill out educational details and select the preferred RRB and Trade for CBT-2",
+        "Upload photograph, signature, and caste certificate (for free travel pass)",
+        "Pay the exam fee (partially refundable upon appearing in CBT-1)"
+      ]
+    },
+    "officialSources": [
+      {
+        "sourceName": "Ministry of Railways - RRB Portal",
+        "url": "https://indianrailways.gov.in",
+        "sourceType": "official_portal"
+      }
+    ],
+    "searchMetadata": {
+      "category": "Railways",
+      "targetAudience": [
+        "ITI Pass",
+        "Diploma Holders",
+        "Engineers"
+      ],
+      "keywords": [
+        "RRB ALP",
+        "Loco Pilot",
+        "Railway Driver",
+        "ITI railway job"
+      ]
+    },
+    "verification": {
+      "status": "verified",
+      "lastVerified": "2026-09-11",
+      "verifiedBy": "Web source verification",
+      "notes": "Verified from RRB ALP centralized notifications."
+    }
+  },
+  {
+    "id": "job-rrb-group-d",
+    "resourceType": "job-exam",
+    "name": "RRB / RRC Level 1 (Group D)",
+    "slug": "rrb-group-d-level-1",
+    "module": "jobs-exams",
+    "description": "Recruitment for various Level-1 posts in Indian Railways such as Track Maintainer, Helper/Assistant in various technical departments, and Assistant Pointsman.",
+    "authority": "Railway Recruitment Cells (RRC) / RRB",
+    "state": "All India",
+    "eligibility": [
+      "10th pass (OR) ITI from institutions recognized by NCVT/SCVT (OR) National Apprenticeship Certificate (NAC) granted by NCVT",
+      "Note: Railways frequently mandates ITI/NAC for technical departments",
+      "Age Limit: 18 to 33 years",
+      "Age Relaxation: SC/ST (5 years), OBC-NCL (3 years)"
+    ],
+    "benefits": [
+      "Central Government employment in Level-1 of 7th CPC (Basic ₹18,000)",
+      "Allowances like Night Duty Allowance, National Holiday Allowance, and TA/DA",
+      "Free medical facilities and Railway passes"
+    ],
+    "documents": [
+      "10th Marksheet / ITI Certificate",
+      "Aadhaar Card",
+      "Passport size photographs",
+      "Category Certificate"
+    ],
+    "application": {
+      "mode": "online",
+      "url": "https://indianrailways.gov.in",
+      "procedure": [
+        "Applications are invited online through respective RRB/RRC websites",
+        "Candidates must select one Railway zone",
+        "Fill the application form with personal and educational details",
+        "Upload required documents and submit the application fee",
+        "Selection involves Computer Based Test (CBT) followed by Physical Efficiency Test (PET) and Document Verification"
+      ]
+    },
+    "officialSources": [
+      {
+        "sourceName": "Ministry of Railways",
+        "url": "https://indianrailways.gov.in",
+        "sourceType": "official_portal"
+      }
+    ],
+    "searchMetadata": {
+      "category": "Railways",
+      "targetAudience": [
+        "10th Pass",
+        "ITI Pass"
+      ],
+      "keywords": [
+        "RRB Group D",
+        "Track Maintainer",
+        "Railway Helper",
+        "10th pass railway job"
+      ]
+    },
+    "verification": {
+      "status": "verified",
+      "lastVerified": "2026-09-11",
+      "verifiedBy": "Web source verification",
+      "notes": "Verified from RRC Level-1 notifications."
+    }
+  },
+  {
+    "id": "job-upsc-nda",
+    "resourceType": "job-exam",
+    "name": "National Defence Academy (NDA) & Naval Academy (NA) Examination",
+    "slug": "upsc-nda-na-exam",
+    "module": "jobs-exams",
+    "description": "Biannual entrance examination conducted by UPSC for admission to the Army, Navy, and Air Force wings of the NDA, and the Indian Naval Academy Course.",
+    "authority": "Union Public Service Commission (UPSC)",
+    "state": "All India",
+    "eligibility": [
+      "Unmarried male and female candidates",
+      "Age Limit: Must be aged between 16.5 and 19.5 years",
+      "Army Wing: 12th Class pass of the 10+2 pattern of School Education",
+      "Air Force and Naval Wings: 12th Class pass with Physics, Chemistry, and Mathematics",
+      "Must meet strict physical and medical standards set by the Armed Forces"
+    ],
+    "benefits": [
+      "Opportunity to become a Commissioned Officer in the Indian Armed Forces",
+      "Free training, boarding, and degree (B.A./B.Sc./B.Tech) during the academy period",
+      "Starting salary as Lieutenant/Sub-Lieutenant/Flying Officer at Pay Level 10 (₹56,100) plus Military Service Pay (MSP)"
+    ],
+    "documents": [
+      "10th Certificate (for date of birth)",
+      "12th Certificate and Marksheet",
+      "Photo ID proof"
+    ],
+    "application": {
+      "mode": "online",
+      "url": "https://upsconline.nic.in",
+      "procedure": [
+        "Register on UPSC OTR (One Time Registration) portal",
+        "Log in and apply for the NDA/NA Examination",
+        "Fill Part-I and Part-II of the application",
+        "Pay the fee of ₹100 (SC/ST/Female candidates/Wards of JCOs/NCOs/ORs are exempted)",
+        "Select examination center and upload images"
+      ]
+    },
+    "officialSources": [
+      {
+        "sourceName": "UPSC Official Website",
+        "url": "https://upsc.gov.in",
+        "sourceType": "official_portal"
+      }
+    ],
+    "searchMetadata": {
+      "category": "Defence",
+      "targetAudience": [
+        "12th Pass",
+        "Defence Aspirants",
+        "Young Students"
+      ],
+      "keywords": [
+        "NDA",
+        "National Defence Academy",
+        "Army Officer",
+        "Navy Officer",
+        "Air Force",
+        "12th pass defence"
+      ]
+    },
+    "verification": {
+      "status": "verified",
+      "lastVerified": "2026-09-11",
+      "verifiedBy": "Web source verification",
+      "notes": "Verified from UPSC NDA notification rules."
+    }
+  },
+  {
+    "id": "job-upsc-cds",
+    "resourceType": "job-exam",
+    "name": "Combined Defence Services (CDS) Examination",
+    "slug": "upsc-combined-defence-services-cds",
+    "module": "jobs-exams",
+    "description": "Examination conducted by UPSC twice a year for recruitment into the Indian Military Academy, Officers Training Academy, Indian Naval Academy, and Indian Air Force Academy.",
+    "authority": "Union Public Service Commission (UPSC)",
+    "state": "All India",
+    "eligibility": [
+      "Unmarried candidates (married permitted for OTA depending on age rules)",
+      "IMA and OTA: Degree of a recognized University or equivalent",
+      "Naval Academy: Degree in Engineering",
+      "Air Force Academy: Degree of a recognized University (with Physics and Mathematics at 10+2 level) OR Bachelor of Engineering",
+      "Age Limit: Generally 20 to 24 years (varies slightly per academy, up to 25 for OTA)"
+    ],
+    "benefits": [
+      "Direct commission as an Officer (Lieutenant rank or equivalent) after training",
+      "Pay Level 10 (₹56,100 - ₹1,77,500) plus MSP of ₹15,500 and various allowances (flying, high altitude, etc.)",
+      "Lifelong pension (for permanent commission), canteen, and medical facilities"
+    ],
+    "documents": [
+      "Graduation Degree/Marksheets",
+      "10th Certificate for age proof",
+      "Aadhaar Card"
+    ],
+    "application": {
+      "mode": "online",
+      "url": "https://upsconline.nic.in",
+      "procedure": [
+        "Use the UPSC OTR portal to apply online",
+        "Select the CDS examination and fill in academy preferences (IMA, INA, AFA, OTA)",
+        "Pay the application fee of ₹200 (Female/SC/ST exempted)",
+        "Upload scanned photograph, signature, and photo ID",
+        "Submit and download the application form"
+      ]
+    },
+    "officialSources": [
+      {
+        "sourceName": "UPSC Official Website",
+        "url": "https://upsc.gov.in",
+        "sourceType": "official_portal"
+      }
+    ],
+    "searchMetadata": {
+      "category": "Defence",
+      "targetAudience": [
+        "Graduates",
+        "Engineers",
+        "Defence Aspirants"
+      ],
+      "keywords": [
+        "CDS",
+        "Combined Defence Services",
+        "IMA",
+        "OTA",
+        "Air Force Academy",
+        "Graduate defence job"
+      ]
+    },
+    "verification": {
+      "status": "verified",
+      "lastVerified": "2026-09-11",
+      "verifiedBy": "Web source verification",
+      "notes": "Verified from UPSC CDS notification."
+    }
+  },
+  {
+    "id": "job-afcat",
+    "resourceType": "job-exam",
+    "name": "Air Force Common Admission Test (AFCAT)",
+    "slug": "air-force-common-admission-test-afcat",
+    "module": "jobs-exams",
+    "description": "Entrance exam conducted by the Indian Air Force to recruit officers for the Flying Branch and Ground Duty (Technical and Non-Technical) Branches.",
+    "authority": "Indian Air Force (IAF)",
+    "state": "All India",
+    "eligibility": [
+      "Must be an Indian citizen",
+      "Flying Branch: Minimum 50% marks each in Math & Physics at 10+2 and Graduation with 60% OR B.E/B.Tech degree",
+      "Ground Duty (Technical): 10+2 with Physics and Math, and 4-year degree in engineering/technology",
+      "Ground Duty (Non-Technical): Any Degree with 60% marks",
+      "Age Limit: 20-24 years for Flying Branch; 20-26 years for Ground Duty"
+    ],
+    "benefits": [
+      "Commissioned Officer in the IAF",
+      "Pay Level 10 (₹56,100) + MSP ₹15,500 + Flying Allowance (for flying branch) + other perks",
+      "Global travel, healthcare, and CSD canteen access"
+    ],
+    "documents": [
+      "10th and 12th Marksheets",
+      "Graduation/Engineering Degree certificates",
+      "Aadhaar Card"
+    ],
+    "application": {
+      "mode": "online",
+      "url": "https://afcat.cdac.in",
+      "procedure": [
+        "Visit the official AFCAT CDAC portal (https://afcat.cdac.in)",
+        "Click on the 'Candidate Login' for the current AFCAT cycle",
+        "Register with email and phone number",
+        "Fill out the detailed application form and select branch preferences",
+        "Upload photograph, signature, and thumb impression",
+        "Pay the examination fee of ₹250 (Non-refundable) and submit"
+      ]
+    },
+    "officialSources": [
+      {
+        "sourceName": "AFCAT Official Portal - CDAC / IAF",
+        "url": "https://afcat.cdac.in",
+        "sourceType": "official_portal"
+      }
+    ],
+    "searchMetadata": {
+      "category": "Defence",
+      "targetAudience": [
+        "Graduates",
+        "Engineers"
+      ],
+      "keywords": [
+        "AFCAT",
+        "Air Force Officer",
+        "Flying Branch",
+        "Ground Duty",
+        "IAF Recruitment"
+      ]
+    },
+    "verification": {
+      "status": "verified",
+      "lastVerified": "2026-09-11",
+      "verifiedBy": "Web source verification",
+      "notes": "Verified from afcat.cdac.in guidelines."
+    }
+  },
+  {
+    "id": "job-navy-agniveer-ssr",
+    "resourceType": "job-exam",
+    "name": "Indian Navy Agniveer (SSR - Senior Secondary Recruit)",
+    "slug": "indian-navy-agniveer-ssr",
+    "module": "jobs-exams",
+    "description": "Recruitment of unmarried male and female candidates as Agniveers under the Agnipath scheme for the Indian Navy.",
+    "authority": "Indian Navy",
+    "state": "All India",
+    "eligibility": [
+      "Unmarried male and unmarried female candidates",
+      "Educational Qualification: Qualified in 10+2 examination with Mathematics & Physics and at least one of these subjects: Chemistry/ Biology/ Computer Science from the Boards of School Education recognized by Ministry of Education",
+      "Age Limit: Usually between 17.5 to 21 years of age",
+      "Must meet prescribed medical and physical fitness standards"
+    ],
+    "benefits": [
+      "Four-year engagement under the Agnipath Scheme",
+      "Customized monthly package starting at ₹30,000 in 1st year up to ₹40,000 in 4th year",
+      "Seva Nidhi package of approx. ₹11.71 Lakhs upon completion of 4 years",
+      "Up to 25% of Agniveers may be enrolled in the regular cadre based on merit and organizational requirements"
+    ],
+    "documents": [
+      "10th and 12th Marksheets",
+      "Aadhaar Card",
+      "Domicile Certificate",
+      "NCC Certificate (if held)"
+    ],
+    "application": {
+      "mode": "online",
+      "url": "https://www.joinindiannavy.gov.in",
+      "procedure": [
+        "Register on the official website (https://www.joinindiannavy.gov.in)",
+        "Log in with registered email and apply for the Agniveer SSR entry",
+        "Fill up the form completely and upload educational certificates and photo",
+        "Pay the examination fee of ₹550 + GST online",
+        "Selection based on Computer Based Test (CBT), Physical Fitness Test (PFT), and Initial Medical Examination"
+      ]
+    },
+    "officialSources": [
+      {
+        "sourceName": "Join Indian Navy Portal",
+        "url": "https://www.joinindiannavy.gov.in",
+        "sourceType": "official_portal"
+      }
+    ],
+    "searchMetadata": {
+      "category": "Defence",
+      "targetAudience": [
+        "12th Pass",
+        "Youth"
+      ],
+      "keywords": [
+        "Agniveer",
+        "Navy SSR",
+        "Indian Navy",
+        "Agnipath Scheme",
+        "Sailor Job"
+      ]
+    },
+    "verification": {
+      "status": "verified",
+      "lastVerified": "2026-09-11",
+      "verifiedBy": "Web source verification",
+      "notes": "Verified from Indian Navy Agnipath recruitment guidelines."
+    }
+  },
+  {
+    "id": "job-army-agniveer-gd",
+    "resourceType": "job-exam",
+    "name": "Indian Army Agniveer General Duty (GD)",
+    "slug": "indian-army-agniveer-general-duty",
+    "module": "jobs-exams",
+    "description": "Recruitment rally and online exam for unmarried youth to join the Indian Army as Agniveer General Duty under the Agnipath scheme.",
+    "authority": "Indian Army",
+    "state": "All India",
+    "eligibility": [
+      "Unmarried candidates",
+      "Educational Qualification: Class 10th / Matric pass with 45% marks in aggregate and 33% in each subject",
+      "Age Limit: 17.5 to 21 years",
+      "Must clear strict physical fitness and medical criteria"
+    ],
+    "benefits": [
+      "4-year service term with a monthly package (₹30,000 to ₹40,000)",
+      "Risk and Hardship allowances as applicable",
+      "Seva Nidhi exit package of approx. ₹11.71 Lakhs (tax-free)",
+      "Opportunity for 25% to be selected for permanent enrollment in regular army"
+    ],
+    "documents": [
+      "10th Class Marksheet",
+      "Aadhaar Card",
+      "Domicile/Nativity Certificate",
+      "Caste/Religion Certificate",
+      "Character Certificate"
+    ],
+    "application": {
+      "mode": "online",
+      "url": "https://joinindianarmy.nic.in",
+      "procedure": [
+        "Go to joinindianarmy.nic.in and register under the JCO/OR Enrollment section",
+        "Fill up basic details to check eligibility",
+        "Apply online for the Agniveer GD profile during the open rally/CEE registration window",
+        "Pay the online Common Entrance Exam (CEE) fee (approx. ₹250)",
+        "Pass the online CEE to qualify for the physical recruitment rally"
+      ]
+    },
+    "officialSources": [
+      {
+        "sourceName": "Join Indian Army Portal",
+        "url": "https://joinindianarmy.nic.in",
+        "sourceType": "official_portal"
+      }
+    ],
+    "searchMetadata": {
+      "category": "Defence",
+      "targetAudience": [
+        "10th Pass",
+        "Youth"
+      ],
+      "keywords": [
+        "Agniveer GD",
+        "Army Rally",
+        "Indian Army",
+        "Agnipath",
+        "Soldier GD"
+      ]
+    },
+    "verification": {
+      "status": "verified",
+      "lastVerified": "2026-09-11",
+      "verifiedBy": "Web source verification",
+      "notes": "Verified from joinindianarmy.nic.in Agnipath guidelines."
+    }
+  },
+  {
+    "id": "job-upsc-capf-ac",
+    "resourceType": "job-exam",
+    "name": "Central Armed Police Forces (CAPF) Assistant Commandants (AC) Examination",
+    "slug": "upsc-capf-assistant-commandant",
+    "module": "jobs-exams",
+    "description": "UPSC conducts this exam for the recruitment of Assistant Commandants (Group A) in the Central Armed Police Forces (BSF, CRPF, CISF, ITBP, SSB).",
+    "authority": "Union Public Service Commission (UPSC)",
+    "state": "All India",
+    "eligibility": [
+      "Must be a citizen of India",
+      "Educational Qualification: Bachelor's degree from a recognized university",
+      "Age Limit: 20 to 25 years as of 1st August of the exam year",
+      "Age Relaxation: SC/ST (5 years), OBC (3 years), Civilian Central Govt Servants/Ex-Servicemen (5 years)",
+      "Must meet prescribed physical standards (height, weight, chest) and medical standards"
+    ],
+    "benefits": [
+      "Direct entry as an Officer (Assistant Commandant - Group A Gazetted)",
+      "Pay Level 10 (₹56,100 - ₹1,77,500)",
+      "Allowances like DA, Uniform Allowance, Hardship Allowance, and pension under NPS"
+    ],
+    "documents": [
+      "Degree Certificate/Marksheet",
+      "Age proof (10th certificate)",
+      "Category Certificate (if applicable)",
+      "Aadhaar or Valid ID"
+    ],
+    "application": {
+      "mode": "online",
+      "url": "https://upsconline.nic.in",
+      "procedure": [
+        "Register via the UPSC OTR portal",
+        "Apply for the CAPF (AC) examination",
+        "Fill the required forms and select the exam center",
+        "Pay the ₹200 fee (Female/SC/ST exempted)",
+        "Upload scanned images and submit the application"
+      ]
+    },
+    "officialSources": [
+      {
+        "sourceName": "UPSC Official Website",
+        "url": "https://upsc.gov.in",
+        "sourceType": "official_portal"
+      }
+    ],
+    "searchMetadata": {
+      "category": "Police & Paramilitary",
+      "targetAudience": [
+        "Graduates",
+        "Defence Aspirants"
+      ],
+      "keywords": [
+        "CAPF",
+        "Assistant Commandant",
+        "BSF",
+        "CRPF",
+        "CISF",
+        "UPSC CAPF"
+      ]
+    },
+    "verification": {
+      "status": "verified",
+      "lastVerified": "2026-09-11",
+      "verifiedBy": "Web source verification",
+      "notes": "Verified from UPSC CAPF notification."
+    }
+  },
+  {
+    "id": "job-ssc-cpo",
+    "resourceType": "job-exam",
+    "name": "SSC Sub-Inspector in Delhi Police and Central Armed Police Forces (CPO)",
+    "slug": "ssc-cpo-sub-inspector",
+    "module": "jobs-exams",
+    "description": "Recruitment examination conducted by SSC for Sub-Inspector posts in Delhi Police, CAPFs (BSF, CISF, CRPF, ITBP, SSB).",
+    "authority": "Staff Selection Commission (SSC)",
+    "state": "All India",
+    "eligibility": [
+      "Must be a citizen of India",
+      "Educational Qualification: Bachelor's degree from a recognized university",
+      "For SI in Delhi Police (Male): Must possess a valid Driving License for LMV (Motorcycle and Car) on the date fixed for Physical Endurance and Measurement Tests",
+      "Age Limit: 20 to 25 years",
+      "Age Relaxation: SC/ST (5 years), OBC (3 years)",
+      "Strict physical measurement (height/chest) and endurance tests apply"
+    ],
+    "benefits": [
+      "Sub-Inspector (Executive) in Delhi Police: Group 'C' (Non-Gazetted) in Pay Level-6 (₹35,400-1,12,400)",
+      "Sub-Inspector (GD) in CAPFs: Group 'B' (Non-Gazetted) in Pay Level-6 (₹35,400-1,12,400)"
+    ],
+    "documents": [
+      "Graduation Certificates",
+      "Driving License (for Delhi Police Male candidates)",
+      "Aadhaar Card",
+      "Category Certificate"
+    ],
+    "application": {
+      "mode": "online",
+      "url": "https://ssc.gov.in",
+      "procedure": [
+        "Register on the SSC online portal",
+        "Select the 'Sub-Inspector in Delhi Police and CAPFs' application link",
+        "Fill up details, upload photo/signature without spectacles",
+        "Pay the application fee of ₹100 (Exempt for Women/SC/ST/ESM)"
+      ]
+    },
+    "officialSources": [
+      {
+        "sourceName": "Staff Selection Commission Official Portal",
+        "url": "https://ssc.gov.in",
+        "sourceType": "official_portal"
+      }
+    ],
+    "searchMetadata": {
+      "category": "Police & Paramilitary",
+      "targetAudience": [
+        "Graduates",
+        "Police Aspirants"
+      ],
+      "keywords": [
+        "SSC CPO",
+        "Delhi Police SI",
+        "Sub Inspector",
+        "CAPF SI"
+      ]
+    },
+    "verification": {
+      "status": "verified",
+      "lastVerified": "2026-09-11",
+      "verifiedBy": "Web source verification",
+      "notes": "Verified from SSC official portal."
+    }
+  },
+  {
+    "id": "job-ssc-gd",
+    "resourceType": "job-exam",
+    "name": "SSC General Duty (GD) Constable",
+    "slug": "ssc-gd-constable",
+    "module": "jobs-exams",
+    "description": "National level exam conducted by SSC to recruit Constables (General Duty) in CAPFs, SSF, and Rifleman (GD) in Assam Rifles.",
+    "authority": "Staff Selection Commission (SSC)",
+    "state": "All India",
+    "eligibility": [
+      "Citizen of India (vacancies are State/UT wise, domicile required)",
+      "Educational Qualification: Matriculation or 10th Class pass from a recognized Board",
+      "Age Limit: 18 to 23 years",
+      "Age Relaxation: SC/ST (5 years), OBC (3 years)",
+      "Must pass Physical Efficiency Test (PET) and Physical Standard Test (PST)"
+    ],
+    "benefits": [
+      "Pay Level 3 (₹21,700 - ₹69,100) for most posts",
+      "Central government job security",
+      "Medical facilities, uniform allowance, and pension under NPS"
+    ],
+    "documents": [
+      "10th Marksheet/Certificate",
+      "State/UT Domicile Certificate (Mandatory)",
+      "Aadhaar Card",
+      "Caste Certificate (if applicable)"
+    ],
+    "application": {
+      "mode": "online",
+      "url": "https://ssc.gov.in",
+      "procedure": [
+        "Complete OTR on ssc.gov.in",
+        "Apply for the Constable (GD) examination",
+        "Choose preference of CAPFs (e.g., BSF, CISF, CRPF)",
+        "Upload photograph and signature",
+        "Pay ₹100 fee (Women, SC, ST, ESM are exempt)"
+      ]
+    },
+    "officialSources": [
+      {
+        "sourceName": "Staff Selection Commission Official Portal",
+        "url": "https://ssc.gov.in",
+        "sourceType": "official_portal"
+      }
+    ],
+    "searchMetadata": {
+      "category": "Police & Paramilitary",
+      "targetAudience": [
+        "10th Pass",
+        "Youth"
+      ],
+      "keywords": [
+        "SSC GD",
+        "Constable Job",
+        "BSF Constable",
+        "CRPF Constable",
+        "10th pass govt job"
+      ]
+    },
+    "verification": {
+      "status": "verified",
+      "lastVerified": "2026-09-11",
+      "verifiedBy": "Web source verification",
+      "notes": "Verified from SSC official portal."
+    }
+  },
+  {
+    "id": "job-rbi-grade-b",
+    "resourceType": "job-exam",
+    "name": "Reserve Bank of India (RBI) Grade B Officer",
+    "slug": "rbi-grade-b-officer",
+    "module": "jobs-exams",
+    "description": "Direct recruitment for the post of Officers in Grade 'B' (General / DEPR / DSIM) in the Reserve Bank of India.",
+    "authority": "Reserve Bank of India (RBI)",
+    "state": "All India",
+    "eligibility": [
+      "Citizen of India",
+      "Educational Qualification (General): Graduation in any discipline with a minimum of 60% marks (50% for SC/ST/PwBD) OR Post-Graduation with 55% marks",
+      "Age Limit: 21 to 30 years (For M.Phil/Ph.D candidates, upper age limit is 32/34 respectively)",
+      "Age Relaxation: SC/ST (5 years), OBC (3 years)",
+      "Maximum Attempts: 6 attempts for General/EWS. No limit for SC/ST/OBC/PwBD"
+    ],
+    "benefits": [
+      "Prestigious central banking career",
+      "Starting basic pay of ₹55,200 p.m. in the scale of ₹55200-2850(9)-80850-EB-2850(2)-86550-3300(4)-99750 (pre-revision basis)",
+      "Gross monthly emoluments are over ₹1,16,000",
+      "Housing accommodation (subject to availability), vehicle allowance, maid allowance, LFC, and comprehensive medical benefits"
+    ],
+    "documents": [
+      "Degree / Post-Graduation Marksheets and Certificates",
+      "Age Proof",
+      "Category Certificate",
+      "Scanned Photo, Signature, Left Thumb Impression, and Hand-written Declaration"
+    ],
+    "application": {
+      "mode": "online",
+      "url": "https://opportunities.rbi.org.in",
+      "procedure": [
+        "Visit RBI Opportunities portal (opportunities.rbi.org.in)",
+        "Under 'Current Vacancies', select 'Vacancies' and click on the Grade B notification",
+        "Register online via the IBPS-hosted application link",
+        "Fill details, upload required scanned documents",
+        "Pay application fee (₹850 for General/OBC/EWS, ₹100 for SC/ST/PwBD) online"
+      ]
+    },
+    "officialSources": [
+      {
+        "sourceName": "RBI Opportunities Portal",
+        "url": "https://opportunities.rbi.org.in",
+        "sourceType": "official_portal"
+      }
+    ],
+    "searchMetadata": {
+      "category": "Banking & Regulatory",
+      "targetAudience": [
+        "Graduates",
+        "Post Graduates",
+        "Banking Aspirants"
+      ],
+      "keywords": [
+        "RBI Grade B",
+        "Reserve Bank Officer",
+        "Central Bank Job",
+        "High Salary Govt Job"
+      ]
+    },
+    "verification": {
+      "status": "verified",
+      "lastVerified": "2026-09-11",
+      "verifiedBy": "Web source verification",
+      "notes": "Verified from RBI Grade B recruitment notification."
+    }
+  },
+  {
+    "id": "job-rbi-assistant",
+    "resourceType": "job-exam",
+    "name": "Reserve Bank of India (RBI) Assistant",
+    "slug": "rbi-assistant",
+    "module": "jobs-exams",
+    "description": "Recruitment examination for the post of Assistant in various offices of the Reserve Bank of India.",
+    "authority": "Reserve Bank of India (RBI)",
+    "state": "All India (Office-wise recruitment)",
+    "eligibility": [
+      "Bachelor's Degree in any discipline with a minimum of 50% marks (pass class for SC/ST/PwBD candidates)",
+      "Must possess knowledge of word processing on PC",
+      "Candidate must be proficient in the language (read, write, speak, understand) of the state/office they are applying to",
+      "Age Limit: 20 to 28 years",
+      "Age Relaxation: SC/ST (5 years), OBC (3 years)"
+    ],
+    "benefits": [
+      "Clerical/Assistant cadre in the central bank",
+      "Starting basic pay of ₹20,700 per month (in the scale of ₹20700-1200(3)...)",
+      "Gross monthly emoluments are around ₹45,050",
+      "House Rent Allowance (if quarters not provided), Book Grant, News Paper allowance"
+    ],
+    "documents": [
+      "Graduation Degree/Marksheet",
+      "Language proficiency proof (10th/12th mark sheet)",
+      "Aadhaar Card",
+      "Scanned Photo/Signature/Declaration"
+    ],
+    "application": {
+      "mode": "online",
+      "url": "https://opportunities.rbi.org.in",
+      "procedure": [
+        "Go to opportunities.rbi.org.in",
+        "Find the 'Recruitment for the Post of Assistant' notification",
+        "Register on the application portal",
+        "Select the specific RBI office to apply for",
+        "Fill out details, upload documents, and pay the fee (₹450 for General/OBC/EWS, ₹50 for SC/ST/PwBD)"
+      ]
+    },
+    "officialSources": [
+      {
+        "sourceName": "RBI Opportunities Portal",
+        "url": "https://opportunities.rbi.org.in",
+        "sourceType": "official_portal"
+      }
+    ],
+    "searchMetadata": {
+      "category": "Banking & Regulatory",
+      "targetAudience": [
+        "Graduates"
+      ],
+      "keywords": [
+        "RBI Assistant",
+        "Reserve Bank Clerk",
+        "Bank Assistant Job"
+      ]
+    },
+    "verification": {
+      "status": "verified",
+      "lastVerified": "2026-09-11",
+      "verifiedBy": "Web source verification",
+      "notes": "Verified from RBI Assistant notification."
+    }
+  },
+  {
+    "id": "job-lic-aao",
+    "resourceType": "job-exam",
+    "name": "LIC Assistant Administrative Officer (AAO) - Generalist",
+    "slug": "lic-aao-generalist",
+    "module": "jobs-exams",
+    "description": "Recruitment of Assistant Administrative Officers (Generalist) by the Life Insurance Corporation of India.",
+    "authority": "Life Insurance Corporation of India (LIC)",
+    "state": "All India",
+    "eligibility": [
+      "Citizen of India",
+      "Educational Qualification: Bachelor's Degree in any discipline from a recognized Indian University/Institution",
+      "Age Limit: 21 to 30 years",
+      "Age Relaxation: SC/ST (5 years), OBC (3 years), PwBD (10 years)"
+    ],
+    "benefits": [
+      "Officer-level job in India's largest state-owned insurance group",
+      "Basic pay of ₹53,600 per month in the scale of ₹53600-2645(14)-90630...",
+      "Total emoluments around ₹92,870 per month (in 'A' Class city)",
+      "Benefits include Defined Contribution Pension, Gratuity, LTC, Medical Benefit, and Group Insurance"
+    ],
+    "documents": [
+      "Graduation Certificate and Marksheets",
+      "Aadhaar Card or Valid ID",
+      "Category Certificate",
+      "Scanned Photograph, Signature, Left Thumb Impression, and Hand-written Declaration"
+    ],
+    "application": {
+      "mode": "online",
+      "url": "https://licindia.in/careers",
+      "procedure": [
+        "Visit the LIC Careers page (licindia.in/careers)",
+        "Click on the recruitment link for AAO (Generalist)",
+        "Register as a new user and generate login credentials",
+        "Fill the application form, upload required scans",
+        "Pay the online application fee (₹700 + GST for General/OBC; ₹85 + GST for SC/ST/PwBD)"
+      ]
+    },
+    "officialSources": [
+      {
+        "sourceName": "LIC Official Careers Portal",
+        "url": "https://licindia.in/careers",
+        "sourceType": "official_portal"
+      }
+    ],
+    "searchMetadata": {
+      "category": "Insurance",
+      "targetAudience": [
+        "Graduates",
+        "Insurance Aspirants"
+      ],
+      "keywords": [
+        "LIC AAO",
+        "Insurance Officer",
+        "Life Insurance Corporation",
+        "Govt Insurance Job"
+      ]
+    },
+    "verification": {
+      "status": "verified",
+      "lastVerified": "2026-09-11",
+      "verifiedBy": "Web source verification",
+      "notes": "Verified from LIC AAO recruitment notification."
+    }
+  },
+  {
+    "id": "job-nabard-grade-a",
+    "resourceType": "job-exam",
+    "name": "NABARD Grade A (Assistant Manager)",
+    "slug": "nabard-grade-a-assistant-manager",
+    "module": "jobs-exams",
+    "description": "Direct recruitment for the post of Assistant Manager in Grade 'A' in the Rural Development Banking Service (RDBS) / Rajbhasha Service / Protocol & Security Service.",
+    "authority": "National Bank for Agriculture and Rural Development (NABARD)",
+    "state": "All India",
+    "eligibility": [
+      "Bachelor's Degree in any subject with a minimum of 60% marks (55% for SC/ST/PWBD) OR Post Graduate degree with minimum 55% marks",
+      "Specific degrees required for specialized disciplines (Agriculture, IT, Finance, etc.)",
+      "Age Limit: 21 to 30 years as of the notification date",
+      "Age Relaxation: SC/ST (5 years), OBC (3 years)"
+    ],
+    "benefits": [
+      "Group A Officer in the apex regulatory body for regional rural banks and cooperative banks",
+      "Basic Pay: ₹44,500 per month (pre-revision scale)",
+      "Gross monthly emoluments are approximately ₹1,00,000",
+      "Perks include Bank Accommodation, Reimbursement of expenses for maintenance of vehicle, newspaper, and medical benefits"
+    ],
+    "documents": [
+      "Degree/PG Certificates",
+      "Valid ID Proof",
+      "Caste/PwBD Certificate",
+      "Scans of Photo, Signature, LTI, and Declaration"
+    ],
+    "application": {
+      "mode": "online",
+      "url": "https://www.nabard.org/careers-notices.aspx",
+      "procedure": [
+        "Visit NABARD's official website and navigate to 'Career Notices'",
+        "Click on the link 'Apply Online for Grade A'",
+        "Register, fill out personal and academic details",
+        "Select the discipline (General or Specialized)",
+        "Pay the application fee (₹800 for General/OBC; ₹150 for SC/ST/PWBD)"
+      ]
+    },
+    "officialSources": [
+      {
+        "sourceName": "NABARD Careers Portal",
+        "url": "https://www.nabard.org/careers-notices.aspx",
+        "sourceType": "official_portal"
+      }
+    ],
+    "searchMetadata": {
+      "category": "Banking & Regulatory",
+      "targetAudience": [
+        "Graduates",
+        "Agriculture Graduates",
+        "Finance Professionals"
+      ],
+      "keywords": [
+        "NABARD Grade A",
+        "Assistant Manager",
+        "Agriculture Bank Officer",
+        "Rural Development Bank"
+      ]
+    },
+    "verification": {
+      "status": "verified",
+      "lastVerified": "2026-09-11",
+      "verifiedBy": "Web source verification",
+      "notes": "Verified from NABARD Grade A recruitment notification."
+    }
+  },
+  {
+    "id": "job-sebi-grade-a",
+    "resourceType": "job-exam",
+    "name": "SEBI Grade A (Assistant Manager)",
+    "slug": "sebi-grade-a-assistant-manager",
+    "module": "jobs-exams",
+    "description": "Recruitment of Officer Grade A (Assistant Manager) for the General Stream, Legal, IT, Engineering, Research, and Official Language streams by the Securities and Exchange Board of India.",
+    "authority": "Securities and Exchange Board of India (SEBI)",
+    "state": "All India",
+    "eligibility": [
+      "General Stream: Master's Degree in any discipline OR Bachelor's Degree in Law OR Bachelor's Degree in Engineering OR CA/CFA/CS/CWA",
+      "Specific streams require specialized degrees (e.g., Law degree for Legal stream, IT degree for IT stream)",
+      "Age Limit: Must not have exceeded 30 years as of the cut-off date",
+      "Age Relaxation applies for reserved categories"
+    ],
+    "benefits": [
+      "Officer role in India's premier securities market regulator",
+      "Starting basic pay of ₹44,500 on the scale ₹44500-2500(4)...",
+      "Gross emoluments without accommodation are approx ₹1,49,500 per month (with accommodation it is approx ₹1,11,000)",
+      "Leave Fare Concession, Medical Expenses, Eye Refraction, Education Allowance"
+    ],
+    "documents": [
+      "Master's/Bachelor's Degree Certificates (as applicable)",
+      "Professional Qualification Certificates (CA/CS/CFA if applicable)",
+      "Valid ID and scanned images for online form"
+    ],
+    "application": {
+      "mode": "online",
+      "url": "https://www.sebi.gov.in/sebiweb/other/career1.jsp",
+      "procedure": [
+        "Go to the SEBI Careers page on sebi.gov.in",
+        "Follow the online application link hosted by IBPS",
+        "Fill out the registration and detailed application form",
+        "Upload required scans and submit the form",
+        "Pay the application fee of ₹1000 + GST for Unreserved/OBC/EWS and ₹100 + GST for SC/ST/PwBD"
+      ]
+    },
+    "officialSources": [
+      {
+        "sourceName": "SEBI Official Careers Portal",
+        "url": "https://www.sebi.gov.in",
+        "sourceType": "official_portal"
+      }
+    ],
+    "searchMetadata": {
+      "category": "Regulatory",
+      "targetAudience": [
+        "Post Graduates",
+        "Law Graduates",
+        "Engineers",
+        "CA/CFA/CS"
+      ],
+      "keywords": [
+        "SEBI Grade A",
+        "Assistant Manager",
+        "Regulatory Body Job",
+        "Stock Market Regulator"
+      ]
+    },
+    "verification": {
+      "status": "verified",
+      "lastVerified": "2026-09-11",
+      "verifiedBy": "Web source verification",
+      "notes": "Verified from SEBI Grade A official notification."
+    }
+  },
+  {
+    "id": "job-fci-category-3",
+    "resourceType": "job-exam",
+    "name": "FCI Category III Recruitment",
+    "slug": "fci-category-iii-recruitment",
+    "module": "jobs-exams",
+    "description": "Recruitment of Junior Engineer (Civil/Electrical/Mechanical), Steno Grade-II, and Assistants Grade-III (General/Accounts/Technical/Depot) in Food Corporation of India.",
+    "authority": "Food Corporation of India (FCI)",
+    "state": "All India (Zone-wise)",
+    "eligibility": [
+      "AG-III (General/Depot): Graduate Degree in any discipline with proficiency in use of computers",
+      "AG-III (Accounts): Bachelor of Commerce (B.Com) with computer proficiency",
+      "AG-III (Technical): B.Sc. in Agriculture / Botany / Zoology / Bio-Tech OR B.Tech in Food Science",
+      "Age Limit: Generally 27 years (28 years for JE posts)",
+      "Age Relaxation: SC/ST (5 years), OBC (3 years)"
+    ],
+    "benefits": [
+      "Central Public Sector Undertaking job",
+      "Pay Scale for AG-III: ₹28,200 - ₹79,200 (IDA pattern)",
+      "Allowances including DA, HRA, and medical facilities"
+    ],
+    "documents": [
+      "Graduation Degree / B.Tech / B.Sc Certificates",
+      "Category/Caste Certificate",
+      "Aadhaar Card",
+      "Scanned images for application"
+    ],
+    "application": {
+      "mode": "online",
+      "url": "https://fci.gov.in",
+      "procedure": [
+        "Visit fci.gov.in and click on 'Current Recruitment'",
+        "Select the appropriate zone (North, South, East, West, North-East)",
+        "Fill out the online application and select the post code",
+        "A candidate can apply in any one zone only",
+        "Pay the application fee of ₹500 (SC/ST/PwBD/Women are exempted)"
+      ]
+    },
+    "officialSources": [
+      {
+        "sourceName": "FCI Official Recruitment Portal",
+        "url": "https://recruitmentfci.in",
+        "sourceType": "official_portal"
+      }
+    ],
+    "searchMetadata": {
+      "category": "Public Sector Undertaking (PSU)",
+      "targetAudience": [
+        "Graduates",
+        "Agriculture Graduates",
+        "Engineers"
+      ],
+      "keywords": [
+        "FCI AG-III",
+        "Food Corporation of India",
+        "FCI Assistant",
+        "Depot Manager"
+      ]
+    },
+    "verification": {
+      "status": "verified",
+      "lastVerified": "2026-09-11",
+      "verifiedBy": "Web source verification",
+      "notes": "Verified from FCI Category III recruitment notification."
+    }
+  },
+  {
+    "id": "job-ugc-net",
+    "resourceType": "job-exam",
+    "name": "UGC NET (National Eligibility Test)",
+    "slug": "ugc-net-exam",
+    "module": "jobs-exams",
+    "description": "A national-level test to determine the eligibility of Indian nationals for 'Assistant Professor' and 'Junior Research Fellowship and Assistant Professor' in Indian universities and colleges.",
+    "authority": "National Testing Agency (NTA) on behalf of UGC",
+    "state": "All India",
+    "eligibility": [
+      "Master's degree or equivalent with at least 55% marks (50% for SC/ST/OBC-NCL/PwD/Transgender)",
+      "Candidates in the final year of their Master's degree can also apply provisionally",
+      "Age Limit for JRF: Not more than 30 years as of the cut-off date (relaxation up to 5 years for OBC/SC/ST/Women/PwD)",
+      "Age Limit for Assistant Professor: No upper age limit"
+    ],
+    "benefits": [
+      "Eligibility to apply for Assistant Professor posts in Indian Universities",
+      "JRF qualifiers receive a monthly fellowship (₹37,000 for initial 2 years, ₹42,000 for SRF) to pursue Ph.D.",
+      "UGC NET scores are also used by some PSUs for recruitment in specific disciplines"
+    ],
+    "documents": [
+      "Master's Degree Certificate and Marksheets",
+      "Category Certificate (if applicable)",
+      "Valid Photo ID",
+      "Recent passport size photograph and signature"
+    ],
+    "application": {
+      "mode": "online",
+      "url": "https://ugcnet.nta.nic.in",
+      "procedure": [
+        "Visit the official NTA UGC NET website (https://ugcnet.nta.nic.in or https://ugcnet.ntaonline.in)",
+        "Register for the current cycle using an Email ID and Mobile Number",
+        "Fill the online application form, select the subject and preferred exam cities",
+        "Upload scanned photo and signature",
+        "Pay the examination fee (₹1150 for General, ₹600 for Gen-EWS/OBC-NCL, ₹325 for SC/ST/PwD)"
+      ]
+    },
+    "officialSources": [
+      {
+        "sourceName": "NTA UGC NET Official Portal",
+        "url": "https://ugcnet.nta.nic.in",
+        "sourceType": "official_portal"
+      }
+    ],
+    "searchMetadata": {
+      "category": "Academic & Research",
+      "targetAudience": [
+        "Post Graduates",
+        "Ph.D Aspirants",
+        "Teaching Aspirants"
+      ],
+      "keywords": [
+        "UGC NET",
+        "JRF",
+        "Assistant Professor Eligibility",
+        "NTA NET",
+        "Ph.D Fellowship"
+      ]
+    },
+    "verification": {
+      "status": "verified",
+      "lastVerified": "2026-09-11",
+      "verifiedBy": "Web source verification",
+      "notes": "Verified from NTA UGC NET Information Bulletin."
+    }
+  },
+  {
+    "id": "job-ctet",
+    "resourceType": "job-exam",
+    "name": "Central Teacher Eligibility Test (CTET)",
+    "slug": "central-teacher-eligibility-test-ctet",
+    "module": "jobs-exams",
+    "description": "A national-level eligibility test conducted by CBSE to certify the eligibility of candidates to be appointed as teachers for classes I to VIII in Central Government Schools (KVS, NVS, etc.).",
+    "authority": "Central Board of Secondary Education (CBSE)",
+    "state": "All India",
+    "eligibility": [
+      "For Classes I-V (Paper I): Senior Secondary (or its equivalent) with at least 50% marks and passed or appearing in final year of 2-year Diploma in Elementary Education (D.El.Ed) OR B.Ed.",
+      "For Classes VI-VIII (Paper II): Graduation and passed or appearing in final year of 2-year D.El.Ed OR B.Ed.",
+      "As per NCTE guidelines, B.Ed candidates are eligible for Paper II",
+      "No age limit for appearing in CTET"
+    ],
+    "benefits": [
+      "CTET certificate is a mandatory requirement to apply for teaching jobs in Central Govt Schools (KVS, NVS, Central Tibetan Schools)",
+      "CTET certificate is valid for a lifetime",
+      "Can also be used to apply in schools under the administrative control of UTs"
+    ],
+    "documents": [
+      "12th / Graduation Marksheets",
+      "B.Ed / D.El.Ed passing or appearing proof",
+      "Aadhaar Card",
+      "Scanned Photograph and Signature"
+    ],
+    "application": {
+      "mode": "online",
+      "url": "https://ctet.nic.in",
+      "procedure": [
+        "Visit the official CTET portal (https://ctet.nic.in)",
+        "Click on 'Apply for CTET'",
+        "Complete the registration process and note down the Registration Number",
+        "Fill the application form and choose Paper I, Paper II, or both",
+        "Upload scanned images and pay the fee (For Single Paper: ₹1000 for Gen/OBC, ₹500 for SC/ST/PwD. For Both Papers: ₹1200 for Gen/OBC, ₹600 for SC/ST/PwD)"
+      ]
+    },
+    "officialSources": [
+      {
+        "sourceName": "CBSE CTET Official Website",
+        "url": "https://ctet.nic.in",
+        "sourceType": "official_portal"
+      }
+    ],
+    "searchMetadata": {
+      "category": "Academic & Teaching",
+      "targetAudience": [
+        "B.Ed Graduates",
+        "D.El.Ed Candidates",
+        "Teaching Aspirants"
+      ],
+      "keywords": [
+        "CTET",
+        "Teacher Eligibility Test",
+        "CBSE CTET",
+        "KVS Teacher",
+        "Primary Teacher"
+      ]
+    },
+    "verification": {
+      "status": "verified",
+      "lastVerified": "2026-09-11",
+      "verifiedBy": "Web source verification",
+      "notes": "Verified from CTET Information Bulletin."
+    }
+  },
+  {
+    "id": "job-ib-acio",
+    "resourceType": "job-exam",
+    "name": "IB ACIO Grade-II/Executive Examination",
+    "slug": "ib-acio-grade-ii-executive",
+    "module": "jobs-exams",
+    "description": "Recruitment exam conducted by the Ministry of Home Affairs for the post of Assistant Central Intelligence Officer (ACIO), Grade II/Executive in the Intelligence Bureau.",
+    "authority": "Intelligence Bureau (IB), Ministry of Home Affairs",
+    "state": "All India",
+    "eligibility": [
+      "Citizen of India",
+      "Educational Qualification: Graduation or equivalent from a recognized university",
+      "Desirable: Knowledge of computers",
+      "Age Limit: 18 to 27 years",
+      "Age Relaxation: SC/ST (5 years), OBC (3 years)"
+    ],
+    "benefits": [
+      "Group 'C' (Non-Gazetted, Non-Ministerial) Executive post in the premier intelligence agency",
+      "Pay Level 7 (₹44,900 - ₹1,42,400) plus Special Security Allowance @ 20% of basic pay",
+      "Cash compensation in lieu of duty performed on holidays subject to a ceiling of 30 days"
+    ],
+    "documents": [
+      "Graduation Certificate and Marksheets",
+      "Aadhaar Card / Voter ID",
+      "Category Certificate (if applicable)"
+    ],
+    "application": {
+      "mode": "online",
+      "url": "https://www.mha.gov.in",
+      "procedure": [
+        "Applications are hosted on a dedicated portal accessible via mha.gov.in or ncs.gov.in",
+        "Register with email and mobile number",
+        "Fill out personal, academic details, and select examination city preferences",
+        "Upload scanned photo and signature",
+        "Pay the exam fee (approx. ₹100 Exam Fee + ₹450 Recruitment Processing Charges for Gen/OBC male; ₹450 only for females and SC/ST)"
+      ]
+    },
+    "officialSources": [
+      {
+        "sourceName": "Ministry of Home Affairs",
+        "url": "https://www.mha.gov.in",
+        "sourceType": "official_portal"
+      }
+    ],
+    "searchMetadata": {
+      "category": "Intelligence & Security",
+      "targetAudience": [
+        "Graduates",
+        "Intelligence Aspirants"
+      ],
+      "keywords": [
+        "IB ACIO",
+        "Intelligence Bureau",
+        "MHA ACIO",
+        "Spy Job",
+        "Security Officer"
+      ]
+    },
+    "verification": {
+      "status": "verified",
+      "lastVerified": "2026-09-11",
+      "verifiedBy": "Web source verification",
+      "notes": "Verified from MHA IB ACIO recruitment notification."
+    }
+  },
+  {
+    "id": "job-upsc-ese",
+    "resourceType": "job-exam",
+    "name": "UPSC Engineering Services Examination (ESE)",
+    "slug": "upsc-engineering-services-examination",
+    "module": "jobs-exams",
+    "description": "Annual examination conducted by UPSC to recruit engineers into the technical services of the Government of India, including Railways, CPWD, MES, and Telecommunications.",
+    "authority": "Union Public Service Commission (UPSC)",
+    "state": "All India",
+    "eligibility": [
+      "Citizen of India",
+      "Educational Qualification: Must have obtained a degree in Engineering (Civil, Mechanical, Electrical, or Electronics & Telecommunication) from a recognized university",
+      "Candidates who have passed Sections A and B of the Institution Examinations of the Institution of Engineers (India) are also eligible",
+      "Age Limit: 21 to 30 years as on 1st January of the exam year",
+      "Age Relaxation: SC/ST (5 years), OBC (3 years)"
+    ],
+    "benefits": [
+      "Group A and Group B technical services in Central Government",
+      "Pay Level 10 (starting basic ₹56,100) with highly respected technical roles",
+      "Direct entry into policy-making and execution of large-scale national infrastructure projects"
+    ],
+    "documents": [
+      "Engineering Degree / Provisional Certificate",
+      "10th Certificate for age proof",
+      "Category Certificate",
+      "Aadhaar Card"
+    ],
+    "application": {
+      "mode": "online",
+      "url": "https://upsconline.nic.in",
+      "procedure": [
+        "Register via the UPSC One Time Registration (OTR) platform",
+        "Select the Engineering Services Examination (Preliminary)",
+        "Fill Part-I and Part-II of the application",
+        "Select the engineering discipline (CE, ME, EE, or E&T)",
+        "Pay the fee of ₹200 (Female/SC/ST/PwBD exempted) and submit"
+      ]
+    },
+    "officialSources": [
+      {
+        "sourceName": "UPSC Official Website",
+        "url": "https://upsc.gov.in",
+        "sourceType": "official_portal"
+      }
+    ],
+    "searchMetadata": {
+      "category": "Engineering",
+      "targetAudience": [
+        "Engineering Graduates",
+        "B.Tech/B.E"
+      ],
+      "keywords": [
+        "IES",
+        "ESE",
+        "UPSC Engineering Services",
+        "Civil Engineer Govt Job",
+        "Indian Engineering Services"
+      ]
+    },
+    "verification": {
+      "status": "verified",
+      "lastVerified": "2026-09-11",
+      "verifiedBy": "Web source verification",
+      "notes": "Verified from UPSC ESE notification."
+    }
+  },
+  {
+    "id": "job-gate",
+    "resourceType": "job-exam",
+    "name": "Graduate Aptitude Test in Engineering (GATE)",
+    "slug": "gate-exam-psu-recruitment",
+    "module": "jobs-exams",
+    "description": "A national examination that tests comprehensive understanding of various undergraduate subjects in engineering and science, heavily used by leading PSUs (like ONGC, NTPC, IOCL, PowerGrid) for direct recruitment.",
+    "authority": "IISc and 7 IITs (On behalf of MoE)",
+    "state": "All India",
+    "eligibility": [
+      "Candidates currently in the 3rd or higher years of any undergraduate degree program OR",
+      "Candidates who have completed any government-approved degree program in Engineering / Technology / Architecture / Science / Commerce / Arts",
+      "No age limit to appear for GATE (However, PSUs have their own age limits, usually 26-28 years for recruitment)"
+    ],
+    "benefits": [
+      "High score guarantees screening for Group A equivalent Executive/Management Trainee positions in Navratna and Maharatna PSUs",
+      "Starting packages in PSUs range from ₹12 Lakhs to ₹22 Lakhs per annum",
+      "Also serves as the gateway for Master's programs (M.Tech/Ph.D.) in IITs/NITs with financial assistance (MHRD Scholarship)"
+    ],
+    "documents": [
+      "Degree Certificate / Provisional Degree (or letter from HoD for final year students)",
+      "Valid Photo ID (Aadhaar, Passport, Voter ID)",
+      "Category Certificate (if applicable for fee concession)",
+      "Scanned Photograph and Signature"
+    ],
+    "application": {
+      "mode": "online",
+      "url": "https://gate.iisc.ac.in",
+      "procedure": [
+        "Visit the official GOAPS (GATE Online Application Processing System) portal for the respective year",
+        "Register as a new user with email and mobile number",
+        "Fill in personal details, select paper(s) (can choose up to two papers from allowed combinations)",
+        "Upload required documents, photo, and signature",
+        "Pay application fee (approx. ₹900 for Female/SC/ST/PwD, ₹1800 for all other candidates per paper)"
+      ]
+    },
+    "officialSources": [
+      {
+        "sourceName": "GATE Official Portal",
+        "url": "https://gate.iisc.ac.in",
+        "sourceType": "official_portal"
+      }
+    ],
+    "searchMetadata": {
+      "category": "Engineering & PSU",
+      "targetAudience": [
+        "Engineers",
+        "Science Graduates",
+        "Final Year Students"
+      ],
+      "keywords": [
+        "GATE",
+        "PSU Recruitment through GATE",
+        "M.Tech entrance",
+        "ONGC recruitment",
+        "NTPC recruitment"
+      ]
+    },
+    "verification": {
+      "status": "verified",
+      "lastVerified": "2026-09-11",
+      "verifiedBy": "Web source verification",
+      "notes": "Verified from GATE Information Brochure."
+    }
+  },
+  {
+    "id": "job-isro-scientist-b",
+    "resourceType": "job-exam",
+    "name": "ISRO Scientist/Engineer 'SC'",
+    "slug": "isro-scientist-engineer-sc",
+    "module": "jobs-exams",
+    "description": "Direct recruitment of Scientists/Engineers in the 'SC' grade under various engineering and science disciplines at the Indian Space Research Organisation.",
+    "authority": "Indian Space Research Organisation (ISRO) Centralized Recruitment Board (ICRB)",
+    "state": "All India",
+    "eligibility": [
+      "B.E. / B.Tech or equivalent degree in First Class with an aggregate minimum of 65% marks or CGPA 6.84/10",
+      "Age Limit: Maximum 28 years as of the closing date of the application",
+      "Age Relaxation applies for SC/ST and OBC candidates as per Central Government rules"
+    ],
+    "benefits": [
+      "Prestigious role in India's space program",
+      "Pay Level 10 of Pay Matrix (starting basic pay ₹56,100)",
+      "Gross emoluments approximately ₹95,000 per month along with house rent allowance and transport allowance",
+      "Medical facilities for self and dependents, canteen facility, and leave travel concession"
+    ],
+    "documents": [
+      "B.E./B.Tech Final Degree Certificate and all semester Marksheets",
+      "Class 10th and 12th Certificates",
+      "Category Certificate (if applicable)",
+      "NOC from current employer (if employed in Govt/PSU)"
+    ],
+    "application": {
+      "mode": "online",
+      "url": "https://www.isro.gov.in/Careers.html",
+      "procedure": [
+        "Keep an eye on the ISRO 'Careers' page for the ICRB recruitment advertisement",
+        "Click on the application link for 'Scientist/Engineer SC'",
+        "Fill the online application form correctly (no editing allowed post-submission)",
+        "Note the generated Registration Number",
+        "Pay the application fee of ₹250 online (Women/SC/ST/Ex-Servicemen/PwBD exempted)"
+      ]
+    },
+    "officialSources": [
+      {
+        "sourceName": "ISRO Careers Portal",
+        "url": "https://www.isro.gov.in/Careers.html",
+        "sourceType": "official_portal"
+      }
+    ],
+    "searchMetadata": {
+      "category": "Scientific & Research",
+      "targetAudience": [
+        "Engineering Graduates",
+        "B.Tech/B.E"
+      ],
+      "keywords": [
+        "ISRO Scientist",
+        "Engineer SC",
+        "Space Scientist Job",
+        "ICRB"
+      ]
+    },
+    "verification": {
+      "status": "verified",
+      "lastVerified": "2026-09-11",
+      "verifiedBy": "Web source verification",
+      "notes": "Verified from ICRB Scientist 'SC' recruitment guidelines."
+    }
+  },
+  {
+    "id": "job-drdo-scientist-b",
+    "resourceType": "job-exam",
+    "name": "DRDO Scientist 'B' (RAC)",
+    "slug": "drdo-scientist-b-rac",
+    "module": "jobs-exams",
+    "description": "Recruitment of Scientist 'B' in Defence Research and Development Organisation (DRDO) through the Recruitment and Assessment Centre (RAC).",
+    "authority": "Recruitment and Assessment Centre (RAC), DRDO",
+    "state": "All India",
+    "eligibility": [
+      "At least First Class Bachelor's Degree in Engineering/Technology OR First Class Master's Degree in Science Subjects",
+      "Candidates must have a valid GATE score for Engineering disciplines (or NET for Humanities/Science where applicable), OR pass the RAC written exam",
+      "Age Limit: Unreserved (28 years), OBC (31 years), SC/ST (33 years)"
+    ],
+    "benefits": [
+      "Group A Gazetted Officer post in India's premier defense R&D organization",
+      "Pay Level 10 (₹56,100 starting basic)",
+      "Total emoluments (inclusive of HRA and all other allowances) at the time of joining will be approximately ₹1,00,000 p.m. in metro cities",
+      "Higher studies sponsorship, medical facilities, and research environment"
+    ],
+    "documents": [
+      "B.Tech / M.Sc Degree Certificates",
+      "Valid GATE/NET Scorecard",
+      "Age proof",
+      "Caste Certificate (if applicable)"
+    ],
+    "application": {
+      "mode": "online",
+      "url": "https://rac.gov.in",
+      "procedure": [
+        "Register on the RAC portal (https://rac.gov.in)",
+        "Lock personal and academic details in the profile",
+        "Apply against the active advertisement for Scientist 'B'",
+        "Upload valid GATE score card and final degree certificates",
+        "Pay the non-refundable application fee of ₹100 (SC/ST/PwD/Women exempted)"
+      ]
+    },
+    "officialSources": [
+      {
+        "sourceName": "RAC DRDO Portal",
+        "url": "https://rac.gov.in",
+        "sourceType": "official_portal"
+      }
+    ],
+    "searchMetadata": {
+      "category": "Scientific & Research",
+      "targetAudience": [
+        "Engineers",
+        "Science Postgraduates",
+        "GATE Qualified"
+      ],
+      "keywords": [
+        "DRDO Scientist B",
+        "RAC Recruitment",
+        "Defence Scientist",
+        "GATE PSU"
+      ]
+    },
+    "verification": {
+      "status": "verified",
+      "lastVerified": "2026-09-11",
+      "verifiedBy": "Web source verification",
+      "notes": "Verified from RAC DRDO Scientist 'B' advertisement."
+    }
+  },
+  {
+    "id": "job-ssb-constable-tradesman",
+    "resourceType": "job-exam",
+    "name": "SSB Constable (Tradesman)",
+    "slug": "ssb-constable-tradesman",
+    "module": "jobs-exams",
+    "description": "Recruitment of Constables in various trades (Driver, Veterinary, Carpenter, Plumber, Painter, Cook, Washerman, Barber, Safaiwala, Tailor, Cobbler) in Sashastra Seema Bal (SSB).",
+    "authority": "Sashastra Seema Bal (SSB), Ministry of Home Affairs",
+    "state": "All India",
+    "eligibility": [
+      "Educational Qualification: 10th Class (Matriculation) or equivalent",
+      "Specific requirements: Valid Heavy Vehicle Driving License for Driver; ITI/1 year experience for other trades; 1 year experience in treatment of different species of animals for Veterinary",
+      "Age Limit: Generally 18-25 years for most trades, 21-27 years for Driver",
+      "Must clear Physical Standard Test (PST) and Physical Efficiency Test (PET)"
+    ],
+    "benefits": [
+      "Group 'C' Non-Gazetted (Combatised) post in CAPF",
+      "Pay Level 3 (₹21,700 - ₹69,100)",
+      "Allowances like DA, Ration Money Allowance, House Rent Allowance, and free medical facilities"
+    ],
+    "documents": [
+      "10th Class Marksheet",
+      "Trade Experience Certificate or ITI Certificate",
+      "Heavy Motor Vehicle Driving License (for Driver post)",
+      "Caste Certificate"
+    ],
+    "application": {
+      "mode": "online",
+      "url": "http://www.ssbrectt.gov.in",
+      "procedure": [
+        "Visit the SSB recruitment website (www.ssbrectt.gov.in)",
+        "Click on the active advertisement for Constable (Tradesman)",
+        "Fill out personal information, trade applied for, and upload documents",
+        "Pay the application fee of ₹100 (SC/ST/Ex-Servicemen/Female candidates are exempted)"
+      ]
+    },
+    "officialSources": [
+      {
+        "sourceName": "SSB Recruitment Portal",
+        "url": "http://www.ssbrectt.gov.in",
+        "sourceType": "official_portal"
+      }
+    ],
+    "searchMetadata": {
+      "category": "Police & Paramilitary",
+      "targetAudience": [
+        "10th Pass",
+        "ITI Pass",
+        "Skilled Tradesmen"
+      ],
+      "keywords": [
+        "SSB Tradesman",
+        "Constable Driver",
+        "SSB Cook",
+        "Paramilitary Tradesman Job"
+      ]
+    },
+    "verification": {
+      "status": "verified",
+      "lastVerified": "2026-09-11",
+      "verifiedBy": "Web source verification",
+      "notes": "Verified from SSB Tradesman recruitment rules."
+    }
+  },
+  {
+    "id": "job-icai-ca",
+    "resourceType": "job-exam",
+    "name": "Chartered Accountant (CA) Foundation/Intermediate/Final",
+    "slug": "icai-chartered-accountant-ca-exam",
+    "module": "jobs-exams",
+    "description": "Professional credential examinations conducted by ICAI for individuals aspiring to become Chartered Accountants in India.",
+    "authority": "Institute of Chartered Accountants of India (ICAI)",
+    "state": "All India",
+    "eligibility": [
+      "Foundation: Candidates can register after passing Class 10 and appear for the exam after appearing/passing Class 12",
+      "Intermediate: Pass CA Foundation OR Direct entry for Graduates/Post Graduates with minimum 55% (Commerce) or 60% (Other streams)",
+      "Final: Pass both groups of Intermediate and complete/in-progress required Articleship training",
+      "No upper age limit for CA course"
+    ],
+    "benefits": [
+      "Statutory right to audit financial statements in India",
+      "Highly respected profession with excellent corporate placement opportunities and potential for independent practice",
+      "Global recognition and high earning potential"
+    ],
+    "documents": [
+      "10th and 12th Marksheets (for Foundation)",
+      "Graduation Marksheets (for Direct Entry)",
+      "Aadhaar Card",
+      "Articleship completion certificate (for Final)"
+    ],
+    "application": {
+      "mode": "online",
+      "url": "https://icaiexam.icai.org",
+      "procedure": [
+        "Register for the respective course (Foundation/Inter/Final) on the ICAI SSP (Self Service Portal)",
+        "Complete the required study period",
+        "Fill out the examination form at icaiexam.icai.org when the window opens",
+        "Select the exam center and pay the exam fee (varies by level and single/both groups)",
+        "Download the admit card and appear for the exams (held twice a year - May and Nov)"
+      ]
+    },
+    "officialSources": [
+      {
+        "sourceName": "ICAI Official Exam Portal",
+        "url": "https://icaiexam.icai.org",
+        "sourceType": "official_portal"
+      }
+    ],
+    "searchMetadata": {
+      "category": "Professional Courses",
+      "targetAudience": [
+        "12th Pass",
+        "Commerce Graduates",
+        "CA Aspirants"
+      ],
+      "keywords": [
+        "CA Exam",
+        "Chartered Accountant",
+        "ICAI",
+        "CA Foundation",
+        "CA Inter"
+      ]
+    },
+    "verification": {
+      "status": "verified",
+      "lastVerified": "2026-09-11",
+      "verifiedBy": "Web source verification",
+      "notes": "Verified from ICAI guidelines."
+    }
+  },
+  {
+    "id": "job-neet-ug",
+    "resourceType": "job-exam",
+    "name": "NEET (UG) - National Eligibility cum Entrance Test",
+    "slug": "neet-ug-medical-entrance",
+    "module": "jobs-exams",
+    "description": "The sole national level entrance examination conducted for admission to all undergraduate medical (MBBS), dental (BDS), and AYUSH courses in India.",
+    "authority": "National Testing Agency (NTA)",
+    "state": "All India",
+    "eligibility": [
+      "Must have passed 10+2 or equivalent with Physics, Chemistry, Biology/Biotechnology, and English as core subjects",
+      "Minimum 50% marks in PCB for General category (40% for SC/ST/OBC, 45% for Gen-PwD)",
+      "Lower Age Limit: Must have completed 17 years of age at the time of admission or will complete that age on or before 31 December of the year of admission",
+      "Upper Age Limit: Removed as per NMC guidelines"
+    ],
+    "benefits": [
+      "Gateway to AIIMS, JIPMER, AFMC, and all government/private medical colleges in India",
+      "Valid for pursuing medical education abroad (MCI eligibility)"
+    ],
+    "documents": [
+      "10th Marksheet (for age proof)",
+      "12th Marksheet (if passed) or admit card (if appearing)",
+      "Aadhaar Card or valid ID",
+      "Passport and Postcard size photographs, Left & Right Hand fingers and thumb impression"
+    ],
+    "application": {
+      "mode": "online",
+      "url": "https://neet.nta.nic.in",
+      "procedure": [
+        "Visit the official NTA NEET portal",
+        "Register to get the application number and password",
+        "Fill in personal, academic details, and choose the medium of the question paper and exam cities",
+        "Upload scanned images (Photo, Signature, Thumb impressions, Category certificate)",
+        "Pay the fee (approx. ₹1700 for General, ₹1600 for EWS/OBC, ₹1000 for SC/ST/PwD) online"
+      ]
+    },
+    "officialSources": [
+      {
+        "sourceName": "NTA NEET Official Portal",
+        "url": "https://neet.nta.nic.in",
+        "sourceType": "official_portal"
+      }
+    ],
+    "searchMetadata": {
+      "category": "Academic & Medical",
+      "targetAudience": [
+        "12th Science Students",
+        "Medical Aspirants"
+      ],
+      "keywords": [
+        "NEET UG",
+        "MBBS entrance",
+        "Medical Exam",
+        "NTA NEET",
+        "BDS Admission"
+      ]
+    },
+    "verification": {
+      "status": "verified",
+      "lastVerified": "2026-09-11",
+      "verifiedBy": "Web source verification",
+      "notes": "Verified from NTA NEET Information Bulletin."
+    }
+  },
+  {
+    "id": "job-jee-main",
+    "resourceType": "job-exam",
+    "name": "JEE (Main) - Joint Entrance Examination",
+    "slug": "jee-main-engineering-entrance",
+    "module": "jobs-exams",
+    "description": "A national-level computer-based test conducted for admission to various undergraduate engineering and architecture programs at NITs, IIITs, and other Centrally Funded Technical Institutions (CFTIs). It also serves as the qualifying exam for JEE Advanced.",
+    "authority": "National Testing Agency (NTA)",
+    "state": "All India",
+    "eligibility": [
+      "Passed class 12th/equivalent examination in the last two years or appearing in the current year",
+      "Subjects: Physics, Mathematics, and one of (Chemistry, Biology, Biotechnology, Technical Vocational Subject)",
+      "No age limit for appearing in JEE Main (institutes may have their own age criteria)",
+      "Maximum of 3 consecutive years of attempts allowed"
+    ],
+    "benefits": [
+      "Admission to premier engineering colleges (NITs, IIITs, CFTIs)",
+      "Top 2,50,000 candidates qualify for JEE (Advanced) for IIT admissions",
+      "Accepted by various state engineering counseling boards"
+    ],
+    "documents": [
+      "Class 10th and 12th certificates/mark sheets",
+      "Aadhaar Card or Photo ID",
+      "Category Certificate (if claiming reservation)",
+      "Scanned Photograph and Signature"
+    ],
+    "application": {
+      "mode": "online",
+      "url": "https://jeemain.nta.nic.in",
+      "procedure": [
+        "Access the NTA JEE Main official website",
+        "Register for the session (usually held twice a year - Jan/Apr)",
+        "Fill out the application form with educational details and exam city choices",
+        "Upload the required documents in specified formats",
+        "Pay the examination fee online and print the confirmation page"
+      ]
+    },
+    "officialSources": [
+      {
+        "sourceName": "NTA JEE Main Official Portal",
+        "url": "https://jeemain.nta.nic.in",
+        "sourceType": "official_portal"
+      }
+    ],
+    "searchMetadata": {
+      "category": "Academic & Engineering",
+      "targetAudience": [
+        "12th Science Students",
+        "Engineering Aspirants"
+      ],
+      "keywords": [
+        "JEE Main",
+        "Engineering Entrance",
+        "NIT Admission",
+        "B.Tech Exam",
+        "NTA JEE"
+      ]
+    },
+    "verification": {
+      "status": "verified",
+      "lastVerified": "2026-09-11",
+      "verifiedBy": "Web source verification",
+      "notes": "Verified from NTA JEE Main Information Bulletin."
+    }
+  },
+  {
+    "id": "job-lic-assistant",
+    "resourceType": "job-exam",
+    "name": "LIC Assistant",
+    "slug": "lic-assistant-clerical",
+    "module": "jobs-exams",
+    "description": "Recruitment of Assistants performing clerical duties (Cashier, Single Window Operator, Customer Service Executive) in various branches of LIC across India.",
+    "authority": "Life Insurance Corporation of India (LIC)",
+    "state": "All India (Division-wise)",
+    "eligibility": [
+      "Bachelor's Degree in any discipline from a recognized University",
+      "Age Limit: 18 to 30 years as of the notification date",
+      "Age Relaxation: SC/ST (5 years), OBC (3 years), PwBD (10 years)",
+      "Proficiency in the local language of the state/division applied for is required"
+    ],
+    "benefits": [
+      "Secure clerical job in the public sector",
+      "Basic pay starting at ₹14,435 per month (pre-revision), with gross monthly emoluments of around ₹30,000 depending on the city",
+      "Allowances include HRA, CCA, Meal coupon, and medical benefits"
+    ],
+    "documents": [
+      "Graduation Marksheets and Degree",
+      "10th/12th mark sheet as proof of local language",
+      "Aadhaar Card",
+      "Category Certificate (if applicable)"
+    ],
+    "application": {
+      "mode": "online",
+      "url": "https://licindia.in/careers",
+      "procedure": [
+        "Visit the LIC Careers portal",
+        "Click on the 'Recruitment of Assistants' notification",
+        "Register online via the IBPS-hosted application portal",
+        "Select the division/state you wish to apply for",
+        "Upload photo, signature, left thumb impression, and handwritten declaration",
+        "Pay the application fee and submit"
+      ]
+    },
+    "officialSources": [
+      {
+        "sourceName": "LIC Careers Portal",
+        "url": "https://licindia.in/careers",
+        "sourceType": "official_portal"
+      }
+    ],
+    "searchMetadata": {
+      "category": "Insurance",
+      "targetAudience": [
+        "Graduates"
+      ],
+      "keywords": [
+        "LIC Assistant",
+        "Insurance Clerk",
+        "LIC Job",
+        "Clerical Job"
+      ]
+    },
+    "verification": {
+      "status": "verified",
+      "lastVerified": "2026-09-11",
+      "verifiedBy": "Web source verification",
+      "notes": "Verified from LIC Assistant recruitment notification."
+    }
+  },
+  {
+    "id": "job-epfo-eo-ao",
+    "resourceType": "job-exam",
+    "name": "UPSC EPFO Enforcement Officer (EO) / Accounts Officer (AO)",
+    "slug": "upsc-epfo-eo-ao",
+    "module": "jobs-exams",
+    "description": "Special recruitment test conducted by UPSC for the post of Enforcement Officer/Accounts Officer in the Employees' Provident Fund Organisation (EPFO), Ministry of Labour and Employment.",
+    "authority": "Union Public Service Commission (UPSC) / EPFO",
+    "state": "All India",
+    "eligibility": [
+      "Citizen of India",
+      "Educational Qualification: Bachelor's degree in any subject",
+      "Desirable: Diploma in Company Law/Labour Laws/Public Administration",
+      "Age Limit: Maximum 30 years for General category",
+      "Age Relaxation: SC/ST (5 years), OBC (3 years), Employees of EPFO (up to 5 years)"
+    ],
+    "benefits": [
+      "Group 'B' Non-Ministerial post",
+      "Pay Level 8 in the Pay Matrix (₹47,600 starting basic)",
+      "Excellent postings usually in urban areas, good promotional avenues to Regional Provident Fund Commissioner"
+    ],
+    "documents": [
+      "Graduation Degree Certificate",
+      "Aadhaar Card",
+      "Category Certificate (if applicable)",
+      "Age Proof (10th certificate)"
+    ],
+    "application": {
+      "mode": "online",
+      "url": "https://upsconline.nic.in",
+      "procedure": [
+        "Keep track of the UPSC special advertisement for EPFO recruitment",
+        "Apply via the UPSC OTR portal (upsconline.nic.in)",
+        "Fill the application form and pay the nominal fee of ₹25 (Exempt for Female/SC/ST/PwBD)",
+        "Selection consists of a Recruitment Test (RT) followed by an Interview (75:25 weightage)"
+      ]
+    },
+    "officialSources": [
+      {
+        "sourceName": "UPSC Official Website",
+        "url": "https://upsc.gov.in",
+        "sourceType": "official_portal"
+      }
+    ],
+    "searchMetadata": {
+      "category": "Central Government",
+      "targetAudience": [
+        "Graduates"
+      ],
+      "keywords": [
+        "EPFO EO AO",
+        "UPSC EPFO",
+        "Enforcement Officer",
+        "Accounts Officer",
+        "Provident Fund Job"
+      ]
+    },
+    "verification": {
+      "status": "verified",
+      "lastVerified": "2026-09-11",
+      "verifiedBy": "Web source verification",
+      "notes": "Verified from UPSC EPFO EO/AO special advertisement."
+    }
+  },
+  {
+    "id": "job-isro-assistant",
+    "resourceType": "job-exam",
+    "name": "ISRO Assistant / Upper Division Clerk (UDC)",
+    "slug": "isro-assistant-udc",
+    "module": "jobs-exams",
+    "description": "Recruitment for the posts of Assistant, Upper Division Clerk, and Junior Personal Assistant across various ISRO centres.",
+    "authority": "ISRO Centralized Recruitment Board (ICRB)",
+    "state": "All India",
+    "eligibility": [
+      "Graduation in Arts/Commerce/Management/Science/Computer Applications with First Class, as declared by the University",
+      "Knowledge in the use of Computers",
+      "Age Limit: Maximum 28 years",
+      "Age Relaxation: SC/ST (33 years), OBC (31 years) for reserved vacancies"
+    ],
+    "benefits": [
+      "Group 'C' Non-Gazetted Central Government Post",
+      "Pay Level 4 (₹25,500 - ₹81,100)",
+      "Gross monthly emoluments around ₹38,000 depending on the HRA of the posted city",
+      "Medical facilities, leave travel concession, and department canteen"
+    ],
+    "documents": [
+      "Graduation Degree and all marksheets showing First Class",
+      "10th/12th Certificates",
+      "Category Certificate (if applicable)",
+      "Computer course certificate (if required)"
+    ],
+    "application": {
+      "mode": "online",
+      "url": "https://www.isro.gov.in/Careers.html",
+      "procedure": [
+        "Go to the ISRO Careers portal",
+        "Select the advertisement for Assistant/UDC/JPA",
+        "Select the ISRO Centre/Zone you wish to apply for",
+        "Fill out the online application and upload documents",
+        "Pay the application fee of ₹100 (initially ₹500 may be deducted, ₹400 refunded after appearing in written test)"
+      ]
+    },
+    "officialSources": [
+      {
+        "sourceName": "ISRO Careers Portal",
+        "url": "https://www.isro.gov.in/Careers.html",
+        "sourceType": "official_portal"
+      }
+    ],
+    "searchMetadata": {
+      "category": "Central Government",
+      "targetAudience": [
+        "Graduates"
+      ],
+      "keywords": [
+        "ISRO Assistant",
+        "ISRO UDC",
+        "ISRO Clerk",
+        "Central Govt Clerk"
+      ]
+    },
+    "verification": {
+      "status": "verified",
+      "lastVerified": "2026-09-11",
+      "verifiedBy": "Web source verification",
+      "notes": "Verified from ISRO ICRB Assistant recruitment."
+    }
+  },
+  {
+    "id": "job-post-office-gds",
+    "resourceType": "job-exam",
+    "name": "India Post Gramin Dak Sevak (GDS)",
+    "slug": "india-post-gramin-dak-sevak-gds",
+    "module": "jobs-exams",
+    "description": "Merit-based direct recruitment for Gramin Dak Sevaks (Branch Post Master (BPM), Assistant Branch Post Master (ABPM), and Dak Sevak) in rural post offices.",
+    "authority": "Department of Posts, Ministry of Communications",
+    "state": "All India (Circle-wise)",
+    "eligibility": [
+      "Secondary School Examination (10th standard) pass with passing marks in Mathematics and English",
+      "Must have studied the local language of the postal circle up to 10th standard",
+      "Basic computer training certificate (if computer is not a subject in Class 10/12)",
+      "Knowledge of cycling is mandatory",
+      "Age Limit: 18 to 40 years",
+      "Selection is strictly based on the merit of 10th class board marks; no written exam"
+    ],
+    "benefits": [
+      "Part-time rural government employment (4-5 hours of duty)",
+      "Time Related Continuity Allowance (TRCA) + Dearness Allowance",
+      "BPM TRCA Slab: ₹12,000 - ₹29,380",
+      "ABPM/Dak Sevak TRCA Slab: ₹10,000 - ₹24,470"
+    ],
+    "documents": [
+      "10th Class Marksheet (Board marks are critical)",
+      "Aadhaar Card",
+      "Community/Caste Certificate",
+      "Scanned Photo and Signature"
+    ],
+    "application": {
+      "mode": "online",
+      "url": "https://indiapostgdsonline.gov.in",
+      "procedure": [
+        "Visit the GDS Online Engagement portal (indiapostgdsonline.gov.in)",
+        "Register with basic details to obtain a Registration Number",
+        "Pay the fee of ₹100 (Female/SC/ST/Transgender/PwD are exempted)",
+        "Fill the application, upload documents, and select post preferences within a Division",
+        "Submit and wait for the automated merit list declaration based on 10th marks"
+      ]
+    },
+    "officialSources": [
+      {
+        "sourceName": "India Post GDS Online Portal",
+        "url": "https://indiapostgdsonline.gov.in",
+        "sourceType": "official_portal"
+      }
+    ],
+    "searchMetadata": {
+      "category": "Postal",
+      "targetAudience": [
+        "10th Pass",
+        "Rural Youth"
+      ],
+      "keywords": [
+        "GDS",
+        "Gramin Dak Sevak",
+        "Post Office Job",
+        "Merit based job",
+        "BPM ABPM"
+      ]
+    },
+    "verification": {
+      "status": "verified",
+      "lastVerified": "2026-09-11",
+      "verifiedBy": "Web source verification",
+      "notes": "Verified from India Post GDS engagement rules."
+    }
+  },
+  {
+    "id": "job-fssai-technical-officer",
+    "resourceType": "job-exam",
+    "name": "FSSAI Technical Officer & Central Food Safety Officer (CFSO)",
+    "slug": "fssai-technical-officer-cfso",
+    "module": "jobs-exams",
+    "description": "Direct recruitment for food safety regulatory roles under the Food Safety and Standards Authority of India (FSSAI).",
+    "authority": "Food Safety and Standards Authority of India (FSSAI)",
+    "state": "All India",
+    "eligibility": [
+      "Degree in Food Technology / Dairy Technology / Biotechnology / Oil Technology / Agricultural Science / Veterinary Sciences / Biochemistry / Microbiology OR Master's Degree in Chemistry OR Degree in Medicine",
+      "Age Limit: Maximum 30 years",
+      "Age relaxations apply for SC/ST (5 years), OBC (3 years), PwBD (10 years)"
+    ],
+    "benefits": [
+      "Central Government regulatory authority job",
+      "Pay Level 7 (₹44,900 - ₹1,42,400)",
+      "Allowances as per Central Government rules"
+    ],
+    "documents": [
+      "Graduation/Post Graduation Degree in specified subjects",
+      "Category Certificate",
+      "Aadhaar Card",
+      "Scanned images"
+    ],
+    "application": {
+      "mode": "online",
+      "url": "https://www.fssai.gov.in/jobs.php",
+      "procedure": [
+        "Check for active recruitment notices on the FSSAI Jobs/Careers page",
+        "Follow the link to the recruitment portal",
+        "Fill out the application detailing your technical degree subjects",
+        "Upload required scanned documents",
+        "Pay the application fee (approx. ₹1500 for General/OBC; ₹500 for SC/ST/Women/PwBD)"
+      ]
+    },
+    "officialSources": [
+      {
+        "sourceName": "FSSAI Careers Portal",
+        "url": "https://www.fssai.gov.in/jobs.php",
+        "sourceType": "official_portal"
+      }
+    ],
+    "searchMetadata": {
+      "category": "Regulatory",
+      "targetAudience": [
+        "Food Tech Graduates",
+        "Biotech Graduates",
+        "Science Postgraduates"
+      ],
+      "keywords": [
+        "FSSAI",
+        "Technical Officer",
+        "Food Safety Officer",
+        "CFSO",
+        "Food Inspector"
+      ]
+    },
+    "verification": {
+      "status": "verified",
+      "lastVerified": "2026-09-11",
+      "verifiedBy": "Web source verification",
+      "notes": "Verified from FSSAI direct recruitment guidelines."
+    }
+  }
+]

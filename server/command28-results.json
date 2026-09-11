@@ -1,0 +1,209 @@
+{
+  "helplinesRemoved": 0,
+  "servicesAudit": {
+    "pmKisan": {
+      "existsInDb": true,
+      "inSchemesJson": true,
+      "duplicate": true
+    },
+    "nsp": {
+      "existsInDb": true,
+      "inScholarshipsJson": false,
+      "duplicate": false
+    }
+  },
+  "agriculture": [
+    {
+      "title": "e-NAM (National Agriculture Market)",
+      "type": "portal",
+      "targetCollection": "governmentportals",
+      "duplicateStatus": "New verified record"
+    },
+    {
+      "title": "Kisan Call Centre (KCC)",
+      "type": "service",
+      "targetCollection": "services",
+      "duplicateStatus": "Already exists in Atlas (collection: helplines)"
+    },
+    {
+      "title": "Sub-Mission on Agricultural Mechanization (SMAM)",
+      "type": "scheme",
+      "targetCollection": "schemes",
+      "duplicateStatus": "New verified record"
+    },
+    {
+      "title": "Paramparagat Krishi Vikas Yojana (PKVY)",
+      "type": "scheme",
+      "targetCollection": "schemes",
+      "duplicateStatus": "New verified record"
+    },
+    {
+      "title": "Mission for Integrated Development of Horticulture (MIDH)",
+      "type": "scheme",
+      "targetCollection": "schemes",
+      "duplicateStatus": "New verified record"
+    },
+    {
+      "title": "Agmarknet Portal",
+      "type": "portal",
+      "targetCollection": "governmentportals",
+      "duplicateStatus": "New verified record"
+    },
+    {
+      "title": "mKisan SMS Portal",
+      "type": "portal",
+      "targetCollection": "governmentportals",
+      "duplicateStatus": "New verified record"
+    },
+    {
+      "title": "National Beekeeping & Honey Mission (NBHM)",
+      "type": "scheme",
+      "targetCollection": "schemes",
+      "duplicateStatus": "New verified record"
+    },
+    {
+      "title": "Seednet India Portal",
+      "type": "portal",
+      "targetCollection": "governmentportals",
+      "duplicateStatus": "New verified record"
+    },
+    {
+      "title": "INCOIS Potential Fishing Zone (PFZ) Advisories",
+      "type": "service",
+      "targetCollection": "services",
+      "duplicateStatus": "New verified record"
+    },
+    {
+      "title": "E-Pashuhaat Portal",
+      "type": "portal",
+      "targetCollection": "governmentportals",
+      "duplicateStatus": "New verified record"
+    },
+    {
+      "title": "PGS-India (Participatory Guarantee System)",
+      "type": "service",
+      "targetCollection": "services",
+      "duplicateStatus": "New verified record"
+    },
+    {
+      "title": "National Animal Disease Control Programme (NADCP)",
+      "type": "scheme",
+      "targetCollection": "schemes",
+      "duplicateStatus": "New verified record"
+    },
+    {
+      "title": "National Livestock Mission (NLM)",
+      "type": "scheme",
+      "targetCollection": "schemes",
+      "duplicateStatus": "New verified record"
+    },
+    {
+      "title": "Rashtriya Krishi Vikas Yojana (RKVY-RAFTAAR)",
+      "type": "scheme",
+      "targetCollection": "schemes",
+      "duplicateStatus": "New verified record"
+    },
+    {
+      "title": "National Bamboo Mission (NBM)",
+      "type": "scheme",
+      "targetCollection": "schemes",
+      "duplicateStatus": "New verified record"
+    },
+    {
+      "title": "iKhedut Portal",
+      "type": "portal",
+      "targetCollection": "governmentportals",
+      "duplicateStatus": "New verified record"
+    },
+    {
+      "title": "Rythu Bandhu Scheme (Agriculture Investment Support Scheme)",
+      "type": "scheme",
+      "targetCollection": "schemes",
+      "duplicateStatus": "New verified record"
+    },
+    {
+      "title": "KALIA Scheme (Krushak Assistance for Livelihood and Income Augmentation)",
+      "type": "scheme",
+      "targetCollection": "schemes",
+      "duplicateStatus": "New verified record"
+    },
+    {
+      "title": "YSR Rythu Bharosa - PM KISAN",
+      "type": "scheme",
+      "targetCollection": "schemes",
+      "duplicateStatus": "New verified record"
+    },
+    {
+      "title": "Pradhan Mantri Annadata Aay SanraksHan Abhiyan (PM-AASHA)",
+      "type": "scheme",
+      "targetCollection": "schemes",
+      "duplicateStatus": "New verified record"
+    },
+    {
+      "title": "Kisan Suvidha Portal / App",
+      "type": "portal",
+      "targetCollection": "governmentportals",
+      "duplicateStatus": "New verified record"
+    },
+    {
+      "title": "e-Urvarak (Fertilizer DBT Portal)",
+      "type": "portal",
+      "targetCollection": "governmentportals",
+      "duplicateStatus": "New verified record"
+    },
+    {
+      "title": "Plant Quarantine Information System (PQIS)",
+      "type": "service",
+      "targetCollection": "services",
+      "duplicateStatus": "New verified record"
+    },
+    {
+      "title": "Krishi Vigyan Kendra (KVK) Knowledge Network",
+      "type": "portal",
+      "targetCollection": "governmentportals",
+      "duplicateStatus": "New verified record"
+    },
+    {
+      "title": "Restructured Weather Based Crop Insurance Scheme (RWBCIS)",
+      "type": "scheme",
+      "targetCollection": "schemes",
+      "duplicateStatus": "New verified record"
+    },
+    {
+      "title": "PMKSY - Har Khet Ko Pani (HKKP)",
+      "type": "scheme",
+      "targetCollection": "schemes",
+      "duplicateStatus": "New verified record"
+    },
+    {
+      "title": "National Mission on Edible Oils - Oil Palm (NMEO-OP)",
+      "type": "scheme",
+      "targetCollection": "schemes",
+      "duplicateStatus": "New verified record"
+    },
+    {
+      "title": "Agri-Clinics and Agri-Business Centres Scheme (ACABC)",
+      "type": "scheme",
+      "targetCollection": "schemes",
+      "duplicateStatus": "New verified record"
+    },
+    {
+      "title": "Krishi Megh",
+      "type": "portal",
+      "targetCollection": "governmentportals",
+      "duplicateStatus": "New verified record"
+    }
+  ],
+  "counts": {
+    "schemes": 42,
+    "jobs": 40,
+    "scholarships": 30,
+    "internships": 30,
+    "documents": 74,
+    "governmentportals": 28,
+    "helplines": 30,
+    "services": 2,
+    "categories": 5,
+    "users": 12
+  }
+}

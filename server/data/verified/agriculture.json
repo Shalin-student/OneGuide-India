@@ -1,0 +1,1850 @@
+[
+    {
+        "id": "agri-enam-portal",
+        "resourceType": "portal",
+        "name": "e-NAM (National Agriculture Market)",
+        "slug": "e-nam-national-agriculture-market",
+        "module": "agriculture",
+        "description": "A pan-India electronic trading portal which networks the existing APMC mandis to create a unified national market for agricultural commodities.",
+        "authority": "Small Farmers Agribusiness Consortium (SFAC), Ministry of Agriculture & Farmers Welfare",
+        "state": "All India",
+        "eligibility": [
+            "Farmers, Farmer Producer Organizations (FPOs), Traders, and Commission Agents registered in APMC mandis",
+            "Sellers must have agricultural produce listed in the traded commodities list"
+        ],
+        "benefits": [
+            "Transparent online trading with better price discovery for farmers",
+            "Access to a larger national market beyond local APMC boundaries",
+            "Real-time information on commodity prices and arrivals",
+            "Direct online payment to farmers' bank accounts"
+        ],
+        "documents": [
+            "Aadhaar Card or Valid ID Proof",
+            "Bank Account details (Passbook/Cancelled Cheque)",
+            "Mobile Number"
+        ],
+        "application": {
+            "mode": "online",
+            "url": "https://enam.gov.in",
+            "procedure": [
+                "Visit the e-NAM portal or download the e-NAM mobile app",
+                "Select 'Registration Type' (Farmer, Trader, FPO, etc.)",
+                "Fill out personal and bank details and submit for registration",
+                "Upon approval by the respective APMC, login credentials are provided",
+                "Bring produce to the mandi for assaying, weighing, and electronic bidding"
+            ]
+        },
+        "officialSources": [
+            {
+                "sourceName": "e-NAM Official Portal",
+                "url": "https://enam.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Agricultural Marketing",
+            "targetAudience": [
+                "Farmers",
+                "Traders",
+                "FPOs"
+            ],
+            "keywords": [
+                "e-NAM",
+                "mandi price",
+                "online crop sale",
+                "APMC portal",
+                "national agriculture market"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified from enam.gov.in platform guidelines."
+        }
+    },
+    {
+        "id": "agri-kisan-call-centre",
+        "resourceType": "service",
+        "name": "Kisan Call Centre (KCC)",
+        "slug": "kisan-call-centre",
+        "module": "agriculture",
+        "description": "A toll-free expert advisory helpline service available in 22 local languages to answer farmers' queries on agriculture and allied sectors.",
+        "authority": "Department of Agriculture and Farmers Welfare",
+        "state": "All India",
+        "eligibility": [
+            "Any farmer or citizen of India seeking agricultural, horticultural, or veterinary advice"
+        ],
+        "benefits": [
+            "Free access to agricultural experts via toll-free number 1800-180-1551",
+            "Information on crop cultivation, disease control, weather forecasts, and market prices",
+            "Available from 6:00 AM to 10:00 PM on all 365 days of the year",
+            "Escalation to Subject Matter Specialists (SMS) for complex queries"
+        ],
+        "documents": [],
+        "application": {
+            "mode": "offline",
+            "url": "https://mkisan.gov.in/kcc.aspx",
+            "procedure": [
+                "Dial the toll-free number 1800-180-1551 from any landline or mobile network",
+                "Select the preferred local language through the IVR system",
+                "Speak directly with the Farm Tele Advisor (FTA) to get solutions"
+            ]
+        },
+        "officialSources": [
+            {
+                "sourceName": "mKisan Portal - KCC",
+                "url": "https://mkisan.gov.in/kcc.aspx",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Advisory Services",
+            "targetAudience": [
+                "Farmers",
+                "Rural Citizens"
+            ],
+            "keywords": [
+                "Kisan Call Centre",
+                "agriculture helpline",
+                "farmer toll free",
+                "1800 180 1551",
+                "crop advisory"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified from mkisan.gov.in/kcc.aspx."
+        }
+    },
+    {
+        "id": "agri-smam",
+        "resourceType": "scheme",
+        "name": "Sub-Mission on Agricultural Mechanization (SMAM)",
+        "slug": "sub-mission-on-agricultural-mechanization-smam",
+        "module": "agriculture",
+        "description": "A centrally sponsored scheme promoting custom hiring centers and providing subsidies to farmers for purchasing agricultural machinery and equipment.",
+        "authority": "Department of Agriculture & Farmers Welfare",
+        "state": "All India",
+        "eligibility": [
+            "Individual farmers, SHGs, FPOs, and Cooperative Societies",
+            "Applicants must own cultivable land and have a valid Aadhaar card",
+            "Registered rural entrepreneurs setting up Custom Hiring Centres (CHCs)"
+        ],
+        "benefits": [
+            "Subsidy ranging from 40% to 50% for individual farmers purchasing tractors, power tillers, and specialized equipment",
+            "Up to 80% subsidy for setting up Custom Hiring Centres (CHCs) by farmer groups/FPOs",
+            "Financial assistance for high-tech, high-value machinery like drone tech (up to 100% for ICAR/KVKs, 50% for SC/ST/Women/Small farmers, 40% for others)"
+        ],
+        "documents": [
+            "Aadhaar Card",
+            "Right of Record (RoR) / Land ownership documents",
+            "Bank Account Passbook",
+            "Passport size photograph",
+            "Quotation of the machinery from an empanelled manufacturer/dealer"
+        ],
+        "application": {
+            "mode": "online",
+            "url": "https://agrimachinery.nic.in",
+            "procedure": [
+                "Register as a farmer on the Direct Benefit Transfer in Agricultural Mechanization Portal (agrimachinery.nic.in)",
+                "Select the required machinery and an empanelled vendor",
+                "Upload the required land and identity documents",
+                "Wait for the approval from the District Agriculture Officer",
+                "Pay the farmer's share to the vendor; the subsidy is transferred via DBT or directly to the vendor based on state rules"
+            ]
+        },
+        "officialSources": [
+            {
+                "sourceName": "Agrimachinery DBT Portal",
+                "url": "https://agrimachinery.nic.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Subsidies & Machinery",
+            "targetAudience": [
+                "Farmers",
+                "Agri Entrepreneurs",
+                "FPOs",
+                "SHGs"
+            ],
+            "keywords": [
+                "SMAM",
+                "tractor subsidy",
+                "agriculture machinery",
+                "CHC subsidy",
+                "drone subsidy agriculture"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified from agrimachinery.nic.in guidelines."
+        }
+    },
+    {
+        "id": "agri-pkvy",
+        "resourceType": "scheme",
+        "name": "Paramparagat Krishi Vikas Yojana (PKVY)",
+        "slug": "paramparagat-krishi-vikas-yojana",
+        "module": "agriculture",
+        "description": "An initiative to promote organic farming through a cluster approach and Participatory Guarantee System (PGS) certification.",
+        "authority": "Department of Agriculture & Farmers Welfare",
+        "state": "All India",
+        "eligibility": [
+            "Farmers willing to transition to organic farming",
+            "Must form a cluster or group of 20 or more farmers having 20 hectares of contiguous land",
+            "Small and marginal farmers are given preference"
+        ],
+        "benefits": [
+            "Financial assistance of ₹50,000 per hectare for a 3-year period",
+            "₹31,000 out of ₹50,000 provided directly via DBT to farmers for organic inputs (seeds, bio-fertilizers, bio-pesticides)",
+            "Free organic certification through the PGS-India system",
+            "Support for capacity building, value addition, and marketing"
+        ],
+        "documents": [
+            "Aadhaar Card",
+            "Land ownership documents (Khasra/Khatauni)",
+            "Bank Account details",
+            "Cluster membership declaration"
+        ],
+        "application": {
+            "mode": "offline",
+            "url": "https://pgsindia-ncof.gov.in/pkvy",
+            "procedure": [
+                "Farmers must approach the Local/District Agriculture Department or Krishi Vigyan Kendra (KVK)",
+                "Form a cluster of minimum 20 hectares with neighboring farmers",
+                "Register the cluster under the PKVY scheme through the State Nodal Agency",
+                "Undergo training and implement organic practices",
+                "Receive input subsidy directly in the bank account via DBT over 3 years"
+            ]
+        },
+        "officialSources": [
+            {
+                "sourceName": "PKVY Portal - NCOF",
+                "url": "https://pgsindia-ncof.gov.in/pkvy",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Organic Farming",
+            "targetAudience": [
+                "Organic Farmers",
+                "Farmer Clusters",
+                "Small Farmers"
+            ],
+            "keywords": [
+                "PKVY",
+                "organic farming subsidy",
+                "bio fertilizer",
+                "PGS certification",
+                "natural farming"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified from Ministry of Agriculture PKVY operational guidelines."
+        }
+    },
+    {
+        "id": "agri-midh",
+        "resourceType": "scheme",
+        "name": "Mission for Integrated Development of Horticulture (MIDH)",
+        "slug": "mission-integrated-development-horticulture-midh",
+        "module": "agriculture",
+        "description": "A centrally sponsored scheme for the holistic growth of the horticulture sector encompassing fruits, vegetables, root and tuber crops, mushrooms, spices, flowers, aromatic plants, coconut, cashew, and cocoa.",
+        "authority": "Department of Agriculture & Farmers Welfare",
+        "state": "All India",
+        "eligibility": [
+            "Farmers, FPOs, FPCs, Self Help Groups, and NGOs",
+            "Agri-entrepreneurs and state horticulture farms",
+            "Must own or lease cultivable land suitable for horticulture"
+        ],
+        "benefits": [
+            "Subsidy ranging from 35% to 50% for establishing new gardens, greenhouses, poly-houses, and shade net houses",
+            "Financial assistance for micro-irrigation, mechanization, and cold chain infrastructure (cold storages, pack houses)",
+            "Support for mushroom cultivation, beekeeping, and organic farming integration",
+            "Quality planting material provision"
+        ],
+        "documents": [
+            "Aadhaar Card",
+            "Land Records (7/12, Khatauni) or Lease Agreement",
+            "Bank Account Passbook",
+            "Detailed Project Report (DPR) for post-harvest infrastructure/greenhouses",
+            "Soil/Water test reports (if required by state)"
+        ],
+        "application": {
+            "mode": "hybrid",
+            "url": "https://midh.gov.in",
+            "procedure": [
+                "Visit the District Horticulture Office to understand state-specific annual action plans",
+                "Submit the application form along with land documents and the DPR (for large projects) physically or via the state's agriculture portal",
+                "The District Level Committee inspects the site and gives administrative approval",
+                "Upon completion of the work (e.g., polyhouse construction), joint inspection is conducted",
+                "Subsidy is credited via DBT"
+            ]
+        },
+        "officialSources": [
+            {
+                "sourceName": "MIDH Official Portal",
+                "url": "https://midh.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Horticulture",
+            "targetAudience": [
+                "Horticulture Farmers",
+                "Agri Entrepreneurs",
+                "FPOs"
+            ],
+            "keywords": [
+                "MIDH",
+                "polyhouse subsidy",
+                "greenhouse subsidy",
+                "cold storage subsidy",
+                "fruit farming"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified from midh.gov.in guidelines."
+        }
+    },
+    {
+        "id": "agri-agmarknet",
+        "resourceType": "portal",
+        "name": "Agmarknet Portal",
+        "slug": "agmarknet-portal-price-trends",
+        "module": "agriculture",
+        "description": "A government portal providing daily market information (arrivals and prices) for agricultural commodities across wholesale APMC markets in India.",
+        "authority": "Directorate of Marketing & Inspection (DMI)",
+        "state": "All India",
+        "eligibility": [
+            "Open to all citizens, farmers, traders, researchers, and policymakers"
+        ],
+        "benefits": [
+            "Access to daily, weekly, and monthly wholesale price trends of crops",
+            "Arrival volume data across thousands of mandis nationwide",
+            "Helps farmers make informed decisions about when and where to sell their produce",
+            "Free access to market intelligence reports"
+        ],
+        "documents": [],
+        "application": {
+            "mode": "online",
+            "url": "https://agmarknet.gov.in",
+            "procedure": [
+                "Visit the portal https://agmarknet.gov.in",
+                "Select the commodity, state, and specific market (mandi)",
+                "Select the date range to view minimum, maximum, and modal prices",
+                "No login required for viewing basic market reports"
+            ]
+        },
+        "officialSources": [
+            {
+                "sourceName": "Agmarknet Portal",
+                "url": "https://agmarknet.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Agricultural Marketing",
+            "targetAudience": [
+                "Farmers",
+                "Traders",
+                "Analysts"
+            ],
+            "keywords": [
+                "Agmarknet",
+                "mandi bhav",
+                "wholesale crop price",
+                "APMC daily price",
+                "commodity price"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified from agmarknet.gov.in."
+        }
+    },
+    {
+        "id": "agri-mkisan",
+        "resourceType": "portal",
+        "name": "mKisan SMS Portal",
+        "slug": "mkisan-sms-portal",
+        "module": "agriculture",
+        "description": "An SMS portal enabling Central and State government organizations in agriculture to provide quick, timely, and targeted advisories to farmers.",
+        "authority": "Department of Agriculture & Farmers Welfare",
+        "state": "All India",
+        "eligibility": [
+            "Any farmer possessing a mobile phone (feature phone or smartphone)"
+        ],
+        "benefits": [
+            "Free text and voice message advisories on crop management, weather alerts, pest attacks, and market prices",
+            "Advisories are sent in the local language",
+            "Pull SMS services available to query specific agricultural information"
+        ],
+        "documents": [
+            "Mobile Number"
+        ],
+        "application": {
+            "mode": "hybrid",
+            "url": "https://mkisan.gov.in",
+            "procedure": [
+                "Farmers can register via the web portal mkisan.gov.in by providing their mobile number, state, district, block, and crops grown",
+                "Alternatively, farmers can register by calling the Kisan Call Centre (1800-180-1551)",
+                "Registration can also be done via USSD by dialing *561*11#",
+                "Once registered, the farmer automatically receives seasonal advisory SMS"
+            ]
+        },
+        "officialSources": [
+            {
+                "sourceName": "mKisan Portal",
+                "url": "https://mkisan.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Advisory Services",
+            "targetAudience": [
+                "Farmers",
+                "Rural Mobile Users"
+            ],
+            "keywords": [
+                "mKisan",
+                "agriculture SMS",
+                "weather alert SMS",
+                "crop advisory mobile",
+                "USSD agriculture"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified from mkisan.gov.in."
+        }
+    },
+    {
+        "id": "agri-nbhm",
+        "resourceType": "scheme",
+        "name": "National Beekeeping & Honey Mission (NBHM)",
+        "slug": "national-beekeeping-honey-mission",
+        "module": "agriculture",
+        "description": "A central sector scheme promoting scientific beekeeping and production of honey and other beehive products to increase farmers' income.",
+        "authority": "National Bee Board (NBB) / Ministry of Agriculture",
+        "state": "All India",
+        "eligibility": [
+            "Individual farmers, Beekeepers, FPOs, and SHGs",
+            "Must be registered with the National Bee Board (NBB) on the Madhukranti portal"
+        ],
+        "benefits": [
+            "Financial assistance for purchasing bee colonies, hives, and beekeeping equipment",
+            "Support for setting up honey processing units, testing labs, and cold storages",
+            "Capacity building and training in scientific beekeeping",
+            "Enhances crop yield through cross-pollination"
+        ],
+        "documents": [
+            "Aadhaar Card",
+            "NBB Registration Certificate",
+            "Land/Premises details",
+            "Bank Account details",
+            "Project Proposal (for processing units)"
+        ],
+        "application": {
+            "mode": "online",
+            "url": "https://madhukranti.in",
+            "procedure": [
+                "Register on the Madhukranti Portal (madhukranti.in) to get an NBB ID",
+                "Submit the application for subsidy/equipment under NBHM through the portal or District Horticulture Office",
+                "Undergo basic beekeeping training provided by KVKs/State Departments",
+                "Receive the subsidized items or financial grant via DBT"
+            ]
+        },
+        "officialSources": [
+            {
+                "sourceName": "National Bee Board - NBHM",
+                "url": "https://nbhm.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Allied Sectors",
+            "targetAudience": [
+                "Farmers",
+                "Beekeepers",
+                "Agri Entrepreneurs"
+            ],
+            "keywords": [
+                "NBHM",
+                "beekeeping subsidy",
+                "honey mission",
+                "National Bee Board",
+                "Madhukranti"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified from nbhm.gov.in guidelines."
+        }
+    },
+    {
+        "id": "agri-seednet-india",
+        "resourceType": "portal",
+        "name": "Seednet India Portal",
+        "slug": "seednet-india-portal",
+        "module": "agriculture",
+        "description": "A national portal for seed lifecycle management, providing information on seed availability, certified seed varieties, and seed dealer networks.",
+        "authority": "Seed Division, Department of Agriculture & Farmers Welfare",
+        "state": "All India",
+        "eligibility": [
+            "Farmers seeking quality seeds, Seed Dealers, and Seed Producing Agencies"
+        ],
+        "benefits": [
+            "Provides real-time information on the availability of Breeder, Foundation, and Certified seeds across states",
+            "Database of notified crop varieties suitable for different agro-climatic zones",
+            "Verification of seed authenticity through traceability barcodes",
+            "List of registered seed dealers and testing laboratories"
+        ],
+        "documents": [],
+        "application": {
+            "mode": "online",
+            "url": "https://seednet.gov.in",
+            "procedure": [
+                "Visit seednet.gov.in",
+                "Use the 'Seed Availability' dashboard to search for specific crops and varieties in your state",
+                "Find contact details of the nearest authorized seed distribution center or State Seed Corporation",
+                "Purchase seeds offline using the information gathered"
+            ]
+        },
+        "officialSources": [
+            {
+                "sourceName": "Seednet India",
+                "url": "https://seednet.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Inputs & Seeds",
+            "targetAudience": [
+                "Farmers",
+                "Seed Dealers",
+                "FPOs"
+            ],
+            "keywords": [
+                "Seednet",
+                "buy certified seeds",
+                "foundation seed",
+                "crop variety check",
+                "seed availability"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified from seednet.gov.in."
+        }
+    },
+    {
+        "id": "agri-incois-pfz",
+        "resourceType": "service",
+        "name": "INCOIS Potential Fishing Zone (PFZ) Advisories",
+        "slug": "incois-potential-fishing-zone-advisories",
+        "module": "agriculture",
+        "description": "A satellite-based advisory service providing precise locations of fish aggregations to fishermen, reducing search time and fuel cost.",
+        "authority": "Indian National Centre for Ocean Information Services (INCOIS)",
+        "state": "Coastal States",
+        "eligibility": [
+            "Marine fishermen, Fishing communities, and Trawler operators in India's coastal regions"
+        ],
+        "benefits": [
+            "Identifies productive fishing zones based on Sea Surface Temperature (SST) and Chlorophyll data",
+            "Reduces search time by up to 60-70%, significantly cutting down diesel costs",
+            "Increases catch yield and profitability",
+            "Provides Ocean State Forecasts (OSF) including wave height and high wind alerts for safety"
+        ],
+        "documents": [
+            "Mobile number for SMS alerts"
+        ],
+        "application": {
+            "mode": "online",
+            "url": "https://incois.gov.in/MarineFisheries/PfzAdvisory",
+            "procedure": [
+                "Fishermen can view daily PFZ maps on the INCOIS website or the 'Fisher Friend' mobile app",
+                "Register mobile numbers via local fisheries cooperatives or NGOs (like MSSRF) to receive direct SMS advisories",
+                "PFZ advisories are also broadcast via Electronic Display Boards at major fishing harbours and local radio stations"
+            ]
+        },
+        "officialSources": [
+            {
+                "sourceName": "INCOIS Marine Fisheries Portal",
+                "url": "https://incois.gov.in/MarineFisheries/PfzAdvisory",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Fisheries",
+            "targetAudience": [
+                "Fishermen",
+                "Coastal Communities"
+            ],
+            "keywords": [
+                "PFZ",
+                "Potential Fishing Zone",
+                "INCOIS",
+                "fish catch satellite",
+                "ocean state forecast"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified from INCOIS service details."
+        }
+    },
+    {
+        "id": "agri-epashuhaat",
+        "resourceType": "portal",
+        "name": "E-Pashuhaat Portal",
+        "slug": "e-pashuhaat-bovine-germplasm",
+        "module": "agriculture",
+        "description": "A web portal connecting breeders, state agencies, and farmers to provide information on the availability of disease-free bovine germplasm (semen, embryos, live animals).",
+        "authority": "Department of Animal Husbandry and Dairying",
+        "state": "All India",
+        "eligibility": [
+            "Dairy farmers, animal breeders, semen stations, and state animal husbandry departments"
+        ],
+        "benefits": [
+            "Acts as a single platform for buying and selling high-yielding, disease-free germplasm",
+            "Eliminates middlemen, ensuring fair prices for breeders and quality for buyers",
+            "Provides complete traceability of genetic material",
+            "Access to information on artificial insemination services and progeny-tested bulls"
+        ],
+        "documents": [],
+        "application": {
+            "mode": "online",
+            "url": "https://epashuhaat.gov.in",
+            "procedure": [
+                "Visit the e-Pashuhaat portal",
+                "Search for semen doses, embryos, or live animals by breed, state, and yielding capacity",
+                "Register as a buyer to contact the registered breeder or semen station",
+                "Transact securely based on verified genetic merits listed on the portal"
+            ]
+        },
+        "officialSources": [
+            {
+                "sourceName": "E-Pashuhaat Portal",
+                "url": "https://epashuhaat.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Animal Husbandry",
+            "targetAudience": [
+                "Dairy Farmers",
+                "Animal Breeders"
+            ],
+            "keywords": [
+                "E-Pashuhaat",
+                "buy cattle online",
+                "bovine semen",
+                "artificial insemination",
+                "high yield cow"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified from epashuhaat.gov.in."
+        }
+    },
+    {
+        "id": "agri-pgs-india",
+        "resourceType": "service",
+        "name": "PGS-India (Participatory Guarantee System)",
+        "slug": "pgs-india-organic-certification",
+        "module": "agriculture",
+        "description": "A decentralized organic farming certification system built on trust and peer review among farmers, making certification affordable and accessible for domestic markets.",
+        "authority": "National Centre of Organic Farming (NCOF)",
+        "state": "All India",
+        "eligibility": [
+            "Farmers practicing organic agriculture",
+            "Must form a local group (minimum 5 farmers) residing in the same or nearby villages",
+            "Farmers must pledge to follow the National Standards for Organic Production (NSOP)"
+        ],
+        "benefits": [
+            "Low-cost or free alternative to third-party organic certification",
+            "Empowers farmers through peer inspections and shared responsibility",
+            "Provides the 'PGS-India Green' (under conversion) or 'PGS-India Organic' (fully organic) logo for marketing",
+            "Enhances domestic marketability and price realization for organic produce"
+        ],
+        "documents": [
+            "Aadhaar Card",
+            "Land details (Khasra/Khatauni)",
+            "Farmer's pledge document",
+            "Crop history records"
+        ],
+        "application": {
+            "mode": "online",
+            "url": "https://pgsindia-ncof.gov.in",
+            "procedure": [
+                "Farmers form a local group and select a lead farmer",
+                "The group registers on the PGS-India portal via a Regional Council (RC)",
+                "Members conduct peer appraisals of each other's farms periodically",
+                "The peer review data is uploaded to the portal",
+                "After the conversion period, the RC grants the certification and prints the barcode-enabled PGS logo"
+            ]
+        },
+        "officialSources": [
+            {
+                "sourceName": "PGS-India Portal",
+                "url": "https://pgsindia-ncof.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Organic Farming",
+            "targetAudience": [
+                "Organic Farmers",
+                "Farmer Groups"
+            ],
+            "keywords": [
+                "PGS India",
+                "organic certification free",
+                "NCOF",
+                "peer review farming",
+                "organic logo"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified from pgsindia-ncof.gov.in guidelines."
+        }
+    },
+    {
+        "id": "agri-nadcp",
+        "resourceType": "scheme",
+        "name": "National Animal Disease Control Programme (NADCP)",
+        "slug": "national-animal-disease-control-programme",
+        "module": "agriculture",
+        "description": "A central sector scheme aiming for the total eradication of Foot and Mouth Disease (FMD) and Brucellosis in livestock through 100% vaccination.",
+        "authority": "Department of Animal Husbandry and Dairying",
+        "state": "All India",
+        "eligibility": [
+            "All livestock owners (cattle, buffalo, sheep, goat, and pig owners)",
+            "Livestock must be ear-tagged and registered on the INAPH database"
+        ],
+        "benefits": [
+            "100% free vaccination for FMD for cattle, buffaloes, sheep, goats, and pigs",
+            "Free Brucellosis vaccination for 100% of bovine female calves (4-8 months of age)",
+            "Reduces milk yield losses and prevents livestock morbidity",
+            "Improves the domestic and export marketability of livestock products"
+        ],
+        "documents": [
+            "Aadhaar Card of the livestock owner",
+            "Pashu Aadhaar (12-digit ear tag) for the animal"
+        ],
+        "application": {
+            "mode": "offline",
+            "url": "https://dahd.nic.in",
+            "procedure": [
+                "The programme is executed via state veterinary departments in campaign modes",
+                "Livestock owners must present their animals during village-level vaccination camps",
+                "Veterinary workers attach an ear tag (Pashu Aadhaar) to the animal if not already tagged",
+                "Vaccination details are uploaded to the Information Network for Animal Productivity and Health (INAPH) portal",
+                "A vaccination certificate/health card is issued to the owner"
+            ]
+        },
+        "officialSources": [
+            {
+                "sourceName": "Department of Animal Husbandry and Dairying",
+                "url": "https://dahd.nic.in",
+                "sourceType": "ministry_website"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Animal Husbandry",
+            "targetAudience": [
+                "Livestock Owners",
+                "Dairy Farmers"
+            ],
+            "keywords": [
+                "NADCP",
+                "FMD vaccination",
+                "Brucellosis",
+                "free animal vaccine",
+                "pashu aadhaar"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified from DAHD scheme documents."
+        }
+    },
+    {
+        "id": "agri-nlm",
+        "resourceType": "scheme",
+        "name": "National Livestock Mission (NLM)",
+        "slug": "national-livestock-mission",
+        "module": "agriculture",
+        "description": "A mission aiming at sustainable development of the livestock sector focusing on entrepreneurship development in poultry, sheep, goat, and piggery, and fodder development.",
+        "authority": "Department of Animal Husbandry and Dairying",
+        "state": "All India",
+        "eligibility": [
+            "Individuals, FPOs, SHGs, Section 8 companies, and joint liability groups",
+            "Must have suitable land for establishing the farm/infrastructure",
+            "Must have arranged bank finance or have own financial capacity for the margin money"
+        ],
+        "benefits": [
+            "50% capital subsidy (up to ₹50 Lakh) for establishing rural poultry farms (breeder farms, hatcheries)",
+            "50% capital subsidy (up to ₹50 Lakh) for sheep/goat breeding farms (minimum 500 females + 25 males)",
+            "50% capital subsidy (up to ₹30 Lakh) for pig breeding farms",
+            "50% subsidy (up to ₹50 Lakh) for fodder seed multiplication and fodder block making units"
+        ],
+        "documents": [
+            "Aadhaar Card and PAN Card",
+            "Detailed Project Report (DPR)",
+            "Proof of land ownership/lease",
+            "Bank Loan Sanction letter or proof of margin money",
+            "Photograph of the project site"
+        ],
+        "application": {
+            "mode": "online",
+            "url": "https://nlm.udyamimitra.in",
+            "procedure": [
+                "Register on the NLM Entrepreneurship portal (nlm.udyamimitra.in)",
+                "Fill out the online application and upload the DPR and land documents",
+                "Select the lending bank for loan assessment",
+                "The application is screened by the State Implementing Agency (SIA)",
+                "Upon bank sanction and SIA recommendation, the Central Government releases the subsidy in installments"
+            ]
+        },
+        "officialSources": [
+            {
+                "sourceName": "NLM Udyamimitra Portal",
+                "url": "https://nlm.udyamimitra.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Animal Husbandry",
+            "targetAudience": [
+                "Agri Entrepreneurs",
+                "Livestock Farmers",
+                "FPOs"
+            ],
+            "keywords": [
+                "NLM subsidy",
+                "goat farm subsidy",
+                "poultry farm loan",
+                "pig farming 50 lakh",
+                "fodder subsidy"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified from nlm.udyamimitra.in operational guidelines."
+        }
+    },
+    {
+        "id": "agri-rkvy-raftaar",
+        "resourceType": "scheme",
+        "name": "Rashtriya Krishi Vikas Yojana (RKVY-RAFTAAR)",
+        "slug": "rashtriya-krishi-vikas-yojana-rkvy-raftaar",
+        "module": "agriculture",
+        "description": "Remunerative Approaches for Agriculture and Allied Sectors Rejuvenation. The scheme promotes infrastructure development, value addition, and supports agri-startups through incubation.",
+        "authority": "Department of Agriculture & Farmers Welfare",
+        "state": "All India",
+        "eligibility": [
+            "States (for infrastructure projects)",
+            "Agri-Entrepreneurs and Startups (for innovation and incubation support)",
+            "FPOs and Farmer Groups"
+        ],
+        "benefits": [
+            "Creation of pre-harvest and post-harvest agriculture infrastructure",
+            "Agri-entrepreneurship orientation program provides a stipend of ₹10,000 per month for 2 months",
+            "Seed stage funding as grant-in-aid up to ₹5 Lakhs for startups",
+            "Agri-Business Incubation program offers grant-in-aid up to ₹25 Lakhs for scaling up innovations"
+        ],
+        "documents": [
+            "Company Registration/Incorporation details (for startups)",
+            "Detailed Business Pitch / Proposal",
+            "Aadhaar and PAN Card",
+            "Bank Account details"
+        ],
+        "application": {
+            "mode": "hybrid",
+            "url": "https://rkvy.nic.in",
+            "procedure": [
+                "Infrastructure projects are proposed by State Governments in their State Level Sanctioning Committee (SLSC)",
+                "For Agri-Startups, candidates must apply to designated RKVY-RAFTAAR Agribusiness Incubators (R-ABIs) across the country (like IARI, MANAGE, TNAU)",
+                "Submit a business proposal online or via email to the R-ABI during application calls",
+                "Present the pitch to the selection committee for grant approval"
+            ]
+        },
+        "officialSources": [
+            {
+                "sourceName": "RKVY Portal",
+                "url": "https://rkvy.nic.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Agri-Business & Infrastructure",
+            "targetAudience": [
+                "Agri Startups",
+                "FPOs",
+                "Innovators"
+            ],
+            "keywords": [
+                "RKVY RAFTAAR",
+                "agri startup funding",
+                "25 lakh agri grant",
+                "R-ABI",
+                "agriculture infrastructure"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified from rkvy.nic.in innovation guidelines."
+        }
+    },
+    {
+        "id": "agri-national-bamboo-mission",
+        "resourceType": "scheme",
+        "name": "National Bamboo Mission (NBM)",
+        "slug": "national-bamboo-mission",
+        "module": "agriculture",
+        "description": "Scheme to increase the area under bamboo plantation in non-forest lands and to promote product development and market linkage for bamboo.",
+        "authority": "Department of Agriculture & Farmers Welfare",
+        "state": "All India",
+        "eligibility": [
+            "Farmers, Artisans, Entrepreneurs, and State Government Agencies",
+            "Must own land suitable for bamboo cultivation"
+        ],
+        "benefits": [
+            "Financial assistance of ₹50,000 per hectare for bamboo cultivation (distributed over 3 years)",
+            "Subsidy (up to 50%) for setting up bamboo nurseries",
+            "Assistance for establishing primary processing units, treatment plants, and product development centers",
+            "Exemption of Indian-grown bamboo on non-forest lands from the definition of 'tree' under the Indian Forest Act, allowing free movement"
+        ],
+        "documents": [
+            "Aadhaar Card",
+            "Land Ownership Document (RoR)",
+            "Bank Account Passbook",
+            "Project proposal (for processing units)"
+        ],
+        "application": {
+            "mode": "offline",
+            "url": "https://nbm.nic.in",
+            "procedure": [
+                "Contact the District Horticulture Officer, District Forest Officer, or State Bamboo Mission nodal officer",
+                "Submit the application with land records for plantation subsidy",
+                "Procure certified saplings from approved nurseries",
+                "Plantation is physically verified before DBT release of the subsidy in a 50:30:20 ratio over three years"
+            ]
+        },
+        "officialSources": [
+            {
+                "sourceName": "National Bamboo Mission Portal",
+                "url": "https://nbm.nic.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Horticulture & Forestry",
+            "targetAudience": [
+                "Farmers",
+                "Artisans",
+                "Entrepreneurs"
+            ],
+            "keywords": [
+                "National Bamboo Mission",
+                "NBM",
+                "bamboo plantation subsidy",
+                "bamboo processing unit"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified from nbm.nic.in."
+        }
+    },
+    {
+        "id": "agri-ikhedut-portal",
+        "resourceType": "portal",
+        "name": "iKhedut Portal",
+        "slug": "ikhedut-portal-gujarat",
+        "module": "agriculture",
+        "description": "An integrated state agriculture portal by the Government of Gujarat allowing farmers to apply for multiple state and central agricultural subsidies online.",
+        "authority": "Agriculture, Farmers Welfare and Co-operation Department, Govt. of Gujarat",
+        "state": "Gujarat",
+        "eligibility": [
+            "Farmers domiciled in Gujarat",
+            "Must hold agricultural land in the state",
+            "Must have a bank account"
+        ],
+        "benefits": [
+            "Single-window online application for subsidies on tractors, farm implements, tarpaulins, drip irrigation, and wire fencing",
+            "Access to latest weather reports, market prices (APMC), and agricultural advisories",
+            "Transparent application tracking and DBT processing"
+        ],
+        "documents": [
+            "Aadhaar Card",
+            "7/12 and 8-A Land Records",
+            "Bank Account details",
+            "Mobile number"
+        ],
+        "application": {
+            "mode": "online",
+            "url": "https://ikhedut.gujarat.gov.in",
+            "procedure": [
+                "Visit the iKhedut portal (https://ikhedut.gujarat.gov.in)",
+                "Click on 'Yojana' (Schemes) and select the relevant category (Agriculture, Horticulture, Animal Husbandry, etc.)",
+                "Check if the application window is currently 'Open'",
+                "Fill the application form online; registration is optional but recommended",
+                "Take a printout, attach land/bank documents, and submit it to the Gram Sevak or Taluka office within 7 days",
+                "Pre-approval SMS is sent, after which purchase is made and final subsidy is transferred"
+            ]
+        },
+        "officialSources": [
+            {
+                "sourceName": "iKhedut Portal",
+                "url": "https://ikhedut.gujarat.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "State Agriculture Portal",
+            "targetAudience": [
+                "Gujarat Farmers"
+            ],
+            "keywords": [
+                "iKhedut",
+                "Gujarat farmer scheme",
+                "tractor subsidy gujarat",
+                "tarpaulin scheme gujarat"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified from ikhedut.gujarat.gov.in."
+        }
+    },
+    {
+        "id": "agri-rythu-bandhu",
+        "resourceType": "scheme",
+        "name": "Rythu Bandhu Scheme (Agriculture Investment Support Scheme)",
+        "slug": "rythu-bandhu-scheme-telangana",
+        "module": "agriculture",
+        "description": "A direct benefit transfer scheme by the Telangana Government providing investment support for agriculture and horticulture crops to relieve farmers from debt burdens.",
+        "authority": "Department of Agriculture, Government of Telangana",
+        "state": "Telangana",
+        "eligibility": [
+            "All land-owning farmers resident in Telangana",
+            "Applicable for both Kharif and Rabi seasons",
+            "Tenant farmers are generally excluded from direct cash transfer under this scheme"
+        ],
+        "benefits": [
+            "Direct grant of ₹5,000 per acre per season (Total ₹10,000 per acre per year)",
+            "Supports the purchase of inputs like seeds, fertilizers, pesticides, and labor",
+            "Amount is deposited directly into the farmer's bank account before the onset of the cropping season"
+        ],
+        "documents": [
+            "Pattadar Passbook (Title Deed)",
+            "Aadhaar Card",
+            "Bank Account Passbook (IFSC Code)",
+            "Dharani portal registration (Land Records)"
+        ],
+        "application": {
+            "mode": "offline",
+            "url": "https://rythubandhu.telangana.gov.in",
+            "procedure": [
+                "Automatic inclusion based on digitized land records on the Dharani portal",
+                "New landowners or those missed out must approach the Village Revenue Officer (VRO) or Agricultural Extension Officer (AEO)",
+                "Submit a physical application with a copy of the new Pattadar passbook, Aadhaar, and bank details",
+                "Data is verified and updated in the central database, enabling automatic DBT for subsequent seasons"
+            ]
+        },
+        "officialSources": [
+            {
+                "sourceName": "Rythu Bandhu Portal",
+                "url": "https://rythubandhu.telangana.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Financial Support",
+            "targetAudience": [
+                "Telangana Farmers",
+                "Landowners"
+            ],
+            "keywords": [
+                "Rythu Bandhu",
+                "Telangana farmer scheme",
+                "10000 per acre",
+                "investment support scheme"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified from rythubandhu.telangana.gov.in."
+        }
+    },
+    {
+        "id": "agri-kalia-odisha",
+        "resourceType": "scheme",
+        "name": "KALIA Scheme (Krushak Assistance for Livelihood and Income Augmentation)",
+        "slug": "kalia-scheme-odisha",
+        "module": "agriculture",
+        "description": "A comprehensive state intervention for agricultural prosperity in Odisha, targeting small/marginal farmers, landless agricultural laborers, and vulnerable agricultural households.",
+        "authority": "Department of Agriculture and Farmers' Empowerment, Govt of Odisha",
+        "state": "Odisha",
+        "eligibility": [
+            "Small and Marginal Farmers (owning less than 5 acres of land)",
+            "Landless Agricultural Households",
+            "Vulnerable Agricultural Families (elderly, differently-abled, disease-stricken)",
+            "Must be a permanent resident of Odisha"
+        ],
+        "benefits": [
+            "Support for Cultivators: ₹4,000 per year per farm family (₹2,000 each for Kharif and Rabi), historically synchronized with PM-KISAN to ensure total ₹10,000 annual support",
+            "Livelihood Support for Landless: One-time grant of ₹12,500 for allied activities (goat rearing, poultry, mushroom cultivation)",
+            "Financial Assistance to Vulnerable: ₹10,000 per family per year for sustenance",
+            "Life insurance cover of ₹2 Lakh and accidental cover of ₹2 Lakh at highly subsidized premiums"
+        ],
+        "documents": [
+            "Aadhaar Card",
+            "Ration Card",
+            "Land Record / RoR (for cultivators)",
+            "Bank Account Passbook"
+        ],
+        "application": {
+            "mode": "online",
+            "url": "https://kalia.odisha.gov.in",
+            "procedure": [
+                "Applications are accepted during specific registration drives or through the online KALIA portal",
+                "Farmers can apply by filling out the online form or depositing physical forms at the Gram Panchayat node",
+                "A draft list of beneficiaries is published at the Panchayat for social audit",
+                "Upon final approval, funds are transferred directly via DBT"
+            ]
+        },
+        "officialSources": [
+            {
+                "sourceName": "KALIA Official Portal",
+                "url": "https://kalia.odisha.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Financial Support",
+            "targetAudience": [
+                "Odisha Farmers",
+                "Landless Laborers",
+                "Vulnerable Rural Families"
+            ],
+            "keywords": [
+                "KALIA scheme",
+                "Odisha farmer benefit",
+                "landless agriculture labor grant"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified from kalia.odisha.gov.in."
+        }
+    },
+    {
+        "id": "agri-ysr-rythu-bharosa",
+        "resourceType": "scheme",
+        "name": "YSR Rythu Bharosa - PM KISAN",
+        "slug": "ysr-rythu-bharosa-andhra-pradesh",
+        "module": "agriculture",
+        "description": "An agriculture investment support scheme by the Government of Andhra Pradesh offering financial assistance to farmers, including tenant farmers, integrated with the PM-KISAN scheme.",
+        "authority": "Department of Agriculture, Government of Andhra Pradesh",
+        "state": "Andhra Pradesh",
+        "eligibility": [
+            "Land-owning farming families in Andhra Pradesh",
+            "Landless Tenant Farmers and ROFR (Forest land) cultivators",
+            "Minimum cultivation of 1 acre required for tenant farmers (0.5 acre for vegetables/flowers)"
+        ],
+        "benefits": [
+            "Total financial assistance of ₹13,500 per farmer family per year",
+            "For landowners: ₹6,000 from PM-KISAN + ₹7,500 from State Government",
+            "For tenant farmers/ROFR cultivators: The entire ₹13,500 is provided by the State Government",
+            "Disbursed in three installments (May, October, and January/February)"
+        ],
+        "documents": [
+            "Aadhaar Card",
+            "Webland records / Pattadar Passbook",
+            "Crop Cultivator Rights Card (CCRC) for Tenant Farmers",
+            "Bank Account details"
+        ],
+        "application": {
+            "mode": "offline",
+            "url": "https://ysrrythubharosa.ap.gov.in",
+            "procedure": [
+                "Beneficiary identification is done at the Rythu Bharosa Kendras (RBKs) established in every village secretariat",
+                "Village Agriculture Assistant (VAA) conducts field verification",
+                "Tenant farmers must obtain a CCRC signed by the landowner and VRO",
+                "Verified lists are displayed at RBKs for social audit",
+                "Assistance is transferred directly to the Aadhaar-linked bank account"
+            ]
+        },
+        "officialSources": [
+            {
+                "sourceName": "YSR Rythu Bharosa Portal",
+                "url": "https://ysrrythubharosa.ap.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Financial Support",
+            "targetAudience": [
+                "Andhra Pradesh Farmers",
+                "Tenant Farmers"
+            ],
+            "keywords": [
+                "Rythu Bharosa",
+                "AP farmer scheme",
+                "tenant farmer benefit",
+                "13500 scheme"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified from ysrrythubharosa.ap.gov.in."
+        }
+    },
+    {
+        "id": "agri-pm-aasha",
+        "resourceType": "scheme",
+        "name": "Pradhan Mantri Annadata Aay SanraksHan Abhiyan (PM-AASHA)",
+        "slug": "pradhan-mantri-annadata-aay-sanrakshan-abhiyan",
+        "module": "agriculture",
+        "description": "An umbrella scheme to ensure remunerative prices to farmers for their produce, focusing primarily on pulses, oilseeds, and copra through robust procurement and price deficiency systems.",
+        "authority": "Department of Agriculture & Farmers Welfare",
+        "state": "All India",
+        "eligibility": [
+            "Farmers producing pulses, oilseeds, and copra in states implementing the scheme",
+            "Must be registered on the respective State procurement portals"
+        ],
+        "benefits": [
+            "Price Support Scheme (PSS): Physical procurement of pulses, oilseeds, and copra by Central Agencies (NAFED, FCI) at Minimum Support Price (MSP)",
+            "Price Deficiency Payment Scheme (PDPS): Direct payment of the difference between MSP and the selling/modal price without physical procurement (primarily for oilseeds)",
+            "Private Procurement & Stockist Scheme (PPSS): Participation of private sector in procurement operations at MSP"
+        ],
+        "documents": [
+            "Aadhaar Card",
+            "Land Records / Crop Sowing Certificate",
+            "Bank Account details",
+            "Registration slip from State Procurement Portal"
+        ],
+        "application": {
+            "mode": "offline",
+            "url": "https://agricoop.nic.in",
+            "procedure": [
+                "Farmers must register on the state-specific e-procurement portal (e.g., e-Uparjan, e-Kharid) during the specified window before harvest",
+                "Receive an SMS with the date to bring produce to the designated procurement center",
+                "For PSS: Produce is assayed and bought at MSP. Payment is credited via DBT",
+                "For PDPS: Farmer sells in the APMC mandi, and if the modal price is below MSP, the difference is paid via DBT"
+            ]
+        },
+        "officialSources": [
+            {
+                "sourceName": "Ministry of Agriculture - Procurement Division",
+                "url": "https://agricoop.nic.in",
+                "sourceType": "ministry_website"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Procurement & Pricing",
+            "targetAudience": [
+                "Farmers",
+                "Oilseed Growers",
+                "Pulse Growers"
+            ],
+            "keywords": [
+                "PM AASHA",
+                "MSP procurement",
+                "PDPS",
+                "price deficiency payment",
+                "NAFED procurement"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified from agricoop.nic.in PM-AASHA guidelines."
+        }
+    },
+    {
+        "id": "agri-kisan-suvidha",
+        "resourceType": "portal",
+        "name": "Kisan Suvidha Portal / App",
+        "slug": "kisan-suvidha-portal",
+        "module": "agriculture",
+        "description": "An omnibus mobile app and web portal providing farmers with a single interface to access information on weather, market prices, seeds, fertilizers, machinery, and crop advisories.",
+        "authority": "Ministry of Agriculture & Farmers Welfare",
+        "state": "All India",
+        "eligibility": [
+            "All farmers and citizens"
+        ],
+        "benefits": [
+            "Single-point access to multiple agriculture schemes (PM-KISAN, PMFBY, Soil Health Card)",
+            "Real-time market price (mandi) tracking for crops within a 50 km radius",
+            "5-day weather forecasts and extreme weather alerts",
+            "Information on nearest dealers for seeds, fertilizers, and pesticides"
+        ],
+        "documents": [],
+        "application": {
+            "mode": "online",
+            "url": "https://kisansuvidha.gov.in",
+            "procedure": [
+                "Visit kisansuvidha.gov.in or download the Kisan Suvidha app from the UMANG platform / Play Store",
+                "Select language and enter mobile number",
+                "Click on desired modules (Weather, Market Price, PM-KISAN, etc.) to fetch real-time data directly"
+            ]
+        },
+        "officialSources": [
+            {
+                "sourceName": "Kisan Suvidha Portal",
+                "url": "https://kisansuvidha.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Information Services",
+            "targetAudience": [
+                "Farmers",
+                "Agri Extension Workers"
+            ],
+            "keywords": [
+                "Kisan Suvidha",
+                "farmer app",
+                "agriculture portal",
+                "mandi price app"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified from kisansuvidha.gov.in."
+        }
+    },
+    {
+        "id": "agri-e-urvarak",
+        "resourceType": "portal",
+        "name": "e-Urvarak (Fertilizer DBT Portal)",
+        "slug": "e-urvarak-fertilizer-dbt",
+        "module": "agriculture",
+        "description": "The national portal for the Direct Benefit Transfer (DBT) system in fertilizers, tracking movement and sale of subsidized fertilizers to farmers.",
+        "authority": "Department of Fertilizers, Ministry of Chemicals & Fertilizers",
+        "state": "All India",
+        "eligibility": [
+            "Any farmer wishing to purchase subsidized fertilizers (Urea, DAP, NPK) from authorized retailers"
+        ],
+        "benefits": [
+            "Ensures availability of fertilizers at strictly subsidized MRP rates",
+            "Prevents diversion and black marketing of agricultural grade urea",
+            "Farmers can check fertilizer stock availability at retail shops in their district via the portal"
+        ],
+        "documents": [
+            "Aadhaar Card or KCC (Kisan Credit Card) or Voter ID (Required at the retail shop for biometric authentication)"
+        ],
+        "application": {
+            "mode": "offline",
+            "url": "https://mfms.nic.in",
+            "procedure": [
+                "Farmer visits the local authorized fertilizer retailer/cooperative society",
+                "Provides Aadhaar number and performs biometric fingerprint authentication on the Point of Sale (PoS) machine",
+                "Purchases the required quantity of fertilizer at subsidized rates",
+                "The subsidy amount is released directly to the fertilizer company by the Government post the sale transaction"
+            ]
+        },
+        "officialSources": [
+            {
+                "sourceName": "Department of Fertilizers - DBT Portal",
+                "url": "https://mfms.nic.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Subsidies & Inputs",
+            "targetAudience": [
+                "Farmers",
+                "Fertilizer Retailers"
+            ],
+            "keywords": [
+                "e-Urvarak",
+                "Fertilizer DBT",
+                "buy urea subsidy",
+                "DAP stock check",
+                "PoS fertilizer"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified from mfms.nic.in."
+        }
+    },
+    {
+        "id": "agri-pqis",
+        "resourceType": "service",
+        "name": "Plant Quarantine Information System (PQIS)",
+        "slug": "plant-quarantine-information-system",
+        "module": "agriculture",
+        "description": "A digital service facilitating the issuance of Phytosanitary Certificates for export and Import Permits for agricultural commodities to prevent the spread of exotic pests and diseases.",
+        "authority": "Directorate of Plant Protection, Quarantine & Storage (DPPQS)",
+        "state": "All India",
+        "eligibility": [
+            "Exporters and Importers of agricultural commodities, seeds, plants, and plant products"
+        ],
+        "benefits": [
+            "Online application and tracking of Phytosanitary Certificates (for export) and Import Permits",
+            "Ensures compliance with international SPS (Sanitary and Phytosanitary) agreements",
+            "Prevents delays at customs through digital integration with ICEGATE"
+        ],
+        "documents": [
+            "Importer-Exporter Code (IEC)",
+            "Invoice and Packing List",
+            "Purchase Order",
+            "Treatment Certificate (Fumigation, if applicable)"
+        ],
+        "application": {
+            "mode": "online",
+            "url": "https://pqms.cgg.gov.in",
+            "procedure": [
+                "Register on the PQMS (Plant Quarantine Management System) portal using IEC code",
+                "Submit an application for a Phytosanitary Certificate (Export) or Import Permit",
+                "Pay inspection/processing fees online",
+                "Officers conduct physical inspection and sampling of the consignment at the port/packhouse",
+                "If clear, the digital certificate is issued and sent to customs"
+            ]
+        },
+        "officialSources": [
+            {
+                "sourceName": "PQMS Portal",
+                "url": "https://pqms.cgg.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Trade & Export",
+            "targetAudience": [
+                "Agri Exporters",
+                "Importers",
+                "FPOs"
+            ],
+            "keywords": [
+                "PQIS",
+                "Phytosanitary certificate",
+                "plant quarantine",
+                "agri export permit"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified from pqms.cgg.gov.in."
+        }
+    },
+    {
+        "id": "agri-kvk-portal",
+        "resourceType": "portal",
+        "name": "Krishi Vigyan Kendra (KVK) Knowledge Network",
+        "slug": "kvk-knowledge-network",
+        "module": "agriculture",
+        "description": "A portal connecting all Krishi Vigyan Kendras (KVKs) in the country to transfer agricultural technologies, conduct demonstrations, and provide direct expert interaction.",
+        "authority": "Indian Council of Agricultural Research (ICAR)",
+        "state": "All India",
+        "eligibility": [
+            "All farmers seeking technological intervention, training, and modern farming techniques"
+        ],
+        "benefits": [
+            "Access to contact details of experts at the district-level KVK",
+            "Information on upcoming training programs, front-line demonstrations, and field days",
+            "Booking of soil/water testing services and purchasing improved seeds/saplings developed by ICAR",
+            "Access to package of practices for localized agro-climatic zones"
+        ],
+        "documents": [],
+        "application": {
+            "mode": "hybrid",
+            "url": "https://kvk.icar.gov.in",
+            "procedure": [
+                "Visit the KVK portal and select your State and District to find the local KVK",
+                "Farmers can view advisory boards and register for skill development training programs online",
+                "Farmers can physically visit the KVK to interact with scientists, test soil, and buy seeds"
+            ]
+        },
+        "officialSources": [
+            {
+                "sourceName": "KVK Knowledge Network",
+                "url": "https://kvk.icar.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Extension & Training",
+            "targetAudience": [
+                "Farmers",
+                "Rural Youth"
+            ],
+            "keywords": [
+                "KVK",
+                "Krishi Vigyan Kendra",
+                "agricultural training",
+                "ICAR advisory",
+                "soil test KVK"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified from kvk.icar.gov.in."
+        }
+    },
+    {
+        "id": "agri-wbcis",
+        "resourceType": "scheme",
+        "name": "Restructured Weather Based Crop Insurance Scheme (RWBCIS)",
+        "slug": "weather-based-crop-insurance-scheme-wbcis",
+        "module": "agriculture",
+        "description": "An insurance scheme designed to mitigate the hardship of insured farmers against financial loss due to anticipated crop loss resulting from adverse weather conditions (rainfall, temperature, frost, humidity).",
+        "authority": "Department of Agriculture and Farmers Welfare",
+        "state": "All India",
+        "eligibility": [
+            "Farmers growing notified commercial and horticultural crops in notified areas",
+            "Voluntary for all farmers (loanee and non-loanee)"
+        ],
+        "benefits": [
+            "Insurance payout is triggered automatically based on weather data recorded at notified Reference Weather Stations (RWS), bypassing the need for individual crop cutting experiments (CCEs)",
+            "Covers risks like deficit rainfall, excess rainfall, unseasonal rainfall, high/low temperature, and frost",
+            "Low farmer premium rate (Max 5% for commercial/horticultural crops)"
+        ],
+        "documents": [
+            "Aadhaar Card",
+            "Land Records",
+            "Sowing Certificate",
+            "Bank Account details"
+        ],
+        "application": {
+            "mode": "online",
+            "url": "https://pmfby.gov.in",
+            "procedure": [
+                "Operates alongside PMFBY on the same portal",
+                "Farmers apply on pmfby.gov.in or through bank branches / CSCs",
+                "Select the crop and check if it falls under RWBCIS in the respective district",
+                "Pay the premium share",
+                "Claims are calculated by the insurance company directly based on weather data from RWS and transferred via DBT"
+            ]
+        },
+        "officialSources": [
+            {
+                "sourceName": "PMFBY/WBCIS Portal",
+                "url": "https://pmfby.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Risk Management",
+            "targetAudience": [
+                "Horticulture Farmers",
+                "Commercial Crop Growers"
+            ],
+            "keywords": [
+                "WBCIS",
+                "weather crop insurance",
+                "frost insurance",
+                "horticulture insurance"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified from pmfby.gov.in WBCIS guidelines."
+        }
+    },
+    {
+        "id": "agri-pmksy-hkkp",
+        "resourceType": "scheme",
+        "name": "PMKSY - Har Khet Ko Pani (HKKP)",
+        "slug": "pmksy-har-khet-ko-pani",
+        "module": "agriculture",
+        "description": "A component of the Pradhan Mantri Krishi Sinchayee Yojana focusing on expanding cultivable area under assured irrigation, improving physical access of water on the farm, and groundwater development.",
+        "authority": "Ministry of Jal Shakti / Ministry of Agriculture",
+        "state": "All India",
+        "eligibility": [
+            "Individual farmers, groups of farmers, and Water User Associations (WUAs)",
+            "Applicable particularly in areas where groundwater development is less than 60% (Safe blocks)"
+        ],
+        "benefits": [
+            "Creation of new water sources through minor irrigation (both surface and groundwater)",
+            "Repair, restoration, and renovation of water bodies",
+            "Command Area Development and Water Management (CADWM)",
+            "Financial assistance for tube wells, bore wells, and dug wells in safe blocks"
+        ],
+        "documents": [
+            "Aadhaar Card",
+            "Land ownership proof",
+            "Clearance from State Ground Water Authority (if required)",
+            "Project proposal / estimate from empanelled agency"
+        ],
+        "application": {
+            "mode": "offline",
+            "url": "https://pmksy.gov.in",
+            "procedure": [
+                "Projects are usually aggregated at the Gram Panchayat / Block level to form a District Irrigation Plan (DIP)",
+                "Farmers apply to the Minor Irrigation Department or Agriculture Office of the state",
+                "Feasibility survey is conducted by hydrogeologists",
+                "Upon approval, funds are sanctioned for borewell/tubewell drilling or water body restoration"
+            ]
+        },
+        "officialSources": [
+            {
+                "sourceName": "PMKSY Official Portal",
+                "url": "https://pmksy.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Irrigation",
+            "targetAudience": [
+                "Farmers",
+                "Water User Associations"
+            ],
+            "keywords": [
+                "HKKP",
+                "Har Khet Ko Pani",
+                "borewell subsidy",
+                "minor irrigation",
+                "PMKSY groundwater"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified from pmksy.gov.in HKKP operational guidelines."
+        }
+    },
+    {
+        "id": "agri-nmeo-op",
+        "resourceType": "scheme",
+        "name": "National Mission on Edible Oils - Oil Palm (NMEO-OP)",
+        "slug": "national-mission-on-edible-oils-oil-palm",
+        "module": "agriculture",
+        "description": "A centrally sponsored scheme to increase oil palm cultivation and boost domestic edible oil production, with special focus on the North East and Andaman & Nicobar Islands.",
+        "authority": "Department of Agriculture and Farmers Welfare",
+        "state": "All India (Special focus on NER and A&N)",
+        "eligibility": [
+            "Farmers owning land with assured irrigation facilities",
+            "Willing to grow Oil Palm over an extended gestation period (4-5 years)"
+        ],
+        "benefits": [
+            "Substantial assistance for planting material (up to ₹29,000 per ha)",
+            "Maintenance/cultivation cost assistance during gestation period (up to ₹21,000 per ha over 4 years)",
+            "Price Assurance mechanism (Viability Gap Payment) to protect farmers from global price volatility of Fresh Fruit Bunches (FFB)",
+            "Assistance for borewells, drip irrigation, and harvesting tools"
+        ],
+        "documents": [
+            "Aadhaar Card",
+            "Land Record Documents",
+            "Bank Account details",
+            "Agreement with partnered Oil Palm processing industry (MOU)"
+        ],
+        "application": {
+            "mode": "offline",
+            "url": "https://nmeo.dac.gov.in",
+            "procedure": [
+                "Farmers must approach the State Department of Agriculture/Horticulture or the designated Oil Palm processing company allotted to their mandate area",
+                "Sign an agreement for assured buy-back of FFB",
+                "Procure seedlings from authorized nurseries",
+                "Subsidy is released through DBT after joint inspection by state officials"
+            ]
+        },
+        "officialSources": [
+            {
+                "sourceName": "NMEO-OP Portal",
+                "url": "https://nmeo.dac.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Commercial Crops",
+            "targetAudience": [
+                "Farmers",
+                "Plantation Growers"
+            ],
+            "keywords": [
+                "NMEO OP",
+                "Oil Palm cultivation",
+                "palm oil subsidy",
+                "edible oil mission"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified from nmeo.dac.gov.in guidelines."
+        }
+    },
+    {
+        "id": "agri-acabc",
+        "resourceType": "scheme",
+        "name": "Agri-Clinics and Agri-Business Centres Scheme (ACABC)",
+        "slug": "agri-clinics-and-agri-business-centres",
+        "module": "agriculture",
+        "description": "A scheme to tap the expertise of agricultural graduates to provide extension services to farmers while creating self-employment opportunities.",
+        "authority": "Ministry of Agriculture / MANAGE / NABARD",
+        "state": "All India",
+        "eligibility": [
+            "Graduates in agriculture and allied subjects from SAUs/Central Universities/ICAR recognized institutions",
+            "Diploma/Post Graduate Diploma holders in agriculture",
+            "Biological Science graduates with post-graduation in agriculture"
+        ],
+        "benefits": [
+            "Free 45-day residential training program on agri-entrepreneurship via MANAGE recognized Nodal Training Institutes (NTIs)",
+            "Bank loans available up to ₹20 Lakh (individual) and ₹100 Lakh (group of 5) for establishing Agri-Clinics/Agri-Business centers",
+            "Composite back-ended capital subsidy: 44% for SC/ST/Women/NER candidates and 36% for General category"
+        ],
+        "documents": [
+            "Aadhaar Card",
+            "Agriculture Degree / Diploma Certificate",
+            "Detailed Project Report (DPR) for bank loan",
+            "Category Certificate (if applicable)"
+        ],
+        "application": {
+            "mode": "online",
+            "url": "https://www.agriclinics.net",
+            "procedure": [
+                "Register online at agriclinics.net for the 45-day training program",
+                "Attend the training at the selected NTI and prepare a DPR",
+                "Submit the DPR to a commercial/cooperative bank for loan sanction",
+                "Once the loan is sanctioned and the project is established, NABARD releases the capital subsidy to the bank account"
+            ]
+        },
+        "officialSources": [
+            {
+                "sourceName": "ACABC Official Portal - MANAGE",
+                "url": "https://www.agriclinics.net",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Agri-Business & Infrastructure",
+            "targetAudience": [
+                "Agriculture Graduates",
+                "Agri Entrepreneurs"
+            ],
+            "keywords": [
+                "ACABC",
+                "Agri Clinic",
+                "Agriculture graduate loan",
+                "MANAGE subsidy",
+                "agribusiness center"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified from agriclinics.net."
+        }
+    },
+    {
+        "id": "agri-krishi-megh",
+        "resourceType": "portal",
+        "name": "Krishi Megh",
+        "slug": "krishi-megh-icar-data-recovery",
+        "module": "agriculture",
+        "description": "The National Agricultural Research & Education System-Cloud Infrastructure and Services, designed to protect digital data of ICAR and enhance digital agriculture services.",
+        "authority": "Indian Council of Agricultural Research (ICAR)",
+        "state": "All India",
+        "eligibility": [
+            "ICAR institutes, State Agricultural Universities (SAUs), KVKs, and agricultural researchers/students"
+        ],
+        "benefits": [
+            "Provides robust and secure cloud infrastructure for agricultural research data",
+            "Hosts the KVK portal, e-Governance applications, and digital education platforms for agriculture students",
+            "Ensures business continuity and disaster recovery for agricultural research data across India"
+        ],
+        "documents": [],
+        "application": {
+            "mode": "online",
+            "url": "https://krishimegh.nahep.icar.gov.in",
+            "procedure": [
+                "Agricultural institutions and universities integrate their digital services with Krishi Megh for hosting",
+                "Researchers and students access the hosted applications (like e-Krishi Shiksha) using institutional credentials",
+                "General public/farmers benefit indirectly through faster and resilient digital advisory services (like KVK portal) hosted on it"
+            ]
+        },
+        "officialSources": [
+            {
+                "sourceName": "Krishi Megh Portal",
+                "url": "https://krishimegh.nahep.icar.gov.in",
+                "sourceType": "official_portal"
+            }
+        ],
+        "searchMetadata": {
+            "category": "Digital Agriculture & Research",
+            "targetAudience": [
+                "Agricultural Universities",
+                "Researchers",
+                "Students"
+            ],
+            "keywords": [
+                "Krishi Megh",
+                "ICAR cloud",
+                "digital agriculture data",
+                "NAHEP"
+            ]
+        },
+        "verification": {
+            "status": "verified",
+            "lastVerified": "2026-09-11",
+            "verifiedBy": "Web source verification",
+            "notes": "Verified from ICAR NAHEP Krishi Megh launch documents."
+        }
+    }
+]

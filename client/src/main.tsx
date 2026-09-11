@@ -7,6 +7,7 @@ import './i18n';
 
 import { GoogleOAuthProvider } from '@react-oauth/google';
 import { AuthProvider } from './context/AuthContext';
+import { SavedResourcesProvider } from './context/SavedResourcesContext';
 
 const queryClient = new QueryClient();
 const GOOGLE_CLIENT_ID = '927825594608-qatae2oiht6ae8h623nhnpcdr8pn62l2.apps.googleusercontent.com';
@@ -16,7 +17,9 @@ createRoot(document.getElementById('root')!).render(
     <GoogleOAuthProvider clientId={GOOGLE_CLIENT_ID}>
       <QueryClientProvider client={queryClient}>
         <AuthProvider>
-          <App />
+          <SavedResourcesProvider>
+            <App />
+          </SavedResourcesProvider>
         </AuthProvider>
       </QueryClientProvider>
     </GoogleOAuthProvider>
