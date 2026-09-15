@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion, useReducedMotion } from 'motion/react';
-import { Link } from 'react-router-dom';
-import { Check, ArrowRight, Compass } from 'lucide-react';
+import flagImage from '../../../assets/indianflag_image.png';
 
 const TypewriterHeading = () => {
   const text1 = "Everything You Need.";
