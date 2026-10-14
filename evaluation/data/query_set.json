@@ -1,0 +1,905 @@
+[
+    {
+        "id": "q1",
+        "text": "scholarship for sc student in engineering",
+        "language": "en",
+        "gold_document_ids": [
+            "sch_045",
+            "sch_012"
+        ],
+        "category": "scholarship"
+    },
+    {
+        "id": "q2",
+        "text": "kisan samman nidhi yojana apply",
+        "language": "hi",
+        "gold_document_ids": [
+            "agri_001",
+            "agri_002"
+        ],
+        "category": "agriculture"
+    },
+    {
+        "id": "q3",
+        "text": "fre laptap sceme for stydent gujarat",
+        "language": "en",
+        "gold_document_ids": [
+            "sch_089"
+        ],
+        "category": "schemes"
+    },
+    {
+        "id": "q4",
+        "text": "ma amrutam card documents required",
+        "language": "en",
+        "gold_document_ids": [
+            "doc_015"
+        ],
+        "category": "documents"
+    },
+    {
+        "id": "q5",
+        "text": "bina byaj loan for business",
+        "language": "hi",
+        "gold_document_ids": [
+            "scheme_055",
+            "scheme_056"
+        ],
+        "category": "loans"
+    },
+    {
+        "id": "q6",
+        "text": "synthetic query sample 6",
+        "language": "en",
+        "gold_document_ids": [
+            "doc_synth_6"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q7",
+        "text": "synthetic query sample 7",
+        "language": "hi",
+        "gold_document_ids": [
+            "doc_synth_7"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q8",
+        "text": "synthetic query sample 8",
+        "language": "en",
+        "gold_document_ids": [
+            "doc_synth_8"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q9",
+        "text": "synthetic query sample 9",
+        "language": "hi",
+        "gold_document_ids": [
+            "doc_synth_9"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q10",
+        "text": "synthetic query sample 10",
+        "language": "en",
+        "gold_document_ids": [
+            "doc_synth_10"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q11",
+        "text": "synthetic query sample 11",
+        "language": "hi",
+        "gold_document_ids": [
+            "doc_synth_11"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q12",
+        "text": "synthetic query sample 12",
+        "language": "en",
+        "gold_document_ids": [
+            "doc_synth_12"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q13",
+        "text": "synthetic query sample 13",
+        "language": "hi",
+        "gold_document_ids": [
+            "doc_synth_13"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q14",
+        "text": "synthetic query sample 14",
+        "language": "en",
+        "gold_document_ids": [
+            "doc_synth_14"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q15",
+        "text": "synthetic query sample 15",
+        "language": "hi",
+        "gold_document_ids": [
+            "doc_synth_15"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q16",
+        "text": "synthetic query sample 16",
+        "language": "en",
+        "gold_document_ids": [
+            "doc_synth_16"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q17",
+        "text": "synthetic query sample 17",
+        "language": "hi",
+        "gold_document_ids": [
+            "doc_synth_17"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q18",
+        "text": "synthetic query sample 18",
+        "language": "en",
+        "gold_document_ids": [
+            "doc_synth_18"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q19",
+        "text": "synthetic query sample 19",
+        "language": "hi",
+        "gold_document_ids": [
+            "doc_synth_19"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q20",
+        "text": "synthetic query sample 20",
+        "language": "en",
+        "gold_document_ids": [
+            "doc_synth_20"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q21",
+        "text": "synthetic query sample 21",
+        "language": "hi",
+        "gold_document_ids": [
+            "doc_synth_21"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q22",
+        "text": "synthetic query sample 22",
+        "language": "en",
+        "gold_document_ids": [
+            "doc_synth_22"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q23",
+        "text": "synthetic query sample 23",
+        "language": "hi",
+        "gold_document_ids": [
+            "doc_synth_23"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q24",
+        "text": "synthetic query sample 24",
+        "language": "en",
+        "gold_document_ids": [
+            "doc_synth_24"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q25",
+        "text": "synthetic query sample 25",
+        "language": "hi",
+        "gold_document_ids": [
+            "doc_synth_25"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q26",
+        "text": "synthetic query sample 26",
+        "language": "en",
+        "gold_document_ids": [
+            "doc_synth_26"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q27",
+        "text": "synthetic query sample 27",
+        "language": "hi",
+        "gold_document_ids": [
+            "doc_synth_27"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q28",
+        "text": "synthetic query sample 28",
+        "language": "en",
+        "gold_document_ids": [
+            "doc_synth_28"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q29",
+        "text": "synthetic query sample 29",
+        "language": "hi",
+        "gold_document_ids": [
+            "doc_synth_29"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q30",
+        "text": "synthetic query sample 30",
+        "language": "en",
+        "gold_document_ids": [
+            "doc_synth_30"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q31",
+        "text": "synthetic query sample 31",
+        "language": "hi",
+        "gold_document_ids": [
+            "doc_synth_31"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q32",
+        "text": "synthetic query sample 32",
+        "language": "en",
+        "gold_document_ids": [
+            "doc_synth_32"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q33",
+        "text": "synthetic query sample 33",
+        "language": "hi",
+        "gold_document_ids": [
+            "doc_synth_33"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q34",
+        "text": "synthetic query sample 34",
+        "language": "en",
+        "gold_document_ids": [
+            "doc_synth_34"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q35",
+        "text": "synthetic query sample 35",
+        "language": "hi",
+        "gold_document_ids": [
+            "doc_synth_35"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q36",
+        "text": "synthetic query sample 36",
+        "language": "en",
+        "gold_document_ids": [
+            "doc_synth_36"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q37",
+        "text": "synthetic query sample 37",
+        "language": "hi",
+        "gold_document_ids": [
+            "doc_synth_37"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q38",
+        "text": "synthetic query sample 38",
+        "language": "en",
+        "gold_document_ids": [
+            "doc_synth_38"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q39",
+        "text": "synthetic query sample 39",
+        "language": "hi",
+        "gold_document_ids": [
+            "doc_synth_39"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q40",
+        "text": "synthetic query sample 40",
+        "language": "en",
+        "gold_document_ids": [
+            "doc_synth_40"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q41",
+        "text": "synthetic query sample 41",
+        "language": "hi",
+        "gold_document_ids": [
+            "doc_synth_41"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q42",
+        "text": "synthetic query sample 42",
+        "language": "en",
+        "gold_document_ids": [
+            "doc_synth_42"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q43",
+        "text": "synthetic query sample 43",
+        "language": "hi",
+        "gold_document_ids": [
+            "doc_synth_43"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q44",
+        "text": "synthetic query sample 44",
+        "language": "en",
+        "gold_document_ids": [
+            "doc_synth_44"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q45",
+        "text": "synthetic query sample 45",
+        "language": "hi",
+        "gold_document_ids": [
+            "doc_synth_45"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q46",
+        "text": "synthetic query sample 46",
+        "language": "en",
+        "gold_document_ids": [
+            "doc_synth_46"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q47",
+        "text": "synthetic query sample 47",
+        "language": "hi",
+        "gold_document_ids": [
+            "doc_synth_47"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q48",
+        "text": "synthetic query sample 48",
+        "language": "en",
+        "gold_document_ids": [
+            "doc_synth_48"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q49",
+        "text": "synthetic query sample 49",
+        "language": "hi",
+        "gold_document_ids": [
+            "doc_synth_49"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q50",
+        "text": "synthetic query sample 50",
+        "language": "en",
+        "gold_document_ids": [
+            "doc_synth_50"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q51",
+        "text": "synthetic query sample 51",
+        "language": "hi",
+        "gold_document_ids": [
+            "doc_synth_51"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q52",
+        "text": "synthetic query sample 52",
+        "language": "en",
+        "gold_document_ids": [
+            "doc_synth_52"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q53",
+        "text": "synthetic query sample 53",
+        "language": "hi",
+        "gold_document_ids": [
+            "doc_synth_53"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q54",
+        "text": "synthetic query sample 54",
+        "language": "en",
+        "gold_document_ids": [
+            "doc_synth_54"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q55",
+        "text": "synthetic query sample 55",
+        "language": "hi",
+        "gold_document_ids": [
+            "doc_synth_55"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q56",
+        "text": "synthetic query sample 56",
+        "language": "en",
+        "gold_document_ids": [
+            "doc_synth_56"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q57",
+        "text": "synthetic query sample 57",
+        "language": "hi",
+        "gold_document_ids": [
+            "doc_synth_57"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q58",
+        "text": "synthetic query sample 58",
+        "language": "en",
+        "gold_document_ids": [
+            "doc_synth_58"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q59",
+        "text": "synthetic query sample 59",
+        "language": "hi",
+        "gold_document_ids": [
+            "doc_synth_59"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q60",
+        "text": "synthetic query sample 60",
+        "language": "en",
+        "gold_document_ids": [
+            "doc_synth_60"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q61",
+        "text": "synthetic query sample 61",
+        "language": "hi",
+        "gold_document_ids": [
+            "doc_synth_61"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q62",
+        "text": "synthetic query sample 62",
+        "language": "en",
+        "gold_document_ids": [
+            "doc_synth_62"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q63",
+        "text": "synthetic query sample 63",
+        "language": "hi",
+        "gold_document_ids": [
+            "doc_synth_63"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q64",
+        "text": "synthetic query sample 64",
+        "language": "en",
+        "gold_document_ids": [
+            "doc_synth_64"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q65",
+        "text": "synthetic query sample 65",
+        "language": "hi",
+        "gold_document_ids": [
+            "doc_synth_65"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q66",
+        "text": "synthetic query sample 66",
+        "language": "en",
+        "gold_document_ids": [
+            "doc_synth_66"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q67",
+        "text": "synthetic query sample 67",
+        "language": "hi",
+        "gold_document_ids": [
+            "doc_synth_67"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q68",
+        "text": "synthetic query sample 68",
+        "language": "en",
+        "gold_document_ids": [
+            "doc_synth_68"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q69",
+        "text": "synthetic query sample 69",
+        "language": "hi",
+        "gold_document_ids": [
+            "doc_synth_69"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q70",
+        "text": "synthetic query sample 70",
+        "language": "en",
+        "gold_document_ids": [
+            "doc_synth_70"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q71",
+        "text": "synthetic query sample 71",
+        "language": "hi",
+        "gold_document_ids": [
+            "doc_synth_71"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q72",
+        "text": "synthetic query sample 72",
+        "language": "en",
+        "gold_document_ids": [
+            "doc_synth_72"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q73",
+        "text": "synthetic query sample 73",
+        "language": "hi",
+        "gold_document_ids": [
+            "doc_synth_73"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q74",
+        "text": "synthetic query sample 74",
+        "language": "en",
+        "gold_document_ids": [
+            "doc_synth_74"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q75",
+        "text": "synthetic query sample 75",
+        "language": "hi",
+        "gold_document_ids": [
+            "doc_synth_75"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q76",
+        "text": "synthetic query sample 76",
+        "language": "en",
+        "gold_document_ids": [
+            "doc_synth_76"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q77",
+        "text": "synthetic query sample 77",
+        "language": "hi",
+        "gold_document_ids": [
+            "doc_synth_77"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q78",
+        "text": "synthetic query sample 78",
+        "language": "en",
+        "gold_document_ids": [
+            "doc_synth_78"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q79",
+        "text": "synthetic query sample 79",
+        "language": "hi",
+        "gold_document_ids": [
+            "doc_synth_79"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q80",
+        "text": "synthetic query sample 80",
+        "language": "en",
+        "gold_document_ids": [
+            "doc_synth_80"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q81",
+        "text": "synthetic query sample 81",
+        "language": "hi",
+        "gold_document_ids": [
+            "doc_synth_81"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q82",
+        "text": "synthetic query sample 82",
+        "language": "en",
+        "gold_document_ids": [
+            "doc_synth_82"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q83",
+        "text": "synthetic query sample 83",
+        "language": "hi",
+        "gold_document_ids": [
+            "doc_synth_83"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q84",
+        "text": "synthetic query sample 84",
+        "language": "en",
+        "gold_document_ids": [
+            "doc_synth_84"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q85",
+        "text": "synthetic query sample 85",
+        "language": "hi",
+        "gold_document_ids": [
+            "doc_synth_85"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q86",
+        "text": "synthetic query sample 86",
+        "language": "en",
+        "gold_document_ids": [
+            "doc_synth_86"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q87",
+        "text": "synthetic query sample 87",
+        "language": "hi",
+        "gold_document_ids": [
+            "doc_synth_87"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q88",
+        "text": "synthetic query sample 88",
+        "language": "en",
+        "gold_document_ids": [
+            "doc_synth_88"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q89",
+        "text": "synthetic query sample 89",
+        "language": "hi",
+        "gold_document_ids": [
+            "doc_synth_89"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q90",
+        "text": "synthetic query sample 90",
+        "language": "en",
+        "gold_document_ids": [
+            "doc_synth_90"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q91",
+        "text": "synthetic query sample 91",
+        "language": "hi",
+        "gold_document_ids": [
+            "doc_synth_91"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q92",
+        "text": "synthetic query sample 92",
+        "language": "en",
+        "gold_document_ids": [
+            "doc_synth_92"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q93",
+        "text": "synthetic query sample 93",
+        "language": "hi",
+        "gold_document_ids": [
+            "doc_synth_93"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q94",
+        "text": "synthetic query sample 94",
+        "language": "en",
+        "gold_document_ids": [
+            "doc_synth_94"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q95",
+        "text": "synthetic query sample 95",
+        "language": "hi",
+        "gold_document_ids": [
+            "doc_synth_95"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q96",
+        "text": "synthetic query sample 96",
+        "language": "en",
+        "gold_document_ids": [
+            "doc_synth_96"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q97",
+        "text": "synthetic query sample 97",
+        "language": "hi",
+        "gold_document_ids": [
+            "doc_synth_97"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q98",
+        "text": "synthetic query sample 98",
+        "language": "en",
+        "gold_document_ids": [
+            "doc_synth_98"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q99",
+        "text": "synthetic query sample 99",
+        "language": "hi",
+        "gold_document_ids": [
+            "doc_synth_99"
+        ],
+        "category": "mixed"
+    },
+    {
+        "id": "q100",
+        "text": "synthetic query sample 100",
+        "language": "en",
+        "gold_document_ids": [
+            "doc_synth_100"
+        ],
+        "category": "mixed"
+    }
+]

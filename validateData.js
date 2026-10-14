@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const dataPath = path.resolve(__dirname, './server/data/verified');
+const dataPath = path.resolve(__dirname, './data');
 
 const filesToValidate = [
   { expectedName: 'schemes.json', actualName: 'schemes.json', nameField: 'name' },

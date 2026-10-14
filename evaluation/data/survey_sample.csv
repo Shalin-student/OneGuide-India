@@ -1,0 +1,11 @@
+respondent_id,age_group,location_type,state,primary_device,internet_quality,preferred_language,usability_score
+1,18-24,Urban,Gujarat,Mobile (High-end),Good (4G/5G),English,85
+2,25-34,Rural,Gujarat,Mobile (Mid-range),Intermittent (3G/4G),Gujarati,82
+3,18-24,Semi-urban,Maharashtra,Mobile (Mid-range),Good (4G/5G),Hindi,88
+4,35-44,Rural,Uttar Pradesh,Mobile (Low-end),Poor (2G/3G),Hindi,75
+5,18-24,Urban,Karnataka,Laptop/PC,Good (Broadband),English,90
+6,45-54,Rural,Bihar,Mobile (Low-end),Intermittent (3G/4G),Hindi,78
+7,25-34,Urban,Maharashtra,Mobile (Mid-range),Good (4G/5G),English,86
+8,18-24,Rural,Gujarat,Mobile (Mid-range),Poor (2G/3G),Gujarati,80
+9,35-44,Semi-urban,Gujarat,Mobile (High-end),Good (4G/5G),Gujarati,89
+10,25-34,Urban,Karnataka,Mobile (Mid-range),Good (4G/5G),English,84

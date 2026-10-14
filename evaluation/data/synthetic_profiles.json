@@ -1,0 +1,452 @@
+[
+    {
+        "profile_id": "user_000",
+        "age": 24,
+        "income": 1000000,
+        "state": "Uttar Pradesh",
+        "category": "OBC",
+        "occupation": "Unemployed",
+        "gender": "Other"
+    },
+    {
+        "profile_id": "user_001",
+        "age": 52,
+        "income": 1000000,
+        "state": "Karnataka",
+        "category": "ST",
+        "occupation": "Unemployed",
+        "gender": "Female"
+    },
+    {
+        "profile_id": "user_002",
+        "age": 18,
+        "income": 1000000,
+        "state": "Gujarat",
+        "category": "OBC",
+        "occupation": "Self-employed",
+        "gender": "Other"
+    },
+    {
+        "profile_id": "user_003",
+        "age": 33,
+        "income": 50000,
+        "state": "Uttar Pradesh",
+        "category": "SC",
+        "occupation": "Self-employed",
+        "gender": "Male"
+    },
+    {
+        "profile_id": "user_004",
+        "age": 39,
+        "income": 300000,
+        "state": "Uttar Pradesh",
+        "category": "General",
+        "occupation": "Self-employed",
+        "gender": "Female"
+    },
+    {
+        "profile_id": "user_005",
+        "age": 34,
+        "income": 600000,
+        "state": "Karnataka",
+        "category": "ST",
+        "occupation": "Salaried",
+        "gender": "Female"
+    },
+    {
+        "profile_id": "user_006",
+        "age": 32,
+        "income": 150000,
+        "state": "Karnataka",
+        "category": "OBC",
+        "occupation": "Salaried",
+        "gender": "Female"
+    },
+    {
+        "profile_id": "user_007",
+        "age": 36,
+        "income": 50000,
+        "state": "Bihar",
+        "category": "General",
+        "occupation": "Salaried",
+        "gender": "Other"
+    },
+    {
+        "profile_id": "user_008",
+        "age": 27,
+        "income": 300000,
+        "state": "Karnataka",
+        "category": "ST",
+        "occupation": "Farmer",
+        "gender": "Male"
+    },
+    {
+        "profile_id": "user_009",
+        "age": 33,
+        "income": 1000000,
+        "state": "Uttar Pradesh",
+        "category": "OBC",
+        "occupation": "Self-employed",
+        "gender": "Male"
+    },
+    {
+        "profile_id": "user_010",
+        "age": 58,
+        "income": 300000,
+        "state": "Uttar Pradesh",
+        "category": "ST",
+        "occupation": "Unemployed",
+        "gender": "Female"
+    },
+    {
+        "profile_id": "user_011",
+        "age": 48,
+        "income": 300000,
+        "state": "Gujarat",
+        "category": "OBC",
+        "occupation": "Student",
+        "gender": "Other"
+    },
+    {
+        "profile_id": "user_012",
+        "age": 31,
+        "income": 50000,
+        "state": "Karnataka",
+        "category": "ST",
+        "occupation": "Self-employed",
+        "gender": "Other"
+    },
+    {
+        "profile_id": "user_013",
+        "age": 30,
+        "income": 50000,
+        "state": "Gujarat",
+        "category": "SC",
+        "occupation": "Salaried",
+        "gender": "Male"
+    },
+    {
+        "profile_id": "user_014",
+        "age": 41,
+        "income": 600000,
+        "state": "Maharashtra",
+        "category": "ST",
+        "occupation": "Salaried",
+        "gender": "Male"
+    },
+    {
+        "profile_id": "user_015",
+        "age": 18,
+        "income": 50000,
+        "state": "Gujarat",
+        "category": "OBC",
+        "occupation": "Farmer",
+        "gender": "Other"
+    },
+    {
+        "profile_id": "user_016",
+        "age": 37,
+        "income": 1000000,
+        "state": "Bihar",
+        "category": "General",
+        "occupation": "Self-employed",
+        "gender": "Female"
+    },
+    {
+        "profile_id": "user_017",
+        "age": 22,
+        "income": 600000,
+        "state": "Gujarat",
+        "category": "ST",
+        "occupation": "Salaried",
+        "gender": "Other"
+    },
+    {
+        "profile_id": "user_018",
+        "age": 55,
+        "income": 1000000,
+        "state": "Karnataka",
+        "category": "OBC",
+        "occupation": "Salaried",
+        "gender": "Female"
+    },
+    {
+        "profile_id": "user_019",
+        "age": 19,
+        "income": 1000000,
+        "state": "Uttar Pradesh",
+        "category": "General",
+        "occupation": "Self-employed",
+        "gender": "Male"
+    },
+    {
+        "profile_id": "user_020",
+        "age": 43,
+        "income": 300000,
+        "state": "Karnataka",
+        "category": "SC",
+        "occupation": "Unemployed",
+        "gender": "Male"
+    },
+    {
+        "profile_id": "user_021",
+        "age": 48,
+        "income": 50000,
+        "state": "Bihar",
+        "category": "ST",
+        "occupation": "Self-employed",
+        "gender": "Female"
+    },
+    {
+        "profile_id": "user_022",
+        "age": 63,
+        "income": 50000,
+        "state": "Gujarat",
+        "category": "General",
+        "occupation": "Farmer",
+        "gender": "Male"
+    },
+    {
+        "profile_id": "user_023",
+        "age": 59,
+        "income": 600000,
+        "state": "Uttar Pradesh",
+        "category": "OBC",
+        "occupation": "Unemployed",
+        "gender": "Other"
+    },
+    {
+        "profile_id": "user_024",
+        "age": 62,
+        "income": 300000,
+        "state": "Bihar",
+        "category": "SC",
+        "occupation": "Farmer",
+        "gender": "Female"
+    },
+    {
+        "profile_id": "user_025",
+        "age": 34,
+        "income": 600000,
+        "state": "Karnataka",
+        "category": "General",
+        "occupation": "Student",
+        "gender": "Female"
+    },
+    {
+        "profile_id": "user_026",
+        "age": 41,
+        "income": 150000,
+        "state": "Bihar",
+        "category": "OBC",
+        "occupation": "Student",
+        "gender": "Male"
+    },
+    {
+        "profile_id": "user_027",
+        "age": 60,
+        "income": 50000,
+        "state": "Bihar",
+        "category": "SC",
+        "occupation": "Unemployed",
+        "gender": "Other"
+    },
+    {
+        "profile_id": "user_028",
+        "age": 53,
+        "income": 1000000,
+        "state": "Karnataka",
+        "category": "OBC",
+        "occupation": "Self-employed",
+        "gender": "Other"
+    },
+    {
+        "profile_id": "user_029",
+        "age": 51,
+        "income": 300000,
+        "state": "Uttar Pradesh",
+        "category": "General",
+        "occupation": "Self-employed",
+        "gender": "Other"
+    },
+    {
+        "profile_id": "user_030",
+        "age": 34,
+        "income": 300000,
+        "state": "Gujarat",
+        "category": "General",
+        "occupation": "Farmer",
+        "gender": "Female"
+    },
+    {
+        "profile_id": "user_031",
+        "age": 37,
+        "income": 150000,
+        "state": "Karnataka",
+        "category": "General",
+        "occupation": "Farmer",
+        "gender": "Other"
+    },
+    {
+        "profile_id": "user_032",
+        "age": 38,
+        "income": 300000,
+        "state": "Uttar Pradesh",
+        "category": "SC",
+        "occupation": "Farmer",
+        "gender": "Other"
+    },
+    {
+        "profile_id": "user_033",
+        "age": 47,
+        "income": 150000,
+        "state": "Gujarat",
+        "category": "General",
+        "occupation": "Student",
+        "gender": "Female"
+    },
+    {
+        "profile_id": "user_034",
+        "age": 36,
+        "income": 150000,
+        "state": "Uttar Pradesh",
+        "category": "OBC",
+        "occupation": "Salaried",
+        "gender": "Female"
+    },
+    {
+        "profile_id": "user_035",
+        "age": 55,
+        "income": 300000,
+        "state": "Maharashtra",
+        "category": "OBC",
+        "occupation": "Salaried",
+        "gender": "Female"
+    },
+    {
+        "profile_id": "user_036",
+        "age": 17,
+        "income": 300000,
+        "state": "Bihar",
+        "category": "SC",
+        "occupation": "Farmer",
+        "gender": "Female"
+    },
+    {
+        "profile_id": "user_037",
+        "age": 44,
+        "income": 300000,
+        "state": "Karnataka",
+        "category": "SC",
+        "occupation": "Salaried",
+        "gender": "Other"
+    },
+    {
+        "profile_id": "user_038",
+        "age": 57,
+        "income": 50000,
+        "state": "Karnataka",
+        "category": "ST",
+        "occupation": "Unemployed",
+        "gender": "Female"
+    },
+    {
+        "profile_id": "user_039",
+        "age": 63,
+        "income": 50000,
+        "state": "Gujarat",
+        "category": "SC",
+        "occupation": "Student",
+        "gender": "Female"
+    },
+    {
+        "profile_id": "user_040",
+        "age": 33,
+        "income": 300000,
+        "state": "Maharashtra",
+        "category": "SC",
+        "occupation": "Salaried",
+        "gender": "Other"
+    },
+    {
+        "profile_id": "user_041",
+        "age": 41,
+        "income": 50000,
+        "state": "Gujarat",
+        "category": "OBC",
+        "occupation": "Unemployed",
+        "gender": "Female"
+    },
+    {
+        "profile_id": "user_042",
+        "age": 24,
+        "income": 50000,
+        "state": "Bihar",
+        "category": "ST",
+        "occupation": "Self-employed",
+        "gender": "Other"
+    },
+    {
+        "profile_id": "user_043",
+        "age": 22,
+        "income": 300000,
+        "state": "Gujarat",
+        "category": "OBC",
+        "occupation": "Student",
+        "gender": "Other"
+    },
+    {
+        "profile_id": "user_044",
+        "age": 16,
+        "income": 150000,
+        "state": "Bihar",
+        "category": "OBC",
+        "occupation": "Self-employed",
+        "gender": "Male"
+    },
+    {
+        "profile_id": "user_045",
+        "age": 34,
+        "income": 600000,
+        "state": "Maharashtra",
+        "category": "General",
+        "occupation": "Student",
+        "gender": "Female"
+    },
+    {
+        "profile_id": "user_046",
+        "age": 30,
+        "income": 1000000,
+        "state": "Karnataka",
+        "category": "ST",
+        "occupation": "Farmer",
+        "gender": "Other"
+    },
+    {
+        "profile_id": "user_047",
+        "age": 56,
+        "income": 600000,
+        "state": "Bihar",
+        "category": "General",
+        "occupation": "Farmer",
+        "gender": "Male"
+    },
+    {
+        "profile_id": "user_048",
+        "age": 28,
+        "income": 300000,
+        "state": "Gujarat",
+        "category": "OBC",
+        "occupation": "Student",
+        "gender": "Female"
+    },
+    {
+        "profile_id": "user_049",
+        "age": 65,
+        "income": 300000,
+        "state": "Uttar Pradesh",
+        "category": "OBC",
+        "occupation": "Farmer",
+        "gender": "Other"
+    }
+]
